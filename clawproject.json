@@ -1,0 +1,6 @@
+{
+  "name": "gov-notice-daily-scraper",
+  "truthSource": {
+    "enabled": false
+  }
+}

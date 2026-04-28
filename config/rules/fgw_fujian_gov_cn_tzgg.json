@@ -1,0 +1,22 @@
+{
+  "siteId": "fgw_fujian_gov_cn_tzgg",
+  "siteName": "tzgg",
+  "url": "http://fgw.fujian.gov.cn/ztzl/szfjzt/tzgg/",
+  "version": 1,
+  "updatedAt": "2026-03-16",
+  "strategy": "css",
+  "confidence": 0.8,
+  "timeout": 30000,
+  "css": {
+    "list": "ul li",
+    "title": "a",
+    "date": ""
+  },
+  "extraction": {
+    "linkPrefix": "http://fgw.fujian.gov.cn"
+  },
+  "metadata": {
+    "source": "stage2_subagent",
+    "generatedAt": "2026-03-16T10:22:09.343337"
+  }
+}

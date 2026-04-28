@@ -1,0 +1,47 @@
+{
+  "date": "2026-04-09",
+  "generatedAt": "2026-04-09T07:14:28.812749",
+  "tasks": [
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "厦门市思明区科技和信息化局",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "baseUrl": "http://www.siming.gov.cn",
+      "failReason": "strategy_failed",
+      "hasExistingRule": true,
+      "originalError": "未找到符合条件的列表结构"
+    },
+    {
+      "siteId": "zjt_fujian_gov_cn",
+      "siteName": "福建省住房和城乡建设厅",
+      "url": "http://zjt.fujian.gov.cn/xxgk/zfxxgkzl/xxgkml/",
+      "baseUrl": "http://zjt.fujian.gov.cn",
+      "failReason": "timeout",
+      "hasExistingRule": true,
+      "originalError": "Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"http://zjt.fujian.gov.cn/xxgk/zfxxgkzl/xxgkml/\", waiting until \"domcontentloaded\"\n"
+    }
+  ],
+  "skipped": [
+    {
+      "siteId": "js_xm_gov_cn",
+      "url": "http://js.xm.gov.cn/",
+      "reason": "dns_error",
+      "originalError": "Page.goto: net::ERR_NAME_NOT_RESOLVED at http://js.xm.gov.cn/\nCall log:\n  - navigating to \"http://js"
+    },
+    {
+      "siteId": "iqb_jimei_gov_cn",
+      "url": "https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
+      "reason": "dns_error",
+      "originalError": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/\nCall l"
+    }
+  ],
+  "summary": {
+    "total": 24,
+    "failed": 4,
+    "toProcess": 2,
+    "skipped": 2,
+    "noRuleCount": 0,
+    "strategyFailedCount": 1,
+    "timeoutCount": 1
+  }
+}

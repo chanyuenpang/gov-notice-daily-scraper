@@ -1,0 +1,134 @@
+{
+  "planVersion": "1.0",
+  "date": "2026-04-28",
+  "createdAt": "2026-04-28T15:51:39.204824+08:00",
+  "totalTasks": 3,
+  "tasks": [
+    {
+      "taskId": "xm_hrss_2026-04-28",
+      "siteId": "xm_hrss",
+      "siteName": "厦门市人力资源和社会保障局",
+      "category": "社保人社",
+      "targetUrl": "http://hrss.xm.gov.cn/xygk/tzgg/",
+      "baseUrl": "",
+      "extractionGoal": "从该政府网站公告列表页提取最新公告信息，包括：标题、详情页链接、发布日期。如果是列表页，提取最近30天的公告条目。",
+      "outputFields": [
+        {
+          "name": "title",
+          "type": "string",
+          "required": true,
+          "description": "公告标题"
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "required": true,
+          "description": "公告详情页URL"
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "required": true,
+          "description": "发布日期，YYYY-MM-DD格式"
+        },
+        {
+          "name": "summary",
+          "type": "string",
+          "required": false,
+          "description": "公告摘要"
+        }
+      ],
+      "outputFormat": "json",
+      "outputPath": "/home/yankeeting/.openclaw/projects/gov-notice-daily-scraper/output/2026-04-28/task_xm_hrss.json",
+      "expectedSchema": "docs/json-schema.md",
+      "options": {
+        "waitAfterLoad": 3000,
+        "scrollToListBottom": true
+      }
+    },
+    {
+      "taskId": "xm_sti_2026-04-28",
+      "siteId": "xm_sti",
+      "siteName": "厦门科学技术局",
+      "category": "科技政策",
+      "targetUrl": "http://sti.xm.gov.cn/",
+      "baseUrl": "",
+      "extractionGoal": "从该政府网站公告列表页提取最新公告信息，包括：标题、详情页链接、发布日期。如果是列表页，提取最近30天的公告条目。",
+      "outputFields": [
+        {
+          "name": "title",
+          "type": "string",
+          "required": true,
+          "description": "公告标题"
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "required": true,
+          "description": "公告详情页URL"
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "required": true,
+          "description": "发布日期，YYYY-MM-DD格式"
+        },
+        {
+          "name": "summary",
+          "type": "string",
+          "required": false,
+          "description": "公告摘要"
+        }
+      ],
+      "outputFormat": "json",
+      "outputPath": "/home/yankeeting/.openclaw/projects/gov-notice-daily-scraper/output/2026-04-28/task_xm_sti.json",
+      "expectedSchema": "docs/json-schema.md",
+      "options": {
+        "waitAfterLoad": 3000,
+        "scrollToListBottom": true
+      }
+    },
+    {
+      "taskId": "xm_software_2026-04-28",
+      "siteId": "xm_software",
+      "siteName": "厦门市软件行业协会 - 新闻中心",
+      "category": "行业协会",
+      "targetUrl": "http://www.xmsia.cn/Pages/Home/NewsList.aspx?classId=3",
+      "baseUrl": "",
+      "extractionGoal": "从该政府网站公告列表页提取最新公告信息，包括：标题、详情页链接、发布日期。如果是列表页，提取最近30天的公告条目。",
+      "outputFields": [
+        {
+          "name": "title",
+          "type": "string",
+          "required": true,
+          "description": "公告标题"
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "required": true,
+          "description": "公告详情页URL"
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "required": true,
+          "description": "发布日期，YYYY-MM-DD格式"
+        },
+        {
+          "name": "summary",
+          "type": "string",
+          "required": false,
+          "description": "公告摘要"
+        }
+      ],
+      "outputFormat": "json",
+      "outputPath": "/home/yankeeting/.openclaw/projects/gov-notice-daily-scraper/output/2026-04-28/task_xm_software.json",
+      "expectedSchema": "docs/json-schema.md",
+      "options": {
+        "waitAfterLoad": 3000,
+        "scrollToListBottom": true
+      }
+    }
+  ]
+}

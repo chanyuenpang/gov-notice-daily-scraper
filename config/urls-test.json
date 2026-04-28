@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "description": "测试用新闻监控列表（随机抽取3个不同分类站点）",
+  "lastUpdated": "2026-03-14",
+  "sources": [
+    {
+      "id": "xm_hrss",
+      "name": "厦门市人力资源和社会保障局",
+      "category": "社保人社",
+      "url": "http://hrss.xm.gov.cn/xygk/tzgg/",
+      "selector": {
+        "list": ".content_list tr",
+        "title": "a",
+        "date": ".td_r",
+        "link": "a"
+      }
+    },
+    {
+      "id": "xm_sti",
+      "name": "厦门科学技术局",
+      "category": "科技政策",
+      "url": "http://sti.xm.gov.cn/",
+      "selector": {
+        "list": ".xwzx-list li",
+        "title": "a",
+        "date": ".date",
+        "link": "a"
+      }
+    },
+    {
+      "id": "xm_software",
+      "name": "厦门市软件行业协会 - 新闻中心",
+      "category": "行业协会",
+      "url": "http://www.xmsia.cn/Pages/Home/NewsList.aspx?classId=3",
+      "selector": {
+        "list": ".newList li",
+        "title": ".title a",
+        "date": ".date",
+        "link": ".title a"
+      }
+    }
+  ]
+}

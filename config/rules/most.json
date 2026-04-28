@@ -1,0 +1,22 @@
+{
+  "siteId": "most_gov_cn",
+  "siteName": "科学技术部",
+  "url": "https://www.most.gov.cn/",
+  "version": 1,
+  "updatedAt": "2026-03-24",
+  "strategy": "css",
+  "confidence": 0.8,
+  "timeout": 30000,
+  "css": {
+    "list": "ul.home_news_list li",
+    "title": "a",
+    "date": ""
+  },
+  "extraction": {
+    "linkPrefix": "https://www.most.gov.cn"
+  },
+  "metadata": {
+    "source": "stage2_subagent",
+    "generatedAt": "2026-03-24T20:27:24.316271"
+  }
+}

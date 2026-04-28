@@ -1,0 +1,429 @@
+[
+  {
+    "siteId": "most_gov_cn",
+    "siteName": "科学技术部",
+    "url": "http://www.most.gov.cn/xxgk/tzgg/",
+    "status": "success",
+    "announcements": [
+      {
+        "title": "公开指南",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/zfxxgkzn/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "科技政策",
+        "url": "https://www.most.gov.cn/satp/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "内蒙古科技厅出台《内蒙古实验室建设运行管理办法》 打造内蒙古战略科技力量标杆",
+        "url": "https://www.most.gov.cn/dfkj/nmg/zxdt/202603/t20260323_196256.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "国新办举行国务院政策例行吹风会 介绍2025年国务院部门办理全国人大代表建议和全国政协提案工作有关情况",
+        "url": "https://www.most.gov.cn/xwzx/twzb/fbh2026022701/index.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "通知通告",
+        "url": "https://www.most.gov.cn/tztg/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "法规政策",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政策解读",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/zcjd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "科技部、金融监管总局、工业和信息化部、国家知识产权局  《关于加快推动科技保险高质量发展 有力支撑高水平科技自立自强的若干意见》政策问答",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/zcjd/202603/t20260302_196012.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "科技部 金融监管总局 工业和信息化部 国家知识产权局印发《关于加快推动科技保险高质量发展 有力支撑高水平科技自立自强的若干意见》的通知",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/gfxwj/gfxwj2026/202602/t20260228_195992.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "《科学技术活动违规行为调查处理规定》政策解读",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/zcjd/202602/t20260211_195896.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "科技部关于开展2025年度全国科普统计调查工作的通知",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/qtwj/qtwj2026/202602/t20260204_195856.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "关于征集2026年度科技评估国家标准制修订计划项目的通知",
+        "url": "https://www.most.gov.cn/tztg/202603/t20260323_196251.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "科技部直属事业单位2026年度公开招聘公告",
+        "url": "https://www.most.gov.cn/tztg/202603/t20260319_196244.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "关于SKAO国际组织职员招聘 （2026年第1批）的通知",
+        "url": "https://www.most.gov.cn/tztg/202601/t20260129_195817.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "科技部2026年度考试录用公务员递补人员面试公告",
+        "url": "https://www.most.gov.cn/tztg/202601/t20260128_195811.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "科技部2026年度考试录用公务员面试公告",
+        "url": "https://www.most.gov.cn/tztg/202601/t20260122_195778.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "关于SKAO国际组织职员招聘（2025年第10批）的通知",
+        "url": "https://www.most.gov.cn/tztg/202512/t20251219_195555.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "科技部、金融监管总局、工业和信息化部、国家知识产权局  《关于加快推动科技保险高质量发展 有力支撑高水平科技自立自强的若干意见》政策问答",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/zcjd/202603/t20260302_196012.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "科技部 金融监管总局 工业和信息化部 国家知识产权局印发《关于加快推动科技保险高质量发展 有力支撑高水平科技自立自强的若干意见》的通知",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/gfxwj/gfxwj2026/202602/t20260228_195992.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "《科学技术活动违规行为调查处理规定》政策解读",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/zcjd/202602/t20260211_195896.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "科技部办公厅关于印发《国家重大科研基础设施和大型科研仪器开放共享评价考核实施细则》的通知",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/gfxwj/gfxwj2026/202601/t20260116_195736.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "科技部、金融监管总局、工业和信息化部、国家知识产权局  《关于加快推动科技保险高质量发展 有力支撑高水平科技自立自强的若干意见》政策问答",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/zcjd/202603/t20260302_196012.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "《科学技术活动违规行为调查处理规定》政策解读",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/zcjd/202602/t20260211_195896.html",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "《国家科学技术奖励条例实施细则》政策解读",
+        "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/zcjd/202507/t20250711_194109.html",
+        "date": "2026-03-24"
+      }
+    ]
+  },
+  {
+    "siteId": "xmsme_cn",
+    "siteName": "厦门市中小企业服务中心",
+    "url": "https://www.xmsme.cn/news",
+    "status": "success",
+    "announcements": [
+      {
+        "title": "惠企政策",
+        "url": "https://www.xmsme.cn/policy",
+        "date": "2026-03-24"
+      }
+    ]
+  },
+  {
+    "siteId": "fgw_fujian_gov_cn",
+    "siteName": "福建省发展和改革委员会",
+    "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/",
+    "status": "success",
+    "announcements": [
+      {
+        "title": "政策文件",
+        "url": "http://fgw.fujian.gov.cn/zwgk/fgzd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "公示公告",
+        "url": "http://fgw.fujian.gov.cn/zwgk/gsgg/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "项目批复",
+        "url": "http://fgw.fujian.gov.cn/zwgk/xmpf/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政策解读",
+        "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政策问答",
+        "url": "http://fgw.fujian.gov.cn/jdhy/zcwd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "公示公告",
+        "url": "http://fgw.fujian.gov.cn/zwgk/gsgg/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "福建省发展和改革委员会及下属单位综合性涉企收费目录清单",
+        "url": "http://fgw.fujian.gov.cn/zwgk/gsgg/202506/t20250630_6959288.htm",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "福建省发展和改革委员会关于购买福建省“十五五”规划《纲要》出版印制询价结果的公告",
+        "url": "http://fgw.fujian.gov.cn/zwgk/gsgg/202603/t20260320_7114131.htm",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政策文件",
+        "url": "http://fgw.fujian.gov.cn/zwgk/fgzd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "福建省人民政府办公厅关于印发《福建省城市更新工作实施意见》的通知",
+        "url": "http://fgw.fujian.gov.cn/zwgk/fgzd/szcfg/202602/t20260214_7099118.htm",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政府信息公开指南",
+        "url": "http://fgw.fujian.gov.cn/zfxxgkzl/zfxxgkzn/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政策解读",
+        "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "我委政策文件解读",
+        "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/bmzcwjjd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "省政府政策文件解读",
+        "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/szfzcwjjd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "其他政策文件解读",
+        "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/qtzcwjjd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "《福建省发展和改革委员会 福建省财政厅关于2026年实施大规模设备更新和消费品以旧换新政策的通知》政策解读",
+        "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/bmzcwjjd/202602/t20260205_7090151.htm",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "《福建省加强数字经济创新型企业培育十条措施》政策解读",
+        "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/bmzcwjjd/202602/t20260202_7087702.htm",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "图片解读 | 《福建省综合评标专家和专家库管理实施细则》",
+        "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/bmzcwjjd/202601/t20260105_7071715.htm",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "《福建省地方铁路建设工程质量监督管理办法》政策解读",
+        "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/bmzcwjjd/202512/t20251216_7046730.htm",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "项目批复",
+        "url": "http://fgw.fujian.gov.cn/zwgk/xmpf/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "关于《福建省发展和改革委员会重大项目后评价管理办法（试行）》的情况介绍",
+        "url": "http://fgw.fujian.gov.cn/hdjl/zxft/202601/t20260128_7086280.htm?",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "电化学储能电站是采用备案制吗？",
+        "url": "http://fgw.fujian.gov.cn/hdjl/zxzx/detail1.htm?id=957054",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "充电桩备案问题",
+        "url": "http://fgw.fujian.gov.cn/hdjl/zxzx/detail1.htm?id=956981",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "《福建省发展和改革委重大项目后评价管理办法（试行）》的网上调查",
+        "url": "http://fgw.fujian.gov.cn/hdjl/wsdc/detail.htm?id=27972&type=1",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "《关于2025年加力扩围实施大规模设备更新和消费品以旧换新的通知》的网上调查",
+        "url": "http://fgw.fujian.gov.cn/hdjl/wsdc/detail.htm?id=27732&type=1",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "《福建省综合评标专家和专家库管理办法》的网上调查",
+        "url": "http://fgw.fujian.gov.cn/hdjl/wsdc/detail.htm?id=26152&type=1",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "关于公开征求《福建省推进社会信用体系建设三年行动方案（2026—2028年） （征求意见稿）》意见的公告",
+        "url": "http://fgw.fujian.gov.cn/hdjl/myzj/detail.htm?id=45167",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "关于公开征求《2026年福建省电力中长期市场交易方案（征求意见稿）》意见的公告",
+        "url": "http://fgw.fujian.gov.cn/hdjl/myzj/detail.htm?id=45037",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "福建省数据管理局关于公开征求《福建省加强数字经济创新型企业培育十条措施（征求意见稿）》意见的公告",
+        "url": "http://fgw.fujian.gov.cn/hdjl/myzj/detail.htm?id=45075",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "福建省数据管理局关于公开征求《福建省有序推进算力基础设施发展若干措施（征求意见稿）》意见的公告",
+        "url": "http://fgw.fujian.gov.cn/hdjl/myzj/detail.htm?id=44927",
+        "date": "2026-03-24"
+      }
+    ]
+  },
+  {
+    "siteId": "siming_gov_cn",
+    "siteName": "厦门市思明区科技和信息化局",
+    "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/",
+    "status": "success",
+    "announcements": [
+      {
+        "title": "政策文件库",
+        "url": "http://www.siming.gov.cn/xxgk/zcwjk/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政策解读",
+        "url": "http://www.siming.gov.cn/jdhy/zcjd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "新闻公告",
+        "url": "http://www.siming.gov.cn/xxgk/xwgg/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政策文件库",
+        "url": "http://www.siming.gov.cn/xxgk/zcwjk/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "招标预公告",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/zfcg_1/zbygg/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "制度和目录清单",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/zdxzjcygk/zdhmlqd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政策法规",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/hjbh/zcfg/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "建设项目环评审批决定",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/hjbh/hpspjd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "夜（午）间建筑施工作业许可",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/hjbh/jzsgxk/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "排污许可证发放公示",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/hjbh/pwxkzffgs/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "养老服务通用政策",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/ylfw/ylfwtyzc/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政策文件",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/jy/zcwj/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政策法规",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/bzzf/zcfg/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政策解读",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/bzzf/zcjd/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "办事指南",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/bzzf/bszn/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "公示信息",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/bzzf/bzbz/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政府购买公共文化体育服务目录",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/ggwhty/tyfw/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "土地划拨或协议出让公告",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/gytdsyqcr/tdhbhxycrgg/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "土地招拍挂出让公告",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/gytdsyqcr/tdzbgcrgg/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "土地招拍挂成交公示",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/gytdsyqcr/tdzbgcrjg/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "征收公告",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/gytdsyqcr/zsgg/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "公示信息",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/wgjy/gsxx/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "就业政策",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/wgjy/jyzc/",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "政策文件",
+        "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/ly/zcwj/",
+        "date": "2026-03-24"
+      }
+    ]
+  }
+]

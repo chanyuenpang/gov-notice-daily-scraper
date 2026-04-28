@@ -1,0 +1,36 @@
+{
+  "version": "2.0",
+  "description": "政府网站新闻政策监控列表 - 更新选择器",
+  "lastUpdated": "2025-03-14",
+  "sources": [
+    {
+      "id": "xm_hrss",
+      "name": "厦门市人力资源和社会保障局",
+      "url": "http://hrss.xm.gov.cn/xygk/tzgg/",
+      "selectors": [
+        ".news-list li",
+        ".list-item",
+        ".news-item",
+        "ul.list li",
+        ".content-list li"
+      ],
+      "titleSelector": ".title, a, .news-title, h3, h4",
+      "dateSelector": ".date, .time, .news-date, span",
+      "linkSelector": "a"
+    },
+    {
+      "id": "xm_dpc",
+      "name": "厦门市发展和改革委员会",
+      "url": "http://dpc.xm.gov.cn/",
+      "selectors": [
+        ".news-list li",
+        ".list-item",
+        ".news_item",
+        ".content-list li"
+      ],
+      "titleSelector": ".title, a, .news_title, h3",
+      "dateSelector": ".date, .time, .news_date",
+      "linkSelector": "a"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "siteId": "fj_jyt",
+  "version": 1,
+  "updatedAt": "2026-03-15",
+  "strategy": "css",
+  "confidence": 0.5,
+  "css": {
+    "list": ".news-list li",
+    "title": ".title",
+    "date": ".date",
+    "link": "a"
+  },
+  "extraction": {
+    "linkPrefix": "http://jyt.fujian.gov.cn",
+    "dateFormats": [
+      "YYYY-MM-DD",
+      "YYYY/MM/DD",
+      "YYYY年MM月DD日",
+      "MM-DD"
+    ]
+  },
+  "antiCrawl": {
+    "waitAfterLoad": 2000,
+    "userAgent": "random"
+  },
+  "timeout": 30000,
+  "metadata": {
+    "source": "migrated_from_v2_manual",
+    "pageStructure": {
+      "type": null,
+      "hasPagination": null,
+      "paginationType": null,
+      "notes": null
+    }
+  },
+  "notes": ""
+}

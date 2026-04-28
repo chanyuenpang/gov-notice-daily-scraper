@@ -1,0 +1,544 @@
+[
+  {
+    "site_id": "sti_xm_gov_cn",
+    "name": "厦门市科学技术局",
+    "url": "http://sti.xm.gov.cn/",
+    "success": true,
+    "articles": [
+      {
+        "title": "新闻动态",
+        "url": "http://sti.xm.gov.cn/xwdt/",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "政务公开",
+        "url": "http://sti.xm.gov.cn/xxgk/",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "办事服务",
+        "url": "https://zwfw.fujian.gov.cn/person-todo/detail?userType=3&siteUnid=8B843B8A862B176279921293FF24876A&curStatus=dept&deptId=CF6DEF15B2B42B8DEEF10B547074140B",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "科技服务",
+        "url": "http://sti.xm.gov.cn/wsbs/",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "交流互动",
+        "url": "http://sti.xm.gov.cn/jlhd/",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "走进厦门科学城",
+        "url": "http://sti.xm.gov.cn/zjkxc/",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "7个前沿AI项目集中在厦门科学城I号孵化器亮相 ——“技术源头...",
+        "url": "https://mp.weixin.qq.com/s/U10L0J4EXoy-zubhU4Vy0Q",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "我市召开2025年度高企认定中介机构工作培训会",
+        "url": "http://sti.xm.gov.cn./xxgk/gzdt/202506/t20250620_2940521.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "第十四届“中国创新创业大赛”（厦门赛区）、第十届“创客中...",
+        "url": "http://sti.xm.gov.cn./xxgk/gzdt/202506/t20250620_2940375.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "全球智汇 聚力未来 第三届“苏颂杯”未来产业技术创新赛启幕",
+        "url": "http://sti.xm.gov.cn./xwdt/ldxw/202506/t20250618_2939785.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "中国—金砖国家新时代科创孵化园在巴西成功举办展示暨推介会",
+        "url": "http://sti.xm.gov.cn./xxgk/gzdt/202506/t20250613_2938800.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "通知公告",
+        "url": "http://sti.xm.gov.cn./xxgk/tzgg/",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "工作动态",
+        "url": "http://sti.xm.gov.cn./xxgk/gzdt/",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "科技新闻",
+        "url": "http://sti.xm.gov.cn./xwdt/ldxw/",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "厦门市科学技术局 厦门市工业和信息化局 厦门市卫生健康委员...",
+        "url": "http://sti.xm.gov.cn./xxgk/tzgg/202604/t20260414_2990995.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "厦门市科学技术局 关于征集科技及产业领域技术或产品有关情况...",
+        "url": "http://sti.xm.gov.cn./xxgk/tzgg/202604/t20260414_2990943.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "厦门市科学技术局关于厦门市2026届优培生拟选拔人选公示的公告",
+        "url": "http://sti.xm.gov.cn./xxgk/tzgg/202604/t20260414_2990900.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "厦门市科学技术局转发智能电网国家科技重大专项管理办公室关...",
+        "url": "http://sti.xm.gov.cn./xxgk/tzgg/202604/t20260414_2990792.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "厦门市科学技术局转发福建省科学技术厅关于开展第二批福建省...",
+        "url": "http://sti.xm.gov.cn./xxgk/tzgg/202604/t20260413_2990608.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "厦门市科学技术局关于组织召开2025年度福建省科学技术奖申报...",
+        "url": "http://sti.xm.gov.cn./xxgk/tzgg/202604/t20260409_2990090.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "金砖科创孵化园精准赋能 中泰检测科技合作落地",
+        "url": "https://mp.weixin.qq.com/s/cPyutZUmYG_RwSS3UCEb4A",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "共话科创合作 厦门市科技局在中关村论坛分享金砖科创实践经验",
+        "url": "https://mp.weixin.qq.com/s/oxX3EZSl34xi8-pcbKgzAg",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "市科技局召开树立和践行正确政绩观学习教育动员部署会",
+        "url": "http://sti.xm.gov.cn./xxgk/gzdt/202603/t20260316_2985712.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "携手植树添绿，共建生态文明",
+        "url": "https://mp.weixin.qq.com/s/oH_nnuXYXO8qMABj-Jl5eQ",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "科技部在厦组织召开海洋负排放国际大科学计划专题调度会",
+        "url": "https://mp.weixin.qq.com/s/tkkmC25LHF8_0UydIg2vhw",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "提升建设成效 部署重点任务——科技部国际合作司在厦召开中国...",
+        "url": "https://mp.weixin.qq.com/s/rxQvs0ESR-sSNjbPRXs2KA",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "成果转化探索新途径——学习贯彻习近平总书记全国两会期间关...",
+        "url": "http://sti.xm.gov.cn./xwdt/ldxw/202604/t20260414_2990905.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "科技创新实现新突破——学习贯彻习近平总书记全国两会期间关...",
+        "url": "http://sti.xm.gov.cn./xwdt/ldxw/202604/t20260414_2990904.htm",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      },
+      {
+        "title": "习近平的两会时间丨推动科技创新和产业创新深度融合",
+        "url": "https://news.cctv.com/2026/03/10/ARTISRYGteWVLwHtnS1UYUWh260310.shtml",
+        "site_id": "sti_xm_gov_cn",
+        "site_name": "厦门市科学技术局"
+      }
+    ]
+  },
+  {
+    "site_id": "siming_gov_cn",
+    "name": "厦门市思明区科技和信息化局",
+    "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+    "success": true,
+    "articles": []
+  },
+  {
+    "site_id": "gxt_fujian_gov_cn",
+    "name": "福建省供销合作社",
+    "url": "http://gxt.fujian.gov.cn/",
+    "success": true,
+    "articles": [
+      {
+        "title": "政务公开",
+        "url": "http://gxt.fujian.gov.cn/zwgk/",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "解读回应",
+        "url": "http://gxt.fujian.gov.cn/jdhy/",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "政务服务",
+        "url": "https://zwfw.fujian.gov.cn/province-dept/index?type=2&siteUnid=4787D920D961AC4237B37A8DEBFC924F&randomNum=0.4037191989967448",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "政民互动",
+        "url": "http://gxt.fujian.gov.cn/zmhd/",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "习近平在参加首都义务植树活动时强调：为山川大地增添锦绣 让中国式现代化底色更加亮丽",
+        "url": "http://gxt.fujian.gov.cn./zwgk/xw/gjdt/202604/t20260401_7117936.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "循环经济的“加减乘”法",
+        "url": "http://gxt.fujian.gov.cn./zwgk/xw/jxyw/202604/t20260407_7119843.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "福建：科学布局县域重点产业链 开辟新领域新赛道",
+        "url": "http://gxt.fujian.gov.cn./zwgk/xw/jxyw/202603/t20260327_7116310.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "国务院“互联网+督查”平台征集阻碍民营经济发展壮大问题线索",
+        "url": "https://tousu.www.gov.cn/dc/2023myjj/index.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "@国务院 我来说",
+        "url": "https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=fj",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "重要政策举措及实施效果",
+        "url": "https://www.gov.cn/zhengce/zczhjd/",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "国务院信息",
+        "url": "https://www.gov.cn/zhengce/",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "福建要闻",
+        "url": "http://www.fujian.gov.cn/xwdt/fjyw/",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "工信要闻",
+        "url": "http://gxt.fujian.gov.cn./zwgk/xw/jxyw/ ",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "国务院办公厅关于健全药品价格形成机制的若干意见",
+        "url": "https://www.gov.cn/zhengce/content/202604/content_7065541.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "中共中央办公厅 国务院办公厅关于推动行业协会商会深化改革的意见",
+        "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7065410.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "中华人民共和国反外国不当域外管辖条例",
+        "url": "https://www.gov.cn/zhengce/content/202604/content_7065398.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "国务院办公厅印发《关于加快建设分级诊疗体系的若干措施》的通知",
+        "url": "https://www.gov.cn/zhengce/content/202604/content_7065030.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "国务院关于印发《中国（内蒙古）自由贸易试验区总体方案》的通知",
+        "url": "https://www.gov.cn/zhengce/content/202604/content_7065009.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "国务院关于产业链供应链安全的规定",
+        "url": "https://www.gov.cn/zhengce/content/202604/content_7064837.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "国务院关于同意在广东省暂时调整实施有关行政法规规定的批复",
+        "url": "https://www.gov.cn/zhengce/content/202604/content_7064502.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "周祖翼在省税务系统调研",
+        "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124690.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "省委常委会召开会议",
+        "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260410_7123436.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "赵龙调研民政民生、民族宗教、广播电视工作",
+        "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260409_7120669.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "我省新增5处省级工业遗产",
+        "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124110.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "厦门空港今年往返“一带一路”共建国家客运航班突破5000架次",
+        "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124111.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "今年第一批省级工业重点节能改造和通用设备更新提标项目公布",
+        "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124109.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "“强屏”背后的产业跃升",
+        "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124120.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      },
+      {
+        "title": "今年第一批省级工业重点节能改造和通用设备更新提标项目公布",
+        "url": "http://gxt.fujian.gov.cn./zwgk/xw/jxyw/202604/t20260414_7124189.htm",
+        "site_id": "gxt_fujian_gov_cn",
+        "site_name": "福建省供销合作社"
+      }
+    ]
+  },
+  {
+    "site_id": "xmtorch_xm_gov_cn",
+    "name": "厦门市火炬开发区",
+    "url": "http://xmtorch.xm.gov.cn/xxgk/zfxxgkml/glfw/",
+    "success": false,
+    "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"http://xmtorch.xm.gov.cn/xxgk/zfxx"
+  },
+  {
+    "site_id": "kgxj_haikou_gov_cn",
+    "name": "海口市科工局",
+    "url": "http://kgxj.haikou.gov.cn/zfxxgk/gsgg/",
+    "success": true,
+    "articles": [
+      {
+        "title": "王小宝",
+        "url": "http://kgxj.haikou.gov.cn/zzjg/ldxx/201804/t565842.shtml",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "黄广龙",
+        "url": "http://kgxj.haikou.gov.cn/zzjg/ldxx/202306/t1289707.shtml",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "周后贵",
+        "url": "http://kgxj.haikou.gov.cn/zzjg/ldxx/202503/t1411103.shtml",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "​付丹",
+        "url": "http://kgxj.haikou.gov.cn/zzjg/ldxx/202512/t1481220.shtml",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "吴忠远",
+        "url": "http://kgxj.haikou.gov.cn/zzjg/ldxx/202601/t1499455.shtml",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "陈建任",
+        "url": "http://kgxj.haikou.gov.cn/zzjg/ldxx/202201/t565839.shtml",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "任文高",
+        "url": "http://kgxj.haikou.gov.cn/zzjg/ldxx/201804/t565835.shtml",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "机构设置",
+        "url": "http://kgxj.haikou.gov.cn/zzjg/dwzn/201906/t566530.shtml",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "国务院信息",
+        "url": "http://www.gov.cn/pushinfo/v150203/index.htm",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "省府要闻",
+        "url": "https://www.hainan.gov.cn/hainan/ldhd/sj_list3.shtml",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "工作动态",
+        "url": "http://kgxj.haikou.gov.cn/xwdt/gzdt/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "行业动态",
+        "url": "http://kgxj.haikou.gov.cn/xwdt/hydt/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "重点项目",
+        "url": "http://kgxj.haikou.gov.cn/xwdt/zdxm/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "工业指标",
+        "url": "http://kgxj.haikou.gov.cn/xwdt/tjsj/gyzb/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "科技管理和项目经费公开",
+        "url": "http://kgxj.haikou.gov.cn/xwdt/kjglxmjf/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "最新解读",
+        "url": "http://kgxj.haikou.gov.cn/zcfg/zxjd/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "回应关切",
+        "url": "http://kgxj.haikou.gov.cn/tzgg/hygq/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "图解政策",
+        "url": "http://www.haikou.gov.cn/xxgk/szfbjxxgk/zcjd/tjzc/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "办事指南",
+        "url": "http://kgxj.haikou.gov.cn/zxbs/bszn/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "资源下载",
+        "url": "http://kgxj.haikou.gov.cn/zxbs/zyxz/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "征集调查",
+        "url": "http://kgxj.haikou.gov.cn/wlwz/zjdc/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "咨询问答",
+        "url": "http://kgxj.haikou.gov.cn/wlwz/zxwd/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "网站首页",
+        "url": "http://kgxj.haikou.gov.cn/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "机构介绍",
+        "url": "http://kgxj.haikou.gov.cn/zzjg/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "要闻动态",
+        "url": "http://kgxj.haikou.gov.cn/xwdt/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "政务服务",
+        "url": "https://wssp.hainan.gov.cn/hnwt/department?regionId=HZ54552851bd963b0151c8e90cdd2c08&orgId=HZ5455b1562cb6f901562f3ad5ad0108&serviceSubType=org",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      },
+      {
+        "title": "互动交流",
+        "url": "http://kgxj.haikou.gov.cn/wlwz/",
+        "site_id": "kgxj_haikou_gov_cn",
+        "site_name": "海口市科工局"
+      }
+    ]
+  }
+]

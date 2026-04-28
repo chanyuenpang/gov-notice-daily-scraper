@@ -1,0 +1,76 @@
+{
+  "siteId": "siming_gov_cn",
+  "siteName": "厦门市思明区科技和信息化局",
+  "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/",
+  "status": "success",
+  "strategyUsed": "playwright",
+  "announcements": [
+    {
+      "title": "厦门市思明区科技和工信局机构职能目录表",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/jgzn/202409/t20240930_1072718.htm",
+      "date": ""
+    },
+    {
+      "title": "2026年厦门市思明区政务服务保障中心预算说明",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136253.htm",
+      "date": ""
+    },
+    {
+      "title": "2026年厦门市思明区信息中心预算说明",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136252.htm",
+      "date": ""
+    },
+    {
+      "title": "2026年厦门市思明区企业服务中心预算说明",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136251.htm",
+      "date": ""
+    },
+    {
+      "title": "2026年厦门市思明区科技和工信局部门预算说明",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136238.htm",
+      "date": ""
+    },
+    {
+      "title": "2026年厦门市思明区科技和工信局预算说明",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136231.htm",
+      "date": ""
+    },
+    {
+      "title": "2024年厦门市思明区信息中心项目支出绩效自评",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202505/t20250530_1102036.htm",
+      "date": ""
+    },
+    {
+      "title": "一图读懂《思明区先进制造业高质量发展若干措施》",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139617.htm",
+      "date": ""
+    },
+    {
+      "title": "关于《思明区先进制造业高质量发展若干措施》的政策解读",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139605.htm",
+      "date": ""
+    },
+    {
+      "title": "厦门市思明区科技和工信局关于印发思明区先进制造业高质量发展若干措施的通知",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139602.htm",
+      "date": ""
+    },
+    {
+      "title": "关于拟认定永嘉（厦门）工业有限公司云顶中路505、515号项目为低效工业用地的公示",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/zcfg/202602/t20260228_1138870.htm",
+      "date": ""
+    },
+    {
+      "title": "关于拟认定厦门光莆电子股份有限公司光莆电子大厦项目为低效工业用地的公示",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/zcfg/202602/t20260228_1138869.htm",
+      "date": ""
+    },
+    {
+      "title": "思明区科技和工信局关于《思明区促进新一代人工智能产业发展若干措施（修订）》（意见征求...",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202602/t20260214_1138225.htm",
+      "date": ""
+    }
+  ],
+  "error": null,
+  "durationMs": 0
+}

@@ -1,0 +1,14 @@
+{
+  "siteId": "fgw_fujian_gov_cn_gsgg",
+  "siteName": "gsgg",
+  "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/",
+  "version": 1,
+  "updatedAt": "2026-03-16",
+  "strategy": "semantic",
+  "confidence": 0.8,
+  "timeout": 30000,
+  "metadata": {
+    "source": "stage2_subagent",
+    "generatedAt": "2026-03-16T10:13:37.029390"
+  }
+}

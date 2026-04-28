@@ -1,0 +1,56 @@
+{
+  "date": "2026-03-30",
+  "generatedAt": "2026-03-30T07:10:17.795966",
+  "tasks": [
+    {
+      "siteId": "xmsme_cn",
+      "siteName": "厦门市中小企业服务中心",
+      "url": "http://www.xmsme.cn/",
+      "baseUrl": "http://www.xmsme.cn",
+      "failReason": "strategy_failed",
+      "hasExistingRule": true,
+      "originalError": "未找到符合条件的列表结构"
+    },
+    {
+      "siteId": "fgw_fujian_gov_cn",
+      "siteName": "福建省发展和改革委员会",
+      "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/",
+      "baseUrl": "http://fgw.fujian.gov.cn",
+      "failReason": "strategy_failed",
+      "hasExistingRule": true,
+      "originalError": "未找到符合条件的列表结构"
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "厦门市思明区科技和信息化局",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "baseUrl": "http://www.siming.gov.cn",
+      "failReason": "strategy_failed",
+      "hasExistingRule": true,
+      "originalError": "未找到符合条件的列表结构"
+    }
+  ],
+  "skipped": [
+    {
+      "siteId": "js_xm_gov_cn",
+      "url": "http://js.xm.gov.cn/",
+      "reason": "dns_error",
+      "originalError": "Page.goto: net::ERR_NAME_NOT_RESOLVED at http://js.xm.gov.cn/\nCall log:\n  - navigating to \"http://js"
+    },
+    {
+      "siteId": "iqb_jimei_gov_cn",
+      "url": "https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
+      "reason": "dns_error",
+      "originalError": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/\nCall l"
+    }
+  ],
+  "summary": {
+    "total": 24,
+    "failed": 5,
+    "toProcess": 3,
+    "skipped": 2,
+    "noRuleCount": 0,
+    "strategyFailedCount": 3,
+    "timeoutCount": 0
+  }
+}

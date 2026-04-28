@@ -1,0 +1,130 @@
+[
+  {
+    "siteId": "xmsme_cn",
+    "siteName": "www.xmsme.cn",
+    "url": "http://www.xmsme.cn/",
+    "baseUrl": "http://www.xmsme.cn",
+    "title": "慧企云",
+    "css_selector": null,
+    "item_count": 0
+  },
+  {
+    "siteId": "js_xm_gov_cn",
+    "siteName": "js.xm.gov.cn",
+    "url": "http://js.xm.gov.cn/",
+    "baseUrl": "http://js.xm.gov.cn",
+    "title": "ERROR",
+    "css_selector": null,
+    "item_count": 0,
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at http://js.xm.gov.cn/\nCall log:\n  - navigating to \"http://js.xm.gov.cn/\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "siteId": "xmgh_org",
+    "siteName": "www.xmgh.org",
+    "url": "http://www.xmgh.org/",
+    "baseUrl": "http://www.xmgh.org",
+    "title": "厦门工会网-厦门市总工会",
+    "css_selector": "ul li a",
+    "item_count": 187
+  },
+  {
+    "siteId": "fgw_fujian_gsgg",
+    "siteName": "gsgg",
+    "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/",
+    "baseUrl": "http://fgw.fujian.gov.cn",
+    "title": "404错误页面不存在",
+    "css_selector": null,
+    "item_count": 0
+  },
+  {
+    "siteId": "edu_xm_gov_cn",
+    "siteName": "tzgg",
+    "url": "http://edu.xm.gov.cn/jyxw/tzgg/",
+    "baseUrl": "http://edu.xm.gov.cn",
+    "title": "通知公告-厦门市教育局",
+    "css_selector": "ul li a",
+    "item_count": 79
+  },
+  {
+    "siteId": "siming_gov_cn",
+    "siteName": "kjhxxhj",
+    "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+    "baseUrl": "http://www.siming.gov.cn",
+    "title": "File Not Found",
+    "css_selector": null,
+    "item_count": 0
+  },
+  {
+    "siteId": "xmsia_cn",
+    "siteName": "NewsList.aspx?classId=3",
+    "url": "http://www.xmsia.cn/Pages/Home/NewsList.aspx?classId=3",
+    "baseUrl": "http://www.xmsia.cn",
+    "title": "厦门市软件行业协会 - 新闻中心",
+    "css_selector": "ul li a",
+    "item_count": 64
+  },
+  {
+    "siteId": "mohurd_gov_cn",
+    "siteName": "www.mohurd.gov.cn",
+    "url": "https://www.mohurd.gov.cn/",
+    "baseUrl": "https://www.mohurd.gov.cn",
+    "title": "中华人民共和国住房和城乡建设部",
+    "css_selector": ".news a",
+    "item_count": 44
+  },
+  {
+    "siteId": "zjt_fujian_gov_cn",
+    "siteName": "xxgkml",
+    "url": "http://zjt.fujian.gov.cn/xxgk/zfxxgkzl/xxgkml/",
+    "baseUrl": "http://zjt.fujian.gov.cn",
+    "title": "法定主动公开内容_政府信息公开_福建省住房和城乡建设厅",
+    "css_selector": "ul li a",
+    "item_count": 166
+  },
+  {
+    "siteId": "gxt_fujian_gov_cn",
+    "siteName": "gxt.fujian.gov.cn",
+    "url": "http://gxt.fujian.gov.cn/",
+    "baseUrl": "http://gxt.fujian.gov.cn",
+    "title": "福建省工业和信息化厅",
+    "css_selector": "ul li a",
+    "item_count": 298
+  },
+  {
+    "siteId": "as_xm_gov_cn",
+    "siteName": "tzgg",
+    "url": "https://as.xm.gov.cn/zwgk/tzgg/",
+    "baseUrl": "https://as.xm.gov.cn",
+    "title": "通知公告-厦门市数据管理局",
+    "css_selector": "ul li a",
+    "item_count": 97
+  },
+  {
+    "siteId": "fgw_fujian_tzgg",
+    "siteName": "tzgg",
+    "url": "http://fgw.fujian.gov.cn/ztzl/szfjzt/tzgg/",
+    "baseUrl": "http://fgw.fujian.gov.cn",
+    "title": "通知公告_ 福建省数据管理局_ 福建省发展和改革委员会",
+    "css_selector": "ul li a",
+    "item_count": 182
+  },
+  {
+    "siteId": "kgxj_haikou_gov_cn",
+    "siteName": "gsgg",
+    "url": "http://kgxj.haikou.gov.cn/zfxxgk/gsgg/",
+    "baseUrl": "http://kgxj.haikou.gov.cn",
+    "title": "公示公告_ 海口市科学技术和工业信息化局",
+    "css_selector": "ul li a",
+    "item_count": 76
+  },
+  {
+    "siteId": "iqb_jimei_gov_cn",
+    "siteName": "XM03103",
+    "url": "https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
+    "baseUrl": "https://iqb.jimei.gov.cn",
+    "title": "ERROR",
+    "css_selector": null,
+    "item_count": 0,
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/\nCall log:\n  - navigating to \"https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/\", waiting until \"domcontentloaded\"\n"
+  }
+]

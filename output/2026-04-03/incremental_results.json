@@ -1,0 +1,828 @@
+{
+  "date": "2026-04-03",
+  "generatedAt": "2026-04-03T07:15:08.554403",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-04-03",
+    "yesterdayDate": "2026-04-02",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "dpc_xm_gov_cn",
+      "siteName": "厦门市发展和改革委员会",
+      "url": "http://dpc.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门场景创新发布会暨供需对接活动举行",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202603/t20260327_2987900.htm",
+          "date": "2026-03-27"
+        },
+        {
+          "title": "厦门市发改委召开民间投资领域民营企业座谈会",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202603/t20260327_2987898.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "加快构建新型城镇化建设投融资体制",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202603/t20260318_2986181.htm",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "厦门市发改委召开党组（扩大）会议 研究部署树立和践行正确政绩观学习教育工作",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202603/t20260313_2985224.htm",
+          "date": "2026-03-12"
+        },
+        {
+          "title": "优化营商环境“升级版”来了",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202603/t20260312_2985015.htm",
+          "date": "2026-03-12"
+        },
+        {
+          "title": "十四届全国人大四次会议开幕 习近平等在主席台就座",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202603/t20260306_2984239.htm",
+          "date": "2026-03-05"
+        },
+        {
+          "title": "以“营商”换“赢商” 鹭岛春早马蹄疾",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202603/t20260306_2984235.htm",
+          "date": "2026-03-05"
+        },
+        {
+          "title": "厦门市发展和改革委员会招聘1名非在编工作人员拟聘人员公示（2026年）",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202603/t20260325_2987341.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "专项巡察公告",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202603/t20260310_2984752.htm",
+          "date": "2026-03-09"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于征集2026年绿色低碳技术与产品的通知",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202603/t20260310_2984696.htm",
+          "date": "2026-03-09"
+        },
+        {
+          "title": "事关厦门民营经济发展│这份问卷，邀您参与！",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202602/t20260228_2983120.htm",
+          "date": "2026-02-26"
+        },
+        {
+          "title": "《全市投资项目一本账运行保障技术服务项目》招标文件预公告",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202602/t20260202_2979711.htm",
+          "date": "2026-02-02"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于建立巡游出租车运价浮动机制的公告(第3号)",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202601/t20260130_2979655.htm",
+          "date": "2026-02-01"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于启动2026年第一期政府差价补贴销售平价农副产品的通知",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202601/t20260128_2979205.htm",
+          "date": "2026-01-28"
+        },
+        {
+          "title": "福建省网上办事大厅行政许可事项目录公开",
+          "url": "https://zwfw.fujian.gov.cn/listopen/power-list/index?paramsType=qzqd",
+          "date": "2022-11-24"
+        },
+        {
+          "title": "厦门合兴包装印刷股份有限公司与厦门合兴网络科技有限公司及厦门合兴环保科技有限公司共同向合兴包装印刷泰国有限公司增资项目备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202603/t20260327_2987873.htm",
+          "date": "2026-03-23"
+        },
+        {
+          "title": "厦门唯科模塑科技股份有限公司通过唯科国际科技有限公司在马来西亚设立并投资亿唯科技私人有限公司项目备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202603/t20260327_2987870.htm",
+          "date": "2026-03-23"
+        },
+        {
+          "title": "福建时代泽远股权投资基金合伙企业（有限合伙）在开曼群岛并购Sudo Holdings Limited（苏度控股有限公司）7.09%股权项目备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202603/t20260327_2987867.htm",
+          "date": "2026-03-23"
+        },
+        {
+          "title": "时代小桔（厦门）新能源技术有限公司在中国香港设立时代小桔（香港）新能源科技有限公司项目备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202603/t20260327_2987864.htm",
+          "date": "2026-03-23"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于福建厦门厦北～蟠龙220千伏线路工程核准的批复",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202603/t20260324_2987268.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于福建厦门厦北～舫山220千伏线路工程核准的批复",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202603/t20260324_2987266.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达厦门临空经济片区2026年第三批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202603/t20260327_2987895.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达2026年第十一批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202603/t20260327_2987892.htm",
+          "date": "2026-03-23"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达2026年第十批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202603/t20260320_2986712.htm",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达2026年第九批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202603/t20260313_2985417.htm",
+          "date": "2026-03-13"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达厦门临空经济片区2026年第二批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202603/t20260306_2984297.htm",
+          "date": "2026-03-06"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达2026年第八批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202603/t20260306_2984296.htm",
+          "date": "2026-03-04"
+        },
+        {
+          "title": "2026年度厦门市发展和改革委员会本级及直属事业单位预算",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/zjxx/202603/t20260306_2984224.htm",
+          "date": "2026-03-06"
+        },
+        {
+          "title": "2026年度厦门市发展和改革委员会部门预算",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/zjxx/202602/t20260226_2982761.htm",
+          "date": "2026-02-26"
+        },
+        {
+          "title": "2024年厦门市发展和改革委员会本级及直属事业单位决算公开",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/zjxx/202508/t20250808_2949508.htm",
+          "date": "2025-08-08"
+        }
+      ],
+      "newCount": 30
+    },
+    {
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局",
+      "url": "http://sti.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门市科学技术局关于开展2025年度全市科普统计调查工作的通知",
+          "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260401_2988903.htm",
+          "date": "2026-04-01"
+        },
+        {
+          "title": "厦门市科学技术局关于厦门市新优药械产品目录（第二批）的公示",
+          "url": "http://sti.xm.gov.cn/xxgk/tzgg/202603/t20260330_2988157.htm",
+          "date": "2026-03-30"
+        },
+        {
+          "title": "厦门市科学技术局关于征集生物医药产业政策兑现工作咨询评审...",
+          "url": "http://sti.xm.gov.cn/xxgk/tzgg/202603/t20260330_2988155.htm",
+          "date": "2026-03-30"
+        },
+        {
+          "title": "厦门市科学技术局关于组织申报2026年度国家科技重大项目资金...",
+          "url": "http://sti.xm.gov.cn/xxgk/tzgg/202603/t20260330_2988154.htm",
+          "date": "2026-03-30"
+        },
+        {
+          "title": "厦门市科学技术局关于《厦门市科学仪器设备资源共享管理办法...",
+          "url": "http://sti.xm.gov.cn/xxgk/tzgg/202603/t20260330_2988153.htm",
+          "date": "2026-03-30"
+        },
+        {
+          "title": "厦门市科学技术局关于2026年度厦门市自然科学基金“免评审”...",
+          "url": "http://sti.xm.gov.cn/xxgk/tzgg/202603/t20260327_2987774.htm",
+          "date": "2026-03-27"
+        },
+        {
+          "title": "共话科创合作 厦门市科技局在中关村论坛分享金砖科创实践经验",
+          "url": "https://mp.weixin.qq.com/s/oxX3EZSl34xi8-pcbKgzAg",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "市科技局召开树立和践行正确政绩观学习教育动员部署会",
+          "url": "http://sti.xm.gov.cn/xxgk/gzdt/202603/t20260316_2985712.htm",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "携手植树添绿，共建生态文明",
+          "url": "https://mp.weixin.qq.com/s/oH_nnuXYXO8qMABj-Jl5eQ",
+          "date": "2026-03-13"
+        },
+        {
+          "title": "科技部在厦组织召开海洋负排放国际大科学计划专题调度会",
+          "url": "https://mp.weixin.qq.com/s/tkkmC25LHF8_0UydIg2vhw",
+          "date": "2026-03-05"
+        },
+        {
+          "title": "提升建设成效 部署重点任务——科技部国际合作司在厦召开中国...",
+          "url": "https://mp.weixin.qq.com/s/rxQvs0ESR-sSNjbPRXs2KA",
+          "date": "2026-03-02"
+        },
+        {
+          "title": "科技暖乡传新知 振兴聚力启新程—市科技局开展文化科技卫生“...",
+          "url": "https://mp.weixin.qq.com/s/AW8DanqYB6vbn5gl7zhp_A",
+          "date": "2026-02-13"
+        },
+        {
+          "title": "习近平的两会时间丨推动科技创新和产业创新深度融合",
+          "url": "https://news.cctv.com/2026/03/10/ARTISRYGteWVLwHtnS1UYUWh260310.shtml",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "在抢占科技制高点上实现新突破",
+          "url": "http://sti.xm.gov.cn/xwdt/ldxw/202603/t20260312_2985125.htm",
+          "date": "2026-03-12"
+        },
+        {
+          "title": "“十五五”开局描绘科技新图景",
+          "url": "http://sti.xm.gov.cn/xwdt/ldxw/202602/t20260228_2983237.htm",
+          "date": "2026-02-28"
+        },
+        {
+          "title": "坚持创新驱动，加紧培育壮大新动能——访科技部党组书记、部...",
+          "url": "http://sti.xm.gov.cn/xwdt/ldxw/202602/t20260205_2980447.htm",
+          "date": "2026-02-05"
+        },
+        {
+          "title": "焦点访谈｜开局之年 如何挖掘科技创新和产业创新新潜能？",
+          "url": "https://mp.weixin.qq.com/s/wH-BFGmquo7xMplKTsJV7g?scene=1&click_id=79",
+          "date": "2026-01-21"
+        },
+        {
+          "title": "一体推进教育科技人才发展 加快实现高水平科技自立自强——深...",
+          "url": "http://sti.xm.gov.cn/xwdt/ldxw/202601/t20260104_2975293.htm",
+          "date": "2026-01-04"
+        },
+        {
+          "title": "政府信息公开指南",
+          "url": "http://sti.xm.gov.cn/xxgk/zfxxgk/gkzn/",
+          "date": ""
+        },
+        {
+          "title": "法定主动公开内容",
+          "url": "http://sti.xm.gov.cn/xxgk/zfxxgk/xxgkml/",
+          "date": ""
+        },
+        {
+          "title": "政府信息公开申请",
+          "url": "http://sti.xm.gov.cn/xxgk/zfxxgk/ysqgk/",
+          "date": ""
+        },
+        {
+          "title": "政府信息公开制度",
+          "url": "http://sti.xm.gov.cn/xxgk/zfxxgk/gkgd/",
+          "date": ""
+        },
+        {
+          "title": "政府信息公开年报",
+          "url": "http://sti.xm.gov.cn/xxgk/zfxxgk/xxgknb/",
+          "date": ""
+        },
+        {
+          "title": "政策法规",
+          "url": "http://sti.xm.gov.cn/xxgk/zcfg/",
+          "date": ""
+        },
+        {
+          "title": "厦门市科学技术局关于印发厦门市自然科学基金项目管理办法的通知",
+          "url": "http://sti.xm.gov.cn/xxgk/zcfg/202509/t20250930_2958822.htm",
+          "date": "2025-09-30"
+        },
+        {
+          "title": "厦门市科学技术局关于印发厦门市新型研发机构管理办法的通知",
+          "url": "http://sti.xm.gov.cn/xxgk/zcfg/202508/t20250808_2949568.htm",
+          "date": "2025-08-08"
+        },
+        {
+          "title": "厦门市科学技术局关于印发厦门市创新联合体管理办法的通知",
+          "url": "http://sti.xm.gov.cn/xxgk/zcfg/202507/t20250711_2944784.htm",
+          "date": "2025-07-11"
+        },
+        {
+          "title": "厦门市科学技术局 厦门市财政局关于印发加快高新技术企业发展若干措施的通知",
+          "url": "http://sti.xm.gov.cn/xxgk/zcfg/202505/t20250512_2932275.htm",
+          "date": "2025-05-08"
+        },
+        {
+          "title": "政策解读",
+          "url": "http://sti.xm.gov.cn/xxgk/zcjd/",
+          "date": ""
+        },
+        {
+          "title": "《厦门市关于支持企业加强研发活动加大研发投入的若干措施》政策解读",
+          "url": "http://sti.xm.gov.cn/xxgk/zcjd/202604/t20260402_2989127.htm",
+          "date": "2026-04-02"
+        }
+      ],
+      "newCount": 30
+    },
+    {
+      "siteId": "most_gov_cn",
+      "siteName": "科学技术部",
+      "url": "http://www.most.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "李强在四川调研时强调：着力推进新型电网建设 加快能源结构调整优化 为经济社会高质量发展提供有力支撑",
+          "url": "https://www.news.cn/politics/leaders/20260401/e23507ee45674f529dd3f6923791ff39/c.html",
+          "date": ""
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "ndrc_gov_cn",
+      "siteName": "国家发展和改革委员会",
+      "url": "http://www.ndrc.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "成果转化探索新途径——学习贯彻习近平总书记全国两会期间关于发展新质生产力重要论述系列述...",
+          "url": "http://www.xinhuanet.com/politics/leaders/20260401/59c305f1a25744e3ab9180d586a09f8b/c.html",
+          "date": ""
+        },
+        {
+          "title": "李强在四川调研时强调：着力推进新型电网建设 加快能源结构调整优化 为经济社会高质量发展提...",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7064414.htm",
+          "date": ""
+        },
+        {
+          "title": "“十五五”新图景：民生保障从“有”向“优”不断升级",
+          "url": "http://www.ndrc.gov.cn/xwdt/spfg/mtjj/202604/t20260402_1404480.html",
+          "date": "2026-04-02"
+        }
+      ],
+      "newCount": 3
+    },
+    {
+      "siteId": "mnr_gov_cn",
+      "siteName": "自然资源部",
+      "url": "http://www.mnr.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "湖北厅创新举措提升自然资源要素配置效率",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202604/t20260402_2917735.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部人力资源开发中心关于递补考察对象的公告\n                                                04-02",
+          "url": "http://gi.mnr.gov.cn/202604/t20260402_2917737.html",
+          "date": ""
+        }
+      ],
+      "newCount": 2
+    },
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "福建省科学技术厅",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "国务院关于同意在广东省暂时调整实施有关行政法规规定的批复",
+          "url": "https://www.gov.cn/zhengce/content/202604/content_7064502.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "国务院办公厅印发《关于建立企业信用状况综合评价体系的实施方案》的通知",
+          "url": "https://www.gov.cn/zhengce/content/202604/content_7064504.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "赵龙调研商务市场监管退役军人事务工作",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260402_7118370.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "赵龙会见哈萨克斯坦贸易和一体化部部长沙卡利耶夫",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260402_7118371.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "福建省社科理论界举办持续贯彻习近平总书记来闽考察“四个更大”重要要求座谈会",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260402_7118372.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "我省部署2026年防汛抗旱及清明至五一安全生产工作",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260402_7118374.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "省科技厅直属单位团委联合福建农林大学团委召开青年理论学习小组集中学习暨2026年第一期研讨交流会",
+          "url": "http://kjt.fujian.gov.cn/xxgk/kjyw/stdt/202604/t20260402_7118854.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "关于2026年度福建省重点实验室考评拟确认为免评为优名单的公示",
+          "url": "http://kjt.fujian.gov.cn/xxgk/tzgg/202604/t20260402_7118807.htm",
+          "date": "2026-04-02"
+        }
+      ],
+      "newCount": 8
+    },
+    {
+      "siteId": "gxj_xm_gov_cn",
+      "siteName": "厦门市工业和信息化局",
+      "url": "http://gxj.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "市工信局直属党委召开2025年度党组织书记抓基层党建工作述职评议会",
+          "url": "http://gxj.xm.gov.cn/xwzx/gzdt/202604/t20260402_2988986.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "厦门市工业和信息化局转发关于开展2026年制造业中试服务平台培育认定工作的通知",
+          "url": "http://gxj.xm.gov.cn/xwzx/tzgg/202604/t20260402_2989166.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "关于拟颁发“光荣在党50年”纪念章 相关党员名单的公示",
+          "url": "http://gxj.xm.gov.cn/xwzx/tzgg/202604/t20260402_2988985.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "厦门市工业和信息化局关于转发工信部高新司关于征集面向金砖国家的先进适用技术和解决方案的通知",
+          "url": "http://gxj.xm.gov.cn/xwzx/tzgg/202604/t20260402_2988939.htm",
+          "date": "2026-04-02"
+        }
+      ],
+      "newCount": 4
+    },
+    {
+      "siteId": "xmgh_org",
+      "siteName": "厦门市工商联",
+      "url": "http://www.xmgh.org/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平致电祝贺萨苏当选连任刚果（布）总统",
+          "url": "https://www.acftu.org/xwdt/szyw/202603/t20260331_886854.html",
+          "date": "2026-03-31"
+        },
+        {
+          "title": "中共中央和习近平总书记欢迎并邀请中国国民党主席郑丽...",
+          "url": "https://www.acftu.org/xwdt/szyw/202603/t20260330_886822.html",
+          "date": "2026-03-30"
+        },
+        {
+          "title": "习近平致电祝贺通伦当选连任老挝国家主席",
+          "url": "https://www.acftu.org/xwdt/szyw/202603/t20260323_886650.html",
+          "date": "2026-03-23"
+        },
+        {
+          "title": "习近平向拉美和加勒比国家共同体第十届峰会致贺电",
+          "url": "https://www.acftu.org/xwdt/szyw/202603/t20260322_886588.html",
+          "date": "2026-03-22"
+        },
+        {
+          "title": "《习近平经济文选》第一卷和《习近平与大学生朋友们》 ...",
+          "url": "https://www.acftu.org/xwdt/szyw/202603/t20260318_886490.html",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "国家主席习近平任免驻外大使",
+          "url": "https://www.acftu.org/xwdt/szyw/202603/t20260317_886475.html",
+          "date": "2026-03-17"
+        },
+        {
+          "title": "《求是》杂志发表习近平总书记重要文章《推动海洋经济...",
+          "url": "https://www.acftu.org/xwdt/szyw/202603/t20260315_886396.html",
+          "date": "2026-03-15"
+        },
+        {
+          "title": "十四届全国人大四次会议在京闭幕",
+          "url": "https://www.acftu.org/xwdt/szyw/202603/t20260312_886356.html",
+          "date": "2026-03-12"
+        },
+        {
+          "title": "市总工会召开2026年党风廉政建设工作会议",
+          "url": "http://www.xmgh.org/ghsc/ghdt/szghdt/szyw/202604/t20260402_306591.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "厦门洛阳两地工会开展劳模工匠和技能人才交流活动",
+          "url": "http://www.xmgh.org/ghsc/ghdt/szghdt/szyw/202604/t20260402_306614.htm",
+          "date": "2026-03-30"
+        },
+        {
+          "title": "市总工会召开厦门市职工学堂2026年工作会议",
+          "url": "http://www.xmgh.org/ghsc/ghdt/szghdt/szyw/202603/t20260325_306255.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "市制造业工联会举办2026年度基层工会财务经审工作集中辅导",
+          "url": "http://www.xmgh.org/ghsc/ghdt/qzghdt/202604/t20260402_306603.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "厦门市教育工会开展“玫瑰书香 菽园阅读”活动",
+          "url": "http://www.xmgh.org/ghsc/ghdt/qzghdt/202604/t20260402_306617.htm",
+          "date": "2026-03-23"
+        },
+        {
+          "title": "思明区总工会：厦门骑手同享团圆饭、共迎新春",
+          "url": "http://www.xmgh.org/ghsc/ghdt/qzghdt/202602/t20260209_305290.htm",
+          "date": "2026-02-04"
+        }
+      ],
+      "newCount": 14
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "厦门市思明区科技和信息化局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门市思明区科技和工信局机构职能目录表",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/jgzn/202409/t20240930_1072718.htm",
+          "date": null
+        },
+        {
+          "title": "2026年厦门市思明区政务服务保障中心预算说明",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136253.htm",
+          "date": null
+        },
+        {
+          "title": "2026年厦门市思明区信息中心预算说明",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136252.htm",
+          "date": null
+        },
+        {
+          "title": "2026年厦门市思明区企业服务中心预算说明",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136251.htm",
+          "date": null
+        },
+        {
+          "title": "2026年厦门市思明区科技和工信局部门预算说明",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136238.htm",
+          "date": null
+        },
+        {
+          "title": "2026年厦门市思明区科技和工信局预算说明",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136231.htm",
+          "date": null
+        },
+        {
+          "title": "2024年厦门市思明区信息中心项目支出绩效自评",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202505/t20250530_1102036.htm",
+          "date": null
+        },
+        {
+          "title": "2024年度厦门市思明区政务服务保障中心单位决算",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250915620634326066.pdf",
+          "date": null
+        },
+        {
+          "title": "2024年度厦门市思明区信息中心单位决算",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020260331559282276164.pdf",
+          "date": null
+        },
+        {
+          "title": "2024年度厦门市思明区企业服务中心单位决算",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020260106543144379754.pdf",
+          "date": null
+        },
+        {
+          "title": "2024年度原厦门市思明区行政审批管理局（本级）部门决算",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250917627936908711.pdf",
+          "date": null
+        },
+        {
+          "title": "2024年度厦门市思明区行政审批管理局（汇总）部门决算",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250917628797215000.pdf",
+          "date": null
+        },
+        {
+          "title": "2024年度厦门市思明区科技和工信局（汇总）部门决算",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250901562907359495.pdf",
+          "date": null
+        },
+        {
+          "title": "关于公开遴选“思明数智工场”专业运营机构的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260326_1141938.htm",
+          "date": null
+        },
+        {
+          "title": "关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260324_1141563.htm",
+          "date": null
+        },
+        {
+          "title": "一图读懂《思明区先进制造业高质量发展若干措施》",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139617.htm",
+          "date": null
+        },
+        {
+          "title": "关于《思明区先进制造业高质量发展若干措施》的政策解读",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139605.htm",
+          "date": null
+        },
+        {
+          "title": "厦门市思明区科技和工信局关于印发思明区先进制造业高质量发展若干措施的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139602.htm",
+          "date": null
+        },
+        {
+          "title": "关于拟认定永嘉（厦门）工业有限公司云顶中路505、515号项目为低效工业用地的公示",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/zcfg/202602/t20260228_1138870.htm",
+          "date": null
+        }
+      ],
+      "newCount": 19
+    },
+    {
+      "siteId": "mohurd_gov_cn",
+      "siteName": "住房和城乡建设部",
+      "url": "https://www.mohurd.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "成果转化探索新途径——学习贯彻习近平总书记全国两会期间关于发展新质生产力重要论述系列述评之二",
+          "url": "https://www.news.cn/politics/leaders/20260401/59c305f1a25744e3ab9180d586a09f8b/c.html",
+          "date": "2026-04-01"
+        },
+        {
+          "title": "张铁军到中国物业管理协会调研",
+          "url": "https://www.mohurd.gov.cn/xinwen/jsyw/art/2026/art_bb5ac08059034f2581029ea70c8548cb.html",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "三部门推动高效办成员工录用“一件事”　整合就业登记等7个“单项事”",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_d313e27e962f44d7a169d282c2ed3d4f.html",
+          "date": "2026-04-02"
+        }
+      ],
+      "newCount": 3
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省供销合作社",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "国务院关于同意在广东省暂时调整实施有关行政法规规定的批复",
+          "url": "https://www.gov.cn/zhengce/content/202604/content_7064502.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "国务院办公厅印发《关于建立企业信用状况综合评价体系的实施方案》的通知",
+          "url": "https://www.gov.cn/zhengce/content/202604/content_7064504.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "赵龙调研商务市场监管退役军人事务工作",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260402_7118370.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "赵龙会见哈萨克斯坦贸易和一体化部部长沙卡利耶夫",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260402_7118371.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "福建省社科理论界举办持续贯彻习近平总书记来闽考察“四个更大”重要要求座谈会",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260402_7118372.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "我省部署2026年防汛抗旱及清明至五一安全生产工作",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260402_7118374.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "省慈善总会第四届理事会第八次理事会议召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260402_7118373.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "福建日报评论员：把学习成效切实转化为实干实绩",
+          "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202604/t20260402_7118490.htm",
+          "date": "2026-04-02"
+        }
+      ],
+      "newCount": 8
+    },
+    {
+      "siteId": "xmtorch_xm_gov_cn",
+      "siteName": "厦门市火炬高技术产业开发区管理委员会",
+      "url": "http://xmtorch.xm.gov.cn/xxgk/zfxxgkml/glfw/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门火炬高新区管委会关于“厦门火炬高新区2025年高价值专利组合培育项...",
+          "url": "http://xmtorch.xm.gov.cn/sbxmzj/202604/t20260402_2989108.html",
+          "date": "2026-04-02"
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "as_xm_gov_cn",
+      "siteName": "厦门市应急管理局",
+      "url": "https://as.xm.gov.cn/zwgk/tzgg/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "关于清明节放假的通知",
+          "url": "https://as.xm.gov.cn/202604/t20260401_2988687.htm",
+          "date": "2026-04-01"
+        },
+        {
+          "title": "厦门市数据管理局关于组织开展数字经济新型企业培育入库申报工作的通知",
+          "url": "https://as.xm.gov.cn/202603/t20260327_2987877.htm",
+          "date": "2026-03-27"
+        },
+        {
+          "title": "厦门市数据管理局关于申报厦门市促进数据产业高质量发展相关政策资金的通知",
+          "url": "https://as.xm.gov.cn/202603/t20260320_2986600.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "厦门市政务服务中心周末办事事项清单",
+          "url": "https://as.xm.gov.cn/202603/t20260310_2984709.htm",
+          "date": "2026-03-10"
+        },
+        {
+          "title": "厦门市数据管理局关于征集遴选全市公共数据赋能行业应用场景的通知",
+          "url": "https://as.xm.gov.cn/202603/t20260304_2983896.htm",
+          "date": "2026-03-04"
+        },
+        {
+          "title": "关于2026年春节放假的通知",
+          "url": "https://as.xm.gov.cn/202602/t20260210_2981002.htm",
+          "date": "2026-02-10"
+        },
+        {
+          "title": "厦门市数据管理局关于开展2026年度数字应用场景优秀案例评选的通知",
+          "url": "https://as.xm.gov.cn/202602/t20260206_2980585.htm",
+          "date": "2026-02-06"
+        },
+        {
+          "title": "厦门市数据管理局关于2025年度厦门市科学技术奖补充提名工作的通知",
+          "url": "https://as.xm.gov.cn/202601/t20260112_2976714.htm",
+          "date": "2026-01-12"
+        },
+        {
+          "title": "厦门市数据管理局关于算力服务机构入库名单的公示",
+          "url": "https://as.xm.gov.cn/202601/t20260109_2976511.htm",
+          "date": "2026-01-09"
+        },
+        {
+          "title": "关于2026年元旦节放假的通知",
+          "url": "https://as.xm.gov.cn/202512/t20251229_2974272.htm",
+          "date": "2025-12-29"
+        },
+        {
+          "title": "厦门市数据管理局关于市级政务信息化项目评审增补专家人选公示",
+          "url": "https://as.xm.gov.cn/202511/t20251106_2964997.htm",
+          "date": "2025-11-06"
+        },
+        {
+          "title": "关于向社会公众公开征求《厦门市公共数据  共享开放管理暂行办法》后评估意见的通知",
+          "url": "https://as.xm.gov.cn/202510/t20251010_2959297.htm",
+          "date": "2025-10-10"
+        },
+        {
+          "title": "关于2025年国庆节放假的通知",
+          "url": "https://as.xm.gov.cn/202509/t20250926_2957861.htm",
+          "date": "2025-09-26"
+        },
+        {
+          "title": "关于常态化开展数字技术应用场景  征集的通知",
+          "url": "https://as.xm.gov.cn/202509/t20250917_2956248.htm",
+          "date": "2025-09-17"
+        },
+        {
+          "title": "第六届中国人工智能大赛在厦启动",
+          "url": "https://as.xm.gov.cn/202509/t20250910_2954812.htm",
+          "date": "2025-09-10"
+        },
+        {
+          "title": "一图读懂 | 第六届中国人工智能大赛已启动，欢迎来战！",
+          "url": "https://as.xm.gov.cn/202509/t20250910_2954811.htm",
+          "date": "2025-09-10"
+        }
+      ],
+      "newCount": 16
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 13,
+    "totalNewAnnouncements": 139
+  }
+}

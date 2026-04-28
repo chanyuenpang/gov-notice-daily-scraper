@@ -1,0 +1,22 @@
+{
+  "siteId": "mohurd_gov_cn",
+  "siteName": "www.mohurd.gov.cn",
+  "url": "https://www.mohurd.gov.cn/",
+  "version": 1,
+  "updatedAt": "2026-03-15",
+  "strategy": "css",
+  "confidence": 0.8,
+  "timeout": 30000,
+  "css": {
+    "list": ".news a",
+    "title": "a",
+    "date": ""
+  },
+  "extraction": {
+    "linkPrefix": "https://www.mohurd.gov.cn"
+  },
+  "metadata": {
+    "source": "stage2_subagent",
+    "generatedAt": "2026-03-15T23:21:19.397299"
+  }
+}

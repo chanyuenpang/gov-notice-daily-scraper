@@ -1,0 +1,16 @@
+{
+  "date": "2026-04-28",
+  "crawledAt": "2026-04-28T16:14:00+08:00",
+  "totalSites": 1,
+  "successSites": 1,
+  "failedSites": 0,
+  "totalAnnouncements": 5,
+  "sites": [
+    {
+      "siteId": "hrss_xm_gov_cn",
+      "siteName": "厦门市人力资源和社会保障局",
+      "status": "success",
+      "announcementsCount": 5
+    }
+  ]
+}

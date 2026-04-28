@@ -1,0 +1,805 @@
+{
+  "date": "2026-03-16",
+  "siteId": "fgw_fujian_gov_cn_tzgg",
+  "siteName": "tzgg",
+  "url": "http://fgw.fujian.gov.cn/ztzl/szfjzt/tzgg/",
+  "status": "success",
+  "strategyUsed": "css",
+  "announcements": [
+    {
+      "title": "福建省数据管理局",
+      "url": "http://fgw.fujian.gov.cn../",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于组织开展第九届数字中国建设峰会招商对接项目征集工作的函",
+      "url": "http://fgw.fujian.gov.cn./202602/t20260204_7088937.htm",
+      "date": "2026-02-04",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于公布我省第三批数据企业名单的通知",
+      "url": "http://fgw.fujian.gov.cn./202601/t20260127_7085456.htm",
+      "date": "2026-01-27",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于福建省第三批入库数据企业名单的公示",
+      "url": "http://fgw.fujian.gov.cn./202601/t20260114_7074466.htm",
+      "date": "2026-01-14",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于公布省数据产业集聚区和省数据要素产业园名单的通知",
+      "url": "http://fgw.fujian.gov.cn./202601/t20260108_7072829.htm",
+      "date": "2026-01-08",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于做好2026年度省数字经济重点项目申报工作的通知",
+      "url": "http://fgw.fujian.gov.cn./202512/t20251225_7060687.htm",
+      "date": "2025-12-25",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于省数据产业集聚区和省数据要素产业园拟认定培育名单的公示",
+      "url": "http://fgw.fujian.gov.cn./202512/t20251215_7046511.htm",
+      "date": "2025-12-15",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于2025年福建省数字技术应用场景优秀案例入选名单的公示",
+      "url": "http://fgw.fujian.gov.cn./202512/t20251215_7046271.htm",
+      "date": "2025-12-15",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于明确福建省级公共数据资源授权运营机构的公告",
+      "url": "http://fgw.fujian.gov.cn./202512/t20251204_7042344.htm",
+      "date": "2025-12-04",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于公布我省第二批数据企业名单的通知",
+      "url": "http://fgw.fujian.gov.cn./202510/t20251024_7024844.htm",
+      "date": "2025-10-24",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于福建省第二批入库数据企业名单的公示",
+      "url": "http://fgw.fujian.gov.cn./202510/t20251017_7022663.htm",
+      "date": "2025-10-17",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于开展2025年福建省信息技术应用创新解决方案征集工作的函",
+      "url": "http://fgw.fujian.gov.cn./202509/t20250928_7016064.htm",
+      "date": "2025-09-27",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于向社会公开征求《福建省数据流通交易管理办法（试行）》（公开征求意见稿）意见的公告",
+      "url": "http://fgw.fujian.gov.cn./202509/t20250910_7003572.htm",
+      "date": "2025-09-10",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于开展数据企业常态化入库工作的通知",
+      "url": "http://fgw.fujian.gov.cn./202507/t20250729_6972124.htm",
+      "date": "2025-07-29",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于征集遴选全省公共数据赋能产业发展重点培育应用场景（第二批）的通知",
+      "url": "http://fgw.fujian.gov.cn./202507/t20250722_6969858.htm",
+      "date": "2025-07-22",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于公布福建省首批人工智能行业高质量数据集名单的通知",
+      "url": "http://fgw.fujian.gov.cn./202507/t20250722_6969705.htm",
+      "date": "2025-07-18",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于公布我省第一批数据企业名单的通知",
+      "url": "http://fgw.fujian.gov.cn./202506/t20250618_6928756.htm",
+      "date": "2025-06-18",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于举办2025年“数据要素×”大赛福建分赛的通知",
+      "url": "http://fgw.fujian.gov.cn./202505/t20250508_6909757.htm",
+      "date": "2025-05-08",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于福建省首批人工智能行业高质量数据集名单的公示",
+      "url": "http://fgw.fujian.gov.cn./202504/t20250423_6904003.htm",
+      "date": "2025-04-23",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于印发2025年度省数字经济重点项目名单的通知",
+      "url": "http://fgw.fujian.gov.cn./202504/t20250403_6796829.htm",
+      "date": "2025-04-03",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于公开征集2025年度福建省数字经济核心产业创新企业的通知",
+      "url": "http://fgw.fujian.gov.cn./202504/t20250403_6796823.htm",
+      "date": "2025-04-03",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于开展数据企业摸底入库工作的通知",
+      "url": "http://fgw.fujian.gov.cn./202503/t20250325_6787199.htm",
+      "date": "2025-03-20",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于开展全省企业数据资源普查登记的通知",
+      "url": "http://fgw.fujian.gov.cn./202502/t20250221_6766757.htm",
+      "date": "2025-02-21",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于征集遴选全省公共数据赋能产业发展重点培育示范场景（第一批）的通知",
+      "url": "http://fgw.fujian.gov.cn./202502/t20250213_6714284.htm",
+      "date": "2025-02-12",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于公开征集人工智能行业高质量数据集的通知",
+      "url": "http://fgw.fujian.gov.cn./202502/t20250210_6713209.htm",
+      "date": "2025-02-10",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于公布省数据标注基地名单的通知",
+      "url": "http://fgw.fujian.gov.cn./202501/t20250126_6709532.htm",
+      "date": "2025-01-26",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于组织开展第八届数字中国建设峰会招商对接项目征集工作的函",
+      "url": "http://fgw.fujian.gov.cn./202501/t20250124_6708904.htm",
+      "date": "2025-01-24",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于向社会公开征求《福建省公共数据资源登记管理办法（试行）》（公开征求意见稿）意见的公告",
+      "url": "http://fgw.fujian.gov.cn./202501/t20250117_6704168.htm",
+      "date": "2025-01-17",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于做好2025年度省数字经济重点项目申报工作的通知",
+      "url": "http://fgw.fujian.gov.cn./202501/t20250106_6619040.htm",
+      "date": "2025-01-06",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于2024年福建省数字技术应用场景优秀案例入选名单的公示",
+      "url": "http://fgw.fujian.gov.cn../../../zwgk/gsgg/202501/t20250102_6601404.htm",
+      "date": "2025-01-02",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于2025年省数字经济核心产业集聚区名单的公示",
+      "url": "http://fgw.fujian.gov.cn../../../zwgk/gsgg/202501/t20250102_6601181.htm",
+      "date": "2025-01-02",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于开展省数据标注基地申报认定工作的通知",
+      "url": "http://fgw.fujian.gov.cn./202411/t20241128_6585838.htm",
+      "date": "2024-11-28",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于公布《2024年福建省信息技术应用创新典型解决方案、应用案例集》入选项目的通知",
+      "url": "http://fgw.fujian.gov.cn./202411/t20241129_6586410.htm",
+      "date": "2024-11-22",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于2024年福建省信息技术应用创新解决方案入选项目的公示",
+      "url": "http://fgw.fujian.gov.cn./202411/t20241111_6564361.htm",
+      "date": "2024-11-11",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于开展2024年福建省信息技术应用创新解决方案征集工作的通知",
+      "url": "http://fgw.fujian.gov.cn./202410/t20241031_6556453.htm",
+      "date": "2024-08-09",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于公布2024年度全省数字经济核心产业创新企业名单的通知",
+      "url": "http://fgw.fujian.gov.cn../../../zwgk/gsgg/202406/t20240620_6470897.htm",
+      "date": "2024-06-20",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于公布2024年度全省数据要素应用优秀案例的通知",
+      "url": "http://fgw.fujian.gov.cn./202410/t20241013_6542245.htm",
+      "date": "2024-06-14",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于进一步规范信息化工程招标投标有关事项的函",
+      "url": "http://fgw.fujian.gov.cn./202410/t20241031_6556507.htm",
+      "date": "2024-05-19",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数字福建建设领导小组关于印发2024年数字福建工作要点的通知",
+      "url": "http://fgw.fujian.gov.cn../../../zwgk/xwdt/bwdt/202405/t20240512_6447471.htm",
+      "date": "2024-05-08",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于做好第七届数字中国建设峰会重点招商推介项目征集工作的通知",
+      "url": "http://fgw.fujian.gov.cn../../../zwgk/gsgg/202405/t20240507_6444995.htm",
+      "date": "2024-05-07",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于征集遴选2024年数据要素应用优秀案例的通知",
+      "url": "http://fgw.fujian.gov.cn./202410/t20241016_6543938.htm",
+      "date": "2024-04-23",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "关于公开征集2024年度福建省数字经济核心产业创新企业的通知",
+      "url": "http://fgw.fujian.gov.cn../../../zwgk/gsgg/202404/t20240415_6428790.htm",
+      "date": "2024-04-15",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "关于公开征集2024年度福建省数字经济核心产业创新企业的通知",
+      "url": "http://fgw.fujian.gov.cn./202410/t20241016_6543926.htm",
+      "date": "2024-04-13",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于做好2024年全省新型基础设施项目征集入库工作的通知",
+      "url": "http://fgw.fujian.gov.cn./202410/t20241016_6543944.htm",
+      "date": "2024-03-28",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数据管理局关于印发2024年度省数字经济重点项目名单的通知",
+      "url": "http://fgw.fujian.gov.cn../../../zwgk/gsgg/202403/t20240325_6418886.htm",
+      "date": "2024-03-25",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数字福建建设领导小组办公室关于开展2023年福建省信息技术应用创新解决方案征集工作的通知",
+      "url": "http://fgw.fujian.gov.cn../../../zwgk/gsgg/202307/t20230721_6211460.htm",
+      "date": "2023-07-21",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数字福建建设领导小组办公室关于印发2023年度省数字经济重点项目名单的通知",
+      "url": "http://fgw.fujian.gov.cn../../../zwgk/gsgg/202306/t20230621_6190890.htm",
+      "date": "2023-06-21",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数字福建建设领导小组办公室关于上线试运行数字技术应用场景对接平台的通知",
+      "url": "http://fgw.fujian.gov.cn./202305/t20230516_6169791.htm",
+      "date": "2023-05-05",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数字福建建设领导小组办公室关于征集遴选数据要素开发利用和流通交易典型应用场景的通知",
+      "url": "http://fgw.fujian.gov.cn./202303/t20230316_6131996.htm",
+      "date": "2023-03-16",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省发展和改革委员会关于组织开展第六届数字中国建设峰会招商对接项目征集工作的函",
+      "url": "http://fgw.fujian.gov.cn../../../zfxxgkzl/zfxxgkml/yzdgkdqtxx/202302/t20230224_6120724.htm",
+      "date": "2023-02-24",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数字福建建设领导小组办公室关于开展2022年福建省信息技术应用创新解决方案征集工作的通知",
+      "url": "http://fgw.fujian.gov.cn../../../zwgk/gsgg/202208/t20220825_5981991.htm",
+      "date": "2022-08-25",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省发展和改革委员会关于组织开展2022年度数字技术创新应用场景征集遴选活动的通知",
+      "url": "http://fgw.fujian.gov.cn../../../zfxxgkzl/zfxxgkml/yzdgkdqtxx/202203/t20220307_5851086.htm",
+      "date": "2022-03-07",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "关于征集推荐2022年全省数字经济核心产业领域“独角兽”“未来独角兽”和“瞪羚”创新企业的通知",
+      "url": "http://fgw.fujian.gov.cn../../../zwgk/gsgg/202201/P020220119657305655153.pdf",
+      "date": "2022-01-19",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "国务院办公厅关于做好跨周期调节进一步稳外贸的意见",
+      "url": "http://fgw.fujian.gov.cn./202201/t20220112_5814046.htm",
+      "date": "2022-01-11",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "关于征集全省数字经济重点企业和重点项目的通知",
+      "url": "http://fgw.fujian.gov.cn../../../zwgk/gsgg/201912/t20191217_5155467.htm",
+      "date": "2019-12-17",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省人民政府办公厅关于印发2018年数字福建工作要点的通知",
+      "url": "http://fgw.fujian.gov.cn./201809/t20180926_4512659.htm",
+      "date": "2018-04-11",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省人民政府办公厅关于开展2017年度电子政务绩效考核的通知",
+      "url": "http://fgw.fujian.gov.cn./201804/t20180417_2797721.htm",
+      "date": "2017-08-18",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省人民政府办公厅关于印发2017年数字福建工作要点的通知",
+      "url": "http://fgw.fujian.gov.cn./201804/t20180417_2797720.htm",
+      "date": "2017-03-31",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数字福建建设领导小组办公室关于开展大数据有关培训的通知",
+      "url": "http://fgw.fujian.gov.cn./201509/t20150929_836505.htm",
+      "date": "2015-09-29",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数字福建建设领导小组办公室关于召开2015年数字福建有关重点工作推进会的通知",
+      "url": "http://fgw.fujian.gov.cn./201509/t20150908_836919.htm",
+      "date": "2015-09-08",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "关于举办\"加快互联网经济发展培训班\"的通知",
+      "url": "http://fgw.fujian.gov.cn./201508/t20150824_836683.htm",
+      "date": "2015-08-24",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省发展和改革委员会关于召开大数据应用专题研讨会的通知",
+      "url": "http://fgw.fujian.gov.cn./201507/t20150730_837048.htm",
+      "date": "2015-07-30",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省人民政府办公厅关于印发2015年政府信息公开工作主要任务分解表的通知",
+      "url": "http://fgw.fujian.gov.cn./201804/t20180417_2797667.htm",
+      "date": "2015-05-15",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "关于召开2015年数字福建政策文件宣贯会议的通知",
+      "url": "http://fgw.fujian.gov.cn./201504/t20150427_839924.htm",
+      "date": "2015-04-27",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省人民政府办公厅关于印发2015年数字福建工作要点的通知",
+      "url": "http://fgw.fujian.gov.cn./201502/t20150225_840724.htm",
+      "date": "2015-02-25",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省人民政府关于数字福建智慧城市建设的指导意见",
+      "url": "http://fgw.fujian.gov.cn./201404/t20140414_846215.htm",
+      "date": "2014-04-14",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省人民政府关于印发2014年数字福建工作要点的通知",
+      "url": "http://fgw.fujian.gov.cn./201401/t20140129_847077.htm",
+      "date": "2014-01-29",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省数字福建建设领导小组办公室关于报送2013年工作总结及2014年工作初步思路的通知",
+      "url": "http://fgw.fujian.gov.cn./201311/t20131126_848386.htm",
+      "date": "2013-11-26",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "关于举办“2013空间地理信息平台应用研讨暨移动办公云平台演示推广会”通知",
+      "url": "http://fgw.fujian.gov.cn./201307/t20130719_850273.htm",
+      "date": "2013-07-19",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "国务院办公厅关于印发当前政府信息公开重点工作安排的通知",
+      "url": "http://fgw.fujian.gov.cn./201804/t20180417_2797605.htm",
+      "date": "2013-07-11",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "国务院办公厅关于印发2012年政府信息公开重点工作安排的通知",
+      "url": "http://fgw.fujian.gov.cn./201804/t20180417_2797579.htm",
+      "date": "2012-05-18",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省人民政府办公厅转发省数字办关于2012年数字福建工作要点的通知",
+      "url": "http://fgw.fujian.gov.cn./201203/t20120320_862452.htm",
+      "date": "2012-03-20",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "关于举办第一届“动力100”杯数字福建•无线城市应用推广大赛启动仪式暨第九期《经科讲坛》的通知",
+      "url": "http://fgw.fujian.gov.cn./201108/t20110826_865214.htm",
+      "date": "2011-08-26",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "关于成立省社会保障卡和居民健康信息系统项目专家组的通知",
+      "url": "http://fgw.fujian.gov.cn./200912/t20091217_868320.htm",
+      "date": "2009-12-17",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "<<上一页",
+      "url": "http://fgw.fujian.gov.cnjavascript:;",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "下一页>>",
+      "url": "http://fgw.fujian.gov.cnjavascript:;",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "国家发展改革委",
+      "url": "https://www.ndrc.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "国家发展改革委",
+      "url": "https://www.ndrc.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "北京发展改革委",
+      "url": "http://fgw.beijing.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "安徽省发展改革委",
+      "url": "http://fzggw.ah.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "天津市发展改革委",
+      "url": "http://fzgg.tj.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "重庆市发展改革委",
+      "url": "http://fzggw.cq.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "河北省发展改革委",
+      "url": "https://hbdrc.hebei.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "四川省发展改革委",
+      "url": "http://fgw.sc.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建省发展改革委",
+      "url": "http://fgw.fujian.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "山西省发展改革委",
+      "url": "http://fgw.shanxi.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "贵州省发展改革委",
+      "url": "http://fgw.guizhou.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "江西省发展改革委",
+      "url": "http://drc.jiangxi.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "内蒙古自治区发展改革委",
+      "url": "http://www.nmg.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "云南省发展改革委",
+      "url": "http://yndrc.yn.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "山东省发展改革委",
+      "url": "http://fgw.shandong.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "辽宁省发展改革委",
+      "url": "http://fgw.ln.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "西藏自治区发展改革委",
+      "url": "http://drc.xizang.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "河南省发展改革委",
+      "url": "https://fgw.henan.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "湖北省发展改革委",
+      "url": "http://fgw.hubei.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "吉林省发展改革委",
+      "url": "http://jldrc.jl.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "陕西省发展改革委",
+      "url": "http://sndrc.shaanxi.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "黑龙江省发展改革委",
+      "url": "http://drc.hlj.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "甘肃省发展改革委",
+      "url": "http://fzgg.gansu.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "湖南省发展改革委",
+      "url": "http://fgw.hunan.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "上海市发展改革委",
+      "url": "http://fgw.sh.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "广东省发展改革委",
+      "url": "http://drc.gd.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "青海省发展改革委",
+      "url": "http://fgw.qinghai.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "宁夏自治区发展改革委",
+      "url": "http://fzggw.nx.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "广西自治区发展改革委",
+      "url": "http://fgw.gxzf.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "江苏省发展改革委",
+      "url": "http://fzggw.jiangsu.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "浙江省发展改革委",
+      "url": "http://fzggw.zj.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "新疆自治区发展改革委",
+      "url": "http://xjdrc.xinjiang.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "海南省发展改革委",
+      "url": "http://plan.hainan.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福州市发改委",
+      "url": "http://fgw.fuzhou.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福州市发改委",
+      "url": "http://fgw.fuzhou.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "厦门市发改委",
+      "url": "http://dpc.xm.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "漳州市发改委",
+      "url": "http://fgw.zhangzhou.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "泉州市发改委",
+      "url": "http://fgw.quanzhou.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "三明市发改委",
+      "url": "http://fgw.sm.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "莆田市发改委",
+      "url": "http://fgw.putian.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "南平市发改委",
+      "url": "http://fgw.np.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "龙岩市发改委",
+      "url": "http://fgw.longyan.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "宁德市发改委",
+      "url": "http://fgw.ningde.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "平潭综合实验区",
+      "url": "http://www.pingtan.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "省民族宗教厅",
+      "url": "http://mzzjt.fujian.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "省自然资源厅",
+      "url": "http://zrzyt.fujian.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "省生态环境厅",
+      "url": "http://sthjt.fujian.gov.cn",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "省交通运输厅",
+      "url": "http://jtyst.fujian.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "省农业农村厅",
+      "url": "http://nynct.fujian.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "省退役军人厅",
+      "url": "http://tyjrswt.fujian.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "省海洋渔业局",
+      "url": "http://hyyyj.fujian.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "省市场监管局",
+      "url": "http://scjgj.fujian.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "省机关管理局",
+      "url": "http://jgswglj.fujian.gov.cn/",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建发改委",
+      "url": "http://fgw.fujian.gov.cnjavascript:;",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "闽政通App",
+      "url": "http://fgw.fujian.gov.cnjavascript:;",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    },
+    {
+      "title": "福建发改委",
+      "url": "https://weibo.com/fjdrc",
+      "date": "",
+      "source": "fgw_fujian_gov_cn_tzgg"
+    }
+  ],
+  "ruleGenerated": true,
+  "durationMs": 0,
+  "discoveredSelector": "ul li"
+}

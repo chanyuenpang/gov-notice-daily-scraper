@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-15",
+  "processedAt": "2026-03-15T23:55:00Z",
+  "tasks": [
+    {
+      "siteId": "xmsme_cn",
+      "siteName": "www.xmsme.cn",
+      "url": "http://www.xmsme.cn/",
+      "reason": "redirect to https, needs update"
+    },
+    {
+      "siteId": "js_xm_gov_cn",
+      "siteName": "js.xm.gov.cn",
+      "url": "http://js.xm.gov.cn/",
+      "reason": "DNS not resolved"
+    },
+    {
+      "siteId": "fgw_fujian_gov_cn_gsgg",
+      "siteName": "gsgg",
+      "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/",
+      "reason": "404 not found"
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "kjhxxhj",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "reason": "404 not found"
+    },
+    {
+      "siteId": "fgw_fujian_gov_cn_tzgg",
+      "siteName": "tzgg",
+      "url": "http://fgw.fujian.gov.cn/ztzl/szfjzt/tzgg/",
+      "reason": "200 but no announcements"
+    },
+    {
+      "siteId": "iqb_jimei_gov_cn",
+      "siteName": "XM03103",
+      "url": "https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
+      "reason": "DNS not resolved"
+    }
+  ],
+  "summary": {
+    "total": 6,
+    "processed": 0,
+    "failed": 6,
+    "reasons": {
+      "dns_not_resolved": 2,
+      "404_not_found": 2,
+      "redirect_https": 1,
+      "no_announcements": 1
+    }
+  }
+}

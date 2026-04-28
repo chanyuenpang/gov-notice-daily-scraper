@@ -1,0 +1,223 @@
+{
+  "date": "2026-03-16",
+  "generatedAt": "2026-03-16T10:16:04.374635",
+  "stage": 1,
+  "results": [
+    {
+      "siteId": "xmsme_cn",
+      "siteName": "www.xmsme.cn",
+      "url": "http://www.xmsme.cn/",
+      "status": "failed",
+      "strategyUsed": "semantic",
+      "announcements": [],
+      "error": "未找到符合条件的列表结构",
+      "durationMs": 5139
+    },
+    {
+      "siteId": "js_xm_gov_cn",
+      "siteName": "js.xm.gov.cn",
+      "url": "http://js.xm.gov.cn/",
+      "status": "failed",
+      "strategyUsed": "semantic",
+      "announcements": [],
+      "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at http://js.xm.gov.cn/\nCall log:\n  - navigating to \"http://js.xm.gov.cn/\", waiting until \"domcontentloaded\"\n",
+      "durationMs": 12
+    },
+    {
+      "siteId": "fgw_fujian_gov_cn_gsgg",
+      "siteName": "gsgg",
+      "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/",
+      "status": "failed",
+      "strategyUsed": "semantic",
+      "announcements": [],
+      "error": "未找到符合条件的列表结构",
+      "durationMs": 2314
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "kjhxxhj",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "status": "failed",
+      "strategyUsed": "semantic",
+      "announcements": [],
+      "error": "未找到符合条件的列表结构",
+      "durationMs": 2155
+    },
+    {
+      "siteId": "fgw_fujian_gov_cn_tzgg",
+      "siteName": "tzgg",
+      "url": "http://fgw.fujian.gov.cn/ztzl/szfjzt/tzgg/",
+      "status": "success",
+      "strategyUsed": "semantic",
+      "announcements": [
+        {
+          "title": "福建省数据管理局关于组织开展第九届数字中国建设峰会招商对接项目征集工作的函",
+          "url": "http://fgw.fujian.gov.cn/202602/t20260204_7088937.htm",
+          "date": "2026-02-04"
+        },
+        {
+          "title": "福建省数据管理局关于公布我省第三批数据企业名单的通知",
+          "url": "http://fgw.fujian.gov.cn/202601/t20260127_7085456.htm",
+          "date": "2026-01-27"
+        },
+        {
+          "title": "福建省数据管理局关于福建省第三批入库数据企业名单的公示",
+          "url": "http://fgw.fujian.gov.cn/202601/t20260114_7074466.htm",
+          "date": "2026-01-14"
+        },
+        {
+          "title": "福建省数据管理局关于公布省数据产业集聚区和省数据要素产业园名单的通知",
+          "url": "http://fgw.fujian.gov.cn/202601/t20260108_7072829.htm",
+          "date": "2026-01-08"
+        },
+        {
+          "title": "福建省数据管理局关于做好2026年度省数字经济重点项目申报工作的通知",
+          "url": "http://fgw.fujian.gov.cn/202512/t20251225_7060687.htm",
+          "date": "2025-12-25"
+        },
+        {
+          "title": "福建省数据管理局关于省数据产业集聚区和省数据要素产业园拟认定培育名单的公示",
+          "url": "http://fgw.fujian.gov.cn/202512/t20251215_7046511.htm",
+          "date": "2025-12-15"
+        },
+        {
+          "title": "福建省数据管理局关于2025年福建省数字技术应用场景优秀案例入选名单的公示",
+          "url": "http://fgw.fujian.gov.cn/202512/t20251215_7046271.htm",
+          "date": "2025-12-15"
+        },
+        {
+          "title": "福建省数据管理局关于明确福建省级公共数据资源授权运营机构的公告",
+          "url": "http://fgw.fujian.gov.cn/202512/t20251204_7042344.htm",
+          "date": "2025-12-04"
+        },
+        {
+          "title": "福建省数据管理局关于公布我省第二批数据企业名单的通知",
+          "url": "http://fgw.fujian.gov.cn/202510/t20251024_7024844.htm",
+          "date": "2025-10-24"
+        },
+        {
+          "title": "福建省数据管理局关于福建省第二批入库数据企业名单的公示",
+          "url": "http://fgw.fujian.gov.cn/202510/t20251017_7022663.htm",
+          "date": "2025-10-17"
+        },
+        {
+          "title": "福建省数据管理局关于开展2025年福建省信息技术应用创新解决方案征集工作的函",
+          "url": "http://fgw.fujian.gov.cn/202509/t20250928_7016064.htm",
+          "date": "2025-09-27"
+        },
+        {
+          "title": "福建省数据管理局关于向社会公开征求《福建省数据流通交易管理办法（试行）》（公开征求意见稿）意见的公告",
+          "url": "http://fgw.fujian.gov.cn/202509/t20250910_7003572.htm",
+          "date": "2025-09-10"
+        },
+        {
+          "title": "福建省数据管理局关于开展数据企业常态化入库工作的通知",
+          "url": "http://fgw.fujian.gov.cn/202507/t20250729_6972124.htm",
+          "date": "2025-07-29"
+        },
+        {
+          "title": "福建省数据管理局关于征集遴选全省公共数据赋能产业发展重点培育应用场景（第二批）的通知",
+          "url": "http://fgw.fujian.gov.cn/202507/t20250722_6969858.htm",
+          "date": "2025-07-22"
+        },
+        {
+          "title": "福建省数据管理局关于公布福建省首批人工智能行业高质量数据集名单的通知",
+          "url": "http://fgw.fujian.gov.cn/202507/t20250722_6969705.htm",
+          "date": "2025-07-18"
+        },
+        {
+          "title": "福建省数据管理局关于公布我省第一批数据企业名单的通知",
+          "url": "http://fgw.fujian.gov.cn/202506/t20250618_6928756.htm",
+          "date": "2025-06-18"
+        },
+        {
+          "title": "福建省数据管理局关于举办2025年“数据要素×”大赛福建分赛的通知",
+          "url": "http://fgw.fujian.gov.cn/202505/t20250508_6909757.htm",
+          "date": "2025-05-08"
+        },
+        {
+          "title": "福建省数据管理局关于福建省首批人工智能行业高质量数据集名单的公示",
+          "url": "http://fgw.fujian.gov.cn/202504/t20250423_6904003.htm",
+          "date": "2025-04-23"
+        },
+        {
+          "title": "福建省数据管理局关于印发2025年度省数字经济重点项目名单的通知",
+          "url": "http://fgw.fujian.gov.cn/202504/t20250403_6796829.htm",
+          "date": "2025-04-03"
+        },
+        {
+          "title": "福建省数据管理局关于公开征集2025年度福建省数字经济核心产业创新企业的通知",
+          "url": "http://fgw.fujian.gov.cn/202504/t20250403_6796823.htm",
+          "date": "2025-04-03"
+        },
+        {
+          "title": "福建省数据管理局关于开展数据企业摸底入库工作的通知",
+          "url": "http://fgw.fujian.gov.cn/202503/t20250325_6787199.htm",
+          "date": "2025-03-20"
+        },
+        {
+          "title": "福建省数据管理局关于开展全省企业数据资源普查登记的通知",
+          "url": "http://fgw.fujian.gov.cn/202502/t20250221_6766757.htm",
+          "date": "2025-02-21"
+        },
+        {
+          "title": "福建省数据管理局关于征集遴选全省公共数据赋能产业发展重点培育示范场景（第一批）的通知",
+          "url": "http://fgw.fujian.gov.cn/202502/t20250213_6714284.htm",
+          "date": "2025-02-12"
+        },
+        {
+          "title": "福建省数据管理局关于公开征集人工智能行业高质量数据集的通知",
+          "url": "http://fgw.fujian.gov.cn/202502/t20250210_6713209.htm",
+          "date": "2025-02-10"
+        },
+        {
+          "title": "福建省数据管理局关于公布省数据标注基地名单的通知",
+          "url": "http://fgw.fujian.gov.cn/202501/t20250126_6709532.htm",
+          "date": "2025-01-26"
+        },
+        {
+          "title": "福建省数据管理局关于组织开展第八届数字中国建设峰会招商对接项目征集工作的函",
+          "url": "http://fgw.fujian.gov.cn/202501/t20250124_6708904.htm",
+          "date": "2025-01-24"
+        },
+        {
+          "title": "福建省数据管理局关于向社会公开征求《福建省公共数据资源登记管理办法（试行）》（公开征求意见稿）意见的公告",
+          "url": "http://fgw.fujian.gov.cn/202501/t20250117_6704168.htm",
+          "date": "2025-01-17"
+        },
+        {
+          "title": "福建省数据管理局关于做好2025年度省数字经济重点项目申报工作的通知",
+          "url": "http://fgw.fujian.gov.cn/202501/t20250106_6619040.htm",
+          "date": "2025-01-06"
+        },
+        {
+          "title": "福建省数据管理局关于2024年福建省数字技术应用场景优秀案例入选名单的公示",
+          "url": "http://fgw.fujian.gov.cn/zwgk/gsgg/202501/t20250102_6601404.htm",
+          "date": "2025-01-02"
+        },
+        {
+          "title": "福建省数据管理局关于2025年省数字经济核心产业集聚区名单的公示",
+          "url": "http://fgw.fujian.gov.cn/zwgk/gsgg/202501/t20250102_6601181.htm",
+          "date": "2025-01-02"
+        }
+      ],
+      "error": null,
+      "durationMs": 3621
+    },
+    {
+      "siteId": "iqb_jimei_gov_cn",
+      "siteName": "XM03103",
+      "url": "https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
+      "status": "failed",
+      "strategyUsed": "semantic",
+      "announcements": [],
+      "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/\nCall log:\n  - navigating to \"https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/\", waiting until \"domcontentloaded\"\n",
+      "durationMs": 17
+    }
+  ],
+  "summary": {
+    "total": 6,
+    "success": 1,
+    "failed": 5
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-04-12",
+  "generatedAt": "2026-04-12T07:08:45.668937",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-04-12",
+    "yesterdayDate": "2026-04-11",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "福建省科学技术厅",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "省领导会见法国驻广州总领事罗宏灵一行",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260411_7123474.htm",
+          "date": "2026-04-11"
+        },
+        {
+          "title": "第二期省管干部学习贯彻党的二十届四中全会精神专题研讨班结业",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260411_7123473.htm",
+          "date": "2026-04-11"
+        },
+        {
+          "title": "吸引全球游客感受福建魅力",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260411_7123475.htm",
+          "date": "2026-04-11"
+        }
+      ],
+      "newCount": 3
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省供销合作社",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "省领导会见法国驻广州总领事罗宏灵一行",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260411_7123474.htm",
+          "date": "2026-04-11"
+        },
+        {
+          "title": "第二期省管干部学习贯彻党的二十届四中全会精神专题研讨班结业",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260411_7123473.htm",
+          "date": "2026-04-11"
+        },
+        {
+          "title": "吸引全球游客感受福建魅力",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260411_7123475.htm",
+          "date": "2026-04-11"
+        },
+        {
+          "title": "“数字海上福建”建设将抓这些大项目",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260411_7123472.htm",
+          "date": "2026-04-11"
+        }
+      ],
+      "newCount": 4
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 2,
+    "totalNewAnnouncements": 7
+  }
+}

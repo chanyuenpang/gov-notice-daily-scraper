@@ -1,0 +1,278 @@
+{
+  "date": "2026-04-04",
+  "generatedAt": "2026-04-04T14:03:50.101347",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-04-04",
+    "yesterdayDate": "2026-04-03",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "dpc_xm_gov_cn",
+      "siteName": "厦门市发展和改革委员会",
+      "url": "http://dpc.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "打响“厦门场景”品牌",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202604/t20260403_2989293.htm",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于公布2026年度厦门市重点用能单位名单的通知",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260403_2989344.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "六一创新（厦门）科技有限公司在中国香港投资新设宠途国际有限公司备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260403_2989416.htm",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "优强（厦门）咨询有限公司在新加坡设立咨询类全资子公司优强新加坡有限公司项目备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260403_2989414.htm",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "厦门隆威盛机电工程有限公司在匈牙利新设乔美克贸易有限公司项目备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260403_2989413.htm",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "罗普特科技集团股份有限公司在中国香港新建罗普特科技集团香港有限公司ROPEOK TECHNOLOGY GROUP HONG KONG LIMITED项目备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260403_2989409.htm",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "厦门百应供应链管理有限公司并购七匹狼（香港）投资有限公司100%股权并增资项目备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260403_2989404.htm",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于同意集有（厦门）实业有限公司与厦门鑫集鸿工贸有限公司在泰国新设集有实业（泰国）有限公司项目变更有关事项的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260403_2989387.htm",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达2026年第十二批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202604/t20260403_2989334.htm",
+          "date": "2026-04-02"
+        }
+      ],
+      "newCount": 9
+    },
+    {
+      "siteId": "ndrc_gov_cn",
+      "siteName": "国家发展和改革委员会",
+      "url": "http://www.ndrc.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "产业发展开创新局面——学习贯彻习近平总书记全国两会期间关于发展新质生产力重要论述系列述...",
+          "url": "http://www.xinhuanet.com/politics/leaders/20260402/056b795b493c4ffc8a42b39fb03bd637/c.html",
+          "date": ""
+        },
+        {
+          "title": "刘国中在浙江、江西调研时强调：加快建设现代化水网 全面推进江河保护治理",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7064525.htm",
+          "date": ""
+        },
+        {
+          "title": "关于印发《全国公共信用信息基础目录(2026年版)》和《全国失信惩戒措施基础清单(2026年版)》...",
+          "url": "http://www.ndrc.gov.cn/xwdt/tzgg/202604/t20260403_1404510.html",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "“十五五”新图景：向农机装备空白处挺进",
+          "url": "http://www.ndrc.gov.cn/xwdt/spfg/mtjj/202604/t20260403_1404496.html",
+          "date": "2026-04-03"
+        }
+      ],
+      "newCount": 4
+    },
+    {
+      "siteId": "mnr_gov_cn",
+      "siteName": "自然资源部",
+      "url": "http://www.mnr.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "2026年全球测量师日青岛主场活动举办",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202604/t20260403_2917823.html",
+          "date": ""
+        },
+        {
+          "title": "海南持续推进不动产统一登记改革",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202604/t20260403_2917812.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部所属单位2026年度公开招聘工作人员公告（第二批）\n                                                04-03",
+          "url": "http://gi.mnr.gov.cn/202604/t20260403_2917831.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部第四海洋研究所2026年度第一批公开招聘考察对象名单\n                                                04-03",
+          "url": "http://gi.mnr.gov.cn/202604/t20260403_2917830.html",
+          "date": ""
+        },
+        {
+          "title": "关于符合甲级规划资质条件的规划编制单位名单（第四十八批）的公示\n                                                04-03",
+          "url": "http://gi.mnr.gov.cn/202604/t20260403_2917826.html",
+          "date": ""
+        },
+        {
+          "title": "住房城乡建设部办公厅　自然资源部办公厅关于印发完善城市更新工程项目建设实施管理机制...\n                                                04-03",
+          "url": "http://gi.mnr.gov.cn/202604/t20260403_2917820.html",
+          "date": ""
+        }
+      ],
+      "newCount": 6
+    },
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "福建省科学技术厅",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "全国人大教科文卫工作培训班在漳州举行",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260403_7119495.htm",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "赵龙在漳州调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260403_7119497.htm",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "全国政协教科卫体委员会来闽开展专题调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260404_7119516.htm",
+          "date": "2026-04-04"
+        },
+        {
+          "title": "全省思想政治工作推进会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260404_7119517.htm",
+          "date": "2026-04-04"
+        },
+        {
+          "title": "省公安厅举办树立和践行正确政绩观学习教育读书班",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260404_7119518.htm",
+          "date": "2026-04-04"
+        },
+        {
+          "title": "科技部、金融监管总局、工业和信息化部、国家知识产权局 《关于加快推动科技保险高质量发展 有力支撑高水平科技自立自强的若干意见》政策问答",
+          "url": "http://kjt.fujian.gov.cn/xxgk/zcjd/qtzcwjjd/202604/t20260403_7119095.htm",
+          "date": "2026-04-03"
+        }
+      ],
+      "newCount": 6
+    },
+    {
+      "siteId": "gxj_xm_gov_cn",
+      "siteName": "厦门市工业和信息化局",
+      "url": "http://gxj.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门市工业和信息化局关于组织开展2026年度福建省级绿色工厂推荐和自评价工作的通知",
+          "url": "http://gxj.xm.gov.cn/xwzx/tzgg/202604/t20260403_2989433.htm",
+          "date": "2026-04-03"
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "jyt_fujian_gov_cn",
+      "siteName": "福建省教育厅",
+      "url": "http://jyt.fujian.gov.cn/xxgk/gggs/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "2026年双学士学位人才培养项目名单的公示",
+          "url": "http://jyt.fujian.gov.cn/202604/t20260403_7118950.htm",
+          "date": "2026-04-03"
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "mohurd_gov_cn",
+      "siteName": "住房和城乡建设部",
+      "url": "https://www.mohurd.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平总书记关切事丨让人民宜居安居",
+          "url": "https://www.news.cn/politics/leaders/20260402/84d2969d82614cf3a672f5b879e2b205/c.html",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "产业发展开创新局面——学习贯彻习近平总书记全国两会期间关于发展新质生产力重要论述系列述评之三",
+          "url": "https://www.news.cn/politics/leaders/20260402/056b795b493c4ffc8a42b39fb03bd637/c.html",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "树立和践行正确政绩观学习教育中央第五指导组进驻住房和城乡建设部见面会召开",
+          "url": "https://www.mohurd.gov.cn/xinwen/jsyw/art/2026/art_54a8a5b196ca4db095dc05bdc402160d.html",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "一体推进城市体检与城市更新",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_382521bb76234a5e9be6b1460cffcdd6.html",
+          "date": "2026-04-03"
+        }
+      ],
+      "newCount": 4
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省供销合作社",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "全国人大教科文卫工作培训班在漳州举行",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260403_7119495.htm",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "赵龙在漳州调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260403_7119497.htm",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "全国政协教科卫体委员会来闽开展专题调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260404_7119516.htm",
+          "date": "2026-04-04"
+        },
+        {
+          "title": "全省思想政治工作推进会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260404_7119517.htm",
+          "date": "2026-04-04"
+        },
+        {
+          "title": "省公安厅举办树立和践行正确政绩观学习教育读书班",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260404_7119518.htm",
+          "date": "2026-04-04"
+        },
+        {
+          "title": "今年前2个月福建电线及电缆出口同比增长20.1%",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260404_7119522.htm",
+          "date": "2026-04-04"
+        },
+        {
+          "title": "多部门部署开展“一起益企”中小企业服务行动",
+          "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202604/t20260403_7118986.htm",
+          "date": "2026-04-03"
+        }
+      ],
+      "newCount": 7
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 8,
+    "totalNewAnnouncements": 38
+  }
+}

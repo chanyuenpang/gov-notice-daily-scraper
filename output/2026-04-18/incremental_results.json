@@ -1,0 +1,272 @@
+{
+  "date": "2026-04-18",
+  "generatedAt": "2026-04-18T07:13:19.233771",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-04-18",
+    "yesterdayDate": "2026-04-17",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "most_gov_cn",
+      "siteName": "科学技术部",
+      "url": "http://www.most.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平致电祝贺盖莱当选连任吉布提总统",
+          "url": "https://www.news.cn/politics/leaders/20260417/cd229f9a697949d88f9a163566dcf56a/c.html",
+          "date": ""
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "ndrc_gov_cn",
+      "siteName": "国家发展和改革委员会",
+      "url": "http://www.ndrc.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平致电祝贺盖莱当选连任吉布提总统",
+          "url": "https://www.news.cn/politics/leaders/20260417/cd229f9a697949d88f9a163566dcf56a/c.html",
+          "date": ""
+        },
+        {
+          "title": "丁薛祥会见土库曼斯坦总统别尔德穆哈梅多夫",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7066012.htm",
+          "date": ""
+        },
+        {
+          "title": "刘国中在山西调研时强调：着力抓好春季农业生产 扎实开展常态化精准帮扶",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7065977.htm",
+          "date": ""
+        },
+        {
+          "title": "2026年度国家发展改革委财政金融和信用建设司课题委托研究征集公告",
+          "url": "http://www.ndrc.gov.cn/xwdt/tzgg/202604/t20260417_1404748.html",
+          "date": "2026-04-16"
+        },
+        {
+          "title": "《低空启航 赋能未来》系列主题短视频之一｜农林作业篇",
+          "url": "http://www.ndrc.gov.cn/xwdt/spfg/zfzjt/202604/t20260417_1404755.html",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "感知中国生态—全民国家教育日·生态安全专题宣传",
+          "url": "http://www.ndrc.gov.cn/xwdt/spfg/zfzjt/202604/t20260417_1404752.html",
+          "date": "2026-04-17"
+        }
+      ],
+      "newCount": 6
+    },
+    {
+      "siteId": "mnr_gov_cn",
+      "siteName": "自然资源部",
+      "url": "http://www.mnr.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平致电祝贺盖莱当选连任吉布提总统",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7066088.htm",
+          "date": ""
+        },
+        {
+          "title": "让中越“同志加兄弟”的深厚情谊焕发青春...",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7065801.htm",
+          "date": ""
+        },
+        {
+          "title": "习近平同越共中央总书记、国家主席苏林举...",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7065680.htm",
+          "date": ""
+        },
+        {
+          "title": "自然资源部启动第五批节地技术和节地模式...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202604/t20260417_2926916.html",
+          "date": ""
+        },
+        {
+          "title": "我国新增两处世界地质公园",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202604/t20260417_2926915.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部油气资源战略研究中心2026年预算\n                                                04-17",
+          "url": "http://gi.mnr.gov.cn/202604/t20260417_2926936.html",
+          "date": ""
+        }
+      ],
+      "newCount": 6
+    },
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "福建省科学技术厅",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "国务院办公厅转发海关总署《关于促进综合保税区扩能提质的若干措施》的通知",
+          "url": "https://www.gov.cn/zhengce/content/202604/content_7066113.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "周祖翼在泉州调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260417_7125609.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "赵龙会见中国海油董事长张传江",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260417_7125580.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "省领导赴福州福清市调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260417_7125582.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "树立和践行正确政绩观学习教育省委督导组培训会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260417_7125581.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "福建省科学技术厅关于公示2026年概念验证中心与产业技术研发公共服务平台拟认定名单的通知",
+          "url": "http://kjt.fujian.gov.cn/xxgk/tzgg/202604/t20260417_7125860.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "福建省科学技术厅关于2026年科技保险保费补贴“免申即享”拟支持企业名单的公示",
+          "url": "http://kjt.fujian.gov.cn/xxgk/tzgg/202604/t20260417_7125847.htm",
+          "date": "2026-04-17"
+        }
+      ],
+      "newCount": 7
+    },
+    {
+      "siteId": "gxj_xm_gov_cn",
+      "siteName": "厦门市工业和信息化局",
+      "url": "http://gxj.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "深化金砖产业合作，精准对接印尼市场",
+          "url": "http://gxj.xm.gov.cn/xwzx/gzdt/202604/t20260417_2991544.htm",
+          "date": "2026-04-17"
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "xmgh_org",
+      "siteName": "厦门市工商联",
+      "url": "http://www.xmgh.org/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "“聚力挥拍 凝心共赢”——象屿化工成功举办匹克球体验...",
+          "url": "http://www.xmgh.org/ghsc/ghdt/jcghdt/202604/t20260416_306995.htm",
+          "date": "2026-04-16"
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "mohurd_gov_cn",
+      "siteName": "住房和城乡建设部",
+      "url": "https://www.mohurd.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平致电祝贺盖莱当选连任吉布提总统",
+          "url": "https://www.news.cn/politics/leaders/20260417/cd229f9a697949d88f9a163566dcf56a/c.html",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "近镜头｜习近平总书记寄望中越青年做好“接棒人”",
+          "url": "https://www.news.cn/politics/leaders/20260416/dff137d8655c4b1588a704cd0f3fc8c5/c.html",
+          "date": "2026-04-16"
+        },
+        {
+          "title": "去库存主导下楼市呈现复苏态势",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_3acd9b738d9d4f47980d9c8f1df6154b.html",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "多部门首次发布《口岸重点管控外来物种名录》　5月1日起实施",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_817d1813adbe4e61a358436e7ef9dd7b.html",
+          "date": "2026-04-17"
+        }
+      ],
+      "newCount": 4
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省供销合作社",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "国务院办公厅转发海关总署《关于促进综合保税区扩能提质的若干措施》的通知",
+          "url": "https://www.gov.cn/zhengce/content/202604/content_7066113.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "周祖翼在泉州调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260417_7125609.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "赵龙会见中国海油董事长张传江",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260417_7125580.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "省领导赴福州福清市调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260417_7125582.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "树立和践行正确政绩观学习教育省委督导组培训会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260417_7125581.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "省领导赴漳州调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260417_7125579.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "藏在日常穿搭里的技术创新 福建纺织鞋服产业高质量发展的密码",
+          "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202604/t20260417_7125697.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "title": "福建工业数据安全主题活动在榕举办",
+          "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202604/t20260416_7125369.htm",
+          "date": "2026-04-16"
+        }
+      ],
+      "newCount": 8
+    },
+    {
+      "siteId": "xmtorch_xm_gov_cn",
+      "siteName": "厦门市火炬高技术产业开发区管理委员会",
+      "url": "http://xmtorch.xm.gov.cn/xxgk/zfxxgkml/glfw/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门火炬高新区管委会关于开展第十二批“火炬智能制造服务商”和“智能...",
+          "url": "http://xmtorch.xm.gov.cn/sbxmzj/202604/t20260417_2991612.html",
+          "date": "2026-04-17"
+        }
+      ],
+      "newCount": 1
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 9,
+    "totalNewAnnouncements": 35
+  }
+}

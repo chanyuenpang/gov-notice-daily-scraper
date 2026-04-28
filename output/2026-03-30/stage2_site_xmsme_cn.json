@@ -1,0 +1,42 @@
+{
+  "siteId": "xmsme_cn",
+  "siteName": "厦门市中小企业服务中心",
+  "url": "http://www.xmsme.cn/",
+  "status": "success",
+  "strategyUsed": "subagent_analyzed",
+  "announcements": [
+    {
+      "title": "培训活动",
+      "url": "https://px.xmsme.cn/",
+      "site_id": "xmsme_cn",
+      "crawled_at": "2026-03-30T07:16:17.046979"
+    },
+    {
+      "title": "企服商城",
+      "url": "https://fw.xmsme.cn/",
+      "site_id": "xmsme_cn",
+      "crawled_at": "2026-03-30T07:16:17.046989"
+    },
+    {
+      "title": "法律服务",
+      "url": "https://law.xmsme.cn/",
+      "site_id": "xmsme_cn",
+      "crawled_at": "2026-03-30T07:16:17.046992"
+    },
+    {
+      "title": "数字化转型",
+      "url": "https://zxszh.xmsme.cn/home",
+      "site_id": "xmsme_cn",
+      "crawled_at": "2026-03-30T07:16:17.046993"
+    },
+    {
+      "title": "厦门市中小企业服务中心",
+      "url": "http://fwzx.xmsme.cn/",
+      "site_id": "xmsme_cn",
+      "crawled_at": "2026-03-30T07:16:17.046994"
+    }
+  ],
+  "ruleGenerated": true,
+  "durationMs": 0,
+  "crawled_at": "2026-03-30T07:16:17.046996"
+}

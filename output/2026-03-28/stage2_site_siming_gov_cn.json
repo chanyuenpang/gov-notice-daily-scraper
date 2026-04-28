@@ -1,0 +1,725 @@
+{
+  "siteId": "siming_gov_cn",
+  "announcements": [
+    {
+      "title": "政务公开",
+      "date": "",
+      "url": "http://www.siming.gov.cn/xxgk/"
+    },
+    {
+      "title": "解读回应",
+      "date": "",
+      "url": "http://www.siming.gov.cn/jdhy/"
+    },
+    {
+      "title": "办事服务",
+      "date": "",
+      "url": "http://www.siming.gov.cn/wsbs/"
+    },
+    {
+      "title": "互动交流",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zmhd/"
+    },
+    {
+      "title": "走进思明",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zjsm/"
+    },
+    {
+      "title": "行政规范性文件",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/gfxzc/xzgfxwj/"
+    },
+    {
+      "title": "行政规范性文件清理目录",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/gfxzc/zcgfxwjql/"
+    },
+    {
+      "title": "思明区人民政府",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkzn/"
+    },
+    {
+      "title": "发展和改革局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/zfxxgkzn/"
+    },
+    {
+      "title": "科技和工信局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkzn/"
+    },
+    {
+      "title": "人力资源和社会保障局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/rlzyhshbzj/zfxxgkzn/"
+    },
+    {
+      "title": "住房和建设局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jsj/zfxxgkzn/"
+    },
+    {
+      "title": "文化和旅游局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/whtycbj/zfxxgkzn/"
+    },
+    {
+      "title": "卫生健康局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/wshjhsyj/zfxxgkzn/"
+    },
+    {
+      "title": "退役军人事务局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/tyjrswj/zfxxgkzn/"
+    },
+    {
+      "title": "应急管理局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/aqscjdglj/zfxxgkzn/"
+    },
+    {
+      "title": "市政园林局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/szylj/zfxxgkzn/"
+    },
+    {
+      "title": "城市管理和综合执法局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/csglxzzfj/zfxxgkzn/"
+    },
+    {
+      "title": "工业园区管委会",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/gjswqgwh/zfxxgkzn/"
+    },
+    {
+      "title": "鼓浪屿街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/glyjd/zfxxgkzn/"
+    },
+    {
+      "title": "鹭江街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ljjd/zfxxgkzn/"
+    },
+    {
+      "title": "中华街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/zhjd/zfxxgkzn/"
+    },
+    {
+      "title": "厦港街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/xgjd/zfxxgkzn/"
+    },
+    {
+      "title": "开元街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/kyjd/zfxxgkzn/"
+    },
+    {
+      "title": "筼筜街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ydjd/zfxxgkzn/"
+    },
+    {
+      "title": "梧村街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/wcjd/zfxxgkzn/"
+    },
+    {
+      "title": "嘉莲街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/jljd/zfxxgkzn/"
+    },
+    {
+      "title": "莲前街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/lqjd/zfxxgkzn/"
+    },
+    {
+      "title": "滨海街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkzn/"
+    },
+    {
+      "title": "政府信息\n公开制度",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zdgd/"
+    },
+    {
+      "title": "法定主动\n公开内容",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/"
+    },
+    {
+      "title": "政府文件",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/"
+    },
+    {
+      "title": "区政府文件",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/qzfwj/"
+    },
+    {
+      "title": "区政府办文件",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/qzfbwj/"
+    },
+    {
+      "title": "行政规范性文件",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/xzgfxwj/"
+    },
+    {
+      "title": "规范性文件清理",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/gfxwjql/"
+    },
+    {
+      "title": "政策解读",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcjd/"
+    },
+    {
+      "title": "政府会议",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zfcwh/"
+    },
+    {
+      "title": "规划计划",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/"
+    },
+    {
+      "title": "五年规划",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/ztgh/"
+    },
+    {
+      "title": "专项规划",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/zxgh/"
+    },
+    {
+      "title": "年度计划总结",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/ndjh/"
+    },
+    {
+      "title": "政府工作报告",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/zfgzbg/"
+    },
+    {
+      "title": "政府工作报告",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zfgzbg/"
+    },
+    {
+      "title": "统计信息",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/tjxx/"
+    },
+    {
+      "title": "财政资金",
+      "date": "",
+      "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/czzj/"
+    },
+    {
+      "title": "重点项目建设",
+      "date": "",
+      "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/zfzdtzxmxx/"
+    },
+    {
+      "title": "为民办实事",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/wmbss/"
+    },
+    {
+      "title": "建议提案办理情况公开",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/jytablqk/"
+    },
+    {
+      "title": "人事信息",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/"
+    },
+    {
+      "title": "人事任免",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/rsrm/"
+    },
+    {
+      "title": "招聘信息",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/sydwzp/"
+    },
+    {
+      "title": "公务员招考",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/gwyzk/"
+    },
+    {
+      "title": "生态环境",
+      "date": "",
+      "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/hjbh/"
+    },
+    {
+      "title": "征地拆迁",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zdcq/"
+    },
+    {
+      "title": "城区建设",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/cqjs/"
+    },
+    {
+      "title": "双随机、一公开",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ssj/"
+    },
+    {
+      "title": "乡村振兴",
+      "date": "",
+      "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/fptk/"
+    },
+    {
+      "title": "行政事业性收费",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/xzsyxsf/"
+    },
+    {
+      "title": "重大行政决策预公开",
+      "date": "",
+      "url": "https://www.siming.gov.cn/xxgk/zwgkzdgz/zdxzjcygk/"
+    },
+    {
+      "title": "社会保障",
+      "date": "",
+      "url": "https://www.siming.gov.cn/wsbs/ztfw/sb/"
+    },
+    {
+      "title": "保障住房",
+      "date": "",
+      "url": "https://www.siming.gov.cn/xxgk/zwgkzdgz/bzzf/"
+    },
+    {
+      "title": "食品药品安全",
+      "date": "",
+      "url": "https://www.siming.gov.cn/xxgk/zwgkzdgz/spypaq/"
+    },
+    {
+      "title": "权责清单",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/qzqd/"
+    },
+    {
+      "title": "行政许可",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/xzxk/"
+    },
+    {
+      "title": "处罚强制",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/cfqz/"
+    },
+    {
+      "title": "市政建设",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/szjs/"
+    },
+    {
+      "title": "应主动公开的其他信息",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/qtxx_qzf/"
+    },
+    {
+      "title": "重点领域信息公开",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zdlyxxgk/"
+    },
+    {
+      "title": "政府信息\n公开申请",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/ysqgk/"
+    },
+    {
+      "title": "政府信息\n公开年报",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/ndbg/"
+    },
+    {
+      "title": "发展和改革局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/zfxxgkml/"
+    },
+    {
+      "title": "科技和工信局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/"
+    },
+    {
+      "title": "人力资源和社会保障局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/rlzyhshbzj/zfxxgkml/"
+    },
+    {
+      "title": "住房和建设局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jsj/zfxxgkml/"
+    },
+    {
+      "title": "文化和旅游局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/whtycbj/zfxxgkml/"
+    },
+    {
+      "title": "卫生健康局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/wshjhsyj/zfxxgkml/"
+    },
+    {
+      "title": "退役军人事务局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/tyjrswj/zfxxgkml/"
+    },
+    {
+      "title": "应急管理局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/aqscjdglj/zfxxgkml/"
+    },
+    {
+      "title": "市政园林局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/szylj/zfxxgkml/"
+    },
+    {
+      "title": "城市管理和综合执法局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/csglxzzfj/zfxxgkml/"
+    },
+    {
+      "title": "工业园区管委会",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/gjswqgwh/zfxxgkml/"
+    },
+    {
+      "title": "鼓浪屿街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/glyjd/zfxxgkml/"
+    },
+    {
+      "title": "鹭江街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ljjd/zfxxgkml/"
+    },
+    {
+      "title": "中华街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/zhjd/zfxxgkml/"
+    },
+    {
+      "title": "厦港街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/xgjd/zfxxgkml/"
+    },
+    {
+      "title": "开元街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/kyjd/zfxxgkml/"
+    },
+    {
+      "title": "筼筜街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ydjd/zfxxgkml/"
+    },
+    {
+      "title": "梧村街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/wcjd/zfxxgkml/"
+    },
+    {
+      "title": "嘉莲街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/jljd/zfxxgkml/"
+    },
+    {
+      "title": "莲前街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/lqjd/zfxxgkml/"
+    },
+    {
+      "title": "滨海街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkml/"
+    },
+    {
+      "title": "厦门市思明区科技和工信局机构职能目录表",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/jgzn/202409/t20240930_1072718.htm"
+    },
+    {
+      "title": "2026年厦门市思明区政务服务保障中心预算说明",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136253.htm"
+    },
+    {
+      "title": "2026年厦门市思明区信息中心预算说明",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136252.htm"
+    },
+    {
+      "title": "2026年厦门市思明区企业服务中心预算说明",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136251.htm"
+    },
+    {
+      "title": "2026年厦门市思明区科技和工信局部门预算说明",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136238.htm"
+    },
+    {
+      "title": "2026年厦门市思明区科技和工信局预算说明",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136231.htm"
+    },
+    {
+      "title": "2024年厦门市思明区信息中心项目支出绩效自评",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202505/t20250530_1102036.htm"
+    },
+    {
+      "title": "2024年度厦门市思明区政务服务保障中心单位决算",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250915620634326066.pdf"
+    },
+    {
+      "title": "2024年度厦门市思明区信息中心单位决算",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250915619087102515.pdf"
+    },
+    {
+      "title": "2024年度厦门市思明区企业服务中心单位决算",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020260106543144379754.pdf"
+    },
+    {
+      "title": "2024年度原厦门市思明区行政审批管理局（本级）部门决算",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250917627936908711.pdf"
+    },
+    {
+      "title": "2024年度厦门市思明区行政审批管理局（汇总）部门决算",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250917628797215000.pdf"
+    },
+    {
+      "title": "2024年度厦门市思明区科技和工信局（汇总）部门决算",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250901562907359495.pdf"
+    },
+    {
+      "title": "关于公开遴选“思明数智工场”专业运营机构的通知",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260326_1141938.htm"
+    },
+    {
+      "title": "关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260324_1141563.htm"
+    },
+    {
+      "title": "一图读懂《思明区先进制造业高质量发展若干措施》",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139617.htm"
+    },
+    {
+      "title": "关于《思明区先进制造业高质量发展若干措施》的政策解读",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139605.htm"
+    },
+    {
+      "title": "厦门市思明区科技和工信局关于印发思明区先进制造业高质量发展若干措施的通知",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139602.htm"
+    },
+    {
+      "title": "关于拟认定永嘉（厦门）工业有限公司云顶中路505、515号项目为低效工业用地的公示",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/zcfg/202602/t20260228_1138870.htm"
+    },
+    {
+      "title": "福建省政府",
+      "date": "",
+      "url": "http://www.fujian.gov.cn/"
+    },
+    {
+      "title": "厦门市政府",
+      "date": "",
+      "url": "http://www.xm.gov.cn/"
+    },
+    {
+      "title": "发展和改革局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/"
+    },
+    {
+      "title": "科技和工信局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/"
+    },
+    {
+      "title": "人力资源和社会保障局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/rlzyhshbzj/"
+    },
+    {
+      "title": "住房和建设局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jsj/"
+    },
+    {
+      "title": "文化和旅游局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/whtycbj/"
+    },
+    {
+      "title": "卫生健康局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/wshjhsyj/"
+    },
+    {
+      "title": "退役军人事务局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/tyjrswj/"
+    },
+    {
+      "title": "应急管理局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/aqscjdglj/"
+    },
+    {
+      "title": "市政园林局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/szylj/"
+    },
+    {
+      "title": "城市管理和综合执法局",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/csglxzzfj/"
+    },
+    {
+      "title": "工业园区管理委员会",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/gjswqgwh/"
+    },
+    {
+      "title": "莲前街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/lqjd/zfxxgkml/"
+    },
+    {
+      "title": "梧村街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/wcjd/zfxxgkml/"
+    },
+    {
+      "title": "嘉莲街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/jljd/zfxxgkml/"
+    },
+    {
+      "title": "滨海街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkml/"
+    },
+    {
+      "title": "筼筜街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ydjd/zfxxgkml/"
+    },
+    {
+      "title": "厦港街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/xgjd/zfxxgkml/"
+    },
+    {
+      "title": "开元街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/kyjd/zfxxgkml/"
+    },
+    {
+      "title": "中华街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/zhjd/zfxxgkml/"
+    },
+    {
+      "title": "鹭江街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ljjd/zfxxgkml/"
+    },
+    {
+      "title": "鼓浪屿街道",
+      "date": "",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/glyjd/zfxxgkml/"
+    },
+    {
+      "title": "思明区政协",
+      "date": "",
+      "url": "http://www.xmsmzx.gov.cn/"
+    },
+    {
+      "title": "思明区图书馆",
+      "date": "",
+      "url": "http://www.xmsmlib.net/"
+    },
+    {
+      "title": "邮箱登录",
+      "date": "",
+      "url": "https://mail.xm.gov.cn/"
+    },
+    {
+      "title": "站点地图",
+      "date": "",
+      "url": "http://www.siming.gov.cn/qtgn/wzdt/"
+    },
+    {
+      "title": "联系我们",
+      "date": "",
+      "url": "http://www.siming.gov.cn/qtgn/lxwm/"
+    },
+    {
+      "title": "隐私保护",
+      "date": "",
+      "url": "http://www.siming.gov.cn/qtgn/ysbh/"
+    },
+    {
+      "title": "闽公网安备：35020302032647",
+      "date": "",
+      "url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302032647"
+    },
+    {
+      "title": "闽ICP备2024055800号-1",
+      "date": "",
+      "url": "https://beian.miit.gov.cn"
+    },
+    {
+      "title": "闽ICP备2024055800号-3",
+      "date": "",
+      "url": "https://beian.miit.gov.cn"
+    },
+    {
+      "title": "新媒体矩阵",
+      "date": "",
+      "url": "http://www.siming.gov.cn/rdzt/xmtjs/"
+    }
+  ]
+}

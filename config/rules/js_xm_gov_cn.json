@@ -1,0 +1,14 @@
+{
+  "siteId": "js_xm_gov_cn",
+  "siteName": "js.xm.gov.cn",
+  "url": "http://js.xm.gov.cn/",
+  "version": 1,
+  "updatedAt": "2026-03-16",
+  "strategy": "semantic",
+  "confidence": 0.8,
+  "timeout": 30000,
+  "metadata": {
+    "source": "stage2_subagent",
+    "generatedAt": "2026-03-16T10:13:27.759646"
+  }
+}

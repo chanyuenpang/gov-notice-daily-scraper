@@ -1,0 +1,6 @@
+{
+  "name": "daily-news-crawler",
+  "truthSource": {
+    "enabled": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-15",
+  "generatedAt": "2026-03-15T23:59:16.202213",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-03-15",
+    "yesterdayDate": "2026-03-14",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "mnr_gov_cn",
+      "siteName": "www.mnr.gov.cn",
+      "url": "http://www.mnr.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "全国政协委员崔丽娟： 以系统观念统筹林草...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260313_2916457.html",
+          "date": ""
+        }
+      ],
+      "newCount": 1
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 1,
+    "totalNewAnnouncements": 1
+  }
+}

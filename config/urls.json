@@ -1,0 +1,394 @@
+{
+  "version": "3.0",
+  "globalConfig": {
+    "scriptTimeout": 30000,
+    "subagentTimeout": 60000,
+    "concurrentLimit": 3
+  },
+  "sources": [
+    {
+      "id": "hrss_xm_gov_cn",
+      "name": "tzgg",
+      "displayName": "厦门市人力资源和社会保障局",
+      "category": "厦门市",
+      "url": "http://hrss.xm.gov.cn/xygk/tzgg/",
+      "baseUrl": "http://hrss.xm.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "dpc_xm_gov_cn",
+      "name": "dpc.xm.gov.cn",
+      "displayName": "厦门市发展和改革委员会",
+      "category": "厦门市",
+      "url": "http://dpc.xm.gov.cn/",
+      "baseUrl": "http://dpc.xm.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "sti_xm_gov_cn",
+      "name": "sti.xm.gov.cn",
+      "displayName": "厦门市科学技术局",
+      "category": "厦门市",
+      "url": "http://sti.xm.gov.cn/",
+      "baseUrl": "http://sti.xm.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "most_gov_cn",
+      "name": "www.most.gov.cn",
+      "displayName": "科学技术部",
+      "category": "国家",
+      "url": "http://www.most.gov.cn/",
+      "baseUrl": "http://www.most.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "xmsme_cn",
+      "name": "www.xmsme.cn",
+      "displayName": "厦门市中小企业服务中心",
+      "category": "厦门市",
+      "url": "http://www.xmsme.cn/",
+      "baseUrl": "http://www.xmsme.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "miit_gov_cn",
+      "name": "www.miit.gov.cn",
+      "displayName": "工业和信息化部",
+      "category": "国家",
+      "url": "http://www.miit.gov.cn/",
+      "baseUrl": "http://www.miit.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "ndrc_gov_cn",
+      "name": "www.ndrc.gov.cn",
+      "displayName": "国家发展和改革委员会",
+      "category": "国家",
+      "url": "http://www.ndrc.gov.cn/",
+      "baseUrl": "http://www.ndrc.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "mnr_gov_cn",
+      "name": "www.mnr.gov.cn",
+      "displayName": "自然资源部",
+      "category": "国家",
+      "url": "http://www.mnr.gov.cn/",
+      "baseUrl": "http://www.mnr.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "kjt_fujian_gov_cn",
+      "name": "kjt.fujian.gov.cn",
+      "displayName": "福建省科学技术厅",
+      "category": "福建省",
+      "url": "http://kjt.fujian.gov.cn/",
+      "baseUrl": "http://kjt.fujian.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "js_xm_gov_cn",
+      "name": "js.xm.gov.cn",
+      "displayName": "厦门市建设局",
+      "category": "厦门市",
+      "url": "http://js.xm.gov.cn/",
+      "baseUrl": "http://js.xm.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "gxj_xm_gov_cn",
+      "name": "gxj.xm.gov.cn",
+      "displayName": "厦门市工业和信息化局",
+      "category": "厦门市",
+      "url": "http://gxj.xm.gov.cn/",
+      "baseUrl": "http://gxj.xm.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "xmgh_org",
+      "name": "www.xmgh.org",
+      "displayName": "厦门市工商联",
+      "category": "厦门市",
+      "url": "http://www.xmgh.org/",
+      "baseUrl": "http://www.xmgh.org",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "jyt_fujian_gov_cn",
+      "name": "gggs",
+      "displayName": "福建省教育厅",
+      "category": "福建省",
+      "url": "http://jyt.fujian.gov.cn/xxgk/gggs/",
+      "baseUrl": "http://jyt.fujian.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "fgw_fujian_gov_cn",
+      "name": "gsgg",
+      "displayName": "福建省发展和改革委员会",
+      "category": "福建省",
+      "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/",
+      "baseUrl": "http://fgw.fujian.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "edu_xm_gov_cn",
+      "name": "tzgg",
+      "displayName": "厦门市教育局",
+      "category": "厦门市",
+      "url": "http://edu.xm.gov.cn/jyxw/tzgg/",
+      "baseUrl": "http://edu.xm.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "siming_gov_cn",
+      "name": "kjhxxhj",
+      "displayName": "厦门市思明区科技和信息化局",
+      "category": "国家",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "baseUrl": "http://www.siming.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "xmsia_cn",
+      "name": "NewsList.aspx?classId=3",
+      "displayName": "厦门市软件行业协会",
+      "category": "厦门市",
+      "url": "http://www.xmsia.cn/Pages/Home/NewsList.aspx?classId=3",
+      "baseUrl": "http://www.xmsia.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "mohurd_gov_cn",
+      "name": "www.mohurd.gov.cn",
+      "displayName": "住房和城乡建设部",
+      "category": "国家",
+      "url": "https://www.mohurd.gov.cn/",
+      "baseUrl": "https://www.mohurd.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "zjt_fujian_gov_cn",
+      "name": "xxgkml",
+      "displayName": "福建省住房和城乡建设厅",
+      "category": "福建省",
+      "url": "http://zjt.fujian.gov.cn/xxgk/zfxxgkzl/xxgkml/",
+      "baseUrl": "http://zjt.fujian.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "gxt_fujian_gov_cn",
+      "name": "gxt.fujian.gov.cn",
+      "displayName": "福建省供销合作社",
+      "category": "福建省",
+      "url": "http://gxt.fujian.gov.cn/",
+      "baseUrl": "http://gxt.fujian.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "xmtorch_xm_gov_cn",
+      "name": "glfw",
+      "displayName": "厦门市火炬高技术产业开发区管理委员会",
+      "category": "厦门市",
+      "url": "http://xmtorch.xm.gov.cn/xxgk/zfxxgkml/glfw/",
+      "baseUrl": "http://xmtorch.xm.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "as_xm_gov_cn",
+      "name": "tzgg",
+      "displayName": "厦门市应急管理局",
+      "category": "厦门市",
+      "url": "https://as.xm.gov.cn/zwgk/tzgg/",
+      "baseUrl": "https://as.xm.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "kgxj_haikou_gov_cn",
+      "name": "gsgg",
+      "displayName": "海口市科学技术和工业信息化局",
+      "category": "国家",
+      "url": "http://kgxj.haikou.gov.cn/zfxxgk/gsgg/",
+      "baseUrl": "http://kgxj.haikou.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    },
+    {
+      "id": "iqb_jimei_gov_cn",
+      "name": "XM03103",
+      "displayName": "厦门市集美区科学技术局",
+      "category": "国家",
+      "url": "https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
+      "baseUrl": "https://iqb.jimei.gov.cn",
+      "enabled": true,
+      "state": {
+        "lastCrawlDate": null,
+        "lastSuccessDate": null,
+        "lastAnnouncementTitle": null,
+        "lastAnnouncementDate": null,
+        "consecutiveFailures": 0
+      }
+    }
+  ]
+}

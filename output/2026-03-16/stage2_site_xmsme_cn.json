@@ -1,0 +1,12 @@
+{
+  "date": "2026-03-16",
+  "siteId": "xmsme_cn",
+  "siteName": "www.xmsme.cn",
+  "url": "http://www.xmsme.cn/news",
+  "status": "failed",
+  "strategyUsed": "semantic",
+  "announcements": [],
+  "ruleGenerated": false,
+  "error": "Complex SPA structure - needs manual configuration",
+  "durationMs": 0
+}

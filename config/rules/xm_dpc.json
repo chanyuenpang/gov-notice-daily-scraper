@@ -1,0 +1,22 @@
+{
+  "siteId": "dpc_xm_gov_cn",
+  "siteName": "厦门市发展和改革委员会",
+  "url": "http://dpc.xm.gov.cn/",
+  "version": 1,
+  "updatedAt": "2026-04-18",
+  "strategy": "css",
+  "confidence": 0.8,
+  "timeout": 30000,
+  "css": {
+    "list": "div.list_base.list_base_date_01 ul li:has(a[href*=\"/xwdt/tzgg/\"])",
+    "title": "a",
+    "date": "span"
+  },
+  "extraction": {
+    "linkPrefix": "http://dpc.xm.gov.cn"
+  },
+  "metadata": {
+    "source": "stage2_subagent",
+    "generatedAt": "2026-04-18T07:12:31.686513"
+  }
+}

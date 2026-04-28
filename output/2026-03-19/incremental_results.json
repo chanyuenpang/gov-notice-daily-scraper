@@ -1,0 +1,624 @@
+{
+  "date": "2026-03-19",
+  "generatedAt": "2026-03-19T18:17:17.545409",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-03-19",
+    "yesterdayDate": "2026-03-18",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "dpc_xm_gov_cn",
+      "siteName": "dpc.xm.gov.cn",
+      "url": "http://dpc.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "加快构建新型城镇化建设投融资体制",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202603/t20260318_2986181.htm",
+          "date": "2026-03-18"
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "sti.xm.gov.cn",
+      "url": "http://sti.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门市科学技术局关于征集2026年香港国际医疗及保健展参展产...",
+          "url": "http://sti.xm.gov.cn/xxgk/tzgg/202603/t20260318_2986228.htm",
+          "date": "2026-03-18"
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "most_gov_cn",
+      "siteName": "www.most.gov.cn",
+      "url": "http://www.most.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "《习近平经济文选》第一卷和《习近平与大学生朋友们》第一、二卷繁体版在香港首发",
+          "url": "https://www.news.cn/politics/leaders/20260318/e20b3c7205314e7baded1e8d728b3195/c.html",
+          "date": ""
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "xmsme_cn",
+      "siteName": "www.xmsme.cn",
+      "url": "http://www.xmsme.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "专精特新厦门新势力——厦门云天半导体科技有限公司",
+          "url": "https://www.xmsme.cn/news/details?id=122212",
+          "date": "2025-12-26"
+        },
+        {
+          "title": "专精特新厦门新势力——厦门唯恩电气有限公司",
+          "url": "https://www.xmsme.cn/news/details?id=122211",
+          "date": "2025-12-26"
+        },
+        {
+          "title": "专精特新厦门新势力——厦门微亚智能科技股份有限公司",
+          "url": "https://www.xmsme.cn/news/details?id=122210",
+          "date": "2025-12-26"
+        },
+        {
+          "title": "专精特新厦门新势力——万新（厦门）新材料有限公司",
+          "url": "https://www.xmsme.cn/news/details?id=122209",
+          "date": "2025-12-26"
+        },
+        {
+          "title": "专精特新厦门新势力——同舟纵横厦门流体技术有限公司",
+          "url": "https://www.xmsme.cn/news/details?id=122208",
+          "date": "2025-12-26"
+        },
+        {
+          "title": "专精特新厦门新势力——厦门松元电子股份有限公司",
+          "url": "https://www.xmsme.cn/news/details?id=122207",
+          "date": "2025-12-26"
+        },
+        {
+          "title": "专精特新厦门新势力——厦门三优光电股份有限公司",
+          "url": "https://www.xmsme.cn/news/details?id=122206",
+          "date": "2025-12-26"
+        },
+        {
+          "title": "专精特新厦门新势力——厦门赛尔特电子股份有限公司",
+          "url": "https://www.xmsme.cn/news/details?id=122205",
+          "date": "2025-12-26"
+        },
+        {
+          "title": "专精特新厦门新势力——厦门瑞为信息技术股份有限公司",
+          "url": "https://www.xmsme.cn/news/details?id=122204",
+          "date": "2025-12-26"
+        },
+        {
+          "title": "专精特新厦门新势力——全磊光电股份有限公司",
+          "url": "https://www.xmsme.cn/news/details?id=122203",
+          "date": "2025-12-26"
+        },
+        {
+          "title": "铺路搭桥 厦门举办优质企业资本赋能对接会",
+          "url": "https://www.xmsme.cn/news/details?id=122324",
+          "date": "2026-01-28"
+        },
+        {
+          "title": "聚焦增长新引擎 2025级厦门市成长型企业高级研修班第三期培训圆满举办",
+          "url": "https://www.xmsme.cn/news/details?id=122268",
+          "date": "2026-01-12"
+        },
+        {
+          "title": "聚焦东南亚市场，“一鹭向南”厦企出海马来西亚对接会成功举办​ ",
+          "url": "https://www.xmsme.cn/news/details?id=122254",
+          "date": "2025-12-31"
+        },
+        {
+          "title": "助力企业研发质量与效能双提升 中小企业研发变革培训圆满收官",
+          "url": "https://www.xmsme.cn/news/details?id=122165",
+          "date": "2025-12-15"
+        },
+        {
+          "title": "问道智改数转 赋能厦门智造 2025年厦门市企业智改数转专题研修班在浙大成功举办",
+          "url": "https://www.xmsme.cn/news/details?id=122140",
+          "date": "2025-12-08"
+        },
+        {
+          "title": "铸就卓越领导力 2025级厦门市成长型企业高级研修班第二期培训顺利举行",
+          "url": "https://www.xmsme.cn/news/details?id=122139",
+          "date": "2025-12-08"
+        },
+        {
+          "title": "聚势谋远启新程 2024级厦门市成长型企业高级研修班在清华大学圆满结业",
+          "url": "https://www.xmsme.cn/news/details?id=122133",
+          "date": "2025-11-23"
+        },
+        {
+          "title": "学“新知”促“新质” 2025级厦门市专精特新企业创新研修班在北京大学圆满结业",
+          "url": "https://www.xmsme.cn/news/details?id=122094",
+          "date": "2025-11-13"
+        },
+        {
+          "title": "破解协作难题，激发团队效能 “团队管理与跨部门沟通模拟沙盘”培训成功举办",
+          "url": "https://www.xmsme.cn/news/details?id=122080",
+          "date": "2025-11-10"
+        },
+        {
+          "title": "以客户为中心，向流程要效益——以客户为中心的IPD及项目管理培训圆满收官",
+          "url": "https://www.xmsme.cn/news/details?id=122095",
+          "date": "2025-11-10"
+        },
+        {
+          "title": "多家上市厦企回购和增持股份",
+          "url": "https://www.xmsme.cn/news/details?id=122440",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "同安区优化人才\"引育用留\"全链条 打造区域人才集聚高地",
+          "url": "https://www.xmsme.cn/news/details?id=122439",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "厦企竞逐“算电协同”新赛道",
+          "url": "https://www.xmsme.cn/news/details?id=122435",
+          "date": "2026-03-17"
+        },
+        {
+          "title": "火炬高新区人才生态：“引、育、留、用”全链条发力",
+          "url": "https://www.xmsme.cn/news/details?id=122429",
+          "date": "2026-03-17"
+        },
+        {
+          "title": "厦门港今年首批 128辆国产工程车在厦出海",
+          "url": "https://www.xmsme.cn/news/details?id=122422",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "集美区智能制造产业园四宗工业地块成功出让",
+          "url": "https://www.xmsme.cn/news/details?id=122421",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "马銮湾智慧科技产业园开门红 首家企业正式入驻",
+          "url": "https://www.xmsme.cn/news/details?id=122420",
+          "date": "2026-03-13"
+        },
+        {
+          "title": "我市公租房项目“运管一体化”模式获全省推广",
+          "url": "https://www.xmsme.cn/news/details?id=122419",
+          "date": "2026-03-13"
+        },
+        {
+          "title": "牢记嘱托勇争先 向新向智向未来",
+          "url": "https://www.xmsme.cn/news/details?id=122416",
+          "date": "2026-03-12"
+        },
+        {
+          "title": "我市出台13项重磅举措 加速培育新质生产力",
+          "url": "https://www.xmsme.cn/news/details?id=122414",
+          "date": "2026-03-12"
+        }
+      ],
+      "newCount": 30
+    },
+    {
+      "siteId": "ndrc_gov_cn",
+      "siteName": "www.ndrc.gov.cn",
+      "url": "http://www.ndrc.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "国家发展改革委规划司负责同志就国家发展规划法答记者问",
+          "url": "http://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260319_1404242.html",
+          "date": ""
+        },
+        {
+          "title": "全面深入贯彻国家发展规划法 进一步彰显中国特色社会主义制度重要政治优势",
+          "url": "http://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260319_1404238.html",
+          "date": ""
+        },
+        {
+          "title": "习近平会见土库曼斯坦民族领袖、人民委员会主席别尔德穆哈梅多夫",
+          "url": "https://www.news.cn/politics/leaders/20260318/f349942b8cea4f6fbd2e927fffe00d6c/c.html",
+          "date": ""
+        },
+        {
+          "title": "《习近平经济文选》第一卷和《习近平与大学生朋友们》第一、二卷繁体版在香港首发",
+          "url": "http://www.news.cn/politics/leaders/20260318/e20b3c7205314e7baded1e8d728b3195/c.html",
+          "date": ""
+        },
+        {
+          "title": "丁薛祥在全国高校毕业生等青年就业创业工作视频会议上强调：促进高校毕业生高质量充分就业 更...",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063145.htm",
+          "date": ""
+        },
+        {
+          "title": "国家发展改革委推出新一批重大外资项目",
+          "url": "http://www.ndrc.gov.cn/xwdt/spfg/mtjj/202603/t20260319_1404237.html",
+          "date": "2026-03-19"
+        }
+      ],
+      "newCount": 6
+    },
+    {
+      "siteId": "mnr_gov_cn",
+      "siteName": "www.mnr.gov.cn",
+      "url": "http://www.mnr.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "《习近平经济文选》第一卷和《习近平与大...",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063122.htm",
+          "date": ""
+        },
+        {
+          "title": "国家主席习近平任免驻外大使",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063069.htm",
+          "date": ""
+        },
+        {
+          "title": "总书记的人民情怀 | “政绩观问题是一个根...",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063106.htm",
+          "date": ""
+        },
+        {
+          "title": "总书记的人民情怀 | “干事创业一定要树立...",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063110.htm",
+          "date": ""
+        },
+        {
+          "title": "《求是》杂志发表习近平总书记重要文章《...",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7062707.htm",
+          "date": ""
+        },
+        {
+          "title": "再延长30年！我国全面开展农村承包地二轮...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260319_2916885.html",
+          "date": ""
+        },
+        {
+          "title": "田城交融 城乡共富——看浙江绍兴在“一张...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260319_2916884.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部办公厅关于第五届国家古生物化石专家委员会及办公室组成人员的通知\n                                                03-19",
+          "url": "http://gi.mnr.gov.cn/202603/t20260319_2916895.html",
+          "date": ""
+        },
+        {
+          "title": "关于符合甲级规划资质条件的规划编制单位名单（第四十七批）的公示\n                                                03-19",
+          "url": "http://gi.mnr.gov.cn/202603/t20260319_2916894.html",
+          "date": ""
+        },
+        {
+          "title": "中国自然资源经济研究院关于递补考察对象的公告\n                                                03-18",
+          "url": "http://gi.mnr.gov.cn/202603/t20260318_2916792.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部不动产登记中心（自然资源部法律事务中心）关于递补考察对象的公告\n                                                03-18",
+          "url": "http://gi.mnr.gov.cn/202603/t20260318_2916791.html",
+          "date": ""
+        },
+        {
+          "title": "中国大洋矿产资源研究开发协会（中国大洋事务管理局）2026年公开招聘在职人员考察对象名单\n                                                03-18",
+          "url": "http://gi.mnr.gov.cn/202603/t20260318_2916785.html",
+          "date": ""
+        }
+      ],
+      "newCount": 12
+    },
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "kjt.fujian.gov.cn",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "国务院关于同意将四川省眉山市列为国家历史文化名城的批复",
+          "url": "https://www.gov.cn/zhengce/content/202603/content_7063204.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "中共中央办公厅 国务院办公厅关于做好第二轮土地承包到期后再延长30年试点工作的意见",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063137.htm",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "周祖翼赵龙郭宁宁等参加义务植树活动",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260318_7112955.htm",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "赵龙会见乌兹别克斯坦纳沃伊州州长图尔苏诺夫",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260319_7113219.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "省委宣传部传达学习贯彻全国两会精神",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260319_7113223.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "省委组织部召开部务会理论学习中心组学习会",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260319_7113222.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "省人大常委会确定今年工作要点和立法、监督、代表工作计划",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260319_7113224.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "省科技厅机关妇委会开展庆祝“三八”国际劳动妇女节“春风映芳华 巾帼绽风采”主题活动",
+          "url": "http://kjt.fujian.gov.cn/xxgk/kjyw/stdt/202603/t20260318_7113005.htm",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "福建省科技特派员工作联席会议办公室关于开展2026年福建省科技特派员技术创新团队申报工作的通知",
+          "url": "http://kjt.fujian.gov.cn/xxgk/tzgg/202603/t20260319_7113466.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "福建省科学技术厅关于开展2026年福建省科技特派团服务重点产业链专项项目申报工作的通知",
+          "url": "http://kjt.fujian.gov.cn/xxgk/tzgg/202603/t20260318_7113089.htm",
+          "date": "2026-03-18"
+        }
+      ],
+      "newCount": 10
+    },
+    {
+      "siteId": "gxj_xm_gov_cn",
+      "siteName": "gxj.xm.gov.cn",
+      "url": "http://gxj.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门市工业和信息化局关于发布技术创新基金第七十批项目“白名单”和第四十一批企业“白名单”的通知",
+          "url": "http://gxj.xm.gov.cn/zwgk/zfxxgkml/jxjxxgkml/jxjgfxwj/qtkgkwj/202603/t20260319_2986321.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "厦门市工业和信息化局关于拟安排制造业单项冠军奖励资金项目名单的公示",
+          "url": "http://gxj.xm.gov.cn/xwzx/tzgg/202603/t20260319_2986318.htm",
+          "date": "2026-03-19"
+        }
+      ],
+      "newCount": 2
+    },
+    {
+      "siteId": "xmgh_org",
+      "siteName": "www.xmgh.org",
+      "url": "http://www.xmgh.org/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门启动2026“工悦领读”全市职工宣讲活动",
+          "url": "http://www.xmgh.org/ghsc/ghdt/szghdt/szyw/202603/t20260318_306083.htm",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "市总工会开展苗木抚育除草志愿服务活动",
+          "url": "http://www.xmgh.org/ghsc/ghdt/szghdt/szyw/202603/t20260318_306100.htm",
+          "date": "2026-03-13"
+        },
+        {
+          "title": "春野拾趣，“莓”好如约",
+          "url": "http://www.xmgh.org/ghsc/ghdt/jcghdt/202603/t20260319_306123.htm",
+          "date": "2026-03-12"
+        },
+        {
+          "title": "致谢员工及家属，路达集团工会组织“厦门游”活动",
+          "url": "http://www.xmgh.org/ghsc/ghdt/jcghdt/202603/t20260311_305906.htm",
+          "date": "2026-03-11"
+        }
+      ],
+      "newCount": 4
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "kjhxxhj",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "关于认定厦门光莆电子股份有限公司光莆电子大厦项目为低效工业用地的公告",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "关于认定永嘉（厦门）工业有限公司云顶中路505、515号项目为低效工业用地的公告",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2026-03-10"
+        },
+        {
+          "title": "厦门市道路绿化和保洁工作专项巡察展开",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2026-03-09"
+        },
+        {
+          "title": "厦门市思明区土地房屋征收事务中心补录非在编工作人员拟录用人员公示",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2026-03-06"
+        },
+        {
+          "title": "思明区公开招聘社区工作者莲前街道办事处拟录用递补人员公示",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2026-02-13"
+        },
+        {
+          "title": "2025年度厦门市非公党建工作指导员拟录用名单公示（思明区第一批出缺）",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2026-01-27"
+        },
+        {
+          "title": "厦门市思明区文化和旅游局关于公布思明区第四次全国文物普查不可移动文物名录的通知",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2026-01-21"
+        },
+        {
+          "title": "2025年度政府网站工作年度报表",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2026-01-05"
+        },
+        {
+          "title": "关于2024年度厦门市工程系列人工智能专业高级专业技术职务任职资格评审通过人员的公示",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2026-01-05"
+        },
+        {
+          "title": "思明区公开招聘社区工作者考试简章",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2026-01-04"
+        },
+        {
+          "title": "思明区红十字会公开招聘非在编工作人员拟录用人员公示",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2025-12-31"
+        },
+        {
+          "title": "关于认定厦门欣立洲置业有限公司立洲产业中心项目为低效工业用地的公告",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2025-12-31"
+        },
+        {
+          "title": "厦门市思明区民政局、思明区红十字会联合招聘非在编工作人员（2025年11月）思明区民政局拟录用人员公示",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2025-12-31"
+        },
+        {
+          "title": "2025年第四季度政府网站与政务新媒体自查情况",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2025-12-31"
+        },
+        {
+          "title": "中共厦门市思明区委关于巡视整改进展情况的通报",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/",
+          "date": "2025-12-25"
+        }
+      ],
+      "newCount": 15
+    },
+    {
+      "siteId": "mohurd_gov_cn",
+      "siteName": "www.mohurd.gov.cn",
+      "url": "https://www.mohurd.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "第一观察丨领悟总书记推动海洋经济发展的大思路",
+          "url": "https://www.news.cn/politics/leaders/20260318/3b524d13bbbd4110b64c71923c626ef8/c.html",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "学习手记丨总书记强调的“一步一步”既是方法论也关乎政绩观",
+          "url": "https://www.news.cn/politics/leaders/20260318/c865fb513db8411b9c9b7bffc2c0ef13/c.html",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "习近平会见土库曼斯坦民族领袖、人民委员会主席别尔德穆哈梅多夫",
+          "url": "https://www.news.cn/politics/leaders/20260318/f349942b8cea4f6fbd2e927fffe00d6c/c.html",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "《习近平经济文选》第一卷和《习近平与大学生朋友们》第一、二卷繁体版在香港首发",
+          "url": "http://www.news.cn/politics/leaders/20260318/e20b3c7205314e7baded1e8d728b3195/c.html",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "今年房地产市场怎么稳",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_7d2d412962d04724bc0581ba8fdca4e0.html",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "九部门印发工伤预防五年行动计划",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_bd9d9295a7c643f5afb6f88578d78759.html",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "市场出现积极信号　多措并举促企稳",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_b2454dedfb3d4b668886864ab85695e3.html",
+          "date": "2026-03-18"
+        }
+      ],
+      "newCount": 7
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "gxt.fujian.gov.cn",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "国务院关于同意将四川省眉山市列为国家历史文化名城的批复",
+          "url": "https://www.gov.cn/zhengce/content/202603/content_7063204.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "中共中央办公厅 国务院办公厅关于做好第二轮土地承包到期后再延长30年试点工作的意见",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063137.htm",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "周祖翼赵龙郭宁宁等参加义务植树活动",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260318_7112955.htm",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "赵龙会见乌兹别克斯坦纳沃伊州州长图尔苏诺夫",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260319_7113219.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "省委宣传部传达学习贯彻全国两会精神",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260319_7113223.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "省委组织部召开部务会理论学习中心组学习会",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260319_7113222.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "省人大常委会确定今年工作要点和立法、监督、代表工作计划",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260319_7113224.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "山海凌空 如何“飞”出增长极",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260319_7113225.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "1-2月福建“新三样”产品出口破200亿元 创历史同期新高",
+          "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202603/t20260319_7113348.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "闽船开年出海忙 1-2月福建船舶出口值创历史同期新高",
+          "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202603/t20260319_7113345.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "title": "一个源自福建县域的经验，何以启迪未来？",
+          "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202603/t20260318_7112689.htm",
+          "date": "2026-03-18"
+        }
+      ],
+      "newCount": 11
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 12,
+    "totalNewAnnouncements": 100
+  }
+}

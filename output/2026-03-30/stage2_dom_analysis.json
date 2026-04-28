@@ -1,0 +1,32 @@
+{
+  "xmsme_cn": {
+    "site": {
+      "siteId": "xmsme_cn",
+      "siteName": "厦门市中小企业服务中心",
+      "url": "http://www.xmsme.cn/",
+      "baseUrl": "http://www.xmsme.cn"
+    },
+    "selector": "div.li",
+    "url": "http://www.xmsme.cn/"
+  },
+  "fgw_fujian_gov_cn": {
+    "site": {
+      "siteId": "fgw_fujian_gov_cn",
+      "siteName": "福建省发展和改革委员会",
+      "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/",
+      "baseUrl": "http://fgw.fujian.gov.cn"
+    },
+    "selector": null,
+    "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/"
+  },
+  "siming_gov_cn": {
+    "site": {
+      "siteId": "siming_gov_cn",
+      "siteName": "厦门市思明区科技和信息化局",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "baseUrl": "http://www.siming.gov.cn"
+    },
+    "selector": null,
+    "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/"
+  }
+}

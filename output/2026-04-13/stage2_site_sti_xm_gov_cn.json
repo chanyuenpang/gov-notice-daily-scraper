@@ -1,0 +1,44 @@
+{
+  "siteId": "sti_xm_gov_cn",
+  "siteName": "厦门市科学技术局",
+  "url": "http://sti.xm.gov.cn/",
+  "status": "success",
+  "strategyUsed": "stage2_manual",
+  "announcements": [
+    {
+      "title": "厦门市科学技术局关于组织召开2025年度福建省科学技术奖申报推荐工作培训会的通知",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260409_2990090.htm",
+      "date": "2026-04-09"
+    },
+    {
+      "title": "关于厦门市2026年第一批拟更名高新技术企业的公示",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260407_2989696.htm",
+      "date": "2026-04-07"
+    },
+    {
+      "title": "厦门市科学技术局关于公布2026年3月厦门市科技成果登记清单的公告",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260407_2989692.htm",
+      "date": "2026-04-07"
+    },
+    {
+      "title": "厦门市科学技术局关于开展2025年度全市科普统计调查工作的通知",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260401_2988903.htm",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "厦门市科学技术局关于厦门市新优药械产品目录（第二批）的公示",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202603/t20260330_2988157.htm",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "厦门市科学技术局关于征集生物医药产业政策兑现工作咨询评审专家的通知",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202603/t20260330_2988155.htm",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "关于征集2026揭榜挂帅重大技术攻关需求的通知",
+      "url": "http://sti.xm.gov.cn/jlhd/zxyjd/index_20362.htm?id=1552140",
+      "date": "2026-04-01"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "date": "2026-03-25",
+  "generatedAt": "2026-03-25T13:31:23.195887",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-03-25",
+    "yesterdayDate": "2026-03-24",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "dpc_xm_gov_cn",
+      "siteName": "厦门市发展和改革委员会",
+      "url": "http://dpc.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门市发展和改革委员会招聘1名非在编工作人员拟聘人员公示（2026年）",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202603/t20260325_2987341.htm",
+          "date": "2026-03-25"
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "most_gov_cn",
+      "siteName": "科学技术部",
+      "url": "http://www.most.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平：建设社会主义现代化强国，关键在科技自立自强",
+          "url": "https://www.news.cn/politics/leaders/20260209/465dfa8d4cfc4ce2a5490d1000d05e2c/c.html",
+          "date": ""
+        },
+        {
+          "title": "李强出席中国发展高层论坛2026年年会开幕式并发表主旨演讲",
+          "url": "https://www.news.cn/politics/leaders/20260322/dc43454a79a148fc98f30ed2bc680a10/c.html",
+          "date": ""
+        },
+        {
+          "title": "李强对全国春季农业生产工作作出重要批示",
+          "url": "https://www.news.cn/politics/leaders/20260320/0d08c0f5211241818db125eb5d19bfb3/c.html",
+          "date": ""
+        },
+        {
+          "title": "全国科技工作会议在京召开 丁薛祥出席会议并讲话",
+          "url": "https://www.news.cn/politics/leaders/20260126/ff9c61a6d4c345ebbd134f2a04b2c471/c.html",
+          "date": ""
+        }
+      ],
+      "newCount": 4
+    },
+    {
+      "siteId": "ndrc_gov_cn",
+      "siteName": "国家发展和改革委员会",
+      "url": "http://www.ndrc.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "郑栅洁主任会见韩国三星电子会长李在镕",
+          "url": "http://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260325_1404357.html",
+          "date": ""
+        },
+        {
+          "title": "“对雄安的发展前景，我们充满信心”——习近平总书记赴雄安新区考察并主持召开深入推进雄安...",
+          "url": "https://www.news.cn/politics/leaders/20260325/4d1d08b8ea934aeb9183fad0dc6a6b91/c.html",
+          "date": ""
+        },
+        {
+          "title": "弘扬体育综合价值 促进物质富裕精神富足——学习贯彻习近平总书记全国两会期间关于推进全体人...",
+          "url": "https://www.news.cn/politics/leaders/20260324/ee874be273b44434a664db0b39cbdda8/c.html",
+          "date": ""
+        }
+      ],
+      "newCount": 3
+    },
+    {
+      "siteId": "mnr_gov_cn",
+      "siteName": "自然资源部",
+      "url": "http://www.mnr.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "《国家土地地球化学监测报告2025》显示 我...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260325_2917319.html",
+          "date": ""
+        },
+        {
+          "title": "关于启用国家自然资源督察监督电话的通告\n                                                03-25",
+          "url": "http://gi.mnr.gov.cn/202603/t20260325_2917318.html",
+          "date": ""
+        }
+      ],
+      "newCount": 2
+    },
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "福建省科学技术厅",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "周祖翼赴龙岩宣讲调研并指导推动学习教育",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260325_7115385.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "省领导赴莆田调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260325_7115386.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "第九届数字中国建设峰会将于4月29日在福州开幕",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260325_7115387.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "省政协召开委员视察知情明政通报会",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260325_7115388.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "全省科技特派员成果（南平）现场推介对接活动在南平举行",
+          "url": "http://kjt.fujian.gov.cn/xxgk/kjyw/stdt/202603/t20260324_7115310.htm",
+          "date": "2026-03-24"
+        },
+        {
+          "title": "2026年全国优秀科技特派员巡讲活动启动",
+          "url": "http://kjt.fujian.gov.cn/xxgk/kjyw/stdt/202603/t20260324_7115309.htm",
+          "date": "2026-03-24"
+        }
+      ],
+      "newCount": 6
+    },
+    {
+      "siteId": "mohurd_gov_cn",
+      "siteName": "住房和城乡建设部",
+      "url": "https://www.mohurd.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "“对雄安的发展前景，我们充满信心”——习近平总书记赴雄安新区考察并主持召开深入推进雄安新区高质量建设和发展座谈会纪实",
+          "url": "https://www.news.cn/politics/leaders/20260325/4d1d08b8ea934aeb9183fad0dc6a6b91/c.html",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "学习领悟总书记谆谆教诲 向党和人民交出合格答卷",
+          "url": "https://www.news.cn/politics/leaders/20260324/3e14ffc01b4442d7b3029910ef845157/c.html",
+          "date": "2026-03-24"
+        },
+        {
+          "title": "弘扬体育综合价值 促进物质富裕精神富足——学习贯彻习近平总书记全国两会期间关于推进全体人民共同富裕重要讲话系列述评之五",
+          "url": "https://www.news.cn/politics/leaders/20260324/ee874be273b44434a664db0b39cbdda8/c.html",
+          "date": "2026-03-24"
+        }
+      ],
+      "newCount": 3
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省供销合作社",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "周祖翼赴龙岩宣讲调研并指导推动学习教育",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260325_7115385.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "省领导赴莆田调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260325_7115386.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "第九届数字中国建设峰会将于4月29日在福州开幕",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260325_7115387.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "省政协召开委员视察知情明政通报会",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260325_7115388.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "生活高品质 幸福新刻度",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260325_7115393.htm",
+          "date": "2026-03-25"
+        }
+      ],
+      "newCount": 5
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 7,
+    "totalNewAnnouncements": 24
+  }
+}

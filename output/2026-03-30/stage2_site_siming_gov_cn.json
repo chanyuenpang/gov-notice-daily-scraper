@@ -1,0 +1,192 @@
+{
+  "siteId": "siming_gov_cn",
+  "siteName": "厦门市思明区科技和信息化局",
+  "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/",
+  "status": "success",
+  "strategyUsed": "subagent_analyzed",
+  "announcements": [
+    {
+      "title": "政务公开",
+      "url": "http://www.siming.gov.cn/xxgk/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.203374"
+    },
+    {
+      "title": "解读回应",
+      "url": "http://www.siming.gov.cn/jdhy/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.211438"
+    },
+    {
+      "title": "办事服务",
+      "url": "http://www.siming.gov.cn/wsbs/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.219090"
+    },
+    {
+      "title": "互动交流",
+      "url": "http://www.siming.gov.cn/zmhd/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.226501"
+    },
+    {
+      "title": "走进思明",
+      "url": "http://www.siming.gov.cn/zjsm/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.233867"
+    },
+    {
+      "title": "行政规范性文件",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/gfxzc/xzgfxwj/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.263864"
+    },
+    {
+      "title": "行政规范性文件清理目录",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/gfxzc/zcgfxwjql/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.270754"
+    },
+    {
+      "title": "思明区人民政府",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.284057"
+    },
+    {
+      "title": "发展和改革局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.296660"
+    },
+    {
+      "title": "科技和工信局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.310549"
+    },
+    {
+      "title": "人力资源和社会保障局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/rlzyhshbzj/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.334715"
+    },
+    {
+      "title": "住房和建设局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jsj/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.340587"
+    },
+    {
+      "title": "文化和旅游局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/whtycbj/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.352496"
+    },
+    {
+      "title": "卫生健康局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/wshjhsyj/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.358307"
+    },
+    {
+      "title": "退役军人事务局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/tyjrswj/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.364679"
+    },
+    {
+      "title": "应急管理局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/aqscjdglj/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.370701"
+    },
+    {
+      "title": "市政园林局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/szylj/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.389017"
+    },
+    {
+      "title": "城市管理和综合执法局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/csglxzzfj/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.395516"
+    },
+    {
+      "title": "工业园区管委会",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/gjswqgwh/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.408843"
+    },
+    {
+      "title": "鼓浪屿街道",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/glyjd/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.414623"
+    },
+    {
+      "title": "鹭江街道",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ljjd/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.421064"
+    },
+    {
+      "title": "中华街道",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/zhjd/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.428239"
+    },
+    {
+      "title": "厦港街道",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/xgjd/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.434373"
+    },
+    {
+      "title": "开元街道",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/kyjd/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.440218"
+    },
+    {
+      "title": "筼筜街道",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ydjd/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.445232"
+    },
+    {
+      "title": "梧村街道",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/wcjd/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.449666"
+    },
+    {
+      "title": "嘉莲街道",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/jljd/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.453676"
+    },
+    {
+      "title": "莲前街道",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/lqjd/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.456943"
+    },
+    {
+      "title": "滨海街道",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkzn/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.459565"
+    },
+    {
+      "title": "政府信息公开制度",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zdgd/",
+      "site_id": "siming_gov_cn",
+      "crawled_at": "2026-03-30T07:15:35.461747"
+    }
+  ],
+  "ruleGenerated": true,
+  "durationMs": 0,
+  "crawled_at": "2026-03-30T07:16:17.047558"
+}

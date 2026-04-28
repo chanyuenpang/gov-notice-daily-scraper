@@ -1,0 +1,22 @@
+{
+  "siteId": "as_xm_gov_cn",
+  "siteName": "厦门市应急管理局",
+  "url": "https://as.xm.gov.cn/zwgk/tzgg/",
+  "version": 1,
+  "updatedAt": "2026-04-14",
+  "strategy": "css",
+  "confidence": 0.8,
+  "timeout": 30000,
+  "css": {
+    "list": "ul li",
+    "title": "a",
+    "date": ""
+  },
+  "extraction": {
+    "linkPrefix": "https://as.xm.gov.cn"
+  },
+  "metadata": {
+    "source": "stage2_subagent",
+    "generatedAt": "2026-04-14T06:19:45.102414"
+  }
+}

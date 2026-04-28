@@ -1,0 +1,70 @@
+{
+  "date": "2026-03-15",
+  "generatedAt": "2026-03-15T23:50:53.723746",
+  "tasks": [
+    {
+      "siteId": "xmsme_cn",
+      "siteName": "www.xmsme.cn",
+      "url": "http://www.xmsme.cn/",
+      "baseUrl": "http://www.xmsme.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "js_xm_gov_cn",
+      "siteName": "js.xm.gov.cn",
+      "url": "http://js.xm.gov.cn/",
+      "baseUrl": "http://js.xm.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "fgw_fujian_gov_cn",
+      "siteName": "gsgg",
+      "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/",
+      "baseUrl": "http://fgw.fujian.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "kjhxxhj",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "baseUrl": "http://www.siming.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "fgw_fujian_gov_cn",
+      "siteName": "tzgg",
+      "url": "http://fgw.fujian.gov.cn/ztzl/szfjzt/tzgg/",
+      "baseUrl": "http://fgw.fujian.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "iqb_jimei_gov_cn",
+      "siteName": "XM03103",
+      "url": "https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
+      "baseUrl": "https://iqb.jimei.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    }
+  ],
+  "skipped": [],
+  "summary": {
+    "total": 25,
+    "failed": 6,
+    "toProcess": 6,
+    "skipped": 0,
+    "noRuleCount": 6,
+    "strategyFailedCount": 0,
+    "timeoutCount": 0
+  }
+}
