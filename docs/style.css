@@ -63,7 +63,8 @@ header h1 {
 .controls input[type="text"] { width: 180px; }
 .controls select { min-width: 160px; }
 
-#loadBtn {
+#loadBtn,
+#exportWordBtn {
   background: rgba(255,255,255,0.2);
   color: #fff;
   border: 1px solid rgba(255,255,255,0.4);
@@ -73,7 +74,8 @@ header h1 {
   cursor: pointer;
   transition: background 0.2s;
 }
-#loadBtn:hover { background: rgba(255,255,255,0.35); }
+#loadBtn:hover,
+#exportWordBtn:hover { background: rgba(255,255,255,0.35); }
 
 /* Stats */
 .stats {
