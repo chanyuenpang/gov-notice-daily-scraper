@@ -103,3 +103,26 @@ Step 2（browser-agent 派发）需要 OpenClaw 运行环境。如果使用纯 c
     notifempty
 }
 ```
+
+## 6. 自动调度（OpenClaw Cron）
+
+本项目使用 OpenClaw 内置 cron 调度，非系统 crontab。
+
+| 配置项 | 值 |
+|--------|-----|
+| Job 名称 | daily-gov-notice-v2 |
+| Job ID | a5efcd08-372e-4fd6-b4bd-6e69fd238da0 |
+| 调度时间 | 每天 06:00 (Asia/Shanghai) |
+| 执行 Agent | cron-runner |
+| Session | isolated |
+| Timeout | 1800s |
+
+### 执行链路
+```
+cron 触发 → cron-runner → sessions_spawn(browser-agent) → 抓取公告 → 写入 announcements.json
+```
+
+### 手动操作
+- 手动触发：`openclaw cron run a5efcd08-372e-4fd6-b4bd-6e69fd238da0`
+- 查看记录：`openclaw cron runs --id a5efcd08-372e-4fd6-b4bd-6e69fd238da0 --limit 10`
+- 查看所有 job：`openclaw cron list`

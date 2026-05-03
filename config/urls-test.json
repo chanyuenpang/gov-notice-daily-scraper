@@ -7,7 +7,7 @@
       "id": "xm_hrss",
       "name": "厦门市人力资源和社会保障局",
       "category": "社保人社",
-      "url": "http://hrss.xm.gov.cn/xygk/tzgg/",
+      "url": "https://hrss.xm.gov.cn/xxgk/tzgg/",
       "selector": {
         "list": ".content_list tr",
         "title": "a",

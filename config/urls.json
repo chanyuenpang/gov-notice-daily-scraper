@@ -11,8 +11,8 @@
       "name": "tzgg",
       "displayName": "厦门市人力资源和社会保障局",
       "category": "厦门市",
-      "url": "http://hrss.xm.gov.cn/xygk/tzgg/",
-      "baseUrl": "http://hrss.xm.gov.cn",
+      "url": "https://hrss.xm.gov.cn/xxgk/tzgg/",
+      "baseUrl": "https://hrss.xm.gov.cn",
       "enabled": true,
       "state": {
         "lastCrawlDate": null,

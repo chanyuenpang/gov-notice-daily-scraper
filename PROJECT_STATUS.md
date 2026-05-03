@@ -20,11 +20,15 @@
 - `announcements.json` / `crawl-meta.json` 已落盘
 - 日报 / 增量日报 v2 脚本已可用
 - 前端页面可直接本地打开查看示例数据
+- ✅ OpenClaw cron 已配置（daily-gov-notice-v2），每天早上 6:00 自动执行
+- ✅ cron → cron-runner → browser-agent 全链路已验证通过
+- ✅ 单站抓取可产出 20 条公告
+- GitHub Pages 可通过同步脚本自动更新最新抓取结果
 
 ## 当前限制
-- 只验证了 1 个站点第一页
-- browser-agent 的批量派发与结果自动回收还需进一步联调
+- 只验证了 1 个站点（hrss.xm.gov.cn），其他 23 个站点待验证
 - 详情页正文 `content` 仍为空
+- 批量 24 站自动派发尚未测试
 
 ## 建议的下一步
 1. 扩大验证范围：至少覆盖多站点、多分页场景。
@@ -44,3 +48,4 @@
 - `scripts/incremental_analysis_v2.py`：增量日报 v2 分析脚本
 - `frontend/index.html`：本地前端展示入口
 - `config/urls-v2.json`：当前 URL 配置示例
+- OpenClaw cron 已配置（daily-gov-notice-v2），每天 6:00 自动执行，cron → cron-runner → browser-agent 全链路已验证通过
