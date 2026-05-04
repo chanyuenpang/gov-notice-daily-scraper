@@ -1,0 +1,10 @@
+{
+  "date": "2026-04-15",
+  "crawledAt": "2026-05-03T21:54:40",
+  "totalSites": 24,
+  "successSites": 21,
+  "failedSites": 3,
+  "totalAnnouncements": 437,
+  "newAnnouncements": 0,
+  "source": "run_daily"
+}
