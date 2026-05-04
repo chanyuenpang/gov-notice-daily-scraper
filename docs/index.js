@@ -47,11 +47,6 @@ async function loadData() {
   try {
     const data = await fetchJson(date);
     let loaded = Array.isArray(data) ? data : [];
-    // Bug 2 fix: 按选中日期对公告的 date 字段做二次筛选
-    const selectedDate = $('dateInput').value;
-    if (selectedDate) {
-      loaded = loaded.filter(d => d.date === selectedDate);
-    }
     allData = loaded;
     // 如果没有缓存站点列表，fallback 从数据中提取
     if (!cachedSites) {
