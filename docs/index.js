@@ -1,25 +1,23 @@
 const $ = id => document.getElementById(id);
 
-let allData = [];
+let allDataCache = []; // 全量数据缓存（所有日期文件合并后按 id 去重）
+let allData = [];      // 当前日期筛选后的数据
 let filteredData = [];
-let cachedSites = null; // 缓存全量站点列表
+let cachedSites = null;
 
 // 初始化
 document.addEventListener('DOMContentLoaded', async () => {
   $('exportWordBtn').addEventListener('click', exportToWord);
   $('siteFilter').addEventListener('change', applyFilters);
   $('search').addEventListener('input', applyFilters);
-  // Bug 3 fix: date change auto-loads data
   $('dateInput').addEventListener('change', loadData);
   $('dateInput').addEventListener('keydown', e => { if (e.key === 'Enter') loadData(); });
-  // Bug 1 fix: 加载全量站点列表
   await loadSites();
-  // 自动加载默认日期
   loadData();
 });
 
 /**
- * Bug 1 fix: 从 sites.json 加载全量站点列表
+ * 加载全量站点列表
  */
 async function loadSites() {
   try {
@@ -39,28 +37,59 @@ function populateSiteFilterFromCache() {
   $('siteFilter').value = cur;
 }
 
+/**
+ * 加载全量数据（所有日期文件合并，按 id 去重），结果缓存
+ */
+async function loadAllData() {
+  if (allDataCache.length > 0) return allDataCache;
+
+  try {
+    const res = await fetch('data/index.json');
+    if (!res.ok) return [];
+    const { dates } = await res.json();
+
+    const results = await Promise.all(
+      dates.map(async date => {
+        try {
+          const r = await fetch(`data/${date}.json`);
+          if (r.ok) return await r.json();
+        } catch (_) {}
+        return [];
+      })
+    );
+
+    const seen = new Set();
+    allDataCache = results.flat().filter(item => {
+      if (seen.has(item.id)) return false;
+      seen.add(item.id);
+      return true;
+    });
+
+    return allDataCache;
+  } catch (_) {
+    return [];
+  }
+}
+
+/**
+ * 按发布日期筛选并显示
+ */
 async function loadData() {
-  const date = $('dateInput').value || '2026-04-28';
+  const date = $('dateInput').value;
+  if (!date) {
+    $('announcementList').innerHTML = '<div class="empty-state">请选择日期</div>';
+    $('stats').textContent = '';
+    return;
+  }
+
   $('stats').textContent = '';
   $('announcementList').innerHTML = '<div class="empty-state">加载中...</div>';
 
   try {
-    const data = await fetchJson(date);
-    let loaded = Array.isArray(data) ? data : [];
-    // 为每条记录映射 crawlDate（抓取日期）
-    loaded.forEach(item => {
-      item.crawledDate = (item.crawledAt || '').slice(0,10) || date;
-    });
-    // 安全网：按抓取日期过滤，防止 fallback 到 latest.json 导致日期混乱
-    if (date) {
-      const filtered = loaded.filter(item => item.crawledDate === date);
-      if (filtered.length > 0) {
-        loaded = filtered;
-      }
-      // 若过滤后为空，fallback 保留全部数据（避免误判）
-    }
-    allData = loaded;
-    // 如果没有缓存站点列表，fallback 从数据中提取
+    const allItems = await loadAllData();
+    // 按公告发布日期筛选
+    allData = allItems.filter(item => item.date === date);
+
     if (!cachedSites) {
       populateSiteFilter();
     }
@@ -69,28 +98,6 @@ async function loadData() {
     allData = [];
     $('announcementList').innerHTML = `<div class="error">加载失败：${esc(e.message)}</div>`;
   }
-}
-
-/**
- * 从 data/ 目录加载 JSON 数据（GitHub Pages 托管）
- */
-async function fetchJson(date) {
-  // 优先加载 latest.json，用户手动选日期时加载指定日期
-  const url = `data/${date}.json`;
-  let res = await tryFetch(url);
-  if (res) return res.json();
-  // fallback: 尝试 latest.json
-  res = await tryFetch('data/latest.json');
-  if (res) return res.json();
-  throw new Error(`找不到 ${date} 的公告数据（${url}）`);
-}
-
-async function tryFetch(url) {
-  try {
-    const res = await fetch(url);
-    if (res.ok) return res;
-  } catch (_) {}
-  return null;
 }
 
 function populateSiteFilter() {
@@ -115,8 +122,8 @@ function applyFilters() {
   const total = allData.length;
   const shown = filteredData.length;
   $('stats').textContent = shown === total
-    ? `共 ${total} 条公告`
-    : `显示 ${shown} / ${total} 条公告`;
+    ? `共 ${total} 条发布于 ${$('dateInput').value} 的公告`
+    : `显示 ${shown} / ${total} 条发布于 ${$('dateInput').value} 的公告`;
 }
 
 function renderList() {
@@ -130,8 +137,7 @@ function renderList() {
       <div class="card-header" onclick="toggleDetail('${esc(item.id)}')">
         <span class="card-title">${esc(item.title)}</span>
         <span class="card-meta">
-          ${item.crawledDate ? `<span class="tag date-tag">抓取：${esc(item.crawledDate)}</span>` : ''}
-          ${item.date && item.date !== item.crawledDate ? `<span class="tag">发布日期：${esc(item.date)}</span>` : ''}
+          ${item.date ? `<span class="tag date-tag">${esc(item.date)}</span>` : ''}
           ${item.category ? `<span class="tag">${esc(item.category)}</span>` : ''}
           ${item.siteName ? `<span class="tag">${esc(item.siteName)}</span>` : ''}
         </span>
@@ -140,7 +146,6 @@ function renderList() {
         ${item.url ? `<div class="field"><span class="field-label">链接：</span><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.url)}</a></div>` : ''}
         ${item.summary ? `<div class="field"><span class="field-label">摘要：</span>${esc(item.summary)}</div>` : ''}
         ${item.siteUrl ? `<div class="field"><span class="field-label">来源站点：</span><a href="${esc(item.siteUrl)}" target="_blank" rel="noopener">${esc(item.siteUrl)}</a></div>` : ''}
-        <div class="field"><span class="field-label">抓取时间：</span>${esc(item.crawledAt || '')}</div>
       </div>
     </div>
   `).join('');
