@@ -1,0 +1,122 @@
+[
+  {
+    "id": "mohurd_gov_cn",
+    "name": "住房和城乡建设部",
+    "category": "国家"
+  },
+  {
+    "id": "xmsme_cn",
+    "name": "厦门市中小企业服务中心",
+    "category": "厦门市"
+  },
+  {
+    "id": "hrss_xm_gov_cn",
+    "name": "厦门市人力资源和社会保障局",
+    "category": "厦门市"
+  },
+  {
+    "id": "szjj_xm_gov_cn",
+    "name": "厦门市住房和建设局",
+    "category": "厦门市"
+  },
+  {
+    "id": "dpc_xm_gov_cn",
+    "name": "厦门市发展和改革委员会",
+    "category": "厦门市"
+  },
+  {
+    "id": "gxj_xm_gov_cn",
+    "name": "厦门市工业和信息化局",
+    "category": "厦门市"
+  },
+  {
+    "id": "xmgh_org",
+    "name": "厦门市工商联",
+    "category": "厦门市"
+  },
+  {
+    "id": "as_xm_gov_cn",
+    "name": "厦门市应急管理局",
+    "category": "厦门市"
+  },
+  {
+    "id": "siming_gov_cn",
+    "name": "厦门市思明区科技和信息化局",
+    "category": "国家"
+  },
+  {
+    "id": "edu_xm_gov_cn",
+    "name": "厦门市教育局",
+    "category": "厦门市"
+  },
+  {
+    "id": "xmtorch_xm_gov_cn",
+    "name": "厦门市火炬高技术产业开发区管理委员会",
+    "category": "厦门市"
+  },
+  {
+    "id": "sti_xm_gov_cn",
+    "name": "厦门市科学技术局",
+    "category": "厦门市"
+  },
+  {
+    "id": "xmsia_cn",
+    "name": "厦门市软件行业协会",
+    "category": "厦门市"
+  },
+  {
+    "id": "iqb_jimei_gov_cn",
+    "name": "厦门市集美区科技和工信局",
+    "category": "国家"
+  },
+  {
+    "id": "ndrc_gov_cn",
+    "name": "国家发展和改革委员会",
+    "category": "国家"
+  },
+  {
+    "id": "miit_gov_cn",
+    "name": "工业和信息化部",
+    "category": "国家"
+  },
+  {
+    "id": "kgxj_haikou_gov_cn",
+    "name": "海口市科学技术和工业信息化局",
+    "category": "国家"
+  },
+  {
+    "id": "zjt_fujian_gov_cn",
+    "name": "福建省住房和城乡建设厅",
+    "category": "福建省"
+  },
+  {
+    "id": "gxt_fujian_gov_cn",
+    "name": "福建省供销合作社",
+    "category": "福建省"
+  },
+  {
+    "id": "fgw_fujian_gov_cn",
+    "name": "福建省发展和改革委员会",
+    "category": "福建省"
+  },
+  {
+    "id": "jyt_fujian_gov_cn",
+    "name": "福建省教育厅",
+    "category": "福建省"
+  },
+  {
+    "id": "kjt_fujian_gov_cn",
+    "name": "福建省科学技术厅",
+    "category": "福建省"
+  },
+  {
+    "id": "most_gov_cn",
+    "name": "科学技术部",
+    "category": "国家"
+  },
+  {
+    "id": "mnr_gov_cn",
+    "name": "自然资源部",
+    "category": "国家"
+  }
+]

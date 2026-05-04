@@ -2,17 +2,42 @@ const $ = id => document.getElementById(id);
 
 let allData = [];
 let filteredData = [];
+let cachedSites = null; // 缓存全量站点列表
 
 // 初始化
-document.addEventListener('DOMContentLoaded', () => {
-  $('loadBtn').addEventListener('click', loadData);
+document.addEventListener('DOMContentLoaded', async () => {
   $('exportWordBtn').addEventListener('click', exportToWord);
   $('siteFilter').addEventListener('change', applyFilters);
   $('search').addEventListener('input', applyFilters);
+  // Bug 3 fix: date change auto-loads data
+  $('dateInput').addEventListener('change', loadData);
   $('dateInput').addEventListener('keydown', e => { if (e.key === 'Enter') loadData(); });
+  // Bug 1 fix: 加载全量站点列表
+  await loadSites();
   // 自动加载默认日期
   loadData();
 });
+
+/**
+ * Bug 1 fix: 从 sites.json 加载全量站点列表
+ */
+async function loadSites() {
+  try {
+    const res = await fetch('data/sites.json');
+    if (res.ok) {
+      cachedSites = await res.json();
+      populateSiteFilterFromCache();
+    }
+  } catch (_) {}
+}
+
+function populateSiteFilterFromCache() {
+  if (!cachedSites) return;
+  const cur = $('siteFilter').value;
+  $('siteFilter').innerHTML = '<option value="">全部站点</option>' +
+    cachedSites.map(s => `<option value="${esc(s.name)}">${esc(s.name)}</option>`).join('');
+  $('siteFilter').value = cur;
+}
 
 async function loadData() {
   const date = $('dateInput').value || '2026-04-28';
@@ -21,8 +46,17 @@ async function loadData() {
 
   try {
     const data = await fetchJson(date);
-    allData = Array.isArray(data) ? data : [];
-    populateSiteFilter();
+    let loaded = Array.isArray(data) ? data : [];
+    // Bug 2 fix: 按选中日期对公告的 date 字段做二次筛选
+    const selectedDate = $('dateInput').value;
+    if (selectedDate) {
+      loaded = loaded.filter(d => d.date === selectedDate);
+    }
+    allData = loaded;
+    // 如果没有缓存站点列表，fallback 从数据中提取
+    if (!cachedSites) {
+      populateSiteFilter();
+    }
     applyFilters();
   } catch (e) {
     allData = [];
