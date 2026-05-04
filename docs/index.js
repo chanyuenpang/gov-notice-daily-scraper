@@ -47,6 +47,18 @@ async function loadData() {
   try {
     const data = await fetchJson(date);
     let loaded = Array.isArray(data) ? data : [];
+    // 为每条记录映射 crawlDate（抓取日期）
+    loaded.forEach(item => {
+      item.crawledDate = (item.crawledAt || '').slice(0,10) || date;
+    });
+    // 安全网：按抓取日期过滤，防止 fallback 到 latest.json 导致日期混乱
+    if (date) {
+      const filtered = loaded.filter(item => item.crawledDate === date);
+      if (filtered.length > 0) {
+        loaded = filtered;
+      }
+      // 若过滤后为空，fallback 保留全部数据（避免误判）
+    }
     allData = loaded;
     // 如果没有缓存站点列表，fallback 从数据中提取
     if (!cachedSites) {
@@ -118,7 +130,8 @@ function renderList() {
       <div class="card-header" onclick="toggleDetail('${esc(item.id)}')">
         <span class="card-title">${esc(item.title)}</span>
         <span class="card-meta">
-          ${item.date ? `<span class="tag date-tag">${esc(item.date)}</span>` : ''}
+          ${item.crawledDate ? `<span class="tag date-tag">抓取：${esc(item.crawledDate)}</span>` : ''}
+          ${item.date && item.date !== item.crawledDate ? `<span class="tag">发布日期：${esc(item.date)}</span>` : ''}
           ${item.category ? `<span class="tag">${esc(item.category)}</span>` : ''}
           ${item.siteName ? `<span class="tag">${esc(item.siteName)}</span>` : ''}
         </span>
