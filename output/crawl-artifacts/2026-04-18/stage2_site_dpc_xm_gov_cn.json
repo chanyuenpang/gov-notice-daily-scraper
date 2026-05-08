@@ -1,0 +1,48 @@
+{
+  "siteId": "dpc_xm_gov_cn",
+  "siteName": "厦门市发展和改革委员会",
+  "url": "http://dpc.xm.gov.cn/",
+  "status": "success",
+  "strategyUsed": "css",
+  "announcements": [
+    {
+      "title": "厦门市发展和改革委员会所属事业单位厦门市能源发展中心简化程序公开招聘事业单位专业技术岗位人员公告（2026年4月）",
+      "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260416_2991239.htm",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "厦门市发展和改革委员会所属厦门市发展研究中心简化程序公开招聘事业单位管理岗位人员公告（2026年4月）",
+      "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260410_2990235.htm",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "关于做好2026年享受税收优惠政策的集成电路企业或项目、软件企业清单制定工作的通知",
+      "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260410_2990282.htm",
+      "date": "2026-04-09"
+    },
+    {
+      "title": "厦门市发展和改革委员会关于拟推荐申报第六批能源领域首台（套）重大技术装备的公示",
+      "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260409_2989986.htm",
+      "date": "2026-04-09"
+    },
+    {
+      "title": "厦门市发展和改革委员会关于公布2026年度厦门市重点用能单位名单的通知",
+      "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260403_2989344.htm",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "厦门市发展和改革委员会招聘1名非在编工作人员拟聘人员公示（2026年）",
+      "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202603/t20260325_2987341.htm",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "专项巡察公告",
+      "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202603/t20260310_2984752.htm",
+      "date": "2026-03-09"
+    }
+  ],
+  "error": null,
+  "durationMs": 14638,
+  "ruleGenerated": true,
+  "discoveredSelector": "div.list_base.list_base_date_01 ul li:has(a[href*=\"/xwdt/tzgg/\"])"
+}

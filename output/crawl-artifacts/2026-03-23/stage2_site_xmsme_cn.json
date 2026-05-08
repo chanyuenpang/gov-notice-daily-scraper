@@ -1,0 +1,51 @@
+{
+  "siteId": "xmsme_cn",
+  "siteName": "厦门市中小企业服务中心",
+  "url": "http://www.xmsme.cn/",
+  "status": "success",
+  "strategyUsed": "playwright",
+  "announcements": [
+    {
+      "title": "国家金融监督管理总局",
+      "url": "http://www.cbirc.gov.cn/cn/view/pages/index/index.html",
+      "date": ""
+    },
+    {
+      "title": "中国证券监督管理委员会",
+      "url": "http://www.csrc.gov.cn/pub/newsite/",
+      "date": ""
+    },
+    {
+      "title": "国务院研究室",
+      "url": "http://www.gov.cn/guoqing/2018-06/22/content_5300522.htm",
+      "date": ""
+    },
+    {
+      "title": "国务院新闻办公室",
+      "url": "http://www.scio.gov.cn/index.htm",
+      "date": ""
+    },
+    {
+      "title": "国家粮食和物资储备局",
+      "url": "http://www.chinagrain.gov.cn/index.html",
+      "date": ""
+    },
+    {
+      "title": "中国民用航空局",
+      "url": "http://www.caac.gov.cn/index.html",
+      "date": ""
+    },
+    {
+      "title": "浙江省企业之家网（浙江省中小企业公共服务平台）",
+      "url": "https://zj87.jxt.zj.gov.cn/zj87/zxqy/index.html",
+      "date": ""
+    },
+    {
+      "title": "泉惠企·济南市企业服务综合智慧平台",
+      "url": "http://www.quanhuiqi.cn/index.html",
+      "date": ""
+    }
+  ],
+  "error": null,
+  "durationMs": 0
+}

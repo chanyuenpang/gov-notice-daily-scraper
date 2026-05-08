@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-30",
+  "crawledAt": "2026-04-30T07:03:00+08:00",
+  "totalSites": 1,
+  "successSites": 1,
+  "failedSites": 0,
+  "totalAnnouncements": 20,
+  "newAnnouncements": 0,
+  "sites": [
+    {
+      "siteId": "xm_hrss",
+      "siteName": "厦门市人力资源和社会保障局",
+      "status": "success",
+      "announcementsCount": 20,
+      "newCount": 0,
+      "durationMs": null,
+      "strategyUsed": "browser-agent",
+      "error": null,
+      "targetUrl": "http://hrss.xm.gov.cn/xygk/tzgg/"
+    }
+  ]
+}

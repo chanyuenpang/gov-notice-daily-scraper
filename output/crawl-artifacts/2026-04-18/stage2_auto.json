@@ -1,0 +1,100 @@
+{
+  "date": "2026-04-18",
+  "generatedAt": "2026-04-18T07:13:14.607212",
+  "stage": 2,
+  "results": [
+    {
+      "siteId": "dpc_xm_gov_cn",
+      "siteName": "厦门市发展和改革委员会",
+      "url": "http://dpc.xm.gov.cn/",
+      "status": "success",
+      "strategyUsed": "css",
+      "announcements": [
+        {
+          "title": "厦门市发展和改革委员会所属事业单位厦门市能源发展中心简化程序公开招聘事业单位专业技术岗位人员公告（2026年4月）",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260416_2991239.htm",
+          "date": "2026-04-16"
+        },
+        {
+          "title": "厦门市发展和改革委员会所属厦门市发展研究中心简化程序公开招聘事业单位管理岗位人员公告（2026年4月）",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260410_2990235.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "关于做好2026年享受税收优惠政策的集成电路企业或项目、软件企业清单制定工作的通知",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260410_2990282.htm",
+          "date": "2026-04-09"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于拟推荐申报第六批能源领域首台（套）重大技术装备的公示",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260409_2989986.htm",
+          "date": "2026-04-09"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于公布2026年度厦门市重点用能单位名单的通知",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260403_2989344.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "厦门市发展和改革委员会招聘1名非在编工作人员拟聘人员公示（2026年）",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202603/t20260325_2987341.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "专项巡察公告",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202603/t20260310_2984752.htm",
+          "date": "2026-03-09"
+        }
+      ],
+      "error": null,
+      "durationMs": 14638,
+      "ruleGenerated": true,
+      "discoveredSelector": "div.list_base.list_base_date_01 ul li:has(a[href*=\"/xwdt/tzgg/\"])"
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "厦门市思明区科技和工信局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/",
+      "status": "success",
+      "strategyUsed": "css",
+      "announcements": [
+        {
+          "title": "关于公开遴选“思明数智工场”专业运营机构的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260326_1141938.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260324_1141563.htm",
+          "date": "2026-03-24"
+        },
+        {
+          "title": "一图读懂《思明区先进制造业高质量发展若干措施》",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139617.htm",
+          "date": "2026-03-05"
+        },
+        {
+          "title": "关于《思明区先进制造业高质量发展若干措施》的政策解读",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139605.htm",
+          "date": "2026-03-05"
+        },
+        {
+          "title": "厦门市思明区科技和工信局关于印发思明区先进制造业高质量发展若干措施的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139602.htm",
+          "date": "2026-03-05"
+        }
+      ],
+      "error": null,
+      "durationMs": 4731,
+      "ruleGenerated": true,
+      "discoveredSelector": "div.list ul li:has(a[href*=\"/tzgg/\"])"
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "success": 2,
+    "failed": 0,
+    "totalAnnouncements": 12,
+    "rulesGenerated": 2
+  }
+}

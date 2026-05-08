@@ -1,0 +1,1432 @@
+{
+  "title": "法定主动公开内容-厦门市思明区人民政府",
+  "counts": {
+    "div.list ul li": 19,
+    "ul.list li": 0,
+    ".news-list li": 0,
+    ".content-list li": 0,
+    ".xxgk-list li": 0,
+    ".tzgg-list li": 0,
+    "div[class*=\"list\"] li": 128,
+    "div[class*=\"news\"] li": 0,
+    "table tbody tr": 0,
+    "tr": 0,
+    "ul li": 192
+  },
+  "interesting": [
+    {
+      "tag": "DIV",
+      "cls": "header_21",
+      "id": "",
+      "lis": 10,
+      "links": 16,
+      "text": "国务院 省政府 市政府 简体版 繁体版| 移动版 闽政通APP |登录|注册 网站支持IPV6 首页 区政府 政务公开 解读回应 办事服务 互动交流 走进思明 ",
+      "html": "<div class=\"header_21\" dcindex=\"148\">\n    <div class=\"header_21_con1\" dcindex=\"149\">\n      <div class=\"container_21\" dcindex=\"150\">\n        <div class=\"el-row\" dcindex=\"151\">\n          <div class=\"el-col el-col-9 el-col-sm-24 header_21_logo\" dcindex=\"152\"><img src=\"/comps/images/gh_logo.png\" dcindex=\"153\"><img src=\"/images/250425sm_logo.png\" dcindex=\"154\">\n          </div>\n          <div class=\"el-col el-col-15 el-col-sm-24 header_21_con1_r\" dcindex=\"155\">\n            <div class=\"header_21_tit\" dcindex=\"156\">\n              <div class=\"header_21_a_link\" dcindex=\"157\">\n                <a href=\"http://www.gov.cn/\" target=\"_blank\" dcindex=\"158\">国务院</a>\n                <a href=\"http://www.fujian.gov.cn/\" target=\"_blank\" dcindex=\"159\">省政府</a>\n                <a href=\"http://www.xm.gov.cn/\" target=\"_blank\" dcindex=\"160\">市政府</a>\n              </div>\n              <div class=\"header_21_font\" dcindex=\"161\">\n                <ul dcindex=\"162\">\n                  <li dcindex=\"163\">  \n                               \n                    <a href=\"javascript:zh_tran('s');\" onclick=\"toggleLanguage('s')\" id=\"zh_click_s\" class=\"on\" style=\"display: none;\" dcindex=\"164\">简体版</a>\n                    <a hre"
+    },
+    {
+      "tag": "DIV",
+      "cls": "header_21_con1",
+      "id": "",
+      "lis": 10,
+      "links": 16,
+      "text": "国务院 省政府 市政府 简体版 繁体版| 移动版 闽政通APP |登录|注册 网站支持IPV6 首页 区政府 政务公开 解读回应 办事服务 互动交流 走进思明 ",
+      "html": "<div class=\"header_21_con1\" dcindex=\"149\">\n      <div class=\"container_21\" dcindex=\"150\">\n        <div class=\"el-row\" dcindex=\"151\">\n          <div class=\"el-col el-col-9 el-col-sm-24 header_21_logo\" dcindex=\"152\"><img src=\"/comps/images/gh_logo.png\" dcindex=\"153\"><img src=\"/images/250425sm_logo.png\" dcindex=\"154\">\n          </div>\n          <div class=\"el-col el-col-15 el-col-sm-24 header_21_con1_r\" dcindex=\"155\">\n            <div class=\"header_21_tit\" dcindex=\"156\">\n              <div class=\"header_21_a_link\" dcindex=\"157\">\n                <a href=\"http://www.gov.cn/\" target=\"_blank\" dcindex=\"158\">国务院</a>\n                <a href=\"http://www.fujian.gov.cn/\" target=\"_blank\" dcindex=\"159\">省政府</a>\n                <a href=\"http://www.xm.gov.cn/\" target=\"_blank\" dcindex=\"160\">市政府</a>\n              </div>\n              <div class=\"header_21_font\" dcindex=\"161\">\n                <ul dcindex=\"162\">\n                  <li dcindex=\"163\">  \n                               \n                    <a href=\"javascript:zh_tran('s');\" onclick=\"toggleLanguage('s')\" id=\"zh_click_s\" class=\"on\" style=\"display: none;\" dcindex=\"164\">简体版</a>\n                    <a href=\"javascript:zh_tran('t');\" onclick=\"togg"
+    },
+    {
+      "tag": "DIV",
+      "cls": "container_21",
+      "id": "",
+      "lis": 10,
+      "links": 16,
+      "text": "国务院 省政府 市政府 简体版 繁体版| 移动版 闽政通APP |登录|注册 网站支持IPV6 首页 区政府 政务公开 解读回应 办事服务 互动交流 走进思明 ",
+      "html": "<div class=\"container_21\" dcindex=\"150\">\n        <div class=\"el-row\" dcindex=\"151\">\n          <div class=\"el-col el-col-9 el-col-sm-24 header_21_logo\" dcindex=\"152\"><img src=\"/comps/images/gh_logo.png\" dcindex=\"153\"><img src=\"/images/250425sm_logo.png\" dcindex=\"154\">\n          </div>\n          <div class=\"el-col el-col-15 el-col-sm-24 header_21_con1_r\" dcindex=\"155\">\n            <div class=\"header_21_tit\" dcindex=\"156\">\n              <div class=\"header_21_a_link\" dcindex=\"157\">\n                <a href=\"http://www.gov.cn/\" target=\"_blank\" dcindex=\"158\">国务院</a>\n                <a href=\"http://www.fujian.gov.cn/\" target=\"_blank\" dcindex=\"159\">省政府</a>\n                <a href=\"http://www.xm.gov.cn/\" target=\"_blank\" dcindex=\"160\">市政府</a>\n              </div>\n              <div class=\"header_21_font\" dcindex=\"161\">\n                <ul dcindex=\"162\">\n                  <li dcindex=\"163\">  \n                               \n                    <a href=\"javascript:zh_tran('s');\" onclick=\"toggleLanguage('s')\" id=\"zh_click_s\" class=\"on\" style=\"display: none;\" dcindex=\"164\">简体版</a>\n                    <a href=\"javascript:zh_tran('t');\" onclick=\"toggleLanguage('t')\" id=\"zh_click_t\" dcindex=\"165\">繁体"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-row",
+      "id": "",
+      "lis": 10,
+      "links": 16,
+      "text": "国务院 省政府 市政府 简体版 繁体版| 移动版 闽政通APP |登录|注册 网站支持IPV6 首页 区政府 政务公开 解读回应 办事服务 互动交流 走进思明 ",
+      "html": "<div class=\"el-row\" dcindex=\"151\">\n          <div class=\"el-col el-col-9 el-col-sm-24 header_21_logo\" dcindex=\"152\"><img src=\"/comps/images/gh_logo.png\" dcindex=\"153\"><img src=\"/images/250425sm_logo.png\" dcindex=\"154\">\n          </div>\n          <div class=\"el-col el-col-15 el-col-sm-24 header_21_con1_r\" dcindex=\"155\">\n            <div class=\"header_21_tit\" dcindex=\"156\">\n              <div class=\"header_21_a_link\" dcindex=\"157\">\n                <a href=\"http://www.gov.cn/\" target=\"_blank\" dcindex=\"158\">国务院</a>\n                <a href=\"http://www.fujian.gov.cn/\" target=\"_blank\" dcindex=\"159\">省政府</a>\n                <a href=\"http://www.xm.gov.cn/\" target=\"_blank\" dcindex=\"160\">市政府</a>\n              </div>\n              <div class=\"header_21_font\" dcindex=\"161\">\n                <ul dcindex=\"162\">\n                  <li dcindex=\"163\">  \n                               \n                    <a href=\"javascript:zh_tran('s');\" onclick=\"toggleLanguage('s')\" id=\"zh_click_s\" class=\"on\" style=\"display: none;\" dcindex=\"164\">简体版</a>\n                    <a href=\"javascript:zh_tran('t');\" onclick=\"toggleLanguage('t')\" id=\"zh_click_t\" dcindex=\"165\">繁体版</a><em dcindex=\"166\">|</em>  \n                 "
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-col el-col-15 el-col-sm-24 header_21_con1_r",
+      "id": "",
+      "lis": 10,
+      "links": 16,
+      "text": "国务院 省政府 市政府 简体版 繁体版| 移动版 闽政通APP |登录|注册 网站支持IPV6 首页 区政府 政务公开 解读回应 办事服务 互动交流 走进思明 ",
+      "html": "<div class=\"el-col el-col-15 el-col-sm-24 header_21_con1_r\" dcindex=\"155\">\n            <div class=\"header_21_tit\" dcindex=\"156\">\n              <div class=\"header_21_a_link\" dcindex=\"157\">\n                <a href=\"http://www.gov.cn/\" target=\"_blank\" dcindex=\"158\">国务院</a>\n                <a href=\"http://www.fujian.gov.cn/\" target=\"_blank\" dcindex=\"159\">省政府</a>\n                <a href=\"http://www.xm.gov.cn/\" target=\"_blank\" dcindex=\"160\">市政府</a>\n              </div>\n              <div class=\"header_21_font\" dcindex=\"161\">\n                <ul dcindex=\"162\">\n                  <li dcindex=\"163\">  \n                               \n                    <a href=\"javascript:zh_tran('s');\" onclick=\"toggleLanguage('s')\" id=\"zh_click_s\" class=\"on\" style=\"display: none;\" dcindex=\"164\">简体版</a>\n                    <a href=\"javascript:zh_tran('t');\" onclick=\"toggleLanguage('t')\" id=\"zh_click_t\" dcindex=\"165\">繁体版</a><em dcindex=\"166\">|</em>  \n                  </li>\n                \n                  <li dcindex=\"167\">\n                 \n                    <a target=\"_blank\" href=\"http://www.fujian.gov.cn/bsfw/mztapp/\" dcindex=\"168\">移动版</a>\n                    <div class=\"ydb_con\" dcindex=\"169\">\n     "
+    },
+    {
+      "tag": "DIV",
+      "cls": "header_21_tit",
+      "id": "",
+      "lis": 3,
+      "links": 9,
+      "text": "国务院 省政府 市政府 简体版 繁体版| 移动版 闽政通APP |登录|注册 网站支持IPV6",
+      "html": "<div class=\"header_21_tit\" dcindex=\"156\">\n              <div class=\"header_21_a_link\" dcindex=\"157\">\n                <a href=\"http://www.gov.cn/\" target=\"_blank\" dcindex=\"158\">国务院</a>\n                <a href=\"http://www.fujian.gov.cn/\" target=\"_blank\" dcindex=\"159\">省政府</a>\n                <a href=\"http://www.xm.gov.cn/\" target=\"_blank\" dcindex=\"160\">市政府</a>\n              </div>\n              <div class=\"header_21_font\" dcindex=\"161\">\n                <ul dcindex=\"162\">\n                  <li dcindex=\"163\">  \n                               \n                    <a href=\"javascript:zh_tran('s');\" onclick=\"toggleLanguage('s')\" id=\"zh_click_s\" class=\"on\" style=\"display: none;\" dcindex=\"164\">简体版</a>\n                    <a href=\"javascript:zh_tran('t');\" onclick=\"toggleLanguage('t')\" id=\"zh_click_t\" dcindex=\"165\">繁体版</a><em dcindex=\"166\">|</em>  \n                  </li>\n                \n                  <li dcindex=\"167\">\n                 \n                    <a target=\"_blank\" href=\"http://www.fujian.gov.cn/bsfw/mztapp/\" dcindex=\"168\">移动版</a>\n                    <div class=\"ydb_con\" dcindex=\"169\">\n                      \n                                  <div class=\"ewm_tu\" dcindex=\"170\"><"
+    },
+    {
+      "tag": "DIV",
+      "cls": "header_21_font",
+      "id": "",
+      "lis": 3,
+      "links": 6,
+      "text": "简体版 繁体版| 移动版 闽政通APP |登录|注册",
+      "html": "<div class=\"header_21_font\" dcindex=\"161\">\n                <ul dcindex=\"162\">\n                  <li dcindex=\"163\">  \n                               \n                    <a href=\"javascript:zh_tran('s');\" onclick=\"toggleLanguage('s')\" id=\"zh_click_s\" class=\"on\" style=\"display: none;\" dcindex=\"164\">简体版</a>\n                    <a href=\"javascript:zh_tran('t');\" onclick=\"toggleLanguage('t')\" id=\"zh_click_t\" dcindex=\"165\">繁体版</a><em dcindex=\"166\">|</em>  \n                  </li>\n                \n                  <li dcindex=\"167\">\n                 \n                    <a target=\"_blank\" href=\"http://www.fujian.gov.cn/bsfw/mztapp/\" dcindex=\"168\">移动版</a>\n                    <div class=\"ydb_con\" dcindex=\"169\">\n                      \n                                  <div class=\"ewm_tu\" dcindex=\"170\"><img src=\"/images/code1.png\" dcindex=\"171\"></div>\n                      <a href=\"javascript:;\" dcindex=\"172\"><span class=\"iconfont_hf\" dcindex=\"173\"></span>闽政通APP</a>\n                    </div>\n                  </li>\n                  <li id=\"ssoUser-div\" dcindex=\"174\"><em>|</em><a id=\"logined\" href=\"http://www.siming.gov.cn/portal-gateway/login/login?redirtUrl=http://www.siming.gov.cn/porta"
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 3,
+      "links": 6,
+      "text": "简体版 繁体版| 移动版 闽政通APP |登录|注册",
+      "html": "<ul dcindex=\"162\">\n                  <li dcindex=\"163\">  \n                               \n                    <a href=\"javascript:zh_tran('s');\" onclick=\"toggleLanguage('s')\" id=\"zh_click_s\" class=\"on\" style=\"display: none;\" dcindex=\"164\">简体版</a>\n                    <a href=\"javascript:zh_tran('t');\" onclick=\"toggleLanguage('t')\" id=\"zh_click_t\" dcindex=\"165\">繁体版</a><em dcindex=\"166\">|</em>  \n                  </li>\n                \n                  <li dcindex=\"167\">\n                 \n                    <a target=\"_blank\" href=\"http://www.fujian.gov.cn/bsfw/mztapp/\" dcindex=\"168\">移动版</a>\n                    <div class=\"ydb_con\" dcindex=\"169\">\n                      \n                                  <div class=\"ewm_tu\" dcindex=\"170\"><img src=\"/images/code1.png\" dcindex=\"171\"></div>\n                      <a href=\"javascript:;\" dcindex=\"172\"><span class=\"iconfont_hf\" dcindex=\"173\"></span>闽政通APP</a>\n                    </div>\n                  </li>\n                  <li id=\"ssoUser-div\" dcindex=\"174\"><em>|</em><a id=\"logined\" href=\"http://www.siming.gov.cn/portal-gateway/login/login?redirtUrl=http://www.siming.gov.cn/portal-gateway/login/noseLogin?redirtUrl=http://www.siming.gov.c"
+    },
+    {
+      "tag": "DIV",
+      "cls": "nav_21",
+      "id": "",
+      "lis": 7,
+      "links": 7,
+      "text": "首页 区政府 政务公开 解读回应 办事服务 互动交流 走进思明",
+      "html": "<div class=\"nav_21\" dcindex=\"178\">\n              <ul dcindex=\"179\">\n                <li id=\"sy\" dcindex=\"180\" class=\"on\"><a href=\"/\" dcindex=\"181\">首页</a></li>\n                <li id=\"qzf\" class=\"li\" dcindex=\"182\">\n                    <a href=\"http://www.siming.gov.cn/xxgk/qzfld/\" target=\"_blank\" dcindex=\"183\">区政府</a>\n                  \n                   \n                </li>\n                <li id=\"xxgk\" class=\"li\" dcindex=\"184\">\n                  <a href=\"/xxgk/\" dcindex=\"185\">政务公开</a>\n                  \n                </li>\n                <li id=\"jdhy\" class=\"li\" dcindex=\"194\">\n                  <a href=\"/jdhy/\" dcindex=\"195\">解读回应</a>\n                  \n                </li>\n                <li id=\"wsbs\" class=\"li\" dcindex=\"200\">\n                  <a href=\"http://www.siming.gov.cn/wsbs/\" dcindex=\"201\">办事服务</a>\n\t\t\t\t\t\n                </li>\n                <li id=\"zmhd\" class=\"li\" dcindex=\"208\">\n                  <a href=\"/zmhd/\" dcindex=\"209\">互动交流</a>\n                  \n                </li>\n                <li id=\"zjsm\" class=\"li\" dcindex=\"218\">\n                  <a href=\"/zjsm/\" dcindex=\"219\">走进思明</a>\n                  \n                </li>\n              </ul>\n            </"
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 7,
+      "links": 7,
+      "text": "首页 区政府 政务公开 解读回应 办事服务 互动交流 走进思明",
+      "html": "<ul dcindex=\"179\">\n                <li id=\"sy\" dcindex=\"180\" class=\"on\"><a href=\"/\" dcindex=\"181\">首页</a></li>\n                <li id=\"qzf\" class=\"li\" dcindex=\"182\">\n                    <a href=\"http://www.siming.gov.cn/xxgk/qzfld/\" target=\"_blank\" dcindex=\"183\">区政府</a>\n                  \n                   \n                </li>\n                <li id=\"xxgk\" class=\"li\" dcindex=\"184\">\n                  <a href=\"/xxgk/\" dcindex=\"185\">政务公开</a>\n                  \n                </li>\n                <li id=\"jdhy\" class=\"li\" dcindex=\"194\">\n                  <a href=\"/jdhy/\" dcindex=\"195\">解读回应</a>\n                  \n                </li>\n                <li id=\"wsbs\" class=\"li\" dcindex=\"200\">\n                  <a href=\"http://www.siming.gov.cn/wsbs/\" dcindex=\"201\">办事服务</a>\n\t\t\t\t\t\n                </li>\n                <li id=\"zmhd\" class=\"li\" dcindex=\"208\">\n                  <a href=\"/zmhd/\" dcindex=\"209\">互动交流</a>\n                  \n                </li>\n                <li id=\"zjsm\" class=\"li\" dcindex=\"218\">\n                  <a href=\"/zjsm/\" dcindex=\"219\">走进思明</a>\n                  \n                </li>\n              </ul>"
+    },
+    {
+      "tag": "DIV",
+      "cls": "contain",
+      "id": "",
+      "lis": 128,
+      "links": 134,
+      "text": "长者模式 无障碍浏览 function check(){ document.charset='UTF-8'; if(document.getElementById(\"id1\").value==\"\"||document.getElementById(\"id1\").value=='热搜：自由贸易试验区 户籍办理 公积金 医疗卫生 环境气象'){ alert(\"搜",
+      "html": "<div class=\"contain\" dcindex=\"257\">\n\t\t<div class=\"head\" dcindex=\"258\">\n\t<!--<div class=\"logo\"><img src=\"/images/19_zfxxgk_logo.png\" />\n\t\t<span class=\"govName\">厦门市思明区人民政府</span>\n\t\t<div class=\"r\"><a href=\"/\">&lt;&lt;返回首页</a></div>\n\t</div>-->\n\t<div class=\"aged_link\" dcindex=\"259\">\n\t\t<a href=\"javascript:void(0)\" onclick=\"top.aria.ofStart()\" class=\"aged_link_01\" dcindex=\"260\" for=\"ariaslh\">长者模式</a>\n\t\t<a href=\"javascript:void(0)\" onclick=\"top.aria.start()\" class=\"aged_link_02\" dcindex=\"261\" for=\"wza\">无障碍浏览</a>\n\t</div>\n\t<div class=\"t\" style=\"height: 280px;\" dcindex=\"262\"><img class=\"mar_t50\" src=\"/images/19_zfxxgk_t1.png\" dcindex=\"263\"></div>\n</div>\n\t\t<div class=\"con_bg\" dcindex=\"264\">\n\t\t\t<div class=\"tit\" dcindex=\"265\">\n\t\t\t\t<i class=\"line_l\" dcindex=\"266\"></i>\n\t\t\t\t<i class=\"line_r\" dcindex=\"267\"></i>\n\t\t\t\t<div class=\"ss_con\" dcindex=\"268\">\n\t\t\t\t\t<form action=\"/ssp/main/index.html\" autocomplete=\"off\" onsubmit=\"return check2()\" target=\"_blank\" method=\"get\" id=\"form1\" accept-charset=\"UTF-8\" class=\"siteSearch\" dcindex=\"269\">\n\t\t\t\t\t\t<input type=\"hidden\" name=\"siteId\" value=\"40280d3173994764017399502ae00003\" dcindex=\"270\">\n\t\t\t\t\t\t<input type=\"hidden\" name=\"sourceType\" value=\"SSP_OPENINFO\" dcindex=\""
+    },
+    {
+      "tag": "DIV",
+      "cls": "con_bg",
+      "id": "",
+      "lis": 128,
+      "links": 132,
+      "text": "function check(){ document.charset='UTF-8'; if(document.getElementById(\"id1\").value==\"\"||document.getElementById(\"id1\").value=='热搜：自由贸易试验区 户籍办理 公积金 医疗卫生 环境气象'){ alert(\"搜索内容不能为空，请重新",
+      "html": "<div class=\"con_bg\" dcindex=\"264\">\n\t\t\t<div class=\"tit\" dcindex=\"265\">\n\t\t\t\t<i class=\"line_l\" dcindex=\"266\"></i>\n\t\t\t\t<i class=\"line_r\" dcindex=\"267\"></i>\n\t\t\t\t<div class=\"ss_con\" dcindex=\"268\">\n\t\t\t\t\t<form action=\"/ssp/main/index.html\" autocomplete=\"off\" onsubmit=\"return check2()\" target=\"_blank\" method=\"get\" id=\"form1\" accept-charset=\"UTF-8\" class=\"siteSearch\" dcindex=\"269\">\n\t\t\t\t\t\t<input type=\"hidden\" name=\"siteId\" value=\"40280d3173994764017399502ae00003\" dcindex=\"270\">\n\t\t\t\t\t\t<input type=\"hidden\" name=\"sourceType\" value=\"SSP_OPENINFO\" dcindex=\"271\">\n\t\t\t\t\t\t<input type=\"text\" class=\"ss_inp\" name=\"key\" id=\"id1\" placeholder=\"请输入关键词\" dcindex=\"272\">\n\t\t\t\t\t\t<input type=\"button\" class=\"ss_btn\" onclick=\"check()\" dcindex=\"273\">\n\t\t\t\t\t</form>\n\t\t\t\t</div>\n\t\t\t</div>\n<script type=\"text/javascript\" dcindex=\"274\">\nfunction check(){\n    document.charset='UTF-8';\n    if(document.getElementById(\"id1\").value==\"\"||document.getElementById(\"id1\").value=='热搜：自由贸易试验区 户籍办理 公积金 医疗卫生 环境气象'){\n        alert(\"搜索内容不能为空，请重新输入！\");\n        document.getElementById(\"id1\").focus();\n        return false;\n    }\n    \telse return document.getElementById(\"form1\").submit();\n\t};\nfunction check2(){\ndocument.charset='UTF-8';\n    if(d"
+    },
+    {
+      "tag": "DIV",
+      "cls": "con",
+      "id": "",
+      "lis": 128,
+      "links": 132,
+      "text": "政 策 行政规范性文件 行政规范性文件清理目录 政府信息公开指南 思明区人民政府 政府办 发展和改革局 教育局 科技和工信局 民政局 司法局 财政局 人力资源和社会保障局 住房和建设局 商务局 文化和旅游局 卫生健康局 退役军人事务局 应急管理局 审计局 统计局 市政园林局 城市管理和综合执法局 信访局 工业园区管委会 鼓浪屿街道 鹭江街道 中华街道 厦港街",
+      "html": "<div class=\"con\" dcindex=\"275\">\n\t\t\t\t<div class=\"con_l info_menu_list on\" dcindex=\"276\">\n    <ul id=\"tree\" dcindex=\"277\" class=\"on\">\n        <li dcindex=\"278\">\n            <a href=\"javascript:void(0);\" class=\"parent\" id=\"zcTreeATag\" dcindex=\"279\">\n                <span class=\"icon6\" dcindex=\"280\"></span>\n                <p style=\"line-height: 52px;\" dcindex=\"281\">政  策</p>\n            </a>\n            <ul dcindex=\"282\">\n                \n                    <li id=\"47646\" dcindex=\"283\">\n                        <a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/gfxzc/xzgfxwj/\" dcindex=\"284\">行政规范性文件</a>\n                    </li>\n                \n                    <li id=\"49799\" dcindex=\"285\">\n                        <a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/gfxzc/zcgfxwjql/\" dcindex=\"286\">行政规范性文件清理目录</a>\n                    </li>\n                \n            </ul>\n        </li>\n        <li dcindex=\"287\">\n            <a href=\"javascript:void(0);\" class=\"parent\" id=\"gkznTreeATag\" dcindex=\"288\">\n                <span class=\"icon1\" dcindex=\"289\"></span>\n                <p dcindex=\"290\">政府信息<br dcindex=\"291\">公开指南</p>\n            </a>\n            <ul dcindex=\"292\">\n                <li "
+    },
+    {
+      "tag": "DIV",
+      "cls": "con_l info_menu_list on",
+      "id": "",
+      "lis": 109,
+      "links": 109,
+      "text": "政 策 行政规范性文件 行政规范性文件清理目录 政府信息公开指南 思明区人民政府 政府办 发展和改革局 教育局 科技和工信局 民政局 司法局 财政局 人力资源和社会保障局 住房和建设局 商务局 文化和旅游局 卫生健康局 退役军人事务局 应急管理局 审计局 统计局 市政园林局 城市管理和综合执法局 信访局 工业园区管委会 鼓浪屿街道 鹭江街道 中华街道 厦港街",
+      "html": "<div class=\"con_l info_menu_list on\" dcindex=\"276\">\n    <ul id=\"tree\" dcindex=\"277\" class=\"on\">\n        <li dcindex=\"278\">\n            <a href=\"javascript:void(0);\" class=\"parent\" id=\"zcTreeATag\" dcindex=\"279\">\n                <span class=\"icon6\" dcindex=\"280\"></span>\n                <p style=\"line-height: 52px;\" dcindex=\"281\">政  策</p>\n            </a>\n            <ul dcindex=\"282\">\n                \n                    <li id=\"47646\" dcindex=\"283\">\n                        <a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/gfxzc/xzgfxwj/\" dcindex=\"284\">行政规范性文件</a>\n                    </li>\n                \n                    <li id=\"49799\" dcindex=\"285\">\n                        <a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/gfxzc/zcgfxwjql/\" dcindex=\"286\">行政规范性文件清理目录</a>\n                    </li>\n                \n            </ul>\n        </li>\n        <li dcindex=\"287\">\n            <a href=\"javascript:void(0);\" class=\"parent\" id=\"gkznTreeATag\" dcindex=\"288\">\n                <span class=\"icon1\" dcindex=\"289\"></span>\n                <p dcindex=\"290\">政府信息<br dcindex=\"291\">公开指南</p>\n            </a>\n            <ul dcindex=\"292\">\n                <li id=\"19377\" dcindex=\"293\">\n          "
+    },
+    {
+      "tag": "UL",
+      "cls": "on",
+      "id": "tree",
+      "lis": 109,
+      "links": 109,
+      "text": "政 策 行政规范性文件 行政规范性文件清理目录 政府信息公开指南 思明区人民政府 政府办 发展和改革局 教育局 科技和工信局 民政局 司法局 财政局 人力资源和社会保障局 住房和建设局 商务局 文化和旅游局 卫生健康局 退役军人事务局 应急管理局 审计局 统计局 市政园林局 城市管理和综合执法局 信访局 工业园区管委会 鼓浪屿街道 鹭江街道 中华街道 厦港街",
+      "html": "<ul id=\"tree\" dcindex=\"277\" class=\"on\">\n        <li dcindex=\"278\">\n            <a href=\"javascript:void(0);\" class=\"parent\" id=\"zcTreeATag\" dcindex=\"279\">\n                <span class=\"icon6\" dcindex=\"280\"></span>\n                <p style=\"line-height: 52px;\" dcindex=\"281\">政  策</p>\n            </a>\n            <ul dcindex=\"282\">\n                \n                    <li id=\"47646\" dcindex=\"283\">\n                        <a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/gfxzc/xzgfxwj/\" dcindex=\"284\">行政规范性文件</a>\n                    </li>\n                \n                    <li id=\"49799\" dcindex=\"285\">\n                        <a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/gfxzc/zcgfxwjql/\" dcindex=\"286\">行政规范性文件清理目录</a>\n                    </li>\n                \n            </ul>\n        </li>\n        <li dcindex=\"287\">\n            <a href=\"javascript:void(0);\" class=\"parent\" id=\"gkznTreeATag\" dcindex=\"288\">\n                <span class=\"icon1\" dcindex=\"289\"></span>\n                <p dcindex=\"290\">政府信息<br dcindex=\"291\">公开指南</p>\n            </a>\n            <ul dcindex=\"292\">\n                <li id=\"19377\" dcindex=\"293\">\n                    <a href=\"http://www.siming.gov.cn/zfxxgkzl/qrm"
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 31,
+      "links": 31,
+      "text": "思明区人民政府 政府办 发展和改革局 教育局 科技和工信局 民政局 司法局 财政局 人力资源和社会保障局 住房和建设局 商务局 文化和旅游局 卫生健康局 退役军人事务局 应急管理局 审计局 统计局 市政园林局 城市管理和综合执法局 信访局 工业园区管委会 鼓浪屿街道 鹭江街道 中华街道 厦港街道 开元街道 筼筜街道 梧村街道 嘉莲街道 莲前街道 滨海街道",
+      "html": "<ul dcindex=\"292\">\n                <li id=\"19377\" dcindex=\"293\">\n                    <a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkzn/\" dcindex=\"294\">思明区人民政府</a>\n                </li>\n                \n                    <li id=\"19422\" dcindex=\"295\">\n                        <a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/zfb/zfxxgkzn/\" dcindex=\"296\">政府办</a>\n                    </li>\n                \n                    <li id=\"19441\" dcindex=\"297\">\n                        <a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/zfxxgkzn/\" dcindex=\"298\">发展和改革局</a>\n                    </li>\n                \n                    <li id=\"19464\" dcindex=\"299\">\n                        <a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jyj/zfxxgkzn/\" dcindex=\"300\">教育局</a>\n                    </li>\n                \n                    <li id=\"19499\" dcindex=\"301\">\n                        <a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkzn/\" dcindex=\"302\">科技和工信局</a>\n                    </li>\n                \n                    <li id=\"19515\" dcindex=\"303\">\n                        <a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/mzj/zfxxgkzn/\" dcindex=\"304\">民政局"
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 38,
+      "links": 38,
+      "text": "政府文件 区政府文件 区政府办文件 行政规范性文件 规范性文件清理 政策解读 政府会议 规划计划 五年规划 专项规划 年度计划总结 政府工作报告 政府工作报告 统计信息 财政资金 重点项目建设 为民办实事 建议提案办理情况公开 人事信息 人事任免 招聘信息 公务员招考 生态环境 征地拆迁 城区建设 双随机、一公开 乡村振兴 行政事业性收费 重大行政决策预公开",
+      "html": "<ul dcindex=\"365\">\n                                    \n                    \n               \n                    \n                        <li id=\"19381\" class=\"parentNode twoNode\" dcindex=\"366\">\n                            <p class=\"node\" dcindex=\"367\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/\" id=\"c19381\" target=\"_blank\" dcindex=\"368\">\n                                政府文件<i class=\"trt-iconfont trt-icon-arrow\" dcindex=\"369\"></i>\n                            </a></p> \n                            <!-- 子栏目 -->\n                            <ul class=\"no\" dcindex=\"370\">   \n                                                                           \n                                <li dcindex=\"371\">                                 \n                                        <p dcindex=\"372\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/qzfwj/\" title=\"区政府文件\" class=\"类名\" style=\"样式的内容\" dcindex=\"373\">区政府文件</a></p>                                  \n                                </li>\n                                                                       \n                                <li dcindex=\"374\">                                 \n                      "
+    },
+    {
+      "tag": "UL",
+      "cls": "no",
+      "id": "",
+      "lis": 4,
+      "links": 4,
+      "text": "区政府文件 区政府办文件 行政规范性文件 规范性文件清理",
+      "html": "<ul class=\"no\" dcindex=\"370\">   \n                                                                           \n                                <li dcindex=\"371\">                                 \n                                        <p dcindex=\"372\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/qzfwj/\" title=\"区政府文件\" class=\"类名\" style=\"样式的内容\" dcindex=\"373\">区政府文件</a></p>                                  \n                                </li>\n                                                                       \n                                <li dcindex=\"374\">                                 \n                                        <p dcindex=\"375\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/qzfbwj/\" title=\"区政府办文件\" class=\"类名\" style=\"样式的内容\" dcindex=\"376\">区政府办文件</a></p>                                  \n                                </li>\n                                                                       \n                                <li dcindex=\"377\">                                 \n                                        <p dcindex=\"378\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/xzgfxwj/\" title=\"行政规范性文件\" class=\"类名\" s"
+    },
+    {
+      "tag": "UL",
+      "cls": "no",
+      "id": "",
+      "lis": 4,
+      "links": 4,
+      "text": "五年规划 专项规划 年度计划总结 政府工作报告",
+      "html": "<ul class=\"no\" dcindex=\"393\">   \n                                                                           \n                                <li dcindex=\"394\">                                 \n                                        <p dcindex=\"395\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/ztgh/\" title=\"五年规划\" class=\"类名\" style=\"样式的内容\" dcindex=\"396\">五年规划</a></p>                                  \n                                </li>\n                                                                       \n                                <li dcindex=\"397\">                                 \n                                        <p dcindex=\"398\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/zxgh/\" title=\"专项规划\" class=\"类名\" style=\"样式的内容\" dcindex=\"399\">专项规划</a></p>                                  \n                                </li>\n                                                                       \n                                <li dcindex=\"400\">                                 \n                                        <p dcindex=\"401\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/ndjh/\" title=\"年度计划总结\" class=\"类名\" style"
+    },
+    {
+      "tag": "UL",
+      "cls": "no",
+      "id": "",
+      "lis": 3,
+      "links": 3,
+      "text": "人事任免 招聘信息 公务员招考",
+      "html": "<ul class=\"no\" dcindex=\"428\">   \n                                                                           \n                                <li dcindex=\"429\">                                 \n                                        <p dcindex=\"430\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/rsrm/\" title=\"人事任免\" class=\"类名\" style=\"样式的内容\" dcindex=\"431\">人事任免</a></p>                                  \n                                </li>\n                                                                       \n                                <li dcindex=\"432\">                                 \n                                        <p dcindex=\"433\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/sydwzp/\" title=\"招聘信息\" class=\"类名\" style=\"样式的内容\" dcindex=\"434\">招聘信息</a></p>                                  \n                                </li>\n                                                                       \n                                <li dcindex=\"435\">                                 \n                                        <p dcindex=\"436\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/gwyzk/\" title=\"公务员招考\" class=\"类名\" style=\"样式的内容"
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 20,
+      "links": 20,
+      "text": "政府办 发展和改革局 教育局 科技和工信局 民政局 司法局 财政局 人力资源和社会保障局 住房和建设局 商务局 文化和旅游局 卫生健康局 退役军人事务局 应急管理局 审计局 统计局 市政园林局 城市管理和综合执法局 信访局 工业园区管委会",
+      "html": "<ul dcindex=\"501\" style=\"display: block;\">\n                \n                    \n                        <li id=\"19424\" dcindex=\"502\">\n                            <a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/zfb/zfxxgkml/\" dcindex=\"503\">政府办</a>\n                        </li>\n                    \n                    \n                \n                    \n                        <li id=\"19443\" dcindex=\"504\">\n                            <a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/zfxxgkml/\" dcindex=\"505\">发展和改革局</a>\n                        </li>\n                    \n                    \n                \n                    \n                        <li id=\"19466\" dcindex=\"506\">\n                            <a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jyj/zfxxgkml/\" dcindex=\"507\">教育局</a>\n                        </li>\n                    \n                    \n                \n                    \n                        <li id=\"19501\" dcindex=\"508\" class=\"on\">\n                            <a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/\" class=\"on\" dcindex=\"509\">科技和工信局</a>\n                        </li>\n                    \n                    \n  "
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 10,
+      "links": 10,
+      "text": "鼓浪屿街道 鹭江街道 中华街道 厦港街道 开元街道 筼筜街道 梧村街道 嘉莲街道 莲前街道 滨海街道",
+      "html": "<ul dcindex=\"547\">\n                \n                    \n                        <li id=\"19878\" dcindex=\"548\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/glyjd/zfxxgkml/\" dcindex=\"549\">鼓浪屿街道</a></li>\n                    \n                    \n                \n                    \n                        <li id=\"19895\" dcindex=\"550\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ljjd/zfxxgkml/\" dcindex=\"551\">鹭江街道</a></li>\n                    \n                    \n                \n                    \n                        <li id=\"19914\" dcindex=\"552\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/zhjd/zfxxgkml/\" dcindex=\"553\">中华街道</a></li>\n                    \n                    \n                \n                    \n                        <li id=\"19935\" dcindex=\"554\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/xgjd/zfxxgkml/\" dcindex=\"555\">厦港街道</a></li>\n                    \n                    \n                \n                    \n                        <li id=\"19953\" dcindex=\"556\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/kyjd/zfxxgkml/\" dcindex=\"557\">开元街道</a></li>\n                    \n                    \n                \n            "
+    },
+    {
+      "tag": "DIV",
+      "cls": "con_r",
+      "id": "",
+      "lis": 19,
+      "links": 23,
+      "text": "机构设置 厦门市思明区科技和工信局机构职能目录表2025-12-23 更 多 部门预算公开 2026年厦门市思明区政务服务保障中心预算说明2026-01-30 2026年厦门市思明区信息中心预算说明2026-01-30 2026年厦门市思明区企业服务中心预算说明2026-01-30 2026年厦门市思明区科技和工信局部门预算说明2026-01-30 2026",
+      "html": "<div class=\"con_r\" dcindex=\"569\">\n\t\t\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"tit1 bor_b1\" dcindex=\"570\">\n\t\t\t\t\t\t\t<span dcindex=\"571\">机构设置</span>\n\t\t\t\t\t\t\t<div class=\"clear\" dcindex=\"572\"></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"list\" dcindex=\"573\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<ul dcindex=\"574\">\n\t\t\t\t\t\t\t\t\t\n    <li dcindex=\"575\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/jgzn/202409/t20240930_1072718.htm\" target=\"_blank\" title=\"厦门市思明区科技和工信局机构职能目录表\" dcindex=\"576\">厦门市思明区科技和工信局机构职能目录表</a><span dcindex=\"577\">2025-12-23</span></li>\n\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t<a href=\"./jgzn/\" class=\"more\" dcindex=\"578\">更 多</a>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\t\n\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"tit1 bor_b1\" dcindex=\"579\">\n\t\t\t\t\t\t\t\t<span dcindex=\"580\">部门预算公开</span>\n\t\t\t\t\t\t\t\t<div class=\"clear\" dcindex=\"581\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"list\" dcindex=\"582\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<ul dcindex=\"583\">\n\t\t\t\t\t\t\t\t\t\t\n    <li dcindex=\"584\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136253.htm\" target=\"_blank\" title=\"2026年厦门市思明区政务服务保障中心预算说明\" dcindex=\"585\">2026年厦门市思明区政务服务保障中心预算说明</a><span dcindex=\"586\">2026-01-30</span></li>\n\n    <li dcindex=\"587"
+    },
+    {
+      "tag": "DIV",
+      "cls": "list",
+      "id": "",
+      "lis": 6,
+      "links": 7,
+      "text": "2026年厦门市思明区政务服务保障中心预算说明2026-01-30 2026年厦门市思明区信息中心预算说明2026-01-30 2026年厦门市思明区企业服务中心预算说明2026-01-30 2026年厦门市思明区科技和工信局部门预算说明2026-01-30 2026年厦门市思明区科技和工信局预算说明2026-01-30 2024年厦门市思明区信息中心项目支",
+      "html": "<div class=\"list\" dcindex=\"582\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<ul dcindex=\"583\">\n\t\t\t\t\t\t\t\t\t\t\n    <li dcindex=\"584\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136253.htm\" target=\"_blank\" title=\"2026年厦门市思明区政务服务保障中心预算说明\" dcindex=\"585\">2026年厦门市思明区政务服务保障中心预算说明</a><span dcindex=\"586\">2026-01-30</span></li>\n\n    <li dcindex=\"587\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136252.htm\" target=\"_blank\" title=\"2026年厦门市思明区信息中心预算说明\" dcindex=\"588\">2026年厦门市思明区信息中心预算说明</a><span dcindex=\"589\">2026-01-30</span></li>\n\n    <li dcindex=\"590\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136251.htm\" target=\"_blank\" title=\"2026年厦门市思明区企业服务中心预算说明\" dcindex=\"591\">2026年厦门市思明区企业服务中心预算说明</a><span dcindex=\"592\">2026-01-30</span></li>\n\n    <li dcindex=\"593\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136238.htm\" target=\"_blank\" title=\"2026年厦门市思明区科技和工信局部门预算说明\" dcindex=\"594\">2026年厦门市思明区科技和工信局部门预算说明</a><span dcindex=\"595\">2026-01-30</span></li>\n\n    <li dcindex=\"596\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kj"
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 6,
+      "links": 6,
+      "text": "2026年厦门市思明区政务服务保障中心预算说明2026-01-30 2026年厦门市思明区信息中心预算说明2026-01-30 2026年厦门市思明区企业服务中心预算说明2026-01-30 2026年厦门市思明区科技和工信局部门预算说明2026-01-30 2026年厦门市思明区科技和工信局预算说明2026-01-30 2024年厦门市思明区信息中心项目支",
+      "html": "<ul dcindex=\"583\">\n\t\t\t\t\t\t\t\t\t\t\n    <li dcindex=\"584\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136253.htm\" target=\"_blank\" title=\"2026年厦门市思明区政务服务保障中心预算说明\" dcindex=\"585\">2026年厦门市思明区政务服务保障中心预算说明</a><span dcindex=\"586\">2026-01-30</span></li>\n\n    <li dcindex=\"587\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136252.htm\" target=\"_blank\" title=\"2026年厦门市思明区信息中心预算说明\" dcindex=\"588\">2026年厦门市思明区信息中心预算说明</a><span dcindex=\"589\">2026-01-30</span></li>\n\n    <li dcindex=\"590\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136251.htm\" target=\"_blank\" title=\"2026年厦门市思明区企业服务中心预算说明\" dcindex=\"591\">2026年厦门市思明区企业服务中心预算说明</a><span dcindex=\"592\">2026-01-30</span></li>\n\n    <li dcindex=\"593\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136238.htm\" target=\"_blank\" title=\"2026年厦门市思明区科技和工信局部门预算说明\" dcindex=\"594\">2026年厦门市思明区科技和工信局部门预算说明</a><span dcindex=\"595\">2026-01-30</span></li>\n\n    <li dcindex=\"596\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136231."
+    },
+    {
+      "tag": "DIV",
+      "cls": "list",
+      "id": "",
+      "lis": 6,
+      "links": 7,
+      "text": "2024年度厦门市思明区政务服务保障中心单位决算2025-09-02 2024年度厦门市思明区信息中心单位决算2025-09-02 2024年度厦门市思明区企业服务中心单位决算2025-09-02 2024年度原厦门市思明区行政审批管理局（本级）部门决算2025-09-01 2024年度厦门市思明区行政审批管理局（汇总）部门决算2025-09-01 2024",
+      "html": "<div class=\"list\" dcindex=\"606\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<ul dcindex=\"607\">\n\t\t\t\t\t\t\t\t\t\t\n    <li dcindex=\"608\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250915620634326066.pdf\" target=\"_blank\" title=\"2024年度厦门市思明区政务服务保障中心单位决算\" dcindex=\"609\">2024年度厦门市思明区政务服务保障中心单位决算</a><span dcindex=\"610\">2025-09-02</span></li>\n\n    <li dcindex=\"611\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020260415382616161735.pdf\" target=\"_blank\" title=\"2024年度厦门市思明区信息中心单位决算\" dcindex=\"612\">2024年度厦门市思明区信息中心单位决算</a><span dcindex=\"613\">2025-09-02</span></li>\n\n    <li dcindex=\"614\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020260106543144379754.pdf\" target=\"_blank\" title=\"2024年度厦门市思明区企业服务中心单位决算\" dcindex=\"615\">2024年度厦门市思明区企业服务中心单位决算</a><span dcindex=\"616\">2025-09-02</span></li>\n\n    <li dcindex=\"617\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250917627936908711.pdf\" target=\"_blank\" title=\"2024年度原厦门市思明区行政审批管理局（本级）部门决算\" dcindex=\"618\">2024年度原厦门市思明区行政审批管理局（本级）部门决算</a><span dcindex=\"619\">2025-09-01</span></li>\n\n    <li dcindex=\"620\"><a href=\"http"
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 6,
+      "links": 6,
+      "text": "2024年度厦门市思明区政务服务保障中心单位决算2025-09-02 2024年度厦门市思明区信息中心单位决算2025-09-02 2024年度厦门市思明区企业服务中心单位决算2025-09-02 2024年度原厦门市思明区行政审批管理局（本级）部门决算2025-09-01 2024年度厦门市思明区行政审批管理局（汇总）部门决算2025-09-01 2024",
+      "html": "<ul dcindex=\"607\">\n\t\t\t\t\t\t\t\t\t\t\n    <li dcindex=\"608\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250915620634326066.pdf\" target=\"_blank\" title=\"2024年度厦门市思明区政务服务保障中心单位决算\" dcindex=\"609\">2024年度厦门市思明区政务服务保障中心单位决算</a><span dcindex=\"610\">2025-09-02</span></li>\n\n    <li dcindex=\"611\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020260415382616161735.pdf\" target=\"_blank\" title=\"2024年度厦门市思明区信息中心单位决算\" dcindex=\"612\">2024年度厦门市思明区信息中心单位决算</a><span dcindex=\"613\">2025-09-02</span></li>\n\n    <li dcindex=\"614\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020260106543144379754.pdf\" target=\"_blank\" title=\"2024年度厦门市思明区企业服务中心单位决算\" dcindex=\"615\">2024年度厦门市思明区企业服务中心单位决算</a><span dcindex=\"616\">2025-09-02</span></li>\n\n    <li dcindex=\"617\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250917627936908711.pdf\" target=\"_blank\" title=\"2024年度原厦门市思明区行政审批管理局（本级）部门决算\" dcindex=\"618\">2024年度原厦门市思明区行政审批管理局（本级）部门决算</a><span dcindex=\"619\">2025-09-01</span></li>\n\n    <li dcindex=\"620\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxg"
+    },
+    {
+      "tag": "DIV",
+      "cls": "list",
+      "id": "",
+      "lis": 6,
+      "links": 7,
+      "text": "关于公开遴选“思明数智工场”专业运营机构的通知2026-03-26 关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知2026-03-24 一图读懂《思明区先进制造业高质量发展若干措施》2026-03-05 关于《思明区先进制造业高质量发展若干措施》的政策解读2026-03-05 厦门市思明区科技和工信局关于印发思明区先进制造业高质量发展若干",
+      "html": "<div class=\"list\" dcindex=\"630\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<ul dcindex=\"631\">\n\t\t\t\t\t\t\t\t\t\n    <li dcindex=\"632\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260326_1141938.htm\" target=\"_blank\" title=\"关于公开遴选“思明数智工场”专业运营机构的通知\" dcindex=\"633\">关于公开遴选“思明数智工场”专业运营机构的通知</a><span dcindex=\"634\">2026-03-26</span></li>\n\n    <li dcindex=\"635\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260324_1141563.htm\" target=\"_blank\" title=\"关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知\" dcindex=\"636\">关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知</a><span dcindex=\"637\">2026-03-24</span></li>\n\n    <li dcindex=\"638\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139617.htm\" target=\"_blank\" title=\"一图读懂《思明区先进制造业高质量发展若干措施》\" dcindex=\"639\">一图读懂《思明区先进制造业高质量发展若干措施》</a><span dcindex=\"640\">2026-03-05</span></li>\n\n    <li dcindex=\"641\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139605.htm\" target=\"_blank\" title=\"关于《思明区先进制造业高质量发展若干措施》的政策解读\" dcindex=\"642\">关于《思明区先进制造业高质量发展若干措施》的政策解读</a><span dcindex=\"643\">2026-03-05</span></li>\n\n    <li dcindex=\"644\"><a href=\"http://www.siming.gov.cn/zfxxgkzl"
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 6,
+      "links": 6,
+      "text": "关于公开遴选“思明数智工场”专业运营机构的通知2026-03-26 关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知2026-03-24 一图读懂《思明区先进制造业高质量发展若干措施》2026-03-05 关于《思明区先进制造业高质量发展若干措施》的政策解读2026-03-05 厦门市思明区科技和工信局关于印发思明区先进制造业高质量发展若干",
+      "html": "<ul dcindex=\"631\">\n\t\t\t\t\t\t\t\t\t\n    <li dcindex=\"632\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260326_1141938.htm\" target=\"_blank\" title=\"关于公开遴选“思明数智工场”专业运营机构的通知\" dcindex=\"633\">关于公开遴选“思明数智工场”专业运营机构的通知</a><span dcindex=\"634\">2026-03-26</span></li>\n\n    <li dcindex=\"635\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260324_1141563.htm\" target=\"_blank\" title=\"关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知\" dcindex=\"636\">关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知</a><span dcindex=\"637\">2026-03-24</span></li>\n\n    <li dcindex=\"638\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139617.htm\" target=\"_blank\" title=\"一图读懂《思明区先进制造业高质量发展若干措施》\" dcindex=\"639\">一图读懂《思明区先进制造业高质量发展若干措施》</a><span dcindex=\"640\">2026-03-05</span></li>\n\n    <li dcindex=\"641\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139605.htm\" target=\"_blank\" title=\"关于《思明区先进制造业高质量发展若干措施》的政策解读\" dcindex=\"642\">关于《思明区先进制造业高质量发展若干措施》的政策解读</a><span dcindex=\"643\">2026-03-05</span></li>\n\n    <li dcindex=\"644\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1"
+    },
+    {
+      "tag": "DIV",
+      "cls": "footer_21",
+      "id": "",
+      "lis": 42,
+      "links": 47,
+      "text": "上级单位 福建省政府 厦门市政府 政府工作部门 政府办 发展和改革局 教育局 科技和工信局 民政局 司法局 财政局 人力资源和社会保障局 住房和建设局 商务局 文化和旅游局 卫生健康局 退役军人事务局 应急管理局 审计局 统计局 市政园林局 城市管理和综合执法局 信访局 工业园区管理委员会 街道办事处 莲前街道 梧村街道 嘉莲街道 滨海街道 筼筜街道 厦港街",
+      "html": "<div class=\"footer_21\" dcindex=\"652\">\n    <div class=\"footer_21_wzdh_tit\" dcindex=\"653\">\n        <div class=\"container_21\" dcindex=\"654\">\n            <div class=\"yqlj_tit1\" dcindex=\"655\">\n                <ul dcindex=\"656\">\n                    <li dcindex=\"657\">\n                        <p dcindex=\"658\">上级单位<em class=\"yqlj_arr\" dcindex=\"659\"></em></p>\n                        <div class=\"yqlj_con1\" dcindex=\"660\">\n                            <ul dcindex=\"661\">\n                                <li dcindex=\"662\"><a href=\"http://www.fujian.gov.cn/\" target=\"_blank\" dcindex=\"663\">福建省政府</a></li>\n                                <li dcindex=\"664\"><a href=\"http://www.xm.gov.cn/\" target=\"_blank\" dcindex=\"665\">厦门市政府</a></li>\n                            </ul>\n                            <div class=\"clear\" dcindex=\"666\"></div>\n                        </div>\n                    </li>\n                    <li dcindex=\"667\">\n                        <p dcindex=\"668\"> 政府工作部门<em class=\"yqlj_arr\" dcindex=\"669\"></em></p>\n                        <div class=\"yqlj_con1\" dcindex=\"670\">\n                            <ul dcindex=\"671\">\n                                \n                                    <li dcindex="
+    },
+    {
+      "tag": "DIV",
+      "cls": "footer_21_wzdh_tit",
+      "id": "",
+      "lis": 38,
+      "links": 34,
+      "text": "上级单位 福建省政府 厦门市政府 政府工作部门 政府办 发展和改革局 教育局 科技和工信局 民政局 司法局 财政局 人力资源和社会保障局 住房和建设局 商务局 文化和旅游局 卫生健康局 退役军人事务局 应急管理局 审计局 统计局 市政园林局 城市管理和综合执法局 信访局 工业园区管理委员会 街道办事处 莲前街道 梧村街道 嘉莲街道 滨海街道 筼筜街道 厦港街",
+      "html": "<div class=\"footer_21_wzdh_tit\" dcindex=\"653\">\n        <div class=\"container_21\" dcindex=\"654\">\n            <div class=\"yqlj_tit1\" dcindex=\"655\">\n                <ul dcindex=\"656\">\n                    <li dcindex=\"657\">\n                        <p dcindex=\"658\">上级单位<em class=\"yqlj_arr\" dcindex=\"659\"></em></p>\n                        <div class=\"yqlj_con1\" dcindex=\"660\">\n                            <ul dcindex=\"661\">\n                                <li dcindex=\"662\"><a href=\"http://www.fujian.gov.cn/\" target=\"_blank\" dcindex=\"663\">福建省政府</a></li>\n                                <li dcindex=\"664\"><a href=\"http://www.xm.gov.cn/\" target=\"_blank\" dcindex=\"665\">厦门市政府</a></li>\n                            </ul>\n                            <div class=\"clear\" dcindex=\"666\"></div>\n                        </div>\n                    </li>\n                    <li dcindex=\"667\">\n                        <p dcindex=\"668\"> 政府工作部门<em class=\"yqlj_arr\" dcindex=\"669\"></em></p>\n                        <div class=\"yqlj_con1\" dcindex=\"670\">\n                            <ul dcindex=\"671\">\n                                \n                                    <li dcindex=\"672\"><a href=\"http://www.siming.gov.cn/zf"
+    },
+    {
+      "tag": "DIV",
+      "cls": "container_21",
+      "id": "",
+      "lis": 38,
+      "links": 34,
+      "text": "上级单位 福建省政府 厦门市政府 政府工作部门 政府办 发展和改革局 教育局 科技和工信局 民政局 司法局 财政局 人力资源和社会保障局 住房和建设局 商务局 文化和旅游局 卫生健康局 退役军人事务局 应急管理局 审计局 统计局 市政园林局 城市管理和综合执法局 信访局 工业园区管理委员会 街道办事处 莲前街道 梧村街道 嘉莲街道 滨海街道 筼筜街道 厦港街",
+      "html": "<div class=\"container_21\" dcindex=\"654\">\n            <div class=\"yqlj_tit1\" dcindex=\"655\">\n                <ul dcindex=\"656\">\n                    <li dcindex=\"657\">\n                        <p dcindex=\"658\">上级单位<em class=\"yqlj_arr\" dcindex=\"659\"></em></p>\n                        <div class=\"yqlj_con1\" dcindex=\"660\">\n                            <ul dcindex=\"661\">\n                                <li dcindex=\"662\"><a href=\"http://www.fujian.gov.cn/\" target=\"_blank\" dcindex=\"663\">福建省政府</a></li>\n                                <li dcindex=\"664\"><a href=\"http://www.xm.gov.cn/\" target=\"_blank\" dcindex=\"665\">厦门市政府</a></li>\n                            </ul>\n                            <div class=\"clear\" dcindex=\"666\"></div>\n                        </div>\n                    </li>\n                    <li dcindex=\"667\">\n                        <p dcindex=\"668\"> 政府工作部门<em class=\"yqlj_arr\" dcindex=\"669\"></em></p>\n                        <div class=\"yqlj_con1\" dcindex=\"670\">\n                            <ul dcindex=\"671\">\n                                \n                                    <li dcindex=\"672\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/zfb/\" target=\"_blank\" dcindex=\"673\">政府办<"
+    },
+    {
+      "tag": "DIV",
+      "cls": "yqlj_tit1",
+      "id": "",
+      "lis": 38,
+      "links": 34,
+      "text": "上级单位 福建省政府 厦门市政府 政府工作部门 政府办 发展和改革局 教育局 科技和工信局 民政局 司法局 财政局 人力资源和社会保障局 住房和建设局 商务局 文化和旅游局 卫生健康局 退役军人事务局 应急管理局 审计局 统计局 市政园林局 城市管理和综合执法局 信访局 工业园区管理委员会 街道办事处 莲前街道 梧村街道 嘉莲街道 滨海街道 筼筜街道 厦港街",
+      "html": "<div class=\"yqlj_tit1\" dcindex=\"655\">\n                <ul dcindex=\"656\">\n                    <li dcindex=\"657\">\n                        <p dcindex=\"658\">上级单位<em class=\"yqlj_arr\" dcindex=\"659\"></em></p>\n                        <div class=\"yqlj_con1\" dcindex=\"660\">\n                            <ul dcindex=\"661\">\n                                <li dcindex=\"662\"><a href=\"http://www.fujian.gov.cn/\" target=\"_blank\" dcindex=\"663\">福建省政府</a></li>\n                                <li dcindex=\"664\"><a href=\"http://www.xm.gov.cn/\" target=\"_blank\" dcindex=\"665\">厦门市政府</a></li>\n                            </ul>\n                            <div class=\"clear\" dcindex=\"666\"></div>\n                        </div>\n                    </li>\n                    <li dcindex=\"667\">\n                        <p dcindex=\"668\"> 政府工作部门<em class=\"yqlj_arr\" dcindex=\"669\"></em></p>\n                        <div class=\"yqlj_con1\" dcindex=\"670\">\n                            <ul dcindex=\"671\">\n                                \n                                    <li dcindex=\"672\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/zfb/\" target=\"_blank\" dcindex=\"673\">政府办</a></li>\n                                \n           "
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 38,
+      "links": 34,
+      "text": "上级单位 福建省政府 厦门市政府 政府工作部门 政府办 发展和改革局 教育局 科技和工信局 民政局 司法局 财政局 人力资源和社会保障局 住房和建设局 商务局 文化和旅游局 卫生健康局 退役军人事务局 应急管理局 审计局 统计局 市政园林局 城市管理和综合执法局 信访局 工业园区管理委员会 街道办事处 莲前街道 梧村街道 嘉莲街道 滨海街道 筼筜街道 厦港街",
+      "html": "<ul dcindex=\"656\">\n                    <li dcindex=\"657\">\n                        <p dcindex=\"658\">上级单位<em class=\"yqlj_arr\" dcindex=\"659\"></em></p>\n                        <div class=\"yqlj_con1\" dcindex=\"660\">\n                            <ul dcindex=\"661\">\n                                <li dcindex=\"662\"><a href=\"http://www.fujian.gov.cn/\" target=\"_blank\" dcindex=\"663\">福建省政府</a></li>\n                                <li dcindex=\"664\"><a href=\"http://www.xm.gov.cn/\" target=\"_blank\" dcindex=\"665\">厦门市政府</a></li>\n                            </ul>\n                            <div class=\"clear\" dcindex=\"666\"></div>\n                        </div>\n                    </li>\n                    <li dcindex=\"667\">\n                        <p dcindex=\"668\"> 政府工作部门<em class=\"yqlj_arr\" dcindex=\"669\"></em></p>\n                        <div class=\"yqlj_con1\" dcindex=\"670\">\n                            <ul dcindex=\"671\">\n                                \n                                    <li dcindex=\"672\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/zfb/\" target=\"_blank\" dcindex=\"673\">政府办</a></li>\n                                \n                                    <li dcindex=\"674\"><a href=\"ht"
+    },
+    {
+      "tag": "DIV",
+      "cls": "yqlj_con1",
+      "id": "",
+      "lis": 20,
+      "links": 20,
+      "text": "政府办 发展和改革局 教育局 科技和工信局 民政局 司法局 财政局 人力资源和社会保障局 住房和建设局 商务局 文化和旅游局 卫生健康局 退役军人事务局 应急管理局 审计局 统计局 市政园林局 城市管理和综合执法局 信访局 工业园区管理委员会",
+      "html": "<div class=\"yqlj_con1\" dcindex=\"670\">\n                            <ul dcindex=\"671\">\n                                \n                                    <li dcindex=\"672\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/zfb/\" target=\"_blank\" dcindex=\"673\">政府办</a></li>\n                                \n                                    <li dcindex=\"674\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/\" target=\"_blank\" dcindex=\"675\">发展和改革局</a></li>\n                                \n                                    <li dcindex=\"676\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jyj/\" target=\"_blank\" dcindex=\"677\">教育局</a></li>\n                                \n                                    <li dcindex=\"678\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/\" target=\"_blank\" dcindex=\"679\">科技和工信局</a></li>\n                                \n                                    <li dcindex=\"680\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/mzj/\" target=\"_blank\" dcindex=\"681\">民政局</a></li>\n                                \n                                    <li dcindex=\"682\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/sfj/\" target=\"_blank\" dcindex"
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 20,
+      "links": 20,
+      "text": "政府办 发展和改革局 教育局 科技和工信局 民政局 司法局 财政局 人力资源和社会保障局 住房和建设局 商务局 文化和旅游局 卫生健康局 退役军人事务局 应急管理局 审计局 统计局 市政园林局 城市管理和综合执法局 信访局 工业园区管理委员会",
+      "html": "<ul dcindex=\"671\">\n                                \n                                    <li dcindex=\"672\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/zfb/\" target=\"_blank\" dcindex=\"673\">政府办</a></li>\n                                \n                                    <li dcindex=\"674\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/\" target=\"_blank\" dcindex=\"675\">发展和改革局</a></li>\n                                \n                                    <li dcindex=\"676\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jyj/\" target=\"_blank\" dcindex=\"677\">教育局</a></li>\n                                \n                                    <li dcindex=\"678\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/\" target=\"_blank\" dcindex=\"679\">科技和工信局</a></li>\n                                \n                                    <li dcindex=\"680\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/mzj/\" target=\"_blank\" dcindex=\"681\">民政局</a></li>\n                                \n                                    <li dcindex=\"682\"><a href=\"http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/sfj/\" target=\"_blank\" dcindex=\"683\">司法局</a></li>\n                                \n             "
+    },
+    {
+      "tag": "DIV",
+      "cls": "yqlj_con1",
+      "id": "",
+      "lis": 10,
+      "links": 10,
+      "text": "莲前街道 梧村街道 嘉莲街道 滨海街道 筼筜街道 厦港街道 开元街道 中华街道 鹭江街道 鼓浪屿街道",
+      "html": "<div class=\"yqlj_con1\" dcindex=\"716\">\n                            <ul dcindex=\"717\">\n                                \n                                    <li dcindex=\"718\"><a href=\"/zfxxgkzl/gjdzfxxgk/lqjd/zfxxgkml/\" target=\"_blank\" dcindex=\"719\">莲前街道</a></li>\n                                    <li dcindex=\"720\"><a href=\"/zfxxgkzl/gjdzfxxgk/wcjd/zfxxgkml/\" target=\"_blank\" dcindex=\"721\">梧村街道</a></li>\n                                    <li dcindex=\"722\"><a href=\"/zfxxgkzl/gjdzfxxgk/jljd/zfxxgkml/\" target=\"_blank\" dcindex=\"723\">嘉莲街道</a></li>\n                                    <li dcindex=\"724\"><a href=\"/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkml/\" target=\"_blank\" dcindex=\"725\">滨海街道</a></li>\n                                    <li dcindex=\"726\"><a href=\"/zfxxgkzl/gjdzfxxgk/ydjd/zfxxgkml/\" target=\"_blank\" dcindex=\"727\">筼筜街道</a></li>\n                                    <li dcindex=\"728\"><a href=\"/zfxxgkzl/gjdzfxxgk/xgjd/zfxxgkml/\" target=\"_blank\" dcindex=\"729\">厦港街道</a></li>\n                                    <li dcindex=\"730\"><a href=\"/zfxxgkzl/gjdzfxxgk/kyjd/zfxxgkml/\" target=\"_blank\" dcindex=\"731\">开元街道</a></li>\n                                    <li dcindex=\"732\"><a href=\"/zfxxgkzl/gjdzfxxg"
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 10,
+      "links": 10,
+      "text": "莲前街道 梧村街道 嘉莲街道 滨海街道 筼筜街道 厦港街道 开元街道 中华街道 鹭江街道 鼓浪屿街道",
+      "html": "<ul dcindex=\"717\">\n                                \n                                    <li dcindex=\"718\"><a href=\"/zfxxgkzl/gjdzfxxgk/lqjd/zfxxgkml/\" target=\"_blank\" dcindex=\"719\">莲前街道</a></li>\n                                    <li dcindex=\"720\"><a href=\"/zfxxgkzl/gjdzfxxgk/wcjd/zfxxgkml/\" target=\"_blank\" dcindex=\"721\">梧村街道</a></li>\n                                    <li dcindex=\"722\"><a href=\"/zfxxgkzl/gjdzfxxgk/jljd/zfxxgkml/\" target=\"_blank\" dcindex=\"723\">嘉莲街道</a></li>\n                                    <li dcindex=\"724\"><a href=\"/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkml/\" target=\"_blank\" dcindex=\"725\">滨海街道</a></li>\n                                    <li dcindex=\"726\"><a href=\"/zfxxgkzl/gjdzfxxgk/ydjd/zfxxgkml/\" target=\"_blank\" dcindex=\"727\">筼筜街道</a></li>\n                                    <li dcindex=\"728\"><a href=\"/zfxxgkzl/gjdzfxxgk/xgjd/zfxxgkml/\" target=\"_blank\" dcindex=\"729\">厦港街道</a></li>\n                                    <li dcindex=\"730\"><a href=\"/zfxxgkzl/gjdzfxxgk/kyjd/zfxxgkml/\" target=\"_blank\" dcindex=\"731\">开元街道</a></li>\n                                    <li dcindex=\"732\"><a href=\"/zfxxgkzl/gjdzfxxgk/zhjd/zfxxgkml/\" target=\"_blank\" dcindex=\"733\">中华街道</a></li>\n    "
+    },
+    {
+      "tag": "DIV",
+      "cls": "container_21",
+      "id": "",
+      "lis": 4,
+      "links": 13,
+      "text": "邮箱登录 |站点地图 |联系我们 |隐私保护 网站标识码：3502030011闽公网安备：35020302032647 闽ICP备2024055800号-1 中文域名：厦门市思明区人民政府.政务闽ICP备2024055800号-3 版权所有：© 厦门市思明区人民政府 新媒体矩阵 思明快报微信 闽政通APP 厦门思明微博 i厦门",
+      "html": "<div class=\"container_21\" dcindex=\"750\">\n        <div class=\"el-row\" dcindex=\"751\">\n            <div class=\"el-col el-col-12 el-col-sm-24\" dcindex=\"752\">\n                <div class=\"footer_21_tit_l\" dcindex=\"753\">\n                    <p dcindex=\"754\"><a href=\"https://mail.xm.gov.cn/\" target=\"_blank\" dcindex=\"755\">邮箱登录</a>\n                        <em dcindex=\"756\">|</em><a href=\"/qtgn/wzdt/\" dcindex=\"757\">站点地图</a>\n                        <em dcindex=\"758\">|</em><a href=\"/qtgn/lxwm/\" dcindex=\"759\">联系我们</a>\n                        <em dcindex=\"760\">|</em><a href=\"/qtgn/ysbh/\" dcindex=\"761\">隐私保护</a>\n                    </p>\n                    <p dcindex=\"762\"><span dcindex=\"763\">网站标识码：3502030011</span><span dcindex=\"764\"><a href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302032647\" target=\"_blank\" dcindex=\"765\"><img src=\"/images/17sm_ga.png\" dcindex=\"766\">闽公网安备：35020302032647</a> </span><span dcindex=\"767\"><a href=\"https://beian.miit.gov.cn\" dcindex=\"768\">闽ICP备2024055800号-1</a>\n\t\t\t\t\t\t\t\t\t</span></p>\n\n                    <p dcindex=\"769\"><span dcindex=\"770\">中文域名：厦门市思明区人民政府.政务</span><span dcindex=\"771\"><a href=\"https://beian.miit.gov.cn\" dcindex=\"772\">闽ICP备2024055"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-row",
+      "id": "",
+      "lis": 4,
+      "links": 13,
+      "text": "邮箱登录 |站点地图 |联系我们 |隐私保护 网站标识码：3502030011闽公网安备：35020302032647 闽ICP备2024055800号-1 中文域名：厦门市思明区人民政府.政务闽ICP备2024055800号-3 版权所有：© 厦门市思明区人民政府 新媒体矩阵 思明快报微信 闽政通APP 厦门思明微博 i厦门",
+      "html": "<div class=\"el-row\" dcindex=\"751\">\n            <div class=\"el-col el-col-12 el-col-sm-24\" dcindex=\"752\">\n                <div class=\"footer_21_tit_l\" dcindex=\"753\">\n                    <p dcindex=\"754\"><a href=\"https://mail.xm.gov.cn/\" target=\"_blank\" dcindex=\"755\">邮箱登录</a>\n                        <em dcindex=\"756\">|</em><a href=\"/qtgn/wzdt/\" dcindex=\"757\">站点地图</a>\n                        <em dcindex=\"758\">|</em><a href=\"/qtgn/lxwm/\" dcindex=\"759\">联系我们</a>\n                        <em dcindex=\"760\">|</em><a href=\"/qtgn/ysbh/\" dcindex=\"761\">隐私保护</a>\n                    </p>\n                    <p dcindex=\"762\"><span dcindex=\"763\">网站标识码：3502030011</span><span dcindex=\"764\"><a href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302032647\" target=\"_blank\" dcindex=\"765\"><img src=\"/images/17sm_ga.png\" dcindex=\"766\">闽公网安备：35020302032647</a> </span><span dcindex=\"767\"><a href=\"https://beian.miit.gov.cn\" dcindex=\"768\">闽ICP备2024055800号-1</a>\n\t\t\t\t\t\t\t\t\t</span></p>\n\n                    <p dcindex=\"769\"><span dcindex=\"770\">中文域名：厦门市思明区人民政府.政务</span><span dcindex=\"771\"><a href=\"https://beian.miit.gov.cn\" dcindex=\"772\">闽ICP备2024055800号-3</a></span></p>                \n           "
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-col el-col-12 el-col-sm-24",
+      "id": "",
+      "lis": 0,
+      "links": 7,
+      "text": "邮箱登录 |站点地图 |联系我们 |隐私保护 网站标识码：3502030011闽公网安备：35020302032647 闽ICP备2024055800号-1 中文域名：厦门市思明区人民政府.政务闽ICP备2024055800号-3 版权所有：© 厦门市思明区人民政府",
+      "html": "<div class=\"el-col el-col-12 el-col-sm-24\" dcindex=\"752\">\n                <div class=\"footer_21_tit_l\" dcindex=\"753\">\n                    <p dcindex=\"754\"><a href=\"https://mail.xm.gov.cn/\" target=\"_blank\" dcindex=\"755\">邮箱登录</a>\n                        <em dcindex=\"756\">|</em><a href=\"/qtgn/wzdt/\" dcindex=\"757\">站点地图</a>\n                        <em dcindex=\"758\">|</em><a href=\"/qtgn/lxwm/\" dcindex=\"759\">联系我们</a>\n                        <em dcindex=\"760\">|</em><a href=\"/qtgn/ysbh/\" dcindex=\"761\">隐私保护</a>\n                    </p>\n                    <p dcindex=\"762\"><span dcindex=\"763\">网站标识码：3502030011</span><span dcindex=\"764\"><a href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302032647\" target=\"_blank\" dcindex=\"765\"><img src=\"/images/17sm_ga.png\" dcindex=\"766\">闽公网安备：35020302032647</a> </span><span dcindex=\"767\"><a href=\"https://beian.miit.gov.cn\" dcindex=\"768\">闽ICP备2024055800号-1</a>\n\t\t\t\t\t\t\t\t\t</span></p>\n\n                    <p dcindex=\"769\"><span dcindex=\"770\">中文域名：厦门市思明区人民政府.政务</span><span dcindex=\"771\"><a href=\"https://beian.miit.gov.cn\" dcindex=\"772\">闽ICP备2024055800号-3</a></span></p>                \n                    <p dcindex=\"773\">版权所有：© 厦门市思明区人民政府</p>"
+    },
+    {
+      "tag": "DIV",
+      "cls": "footer_21_tit_l",
+      "id": "",
+      "lis": 0,
+      "links": 7,
+      "text": "邮箱登录 |站点地图 |联系我们 |隐私保护 网站标识码：3502030011闽公网安备：35020302032647 闽ICP备2024055800号-1 中文域名：厦门市思明区人民政府.政务闽ICP备2024055800号-3 版权所有：© 厦门市思明区人民政府",
+      "html": "<div class=\"footer_21_tit_l\" dcindex=\"753\">\n                    <p dcindex=\"754\"><a href=\"https://mail.xm.gov.cn/\" target=\"_blank\" dcindex=\"755\">邮箱登录</a>\n                        <em dcindex=\"756\">|</em><a href=\"/qtgn/wzdt/\" dcindex=\"757\">站点地图</a>\n                        <em dcindex=\"758\">|</em><a href=\"/qtgn/lxwm/\" dcindex=\"759\">联系我们</a>\n                        <em dcindex=\"760\">|</em><a href=\"/qtgn/ysbh/\" dcindex=\"761\">隐私保护</a>\n                    </p>\n                    <p dcindex=\"762\"><span dcindex=\"763\">网站标识码：3502030011</span><span dcindex=\"764\"><a href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302032647\" target=\"_blank\" dcindex=\"765\"><img src=\"/images/17sm_ga.png\" dcindex=\"766\">闽公网安备：35020302032647</a> </span><span dcindex=\"767\"><a href=\"https://beian.miit.gov.cn\" dcindex=\"768\">闽ICP备2024055800号-1</a>\n\t\t\t\t\t\t\t\t\t</span></p>\n\n                    <p dcindex=\"769\"><span dcindex=\"770\">中文域名：厦门市思明区人民政府.政务</span><span dcindex=\"771\"><a href=\"https://beian.miit.gov.cn\" dcindex=\"772\">闽ICP备2024055800号-3</a></span></p>                \n                    <p dcindex=\"773\">版权所有：© 厦门市思明区人民政府</p>\n                </div>"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-col el-col-6 el-col-sm-24 footer_21_tit_r",
+      "id": "",
+      "lis": 4,
+      "links": 5,
+      "text": "新媒体矩阵 思明快报微信 闽政通APP 厦门思明微博 i厦门",
+      "html": "<div class=\"el-col el-col-6 el-col-sm-24 footer_21_tit_r\" dcindex=\"774\">\n                <a href=\"http://www.siming.gov.cn/rdzt/xmtjs/\" dcindex=\"775\"><h3 dcindex=\"776\">新媒体矩阵</h3></a>\n                <ul dcindex=\"777\">\n                    <li dcindex=\"778\"><a href=\"javascript:;\" dcindex=\"779\"><span class=\"iconfont_hf\" dcindex=\"780\"></span>思明快报微信</a>\n                        <div class=\"ewm_tu\" dcindex=\"781\"><img src=\"/images/16wx_smkb.jpg\" dcindex=\"782\"></div>\n                    </li>\n                    <li dcindex=\"783\"><a href=\"javascript:;\" dcindex=\"784\"><span class=\"iconfont_hf\" dcindex=\"785\"></span>闽政通APP</a>\n                        <div class=\"ewm_tu\" dcindex=\"786\"><img src=\"/images/code1.png\" dcindex=\"787\"></div>\n                    </li>\n                    <li dcindex=\"788\"><a href=\"javascript:;\" dcindex=\"789\"><span class=\"iconfont_hf\" dcindex=\"790\"></span>厦门思明微博</a>\n                        <div class=\"ewm_tu\" dcindex=\"791\"><img src=\"/images/weibo.png\" dcindex=\"792\"></div>\n                    </li>\n                    <li dcindex=\"793\"><a href=\"javascript:;\" dcindex=\"794\"><span class=\"iconfont_hf\" dcindex=\"795\"></span>i厦门</a>\n                        <div class=\"ewm_tu\""
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 4,
+      "links": 4,
+      "text": "思明快报微信 闽政通APP 厦门思明微博 i厦门",
+      "html": "<ul dcindex=\"777\">\n                    <li dcindex=\"778\"><a href=\"javascript:;\" dcindex=\"779\"><span class=\"iconfont_hf\" dcindex=\"780\"></span>思明快报微信</a>\n                        <div class=\"ewm_tu\" dcindex=\"781\"><img src=\"/images/16wx_smkb.jpg\" dcindex=\"782\"></div>\n                    </li>\n                    <li dcindex=\"783\"><a href=\"javascript:;\" dcindex=\"784\"><span class=\"iconfont_hf\" dcindex=\"785\"></span>闽政通APP</a>\n                        <div class=\"ewm_tu\" dcindex=\"786\"><img src=\"/images/code1.png\" dcindex=\"787\"></div>\n                    </li>\n                    <li dcindex=\"788\"><a href=\"javascript:;\" dcindex=\"789\"><span class=\"iconfont_hf\" dcindex=\"790\"></span>厦门思明微博</a>\n                        <div class=\"ewm_tu\" dcindex=\"791\"><img src=\"/images/weibo.png\" dcindex=\"792\"></div>\n                    </li>\n                    <li dcindex=\"793\"><a href=\"javascript:;\" dcindex=\"794\"><span class=\"iconfont_hf\" dcindex=\"795\"></span>i厦门</a>\n                        <div class=\"ewm_tu\" dcindex=\"796\"><img src=\"/images/19ixm_ewm_wx.png\" dcindex=\"797\"></div>\n                    </li>\n                </ul>"
+    },
+    {
+      "tag": "DIV",
+      "cls": "bay no",
+      "id": "goToTop",
+      "lis": 10,
+      "links": 0,
+      "text": "     发送 重要 通知 i厦门微信 闽政通APP 思明快报微信 厦门思明微博 网上办事微信",
+      "html": "<div id=\"goToTop\" class=\"bay no\" dcindex=\"812\">\n    <ul dcindex=\"813\">\n        <li class=\"icon1\" dcindex=\"814\"><span dcindex=\"815\"><i class=\"iconfont_sm\" dcindex=\"816\"></i></span></li>\n        <li class=\"icon2\" dcindex=\"817\"><span dcindex=\"818\"><i class=\"iconfont_sm\" dcindex=\"819\"></i></span></li>\n        <li class=\"icon3\" dcindex=\"820\"><span dcindex=\"821\"><i class=\"iconfont_sm\" dcindex=\"822\"></i></span></li>\n        <li class=\"bay_top\" dcindex=\"823\"><span dcindex=\"824\"><i class=\"iconfont_sm\" dcindex=\"825\"></i></span></li>\n        <li id=\"no\" dcindex=\"826\"><span dcindex=\"827\"><i class=\"iconfont_sm\" dcindex=\"828\"></i></span></li>\n    </ul>\n    <div class=\"pf_con1\" dcindex=\"829\">\n        <form action=\"/zmhd/znhd/\" method=\"get\" target=\"_blank\" dcindex=\"830\">\n        <textarea cols=\"\" name=\"\" rows=\"3\" class=\"text3\" id=\"txt\" placeholder=\"您好，我是小思，有什么问题或者咨询都可以提问我哦。\" dcindex=\"831\"></textarea>\n        <button type=\"submit\" dcindex=\"832\">发送</button>\n        </form>\n    </div>\n    <div class=\"pf_con2 clearflx\" dcindex=\"833\">\n        <div class=\"pf_con2_l\" dcindex=\"834\">\n            <p dcindex=\"835\">重要<br dcindex=\"836\"> 通知</p>\n        </div>\n        <div class=\"pf_con2_r\" dcindex=\"837\">\n "
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 5,
+      "links": 0,
+      "text": "    ",
+      "html": "<ul dcindex=\"813\">\n        <li class=\"icon1\" dcindex=\"814\"><span dcindex=\"815\"><i class=\"iconfont_sm\" dcindex=\"816\"></i></span></li>\n        <li class=\"icon2\" dcindex=\"817\"><span dcindex=\"818\"><i class=\"iconfont_sm\" dcindex=\"819\"></i></span></li>\n        <li class=\"icon3\" dcindex=\"820\"><span dcindex=\"821\"><i class=\"iconfont_sm\" dcindex=\"822\"></i></span></li>\n        <li class=\"bay_top\" dcindex=\"823\"><span dcindex=\"824\"><i class=\"iconfont_sm\" dcindex=\"825\"></i></span></li>\n        <li id=\"no\" dcindex=\"826\"><span dcindex=\"827\"><i class=\"iconfont_sm\" dcindex=\"828\"></i></span></li>\n    </ul>"
+    },
+    {
+      "tag": "DIV",
+      "cls": "pf_con3",
+      "id": "",
+      "lis": 5,
+      "links": 0,
+      "text": "i厦门微信 闽政通APP 思明快报微信 厦门思明微博 网上办事微信",
+      "html": "<div class=\"pf_con3\" dcindex=\"838\">\n        <ul dcindex=\"839\">\n            <li dcindex=\"840\"><div class=\"pf_img\" dcindex=\"841\">\n                <img src=\"/images/19ixm_ewm_wx.png\" dcindex=\"842\">\n            </div>\n                <p dcindex=\"843\">i厦门微信</p>\n            </li>\n            <li dcindex=\"844\"><div class=\"pf_img\" dcindex=\"845\">\n                <img src=\"/images/code1.png\" dcindex=\"846\">\n            </div>\n                <p dcindex=\"847\">闽政通APP</p>\n            </li>\n            <li dcindex=\"848\"><div class=\"pf_img\" dcindex=\"849\">\n                <img src=\"/images/16wx_smkb.jpg\" dcindex=\"850\">\n            </div>\n                <p dcindex=\"851\">思明快报微信</p>\n            </li>\n            <li dcindex=\"852\"><div class=\"pf_img\" dcindex=\"853\">\n                <img src=\"/images/weibo.png\" dcindex=\"854\">\n            </div>\n                <p dcindex=\"855\">厦门思明微博</p>\n            </li>\n            <li dcindex=\"856\"><div class=\"pf_img\" dcindex=\"857\">\n                <img src=\"/images/xzfwzx.png\" dcindex=\"858\">\n            </div>\n                <p dcindex=\"859\">网上办事微信</p>\n            </li>\n        </ul>\n    </div>"
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "id": "",
+      "lis": 5,
+      "links": 0,
+      "text": "i厦门微信 闽政通APP 思明快报微信 厦门思明微博 网上办事微信",
+      "html": "<ul dcindex=\"839\">\n            <li dcindex=\"840\"><div class=\"pf_img\" dcindex=\"841\">\n                <img src=\"/images/19ixm_ewm_wx.png\" dcindex=\"842\">\n            </div>\n                <p dcindex=\"843\">i厦门微信</p>\n            </li>\n            <li dcindex=\"844\"><div class=\"pf_img\" dcindex=\"845\">\n                <img src=\"/images/code1.png\" dcindex=\"846\">\n            </div>\n                <p dcindex=\"847\">闽政通APP</p>\n            </li>\n            <li dcindex=\"848\"><div class=\"pf_img\" dcindex=\"849\">\n                <img src=\"/images/16wx_smkb.jpg\" dcindex=\"850\">\n            </div>\n                <p dcindex=\"851\">思明快报微信</p>\n            </li>\n            <li dcindex=\"852\"><div class=\"pf_img\" dcindex=\"853\">\n                <img src=\"/images/weibo.png\" dcindex=\"854\">\n            </div>\n                <p dcindex=\"855\">厦门思明微博</p>\n            </li>\n            <li dcindex=\"856\"><div class=\"pf_img\" dcindex=\"857\">\n                <img src=\"/images/xzfwzx.png\" dcindex=\"858\">\n            </div>\n                <p dcindex=\"859\">网上办事微信</p>\n            </li>\n        </ul>"
+    }
+  ],
+  "anchors": [
+    {
+      "text": "国务院",
+      "href": "http://www.gov.cn/",
+      "cls": ""
+    },
+    {
+      "text": "省政府",
+      "href": "http://www.fujian.gov.cn/",
+      "cls": ""
+    },
+    {
+      "text": "市政府",
+      "href": "http://www.xm.gov.cn/",
+      "cls": ""
+    },
+    {
+      "text": "简体版",
+      "href": "javascript:zh_tran('s');",
+      "cls": "on"
+    },
+    {
+      "text": "繁体版",
+      "href": "javascript:zh_tran('t');",
+      "cls": ""
+    },
+    {
+      "text": "移动版",
+      "href": "http://www.fujian.gov.cn/bsfw/mztapp/",
+      "cls": ""
+    },
+    {
+      "text": "闽政通APP",
+      "href": "javascript:;",
+      "cls": ""
+    },
+    {
+      "text": "登录",
+      "href": "http://www.siming.gov.cn/portal-gateway/login/login?redirtUrl=http://www.siming.gov.cn/portal-gateway/login/noseLogin?redirtUrl=http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "注册",
+      "href": "https://iam.e-govt.cn:8901/personRegister?appId=ccc99074-8366-4373-856f-eda78ed8c401&redirect_uri=http://www.siming.gov.cn&response_type=code",
+      "cls": ""
+    },
+    {
+      "text": "首页",
+      "href": "http://www.siming.gov.cn/",
+      "cls": ""
+    },
+    {
+      "text": "区政府",
+      "href": "http://www.siming.gov.cn/xxgk/qzfld/",
+      "cls": ""
+    },
+    {
+      "text": "政务公开",
+      "href": "http://www.siming.gov.cn/xxgk/",
+      "cls": ""
+    },
+    {
+      "text": "解读回应",
+      "href": "http://www.siming.gov.cn/jdhy/",
+      "cls": ""
+    },
+    {
+      "text": "办事服务",
+      "href": "http://www.siming.gov.cn/wsbs/",
+      "cls": ""
+    },
+    {
+      "text": "互动交流",
+      "href": "http://www.siming.gov.cn/zmhd/",
+      "cls": ""
+    },
+    {
+      "text": "走进思明",
+      "href": "http://www.siming.gov.cn/zjsm/",
+      "cls": ""
+    },
+    {
+      "text": "长者模式",
+      "href": "javascript:void(0)",
+      "cls": "aged_link_01"
+    },
+    {
+      "text": "无障碍浏览",
+      "href": "javascript:void(0)",
+      "cls": "aged_link_02"
+    },
+    {
+      "text": "政  策",
+      "href": "javascript:void(0);",
+      "cls": "parent"
+    },
+    {
+      "text": "行政规范性文件",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/gfxzc/xzgfxwj/",
+      "cls": ""
+    },
+    {
+      "text": "行政规范性文件清理目录",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/gfxzc/zcgfxwjql/",
+      "cls": ""
+    },
+    {
+      "text": "政府信息公开指南",
+      "href": "javascript:void(0);",
+      "cls": "parent"
+    },
+    {
+      "text": "思明区人民政府",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "政府办",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/zfb/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "发展和改革局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "教育局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jyj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "科技和工信局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "民政局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/mzj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "司法局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/sfj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "财政局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/czj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "人力资源和社会保障局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/rlzyhshbzj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "住房和建设局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jsj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "商务局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/swj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "文化和旅游局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/whtycbj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "卫生健康局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/wshjhsyj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "退役军人事务局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/tyjrswj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "应急管理局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/aqscjdglj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "审计局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/sjj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "统计局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/tjj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "市政园林局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/szylj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "城市管理和综合执法局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/csglxzzfj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "信访局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/xfj/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "工业园区管委会",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/gjswqgwh/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "鼓浪屿街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/glyjd/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "鹭江街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ljjd/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "中华街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/zhjd/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "厦港街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/xgjd/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "开元街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/kyjd/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "筼筜街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ydjd/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "梧村街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/wcjd/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "嘉莲街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/jljd/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "莲前街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/lqjd/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "滨海街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkzn/",
+      "cls": ""
+    },
+    {
+      "text": "政府信息公开制度",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zdgd/",
+      "cls": ""
+    },
+    {
+      "text": "法定主动公开内容",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/",
+      "cls": "parent skip"
+    },
+    {
+      "text": "政府文件",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/",
+      "cls": ""
+    },
+    {
+      "text": "区政府文件",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/qzfwj/",
+      "cls": "类名"
+    },
+    {
+      "text": "区政府办文件",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/qzfbwj/",
+      "cls": "类名"
+    },
+    {
+      "text": "行政规范性文件",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/xzgfxwj/",
+      "cls": "类名"
+    },
+    {
+      "text": "规范性文件清理",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcfg/gfxwjql/",
+      "cls": "类名"
+    },
+    {
+      "text": "政策解读",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zcjd/",
+      "cls": ""
+    },
+    {
+      "text": "政府会议",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zfcwh/",
+      "cls": ""
+    },
+    {
+      "text": "规划计划",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/",
+      "cls": ""
+    },
+    {
+      "text": "五年规划",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/ztgh/",
+      "cls": "类名"
+    },
+    {
+      "text": "专项规划",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/zxgh/",
+      "cls": "类名"
+    },
+    {
+      "text": "年度计划总结",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/ndjh/",
+      "cls": "类名"
+    },
+    {
+      "text": "政府工作报告",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ghjhyzj/zfgzbg/",
+      "cls": "类名"
+    },
+    {
+      "text": "政府工作报告",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zfgzbg/",
+      "cls": ""
+    },
+    {
+      "text": "统计信息",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/tjxx/",
+      "cls": ""
+    },
+    {
+      "text": "财政资金",
+      "href": "http://www.siming.gov.cn/xxgk/zwgkzdgz/czzj/",
+      "cls": ""
+    },
+    {
+      "text": "重点项目建设",
+      "href": "http://www.siming.gov.cn/xxgk/zwgkzdgz/zfzdtzxmxx/",
+      "cls": ""
+    },
+    {
+      "text": "为民办实事",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/wmbss/",
+      "cls": ""
+    },
+    {
+      "text": "建议提案办理情况公开",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/jytablqk/",
+      "cls": ""
+    },
+    {
+      "text": "人事信息",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/",
+      "cls": ""
+    },
+    {
+      "text": "人事任免",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/rsrm/",
+      "cls": "类名"
+    },
+    {
+      "text": "招聘信息",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/sydwzp/",
+      "cls": "类名"
+    },
+    {
+      "text": "公务员招考",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/gwyzk/",
+      "cls": "类名"
+    },
+    {
+      "text": "生态环境",
+      "href": "http://www.siming.gov.cn/xxgk/zwgkzdgz/hjbh/",
+      "cls": ""
+    },
+    {
+      "text": "征地拆迁",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zdcq/",
+      "cls": ""
+    },
+    {
+      "text": "城区建设",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/cqjs/",
+      "cls": ""
+    },
+    {
+      "text": "双随机、一公开",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/ssj/",
+      "cls": ""
+    },
+    {
+      "text": "乡村振兴",
+      "href": "http://www.siming.gov.cn/xxgk/zwgkzdgz/fptk/",
+      "cls": ""
+    },
+    {
+      "text": "行政事业性收费",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/xzsyxsf/",
+      "cls": ""
+    },
+    {
+      "text": "重大行政决策预公开",
+      "href": "https://www.siming.gov.cn/xxgk/zwgkzdgz/zdxzjcygk/",
+      "cls": ""
+    },
+    {
+      "text": "社会保障",
+      "href": "https://www.siming.gov.cn/wsbs/ztfw/sb/",
+      "cls": ""
+    },
+    {
+      "text": "保障住房",
+      "href": "https://www.siming.gov.cn/xxgk/zwgkzdgz/bzzf/",
+      "cls": ""
+    },
+    {
+      "text": "食品药品安全",
+      "href": "https://www.siming.gov.cn/xxgk/zwgkzdgz/spypaq/",
+      "cls": ""
+    },
+    {
+      "text": "权责清单",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/qzqd/",
+      "cls": ""
+    },
+    {
+      "text": "行政许可",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/xzxk/",
+      "cls": ""
+    },
+    {
+      "text": "处罚强制",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/cfqz/",
+      "cls": ""
+    },
+    {
+      "text": "市政建设",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/szjs/",
+      "cls": ""
+    },
+    {
+      "text": "应主动公开的其他信息",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/qtxx_qzf/",
+      "cls": ""
+    },
+    {
+      "text": "重点领域信息公开",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/zdlyxxgk/",
+      "cls": ""
+    },
+    {
+      "text": "政府信息公开申请",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/ysqgk/",
+      "cls": ""
+    },
+    {
+      "text": "政府信息公开年报",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/ndbg/",
+      "cls": ""
+    },
+    {
+      "text": "各部门信息公开",
+      "href": "javascript:void(0);",
+      "cls": "parent on"
+    },
+    {
+      "text": "政府办",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/zfb/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "发展和改革局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "教育局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jyj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "科技和工信局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/",
+      "cls": "on"
+    },
+    {
+      "text": "民政局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/mzj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "司法局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/sfj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "财政局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/czj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "人力资源和社会保障局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/rlzyhshbzj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "住房和建设局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jsj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "商务局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/swj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "文化和旅游局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/whtycbj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "卫生健康局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/wshjhsyj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "退役军人事务局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/tyjrswj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "应急管理局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/aqscjdglj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "审计局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/sjj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "统计局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/tjj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "市政园林局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/szylj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "城市管理和综合执法局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/csglxzzfj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "信访局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/xfj/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "工业园区管委会",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/gjswqgwh/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "各街道信息公开",
+      "href": "javascript:void(0);",
+      "cls": "parent"
+    },
+    {
+      "text": "鼓浪屿街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/glyjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "鹭江街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ljjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "中华街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/zhjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "厦港街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/xgjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "开元街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/kyjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "筼筜街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ydjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "梧村街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/wcjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "嘉莲街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/jljd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "莲前街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/lqjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "滨海街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "厦门市思明区科技和工信局机构职能目录表",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/jgzn/202409/t20240930_1072718.htm",
+      "cls": ""
+    },
+    {
+      "text": "更 多",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/jgzn/",
+      "cls": "more"
+    },
+    {
+      "text": "2026年厦门市思明区政务服务保障中心预算说明",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136253.htm",
+      "cls": ""
+    },
+    {
+      "text": "2026年厦门市思明区信息中心预算说明",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136252.htm",
+      "cls": ""
+    },
+    {
+      "text": "2026年厦门市思明区企业服务中心预算说明",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136251.htm",
+      "cls": ""
+    },
+    {
+      "text": "2026年厦门市思明区科技和工信局部门预算说明",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136238.htm",
+      "cls": ""
+    },
+    {
+      "text": "2026年厦门市思明区科技和工信局预算说明",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136231.htm",
+      "cls": ""
+    },
+    {
+      "text": "2024年厦门市思明区信息中心项目支出绩效自评",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202505/t20250530_1102036.htm",
+      "cls": ""
+    },
+    {
+      "text": "更 多",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/",
+      "cls": "more"
+    },
+    {
+      "text": "2024年度厦门市思明区政务服务保障中心单位决算",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250915620634326066.pdf",
+      "cls": ""
+    },
+    {
+      "text": "2024年度厦门市思明区信息中心单位决算",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020260415382616161735.pdf",
+      "cls": ""
+    },
+    {
+      "text": "2024年度厦门市思明区企业服务中心单位决算",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020260106543144379754.pdf",
+      "cls": ""
+    },
+    {
+      "text": "2024年度原厦门市思明区行政审批管理局（本级）部门决算",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250917627936908711.pdf",
+      "cls": ""
+    },
+    {
+      "text": "2024年度厦门市思明区行政审批管理局（汇总）部门决算",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250917628797215000.pdf",
+      "cls": ""
+    },
+    {
+      "text": "2024年度厦门市思明区科技和工信局（汇总）部门决算",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250901562907359495.pdf",
+      "cls": ""
+    },
+    {
+      "text": "更 多",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/",
+      "cls": "more"
+    },
+    {
+      "text": "关于公开遴选“思明数智工场”专业运营机构的通知",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260326_1141938.htm",
+      "cls": ""
+    },
+    {
+      "text": "关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260324_1141563.htm",
+      "cls": ""
+    },
+    {
+      "text": "一图读懂《思明区先进制造业高质量发展若干措施》",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139617.htm",
+      "cls": ""
+    },
+    {
+      "text": "关于《思明区先进制造业高质量发展若干措施》的政策解读",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139605.htm",
+      "cls": ""
+    },
+    {
+      "text": "厦门市思明区科技和工信局关于印发思明区先进制造业高质量发展若干措施的通知",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139602.htm",
+      "cls": ""
+    },
+    {
+      "text": "关于拟认定永嘉（厦门）工业有限公司云顶中路505、515号项目为低效工业用地的公示",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/zcfg/202602/t20260228_1138870.htm",
+      "cls": ""
+    },
+    {
+      "text": "更 多",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/qt_15326/",
+      "cls": "more"
+    },
+    {
+      "text": "福建省政府",
+      "href": "http://www.fujian.gov.cn/",
+      "cls": ""
+    },
+    {
+      "text": "厦门市政府",
+      "href": "http://www.xm.gov.cn/",
+      "cls": ""
+    },
+    {
+      "text": "政府办",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/zfb/",
+      "cls": ""
+    },
+    {
+      "text": "发展和改革局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/",
+      "cls": ""
+    },
+    {
+      "text": "教育局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jyj/",
+      "cls": ""
+    },
+    {
+      "text": "科技和工信局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/",
+      "cls": ""
+    },
+    {
+      "text": "民政局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/mzj/",
+      "cls": ""
+    },
+    {
+      "text": "司法局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/sfj/",
+      "cls": ""
+    },
+    {
+      "text": "财政局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/czj/",
+      "cls": ""
+    },
+    {
+      "text": "人力资源和社会保障局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/rlzyhshbzj/",
+      "cls": ""
+    },
+    {
+      "text": "住房和建设局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jsj/",
+      "cls": ""
+    },
+    {
+      "text": "商务局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/swj/",
+      "cls": ""
+    },
+    {
+      "text": "文化和旅游局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/whtycbj/",
+      "cls": ""
+    },
+    {
+      "text": "卫生健康局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/wshjhsyj/",
+      "cls": ""
+    },
+    {
+      "text": "退役军人事务局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/tyjrswj/",
+      "cls": ""
+    },
+    {
+      "text": "应急管理局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/aqscjdglj/",
+      "cls": ""
+    },
+    {
+      "text": "审计局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/sjj/",
+      "cls": ""
+    },
+    {
+      "text": "统计局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/tjj/",
+      "cls": ""
+    },
+    {
+      "text": "市政园林局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/szylj/",
+      "cls": ""
+    },
+    {
+      "text": "城市管理和综合执法局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/csglxzzfj/",
+      "cls": ""
+    },
+    {
+      "text": "信访局",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/xfj/",
+      "cls": ""
+    },
+    {
+      "text": "工业园区管理委员会",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/gjswqgwh/",
+      "cls": ""
+    },
+    {
+      "text": "莲前街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/lqjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "梧村街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/wcjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "嘉莲街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/jljd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "滨海街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "筼筜街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ydjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "厦港街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/xgjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "开元街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/kyjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "中华街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/zhjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "鹭江街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/ljjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "鼓浪屿街道",
+      "href": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/glyjd/zfxxgkml/",
+      "cls": ""
+    },
+    {
+      "text": "思明区政协",
+      "href": "http://www.xmsmzx.gov.cn/",
+      "cls": ""
+    },
+    {
+      "text": "思明区图书馆",
+      "href": "http://www.xmsmlib.net/",
+      "cls": ""
+    },
+    {
+      "text": "邮箱登录",
+      "href": "https://mail.xm.gov.cn/",
+      "cls": ""
+    },
+    {
+      "text": "站点地图",
+      "href": "http://www.siming.gov.cn/qtgn/wzdt/",
+      "cls": ""
+    },
+    {
+      "text": "联系我们",
+      "href": "http://www.siming.gov.cn/qtgn/lxwm/",
+      "cls": ""
+    },
+    {
+      "text": "隐私保护",
+      "href": "http://www.siming.gov.cn/qtgn/ysbh/",
+      "cls": ""
+    },
+    {
+      "text": "闽公网安备：35020302032647",
+      "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302032647",
+      "cls": ""
+    },
+    {
+      "text": "闽ICP备2024055800号-1",
+      "href": "https://beian.miit.gov.cn/",
+      "cls": ""
+    },
+    {
+      "text": "闽ICP备2024055800号-3",
+      "href": "https://beian.miit.gov.cn/",
+      "cls": ""
+    },
+    {
+      "text": "新媒体矩阵",
+      "href": "http://www.siming.gov.cn/rdzt/xmtjs/",
+      "cls": ""
+    },
+    {
+      "text": "思明快报微信",
+      "href": "javascript:;",
+      "cls": ""
+    },
+    {
+      "text": "闽政通APP",
+      "href": "javascript:;",
+      "cls": ""
+    },
+    {
+      "text": "厦门思明微博",
+      "href": "javascript:;",
+      "cls": ""
+    },
+    {
+      "text": "i厦门",
+      "href": "javascript:;",
+      "cls": ""
+    }
+  ]
+}

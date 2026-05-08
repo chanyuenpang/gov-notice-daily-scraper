@@ -1,0 +1,9 @@
+{
+  "siteId": "siming_gov_cn",
+  "siteName": "厦门市思明区科技和信息化局",
+  "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+  "status": "failed",
+  "strategyUsed": "stage2_manual",
+  "error": "页面内容为空壳，无公告列表，可能是动态加载或已下线",
+  "announcements": []
+}

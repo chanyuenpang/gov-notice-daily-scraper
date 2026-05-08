@@ -1,0 +1,58 @@
+{
+  "date": "2026-04-15",
+  "generatedAt": "2026-05-03T21:54:23",
+  "tasks": [
+    {
+      "siteId": "sti_xm_gov_cn",
+      "url": "http://sti.xm.gov.cn/",
+      "siteName": "厦门市科学技术局",
+      "status": "failed",
+      "error": "Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"http://sti.xm.gov.cn/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "siteId": "js_xm_gov_cn",
+      "url": "http://js.xm.gov.cn/",
+      "siteName": "厦门市建设局",
+      "status": "failed",
+      "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at http://js.xm.gov.cn/\nCall log:\n  - navigating to \"http://js.xm.gov.cn/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "siteName": "厦门市思明区科技和信息化局",
+      "status": "failed",
+      "error": "未找到符合条件的列表结构"
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "url": "http://gxt.fujian.gov.cn/",
+      "siteName": "福建省供销合作社",
+      "status": "failed",
+      "error": "Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"http://gxt.fujian.gov.cn/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "siteId": "xmtorch_xm_gov_cn",
+      "url": "http://xmtorch.xm.gov.cn/xxgk/zfxxgkml/glfw/",
+      "siteName": "厦门市火炬高技术产业开发区管理委员会",
+      "status": "failed",
+      "error": "Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"http://xmtorch.xm.gov.cn/xxgk/zfxxgkml/glfw/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "siteId": "kgxj_haikou_gov_cn",
+      "url": "http://kgxj.haikou.gov.cn/zfxxgk/gsgg/",
+      "siteName": "海口市科学技术和工业信息化局",
+      "status": "failed",
+      "error": "Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"http://kgxj.haikou.gov.cn/zfxxgk/gsgg/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "siteId": "iqb_jimei_gov_cn",
+      "url": "https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
+      "siteName": "厦门市集美区科学技术局",
+      "status": "failed",
+      "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/\nCall log:\n  - navigating to \"https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/\", waiting until \"domcontentloaded\"\n"
+    }
+  ],
+  "summary": {
+    "total": 7
+  }
+}

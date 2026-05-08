@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-17",
+  "generatedAt": "2026-04-17T07:13:35.607622",
+  "stage": 2,
+  "results": [
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "厦门市思明区科技和信息化局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/",
+      "status": "success",
+      "strategyUsed": "subagent_analyzed_css",
+      "announcements": [
+        {
+          "title": "关于公开遴选“思明数智工场”专业运营机构的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260326_1141938.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260324_1141563.htm",
+          "date": "2026-03-24"
+        },
+        {
+          "title": "一图读懂《思明区先进制造业高质量发展若干措施》",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139617.htm",
+          "date": "2026-03-05"
+        },
+        {
+          "title": "关于《思明区先进制造业高质量发展若干措施》的政策解读",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139605.htm",
+          "date": "2026-03-05"
+        },
+        {
+          "title": "厦门市思明区科技和工信局关于印发思明区先进制造业高质量发展若干措施的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139602.htm",
+          "date": "2026-03-05"
+        }
+      ],
+      "error": null,
+      "durationMs": 11334,
+      "ruleGenerated": true,
+      "discoveredSelector": "div.list ul li:has(a[href*=\"/tzgg/\"])"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "success": 1,
+    "failed": 0,
+    "totalAnnouncements": 5,
+    "rulesGenerated": 1
+  }
+}

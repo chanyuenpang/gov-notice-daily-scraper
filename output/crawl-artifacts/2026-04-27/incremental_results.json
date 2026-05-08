@@ -1,0 +1,93 @@
+{
+  "date": "2026-04-27",
+  "generatedAt": "2026-04-27T07:09:23.342977",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-04-27",
+    "yesterdayDate": "2026-04-26",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "福建省科学技术厅",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "中共中央办公厅 国务院办公厅关于加强新就业群体服务管理的意见",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7066997.htm",
+          "date": "2026-04-26"
+        },
+        {
+          "title": "自然资源要素保障实现“开门红”",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260426_7131323.htm",
+          "date": "2026-04-26"
+        },
+        {
+          "title": "一季度我省液晶平板显示模组出口位居全国第四",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260426_7131326.htm",
+          "date": "2026-04-26"
+        },
+        {
+          "title": "福州港口后方铁路全线首联连续梁边跨顺利合龙",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260426_7131321.htm",
+          "date": "2026-04-26"
+        }
+      ],
+      "newCount": 4
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省供销合作社",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "中共中央办公厅 国务院办公厅关于加强新就业群体服务管理的意见",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7066997.htm",
+          "date": "2026-04-26"
+        },
+        {
+          "title": "自然资源要素保障实现“开门红”",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260426_7131323.htm",
+          "date": "2026-04-26"
+        },
+        {
+          "title": "一季度我省液晶平板显示模组出口位居全国第四",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260426_7131326.htm",
+          "date": "2026-04-26"
+        },
+        {
+          "title": "福州港口后方铁路全线首联连续梁边跨顺利合龙",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260426_7131321.htm",
+          "date": "2026-04-26"
+        },
+        {
+          "title": "南铁：五一假期加开611列旅客列车",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260426_7131331.htm",
+          "date": "2026-04-26"
+        }
+      ],
+      "newCount": 5
+    },
+    {
+      "siteId": "as_xm_gov_cn",
+      "siteName": "厦门市应急管理局",
+      "url": "https://as.xm.gov.cn/zwgk/tzgg/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "关于“五一”劳动节放假的通知",
+          "url": "https://as.xm.gov.cn/202604/t20260426_2993076.htm",
+          "date": ""
+        }
+      ],
+      "newCount": 1
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 3,
+    "totalNewAnnouncements": 10
+  }
+}

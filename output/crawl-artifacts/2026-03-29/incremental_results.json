@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-29",
+  "generatedAt": "2026-03-29T07:07:42.709364",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-03-29",
+    "yesterdayDate": "2026-03-28",
+    "yesterdayExists": true
+  },
+  "results": [],
+  "summary": {
+    "sitesWithNew": 0,
+    "totalNewAnnouncements": 0
+  }
+}

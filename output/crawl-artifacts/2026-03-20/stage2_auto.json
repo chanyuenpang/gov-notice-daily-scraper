@@ -1,0 +1,290 @@
+{
+  "date": "2026-03-20",
+  "generatedAt": "2026-03-20T11:02:02.577682",
+  "stage": 2,
+  "results": [
+    {
+      "siteId": "xmsme_cn",
+      "siteName": "www.xmsme.cn",
+      "url": "https://www.xmsme.cn/news",
+      "status": "failed",
+      "strategyUsed": "subagent_analyzed",
+      "announcements": [
+        {
+          "title": "多家上市厦企回购和增持股份",
+          "url": "https://www.xmsme.cn/news/details?id=122440",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "同安区优化人才\"引育用留\"全链条 打造区域人才集聚高地",
+          "url": "https://www.xmsme.cn/news/details?id=122439",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "厦企竞逐“算电协同”新赛道",
+          "url": "https://www.xmsme.cn/news/details?id=122435",
+          "date": "2026-03-17"
+        },
+        {
+          "title": "火炬高新区人才生态：“引、育、留、用”全链条发力",
+          "url": "https://www.xmsme.cn/news/details?id=122429",
+          "date": "2026-03-17"
+        },
+        {
+          "title": "厦门港今年首批 128辆国产工程车在厦出海",
+          "url": "https://www.xmsme.cn/news/details?id=122422",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "集美区智能制造产业园四宗工业地块成功出让",
+          "url": "https://www.xmsme.cn/news/details?id=122421",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "马銮湾智慧科技产业园开门红 首家企业正式入驻",
+          "url": "https://www.xmsme.cn/news/details?id=122420",
+          "date": "2026-03-13"
+        },
+        {
+          "title": "我市公租房项目“运管一体化”模式获全省推广",
+          "url": "https://www.xmsme.cn/news/details?id=122419",
+          "date": "2026-03-13"
+        },
+        {
+          "title": "牢记嘱托勇争先 向新向智向未来",
+          "url": "https://www.xmsme.cn/news/details?id=122416",
+          "date": "2026-03-12"
+        },
+        {
+          "title": "我市出台13项重磅举措 加速培育新质生产力",
+          "url": "https://www.xmsme.cn/news/details?id=122414",
+          "date": "2026-03-12"
+        },
+        {
+          "title": "厦门启动优质中小企业管理咨询项目补助申报",
+          "url": "https://www.xmsme.cn/news/details?id=122412",
+          "date": "2026-03-12"
+        },
+        {
+          "title": "四家厦企入围国家级名单 为全市人工智能集群与生物医药集群融合发展添助力",
+          "url": "https://www.xmsme.cn/news/details?id=122407",
+          "date": "2026-03-11"
+        },
+        {
+          "title": "鹭江观察丨创新生态赋能 “硬科技”厦企引资本青睐",
+          "url": "https://www.xmsme.cn/news/details?id=122406",
+          "date": "2026-03-11"
+        },
+        {
+          "title": "全国人大代表杨国豪建议：支持厦门建设航运绿色转型两岸融合发展示范城市",
+          "url": "https://www.xmsme.cn/news/details?id=122401",
+          "date": "2026-03-10"
+        },
+        {
+          "title": "厦门多家科技企业获资本青睐 我市创新生态持续被看好",
+          "url": "https://www.xmsme.cn/news/details?id=122405",
+          "date": "2026-03-09"
+        },
+        {
+          "title": "榜单折射发展新态势 厦门新能源产业突围储能赛道",
+          "url": "https://www.xmsme.cn/news/details?id=122398",
+          "date": "2026-03-09"
+        },
+        {
+          "title": "厦门将打造人工智能创新创业孵化基地",
+          "url": "https://www.xmsme.cn/news/details?id=122396",
+          "date": "2026-03-09"
+        },
+        {
+          "title": "厦门出台措施支持企业加强研发活动加大研发投入",
+          "url": "https://www.xmsme.cn/news/details?id=122394",
+          "date": "2026-03-09"
+        },
+        {
+          "title": "山海协作 全力以“复”——厦门新春招工稳工一线见闻",
+          "url": "https://www.xmsme.cn/news/details?id=122379",
+          "date": "2026-03-05"
+        },
+        {
+          "title": "厦门：用心用情用力持续优化营商环境",
+          "url": "https://www.xmsme.cn/news/details?id=122378",
+          "date": "2026-03-05"
+        },
+        {
+          "title": "集美海沧纵深推动“四链融合” 人工智能产业活力迸发",
+          "url": "https://www.xmsme.cn/news/details?id=122377",
+          "date": "2026-03-05"
+        },
+        {
+          "title": "厦门启动2026年高层次及骨干人才类型认定工作获认定者可享多项优惠政策",
+          "url": "https://www.xmsme.cn/news/details?id=122375",
+          "date": "2026-03-05"
+        },
+        {
+          "title": "厦门16条措施推动人工智能产业发展 4月1日起实施",
+          "url": "https://www.xmsme.cn/news/details?id=122374",
+          "date": "2026-03-04"
+        },
+        {
+          "title": "厦门召开电子信息企业恳谈会",
+          "url": "https://www.xmsme.cn/news/details?id=122371",
+          "date": "2026-03-04"
+        },
+        {
+          "title": "约50位海内外侨领侨商齐聚湖里 走企业、看变化、话发展",
+          "url": "https://www.xmsme.cn/news/details?id=122368",
+          "date": "2026-03-03"
+        },
+        {
+          "title": "2025厦门工信这一年",
+          "url": "https://www.xmsme.cn/news/details?id=122364",
+          "date": "2026-03-03"
+        },
+        {
+          "title": "厦门力争今年底净增规模以上高新技术企业100家",
+          "url": "https://www.xmsme.cn/news/details?id=122362",
+          "date": "2026-03-03"
+        },
+        {
+          "title": "推进厦门经济社会发展全面绿色转型",
+          "url": "https://www.xmsme.cn/news/details?id=122361",
+          "date": "2026-02-27"
+        },
+        {
+          "title": "销售额532.39万元 厦门空港春节期间免税消费增势强劲",
+          "url": "https://www.xmsme.cn/news/details?id=122359",
+          "date": "2026-02-27"
+        },
+        {
+          "title": "厦门人社部门马力全开 保障企业节后用工需求",
+          "url": "https://www.xmsme.cn/news/details?id=122358",
+          "date": "2026-02-27"
+        }
+      ],
+      "error": null,
+      "durationMs": 0,
+      "ruleGenerated": false,
+      "discoveredSelector": null
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "思明区科技局",
+      "url": "http://www.siming.gov.cn/xxgk/",
+      "status": "failed",
+      "strategyUsed": "subagent_analyzed",
+      "announcements": [
+        {
+          "title": "政府信息公开",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "重点领域信息公开",
+          "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "政务热线大数据分析",
+          "url": "http://www.siming.gov.cn/zmhd/yhlyfx/",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "思明区公开招聘社区工作者拟录用人员公示",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/sydwzp/202603/t20260320_1141292.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "关于认定厦门光莆电子股份有限公司光莆电子大厦项目为低效工业用地的公告",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/202603/t20260318_1141027.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "关于认定永嘉（厦门）工业有限公司云顶中路505、515号项目为低效工业用地的公告",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/202603/t20260310_1140076.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "厦门市道路绿化和保洁工作专项巡察展开",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/202603/t20260309_1139828.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "厦门市思明区土地房屋征收事务中心补录非在编工作人员拟录用人员公示",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/sydwzp/202603/t20260306_1139665.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "思明区公开招聘社区工作者莲前街道办事处拟录用递补人员公示",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gjdzfxxgk/lqjd/zfxxgkml/zpxx/202602/t20260213_1138009.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "2025年度厦门市非公党建工作指导员拟录用名单公示（思明区第一批出缺）",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/sydwzp/202601/t20260127_1135715.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "厦门市思明区文化和旅游局关于公布思明区第四次全国文物普查不可移动文物名录的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/whtycbj/zfxxgkml/ggwh/whycbh/202601/t20260121_1135024.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "2025年度政府网站工作年度报表",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/qwzndgzbb/202601/P020260105603133156056.pdf",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "关于2024年度厦门市工程系列人工智能专业高级专业技术职务任职资格评审通过人员的公示",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/rlzyhshbzj/zfxxgkml/tzgg/202601/t20260105_1133310.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "思明区公开招聘社区工作者考试简章",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/sydwzp/202601/t20260104_1133090.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "思明区红十字会公开招聘非在编工作人员拟录用人员公示",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/rsxx/sydwzp/202512/t20251231_1132982.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "关于认定厦门欣立洲置业有限公司立洲产业中心项目为低效工业用地的公告",
+          "url": "http://www.siming.gov.cn/xxgk/xwgg/ysgg/202512/t20251231_1132906.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "厦门市思明区民政局、思明区红十字会联合招聘非在编工作人员（2025年11月）思明区民政局拟录用人员公示",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/mzj/zfxxgkml/zpxx/202512/t20251231_1132961.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "2025年第四季度政府网站与政务新媒体自查情况",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/qrmzf/zfxxgkml/qtxx_qzf/202512/t20251231_1132868.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "发展和改革局",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/",
+          "date": "2026-03-20"
+        },
+        {
+          "title": "科技和工信局",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/",
+          "date": "2026-03-20"
+        }
+      ],
+      "error": null,
+      "durationMs": 0,
+      "ruleGenerated": false,
+      "discoveredSelector": null
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "success": 0,
+    "failed": 2,
+    "totalAnnouncements": 50,
+    "rulesGenerated": 0
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "taskId": "xm_hrss_2026-04-29",
+  "siteId": "xm_hrss",
+  "siteName": "厦门市人力资源和社会保障局",
+  "targetUrl": "http://hrss.xm.gov.cn/xygk/tzgg/",
+  "status": "success",
+  "success": true,
+  "announcementsCount": 3,
+  "announcements": [
+    {
+      "id": "xm_hrss_20260410_001",
+      "siteId": "xm_hrss",
+      "siteName": "厦门市人力资源和社会保障局",
+      "siteUrl": "http://hrss.xm.gov.cn/xygk/tzgg/",
+      "title": "翔安区人社局开展“3·15”诚信宣传暨消防安全培训活动",
+      "url": "http://hrss.xm.gov.cn/xygk/tzgg/202604/t20260410_2990344.htm",
+      "date": "2026-04-10",
+      "category": "社保人社",
+      "summary": "",
+      "content": null,
+      "crawledAt": "2026-04-29T07:05:06.120158+08:00",
+      "source": "browser-agent-single-site"
+    },
+    {
+      "id": "xm_hrss_20260410_002",
+      "siteId": "xm_hrss",
+      "siteName": "厦门市人力资源和社会保障局",
+      "siteUrl": "http://hrss.xm.gov.cn/xygk/tzgg/",
+      "title": "集美区人力资源和社会保障局开展“3·15”人力资源服务行业诚信宣传活动",
+      "url": "http://hrss.xm.gov.cn/xygk/tzgg/202604/t20260410_2990338.htm",
+      "date": "2026-04-10",
+      "category": "社保人社",
+      "summary": "",
+      "content": null,
+      "crawledAt": "2026-04-29T07:05:06.120158+08:00",
+      "source": "browser-agent-single-site"
+    },
+    {
+      "id": "xm_hrss_20260410_003",
+      "siteId": "xm_hrss",
+      "siteName": "厦门市人力资源和社会保障局",
+      "siteUrl": "http://hrss.xm.gov.cn/xygk/tzgg/",
+      "title": "以诚立业促招聘 以信立身优服务——湖里区人社局开展诚信主题宣传活动",
+      "url": "http://hrss.xm.gov.cn/xygk/tzgg/202604/t20260410_2990334.htm",
+      "date": "2026-04-10",
+      "category": "社保人社",
+      "summary": "",
+      "content": null,
+      "crawledAt": "2026-04-29T07:05:06.120158+08:00",
+      "source": "browser-agent-single-site"
+    }
+  ],
+  "meta": {
+    "date": "2026-04-29",
+    "crawledAt": "2026-04-29T07:05:06.120158+08:00",
+    "durationMs": 68,
+    "strategyUsed": "requests+bs4 .list li",
+    "error": null,
+    "cutoffDate": "2026-03-30"
+  }
+}

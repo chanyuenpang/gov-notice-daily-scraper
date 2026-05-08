@@ -1,0 +1,9 @@
+{
+  "siteId": "as_xm_gov_cn",
+  "siteName": "厦门市应急管理局",
+  "url": "https://as.xm.gov.cn/zwgk/tzgg/",
+  "status": "failed",
+  "strategyUsed": "stage2_manual",
+  "error": "页面持续超时（45000ms），无法访问",
+  "announcements": []
+}

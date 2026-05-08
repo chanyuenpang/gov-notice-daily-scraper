@@ -1,0 +1,142 @@
+{
+  "date": "2026-03-14",
+  "generatedAt": "2026-03-14T23:15:32.089432",
+  "tasks": [
+    {
+      "siteId": "xmsme_cn",
+      "siteName": "www.xmsme.cn",
+      "url": "http://www.xmsme.cn/",
+      "baseUrl": "http://www.xmsme.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "js_xm_gov_cn",
+      "siteName": "js.xm.gov.cn",
+      "url": "http://js.xm.gov.cn/",
+      "baseUrl": "http://js.xm.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "xmgh_org",
+      "siteName": "www.xmgh.org",
+      "url": "http://www.xmgh.org/",
+      "baseUrl": "http://www.xmgh.org",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "fgw_fujian_gov_cn",
+      "siteName": "gsgg",
+      "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/",
+      "baseUrl": "http://fgw.fujian.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "edu_xm_gov_cn",
+      "siteName": "tzgg",
+      "url": "http://edu.xm.gov.cn/jyxw/tzgg/",
+      "baseUrl": "http://edu.xm.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "kjhxxhj",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "baseUrl": "http://www.siming.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "xmsia_cn",
+      "siteName": "NewsList.aspx?classId=3",
+      "url": "http://www.xmsia.cn/Pages/Home/NewsList.aspx?classId=3",
+      "baseUrl": "http://www.xmsia.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "mohurd_gov_cn",
+      "siteName": "www.mohurd.gov.cn",
+      "url": "https://www.mohurd.gov.cn/",
+      "baseUrl": "https://www.mohurd.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "zjt_fujian_gov_cn",
+      "siteName": "xxgkml",
+      "url": "http://zjt.fujian.gov.cn/xxgk/zfxxgkzl/xxgkml/",
+      "baseUrl": "http://zjt.fujian.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "gxt.fujian.gov.cn",
+      "url": "http://gxt.fujian.gov.cn/",
+      "baseUrl": "http://gxt.fujian.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "as_xm_gov_cn",
+      "siteName": "tzgg",
+      "url": "https://as.xm.gov.cn/zwgk/tzgg/",
+      "baseUrl": "https://as.xm.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "fgw_fujian_gov_cn",
+      "siteName": "tzgg",
+      "url": "http://fgw.fujian.gov.cn/ztzl/szfjzt/tzgg/",
+      "baseUrl": "http://fgw.fujian.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "kgxj_haikou_gov_cn",
+      "siteName": "gsgg",
+      "url": "http://kgxj.haikou.gov.cn/zfxxgk/gsgg/",
+      "baseUrl": "http://kgxj.haikou.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    },
+    {
+      "siteId": "iqb_jimei_gov_cn",
+      "siteName": "XM03103",
+      "url": "https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
+      "baseUrl": "https://iqb.jimei.gov.cn",
+      "failReason": "no_rule",
+      "hasExistingRule": false,
+      "originalError": "无规则文件，需要 Stage 2 处理"
+    }
+  ],
+  "skipped": [],
+  "summary": {
+    "total": 25,
+    "failed": 14,
+    "toProcess": 14,
+    "skipped": 0,
+    "noRuleCount": 14,
+    "strategyFailedCount": 0,
+    "timeoutCount": 0
+  }
+}

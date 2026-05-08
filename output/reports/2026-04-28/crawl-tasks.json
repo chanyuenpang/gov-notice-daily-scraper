@@ -1,0 +1,44 @@
+[
+  {
+    "siteId": "",
+    "siteName": "",
+    "siteUrl": "http://hrss.xm.gov.cn/xygk/tzgg/",
+    "targetUrl": "http://hrss.xm.gov.cn/xygk/tzgg/",
+    "category": "社保人社",
+    "outputFields": [
+      "title",
+      "url",
+      "date",
+      "summary"
+    ],
+    "outputPath": ""
+  },
+  {
+    "siteId": "",
+    "siteName": "",
+    "siteUrl": "http://sti.xm.gov.cn/",
+    "targetUrl": "http://sti.xm.gov.cn/",
+    "category": "科技政策",
+    "outputFields": [
+      "title",
+      "url",
+      "date",
+      "summary"
+    ],
+    "outputPath": ""
+  },
+  {
+    "siteId": "",
+    "siteName": "",
+    "siteUrl": "http://www.xmsia.cn/Pages/Home/NewsList.aspx?classId=3",
+    "targetUrl": "http://www.xmsia.cn/Pages/Home/NewsList.aspx?classId=3",
+    "category": "行业协会",
+    "outputFields": [
+      "title",
+      "url",
+      "date",
+      "summary"
+    ],
+    "outputPath": ""
+  }
+]

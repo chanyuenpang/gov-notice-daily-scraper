@@ -1,0 +1,82 @@
+{
+  "site_id": "siming_gov_cn",
+  "announcements": [
+    {
+      "title": "政府信息公开",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/",
+      "date": ""
+    },
+    {
+      "title": "重点领域信息公开",
+      "url": "http://www.siming.gov.cn/xxgk/zwgkzdgz/",
+      "date": ""
+    },
+    {
+      "title": "网上办事大厅",
+      "url": "https://zwfw.fujian.gov.cn/?type=1&siteUnid=7D80C4C5C8326F2A650ADFE3E3F60241",
+      "date": ""
+    },
+    {
+      "title": "闽政通APP",
+      "url": "https://www.fujian.gov.cn/bsfw/mztapp/",
+      "date": ""
+    },
+    {
+      "title": "12345平台",
+      "url": "http://xm12345.xm.gov.cn/publicPage/event/guide.jsp?infotype=3&areacode=350200",
+      "date": ""
+    },
+    {
+      "title": "政务热线大数据分析",
+      "url": "http://www.siming.gov.cn/zmhd/yhlyfx/",
+      "date": ""
+    },
+    {
+      "title": "发展和改革局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/fzhggj/",
+      "date": ""
+    },
+    {
+      "title": "科技和工信局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/",
+      "date": ""
+    },
+    {
+      "title": "人力资源和社会保障局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/rlzyhshbzj/",
+      "date": ""
+    },
+    {
+      "title": "住房和建设局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/jsj/",
+      "date": ""
+    },
+    {
+      "title": "文化和旅游局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/whtycbj/",
+      "date": ""
+    },
+    {
+      "title": "退役军人事务局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/tyjrswj/",
+      "date": ""
+    },
+    {
+      "title": "城市管理和综合执法局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/csglxzzfj/",
+      "date": ""
+    },
+    {
+      "title": "工业园区管理委员会",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/gjswqgwh/",
+      "date": ""
+    },
+    {
+      "title": "思明区图书馆",
+      "url": "http://www.xmsmlib.net/",
+      "date": ""
+    }
+  ],
+  "count": 15,
+  "status": "success"
+}

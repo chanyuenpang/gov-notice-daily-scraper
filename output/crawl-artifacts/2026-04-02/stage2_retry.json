@@ -1,0 +1,144 @@
+[
+  {
+    "siteId": "dpc_xm_gov_cn",
+    "siteName": "厦门市发展和改革委员会",
+    "success": true,
+    "announcements": [
+      {
+        "title": "信息公开指南",
+        "url": "http://dpc.xm.gov.cn/xxgk/xxgkzn/"
+      },
+      {
+        "title": "信息公开制度",
+        "url": "http://dpc.xm.gov.cn/xxgk/xxgkzd/"
+      },
+      {
+        "title": "法定主动公开内容",
+        "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/"
+      },
+      {
+        "title": "信息公开年度报告",
+        "url": "http://dpc.xm.gov.cn/xxgk/ndbg/"
+      },
+      {
+        "title": "网站年度报告",
+        "url": "http://dpc.xm.gov.cn/xxgk/wzndbg/"
+      },
+      {
+        "title": "民营企业诉求建议",
+        "url": "http://dpc.xm.gov.cn/gzcy/myqysqjy/"
+      },
+      {
+        "title": "厦门场景创新发布会暨供需对接活动举行",
+        "url": "http://dpc.xm.gov.cn/./xwdt/gzdt/202603/t20260327_2987900.htm"
+      },
+      {
+        "title": "厦门市发改委召开民间投资领域民营企业座谈会",
+        "url": "http://dpc.xm.gov.cn/./xwdt/tpxw/202603/t20260327_2987897.htm"
+      },
+      {
+        "title": "加快构建新型城镇化建设投融资体制",
+        "url": "http://dpc.xm.gov.cn/./xwdt/tpxw/202603/t20260320_2986717.htm"
+      },
+      {
+        "title": "厦门市发改委召开党组（扩大）会议 研究部署...",
+        "url": "http://dpc.xm.gov.cn/./xwdt/tpxw/202603/t20260313_2985222.htm"
+      },
+      {
+        "title": "一图读懂 | 2026年厦门营商环境行动方案",
+        "url": "http://dpc.xm.gov.cn/./xwdt/tpxw/202603/t20260312_2985139.htm"
+      }
+    ]
+  },
+  {
+    "siteId": "sti_xm_gov_cn",
+    "siteName": "厦门市科学技术局",
+    "success": false,
+    "error": "Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"http://sti.xm.gov.cn/\", waiting un"
+  },
+  {
+    "siteId": "siming_gov_cn",
+    "siteName": "厦门市思明区科技和信息化局",
+    "success": false,
+    "announcements": []
+  },
+  {
+    "siteId": "as_xm_gov_cn",
+    "siteName": "厦门市应急管理局",
+    "success": true,
+    "announcements": [
+      {
+        "title": "关于清明节放假的通知",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202604/t20260401_2988687.htm"
+      },
+      {
+        "title": "厦门市数据管理局关于组织开展数字经济新型企业培育入库申报工作的通知",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202603/t20260327_2987877.htm"
+      },
+      {
+        "title": "厦门市数据管理局关于申报厦门市促进数据产业高质量发展相关政策资金的通知",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202603/t20260320_2986600.htm"
+      },
+      {
+        "title": "厦门市政务服务中心周末办事事项清单",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202603/t20260310_2984709.htm"
+      },
+      {
+        "title": "厦门市数据管理局关于征集遴选全市公共数据赋能行业应用场景的通知",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202603/t20260304_2983896.htm"
+      },
+      {
+        "title": "关于2026年春节放假的通知",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202602/t20260210_2981002.htm"
+      },
+      {
+        "title": "厦门市数据管理局关于开展2026年度数字应用场景优秀案例评选的通知",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202602/t20260206_2980585.htm"
+      },
+      {
+        "title": "厦门市数据管理局关于2025年度厦门市科学技术奖补充提名工作的通知",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202601/t20260112_2976714.htm"
+      },
+      {
+        "title": "厦门市数据管理局关于算力服务机构入库名单的公示",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202601/t20260109_2976511.htm"
+      },
+      {
+        "title": "关于2026年元旦节放假的通知",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202512/t20251229_2974272.htm"
+      },
+      {
+        "title": "厦门市数据管理局关于市级政务信息化项目评审增补专家人选公示",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202511/t20251106_2964997.htm"
+      },
+      {
+        "title": "关于向社会公众公开征求《厦门市公共数据 共享开放管理暂行办法》后评估意见的通知",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202510/t20251010_2959297.htm"
+      },
+      {
+        "title": "关于2025年国庆节放假的通知",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202509/t20250926_2957861.htm"
+      },
+      {
+        "title": "关于常态化开展数字技术应用场景 征集的通知",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202509/t20250917_2956248.htm"
+      },
+      {
+        "title": "比赛规则解读 | 第六届中国人工智能大赛“创新发展赛道”赛题",
+        "url": "https://mp.weixin.qq.com/s/gS02fe_3AcmiU0zpSaF44w"
+      },
+      {
+        "title": "比赛规则解读 | 第六届中国人工智能大赛“安全治理赛道”赛题",
+        "url": "https://mp.weixin.qq.com/s/rE6qe8HFYrQhGzr4E62StQ"
+      },
+      {
+        "title": "第六届中国人工智能大赛在厦启动",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202509/t20250910_2954812.htm"
+      },
+      {
+        "title": "一图读懂 | 第六届中国人工智能大赛已启动，欢迎来战！",
+        "url": "https://as.xm.gov.cn/zwgk/tzgg/./202509/t20250910_2954811.htm"
+      }
+    ]
+  }
+]

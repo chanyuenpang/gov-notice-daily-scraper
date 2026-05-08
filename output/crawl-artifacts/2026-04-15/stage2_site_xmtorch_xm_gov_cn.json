@@ -1,0 +1,7 @@
+{
+  "site_id": "xmtorch_xm_gov_cn",
+  "name": "厦门市火炬开发区",
+  "url": "http://xmtorch.xm.gov.cn/xxgk/zfxxgkml/glfw/",
+  "success": false,
+  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"http://xmtorch.xm.gov.cn/xxgk/zfxx"
+}

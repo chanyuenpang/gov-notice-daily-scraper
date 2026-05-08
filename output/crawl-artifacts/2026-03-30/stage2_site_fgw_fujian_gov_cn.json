@@ -1,0 +1,168 @@
+{
+  "siteId": "fgw_fujian_gov_cn",
+  "siteName": "福建省发展和改革委员会",
+  "url": "http://fgw.fujian.gov.cn/",
+  "status": "success",
+  "strategyUsed": "subagent_analyzed",
+  "announcements": [
+    {
+      "title": "[福州]：福州市发展和改革委员会关于2025年法治政府建设工作的报告",
+      "url": "http://fgw.fujian.gov.cn/zwgk/xwdt/sxdt/202602/t20260214_7099104.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.218245"
+    },
+    {
+      "title": "福建省发展和改革委员会关于成品油价格调整的通告",
+      "url": "http://fgw.fujian.gov.cn/zfxxgkzl/zfxxgkml/yzdgkdqtxx/202603/t20260323_7114772.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.316141"
+    },
+    {
+      "title": "福建省发展和改革委员会关于购买福建省“十五五”规划《纲要》出版印制询价结果的公告",
+      "url": "http://fgw.fujian.gov.cn/zwgk/gsgg/202603/t20260320_7114131.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.320018"
+    },
+    {
+      "title": "福建省发展和改革委员会 福建省新闻出版局关于公布我省2026年春季中小学教材和教辅材料零售价格的通告",
+      "url": "http://fgw.fujian.gov.cn/zfxxgkzl/zfxxgkml/fpjyylsbjy/202603/t20260306_7106207.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.328111"
+    },
+    {
+      "title": "国家发展改革委 国务院妇儿工委办公室关于在全社会推进儿童友好建设的意见",
+      "url": "http://fgw.fujian.gov.cn/zwgk/fgzd/gjfgwwj/202603/t20260319_7113427.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.348610"
+    },
+    {
+      "title": "中共福建省委 福建省人民政府关于锚定农业农村现代化扎实推进乡村全面振兴的实施意见",
+      "url": "http://fgw.fujian.gov.cn/zwgk/fgzd/szcfg/202603/t20260309_7107487.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.352527"
+    },
+    {
+      "title": "国家发展改革委 金融监管总局 中国民航局关于推动低空保险高质量发展的实施意见",
+      "url": "http://fgw.fujian.gov.cn/zwgk/fgzd/gjfgwwj/202603/t20260309_7107343.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.355930"
+    },
+    {
+      "title": "国家发展改革委等部门关于加快招标投标领域人工智能推广应用的实施意见",
+      "url": "http://fgw.fujian.gov.cn/zwgk/fgzd/gjfgwwj/202602/t20260214_7099112.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.358544"
+    },
+    {
+      "title": "福建省人民政府办公厅关于印发《福建省城市更新工作实施意见》的通知",
+      "url": "http://fgw.fujian.gov.cn/zwgk/fgzd/szcfg/202602/t20260214_7099118.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.361088"
+    },
+    {
+      "title": "《福建省发展和改革委员会 福建省财政厅关于2026年实施大规模设备更新和消费品以旧换新政策的通知》政策解读",
+      "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/bmzcwjjd/202602/t20260205_7090151.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.467009"
+    },
+    {
+      "title": "一图读懂 | 关于在全社会推进儿童友好建设的意见",
+      "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/qtzcwjjd/202603/t20260319_7113430.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.510188"
+    },
+    {
+      "title": "一图读懂 | 关于推动低空保险高质量发展的实施意见",
+      "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/qtzcwjjd/202603/t20260309_7107345.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.518595"
+    },
+    {
+      "title": "国家发展改革委新闻发言人就《国家发展改革委等部门关于加快招标投标领域人工智能推广应用的实施意见》答记者问",
+      "url": "http://fgw.fujian.gov.cn/jdhy/zcjd/qtzcwjjd/202602/t20260214_7099114.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.525895"
+    },
+    {
+      "title": "关于《福建省发展和改革委员会重大项目后评价管理办法（试行）》的情况介绍",
+      "url": "http://fgw.fujian.gov.cn/hdjl/zxft/202601/t20260128_7086280.htm?",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.681492"
+    },
+    {
+      "title": "关于福建省援藏工作有关情况的介绍",
+      "url": "http://fgw.fujian.gov.cn/hdjl/zxft/202510/t20251020_7023495.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.688844"
+    },
+    {
+      "title": "关于我省营商环境建设规划（2024—2029年）的情况介绍",
+      "url": "http://fgw.fujian.gov.cn/hdjl/zxft/202510/t20251020_7023497.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.695653"
+    },
+    {
+      "title": "关于“十四五”公共服务规划实施情况的介绍",
+      "url": "http://fgw.fujian.gov.cn/hdjl/zxft/202510/t20251020_7023496.htm",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.703178"
+    },
+    {
+      "title": "关于预算审核是否只能审减不能审增的事宜",
+      "url": "http://fgw.fujian.gov.cn/hdjl/zxzx/detail1.htm?id=957078",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.764220"
+    },
+    {
+      "title": "《关于2025年加力扩围实施大规模设备更新和消费品以旧换新的通知》的网上调查",
+      "url": "http://fgw.fujian.gov.cn/hdjl/wsdc/detail.htm?id=27732&type=1",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.790380"
+    },
+    {
+      "title": "福建省发展和改革委员会关于公开征求《关于公办高校中外合作办学收费政策调整有关问题的通知》 意见的公告",
+      "url": "http://fgw.fujian.gov.cn/hdjl/myzj/detail.htm?id=45835",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.817237"
+    },
+    {
+      "title": "关于公开征求《福建省推进社会信用体系建设三年行动方案（2026—2028年） （征求意见稿）》意见的公告",
+      "url": "http://fgw.fujian.gov.cn/hdjl/myzj/detail.htm?id=45167",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.822274"
+    },
+    {
+      "title": "关于公开征求《2026年福建省电力中长期市场交易方案（征求意见稿）》意见的公告",
+      "url": "http://fgw.fujian.gov.cn/hdjl/myzj/detail.htm?id=45037",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.827150"
+    },
+    {
+      "title": "福建省数据管理局关于公开征求《福建省加强数字经济创新型企业培育十条措施（征求意见稿）》意见的公告",
+      "url": "http://fgw.fujian.gov.cn/hdjl/myzj/detail.htm?id=45075",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.832090"
+    },
+    {
+      "title": "福建省数据管理局关于公开征求《福建省有序推进算力基础设施发展若干措施（征求意见稿）》意见的公告",
+      "url": "http://fgw.fujian.gov.cn/hdjl/myzj/detail.htm?id=44927",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.836817"
+    },
+    {
+      "title": "福建省发展和改革委员会关于公开征求《福建省发展和改革委员会 福建省教育厅 福建省财政厅关于进一步规范中小学服务性收费和代收费管理的通知》 意见的公告",
+      "url": "http://fgw.fujian.gov.cn/hdjl/myzj/detail.htm?id=44867",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.841768"
+    },
+    {
+      "title": "关于公开征求《关于加强地方铁路监督管理的意见》（征求意见稿）意见的公告",
+      "url": "http://fgw.fujian.gov.cn/hdjl/myzj/detail.htm?id=44828",
+      "site_id": "fgw_fujian_gov_cn",
+      "crawled_at": "2026-03-30T07:15:29.846312"
+    }
+  ],
+  "ruleGenerated": true,
+  "durationMs": 0,
+  "crawled_at": "2026-03-30T07:16:17.047278"
+}

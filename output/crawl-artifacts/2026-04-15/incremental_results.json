@@ -1,0 +1,549 @@
+{
+  "date": "2026-04-15",
+  "generatedAt": "2026-04-15T06:15:34.113293",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-04-15",
+    "yesterdayDate": "2026-04-14",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "most_gov_cn",
+      "siteName": "科学技术部",
+      "url": "http://www.most.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "李强同阿联酋阿布扎比王储哈立德会谈",
+          "url": "https://www.news.cn/politics/leaders/20260413/2f1561fa9ded43a9b938e9a43ec41cba/c.html",
+          "date": ""
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "ndrc_gov_cn",
+      "siteName": "国家发展和改革委员会",
+      "url": "http://www.ndrc.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "周海兵副主任会见安哥拉矿产资源、石油和天然气部部长阿泽维多",
+          "url": "http://www.ndrc.gov.cn/xwdt/xwfb/202604/t20260414_1404653.html",
+          "date": ""
+        },
+        {
+          "title": "国家发展改革委召开树立和践行正确政绩观学习教育部署推进会",
+          "url": "http://www.ndrc.gov.cn/xwdt/xwfb/202604/t20260414_1404652.html",
+          "date": ""
+        },
+        {
+          "title": "习近平会见西班牙首相桑切斯",
+          "url": "https://www.news.cn/politics/leaders/20260414/e9fcceeafa674b75a39c9a85f16886c1/c.html",
+          "date": ""
+        },
+        {
+          "title": "习近平会见阿联酋阿布扎比王储哈立德",
+          "url": "https://www.news.cn/politics/leaders/20260414/e5774f97216246f688b382faa4bd03f7/c.html",
+          "date": ""
+        },
+        {
+          "title": "李强同阿联酋阿布扎比王储哈立德会谈",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7065418.htm",
+          "date": ""
+        },
+        {
+          "title": "何立峰出席第六届中国国际消费品博览会暨2026“购在中国”国际消费季启动仪式并致辞",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7065417.htm",
+          "date": ""
+        },
+        {
+          "title": "《计划报告》科技新词“三问三答” | 人工智能+",
+          "url": "http://www.ndrc.gov.cn/xwdt/spfg/zfzjt/202604/t20260414_1404665.html",
+          "date": "2026-04-14"
+        }
+      ],
+      "newCount": 7
+    },
+    {
+      "siteId": "mnr_gov_cn",
+      "siteName": "自然资源部",
+      "url": "http://www.mnr.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平会见阿联酋阿布扎比王储哈立德",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7065514.htm",
+          "date": ""
+        },
+        {
+          "title": "总书记的人民情怀 | “走出一条中国特色城...",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7065344.htm",
+          "date": ""
+        },
+        {
+          "title": "公安部 自然资源部联合公布4起非法占用耕...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202604/t20260414_2926653.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部油气资源战略研究中心2026年度公开招聘应届毕业生（第二批）资格审查结果及笔...\n                                                04-14",
+          "url": "http://gi.mnr.gov.cn/202604/t20260414_2926697.html",
+          "date": ""
+        },
+        {
+          "title": "中国地质博物馆2026年度公开招聘工作人员（第二批）统一笔试岗位资格审查结果及笔试公告\n                                                04-14",
+          "url": "http://gi.mnr.gov.cn/202604/t20260414_2926696.html",
+          "date": ""
+        },
+        {
+          "title": "中国自然资源报社2026年度公开招聘应届毕业生（第二批）确认参考和笔试公告\n                                                04-14",
+          "url": "http://gi.mnr.gov.cn/202604/t20260414_2926695.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部机关服务局2026年度公开招聘社会人员确认参考和笔试公告\n                                                04-14",
+          "url": "http://gi.mnr.gov.cn/202604/t20260414_2926694.html",
+          "date": ""
+        },
+        {
+          "title": "中国自然资源经济研究院2026年度公开招聘第二批应届毕业生资格审查结果及笔试公告\n                                                04-14",
+          "url": "http://gi.mnr.gov.cn/202604/t20260414_2926693.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部人力资源开发中心2026年度第二批公开招聘应届毕业生资格审查结果和笔试公告\n                                                04-14",
+          "url": "http://gi.mnr.gov.cn/202604/t20260414_2926691.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部国土整治中心（自然资源部土地科技创新中心）2026年度公开招聘应届毕业生（京...\n                                                04-14",
+          "url": "http://gi.mnr.gov.cn/202604/t20260414_2926692.html",
+          "date": ""
+        }
+      ],
+      "newCount": 10
+    },
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "福建省科学技术厅",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "国务院办公厅关于健全药品价格形成机制的若干意见",
+          "url": "https://www.gov.cn/zhengce/content/202604/content_7065541.htm",
+          "date": "2026-04-14"
+        },
+        {
+          "title": "周祖翼在省税务系统调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124690.htm",
+          "date": "2026-04-14"
+        },
+        {
+          "title": "我省新增5处省级工业遗产",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124110.htm",
+          "date": "2026-04-14"
+        },
+        {
+          "title": "厦门空港今年往返“一带一路”共建国家客运航班突破5000架次",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124111.htm",
+          "date": "2026-04-14"
+        },
+        {
+          "title": "今年第一批省级工业重点节能改造和通用设备更新提标项目公布",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124109.htm",
+          "date": "2026-04-14"
+        },
+        {
+          "title": "省科技厅青年干部开展2026年“清明祭英烈”祭扫活动",
+          "url": "http://kjt.fujian.gov.cn/xxgk/kjyw/stdt/202604/t20260413_7124100.htm",
+          "date": "2026-04-13"
+        },
+        {
+          "title": "星火办党支部开展深入学习习近平总书记关于树立和践行正确政绩观的重要论述和全国两会精神研讨交流",
+          "url": "http://kjt.fujian.gov.cn/xxgk/kjyw/zsdwdt/202604/t20260410_7123453.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "中共福建省科技厅星火计划办公室支部关于巡察整改进展情况的通报",
+          "url": "http://kjt.fujian.gov.cn/xxgk/tzgg/202604/t20260410_7121238.htm",
+          "date": "2026-04-14"
+        },
+        {
+          "title": "福建省科学技术奖励委员会办公室关于开展2025年度福建省科学技术奖提名工作的通知",
+          "url": "http://kjt.fujian.gov.cn/xxgk/tzgg/202604/t20260414_7124152.htm",
+          "date": "2026-04-13"
+        }
+      ],
+      "newCount": 9
+    },
+    {
+      "siteId": "gxj_xm_gov_cn",
+      "siteName": "厦门市工业和信息化局",
+      "url": "http://gxj.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门市工业和信息化局关于厦门市2026届优培生（企业B类）拟选拔人选的公示",
+          "url": "http://gxj.xm.gov.cn/xwzx/tzgg/202604/t20260414_2990898.htm",
+          "date": "2026-04-14"
+        },
+        {
+          "title": "关于调整散装水泥统计填报路径的通知",
+          "url": "http://gxj.xm.gov.cn/xwzx/tzgg/202604/t20260414_2990794.htm",
+          "date": "2026-04-14"
+        },
+        {
+          "title": "厦门市工业和信息化局关于开展工业和信息化领域技术、人才需求和科技成果征集推介工作的通知",
+          "url": "http://gxj.xm.gov.cn/xwzx/tzgg/202604/t20260414_2990789.htm",
+          "date": "2026-04-14"
+        }
+      ],
+      "newCount": 3
+    },
+    {
+      "siteId": "mohurd_gov_cn",
+      "siteName": "住房和城乡建设部",
+      "url": "https://www.mohurd.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平总书记关切事丨十八洞村新生：走出深山 走向世界",
+          "url": "https://www.news.cn/politics/leaders/20260413/23213565557b40da8fde724352286527/c.html",
+          "date": "2026-04-13"
+        },
+        {
+          "title": "住房城乡建设部要求 全力抓好2026年城市排水防涝工作　科学谋划“十五五”目标任务",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_ce8cf40d8f6045a095fd906cead48a91.html",
+          "date": "2026-04-14"
+        }
+      ],
+      "newCount": 2
+    },
+    {
+      "siteId": "as_xm_gov_cn",
+      "siteName": "厦门市应急管理局",
+      "url": "https://as.xm.gov.cn/zwgk/tzgg/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "单位概况",
+          "url": "https://as.xm.gov.cn/zxgk",
+          "date": ""
+        },
+        {
+          "title": "政务公开",
+          "url": "https://as.xm.gov.cn/zwgk/",
+          "date": ""
+        },
+        {
+          "title": "解读回应",
+          "url": "https://as.xm.gov.cn/jdhy/",
+          "date": ""
+        },
+        {
+          "title": "办事服务",
+          "url": "https://zwfw.fujian.gov.cn/indexMain?type=1&siteUnid=8B843B8A862B176279921293FF24876A",
+          "date": ""
+        },
+        {
+          "title": "互动交流",
+          "url": "https://as.xm.gov.cn/jlhd/",
+          "date": ""
+        },
+        {
+          "title": "预约服务",
+          "url": "https://as.xm.gov.cn/yyfw/",
+          "date": ""
+        },
+        {
+          "title": "工作动态",
+          "url": "https://as.xm.gov.cn/gzdt/",
+          "date": ""
+        },
+        {
+          "title": "政府信息",
+          "url": "https://as.xm.gov.cn/zfxx/",
+          "date": ""
+        },
+        {
+          "title": "政策法规",
+          "url": "https://as.xm.gov.cn/zcfg/",
+          "date": ""
+        },
+        {
+          "title": "厦门市信息中心关于公开征集2026年网络安全攻防演练攻击队伍的通告",
+          "url": "https://as.xm.gov.cn/202604/t20260414_2990725.htm",
+          "date": ""
+        },
+        {
+          "title": "关于清明节放假的通知",
+          "url": "https://as.xm.gov.cn/202604/t20260401_2988687.htm",
+          "date": ""
+        },
+        {
+          "title": "厦门市数据管理局关于组织开展数字经济新型企业培育入库申报工作的通知",
+          "url": "https://as.xm.gov.cn/202603/t20260327_2987877.htm",
+          "date": ""
+        },
+        {
+          "title": "厦门市数据管理局关于申报厦门市促进数据产业高质量发展相关政策资金的通知",
+          "url": "https://as.xm.gov.cn/202603/t20260320_2986600.htm",
+          "date": ""
+        },
+        {
+          "title": "厦门市政务服务中心周末办事事项清单",
+          "url": "https://as.xm.gov.cn/202603/t20260310_2984709.htm",
+          "date": ""
+        },
+        {
+          "title": "厦门市数据管理局关于征集遴选全市公共数据赋能行业应用场景的通知",
+          "url": "https://as.xm.gov.cn/202603/t20260304_2983896.htm",
+          "date": ""
+        },
+        {
+          "title": "关于2026年春节放假的通知",
+          "url": "https://as.xm.gov.cn/202602/t20260210_2981002.htm",
+          "date": ""
+        },
+        {
+          "title": "厦门市数据管理局关于开展2026年度数字应用场景优秀案例评选的通知",
+          "url": "https://as.xm.gov.cn/202602/t20260206_2980585.htm",
+          "date": ""
+        },
+        {
+          "title": "厦门市数据管理局关于2025年度厦门市科学技术奖补充提名工作的通知",
+          "url": "https://as.xm.gov.cn/202601/t20260112_2976714.htm",
+          "date": ""
+        },
+        {
+          "title": "厦门市数据管理局关于算力服务机构入库名单的公示",
+          "url": "https://as.xm.gov.cn/202601/t20260109_2976511.htm",
+          "date": ""
+        },
+        {
+          "title": "关于2026年元旦节放假的通知",
+          "url": "https://as.xm.gov.cn/202512/t20251229_2974272.htm",
+          "date": ""
+        },
+        {
+          "title": "厦门市数据管理局关于市级政务信息化项目评审增补专家人选公示",
+          "url": "https://as.xm.gov.cn/202511/t20251106_2964997.htm",
+          "date": ""
+        },
+        {
+          "title": "关于向社会公众公开征求《厦门市公共数据  共享开放管理暂行办法》后评估意见的通知",
+          "url": "https://as.xm.gov.cn/202510/t20251010_2959297.htm",
+          "date": ""
+        },
+        {
+          "title": "关于2025年国庆节放假的通知",
+          "url": "https://as.xm.gov.cn/202509/t20250926_2957861.htm",
+          "date": ""
+        },
+        {
+          "title": "关于常态化开展数字技术应用场景  征集的通知",
+          "url": "https://as.xm.gov.cn/202509/t20250917_2956248.htm",
+          "date": ""
+        },
+        {
+          "title": "比赛规则解读 | 第六届中国人工智能大赛“创新发展赛道”赛题",
+          "url": "https://mp.weixin.qq.com/s/gS02fe_3AcmiU0zpSaF44w",
+          "date": ""
+        },
+        {
+          "title": "比赛规则解读 | 第六届中国人工智能大赛“安全治理赛道”赛题",
+          "url": "https://mp.weixin.qq.com/s/rE6qe8HFYrQhGzr4E62StQ",
+          "date": ""
+        },
+        {
+          "title": "第六届中国人工智能大赛在厦启动",
+          "url": "https://as.xm.gov.cn/202509/t20250910_2954812.htm",
+          "date": ""
+        },
+        {
+          "title": "市纪委监委",
+          "url": "http://www.xmcdi.gov.cn",
+          "date": ""
+        }
+      ],
+      "newCount": 28
+    },
+    {
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局",
+      "url": "http://sti.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "政务公开",
+          "url": "http://sti.xm.gov.cn/xxgk/"
+        },
+        {
+          "title": "办事服务",
+          "url": "https://zwfw.fujian.gov.cn/person-todo/detail?userType=3&siteUnid=8B843B8A862B176279921293FF24876A&curStatus=dept&deptId=CF6DEF15B2B42B8DEEF10B547074140B"
+        },
+        {
+          "title": "科技服务",
+          "url": "http://sti.xm.gov.cn/wsbs/"
+        },
+        {
+          "title": "交流互动",
+          "url": "http://sti.xm.gov.cn/jlhd/"
+        },
+        {
+          "title": "走进厦门科学城",
+          "url": "http://sti.xm.gov.cn/zjkxc/"
+        },
+        {
+          "title": "7个前沿AI项目集中在厦门科学城I号孵化器亮相 ——“技术源头...",
+          "url": "https://mp.weixin.qq.com/s/U10L0J4EXoy-zubhU4Vy0Q"
+        },
+        {
+          "title": "我市召开2025年度高企认定中介机构工作培训会",
+          "url": "http://sti.xm.gov.cn./xxgk/gzdt/202506/t20250620_2940521.htm"
+        },
+        {
+          "title": "第十四届“中国创新创业大赛”（厦门赛区）、第十届“创客中...",
+          "url": "http://sti.xm.gov.cn./xxgk/gzdt/202506/t20250620_2940375.htm"
+        },
+        {
+          "title": "全球智汇 聚力未来 第三届“苏颂杯”未来产业技术创新赛启幕",
+          "url": "http://sti.xm.gov.cn./xwdt/ldxw/202506/t20250618_2939785.htm"
+        },
+        {
+          "title": "中国—金砖国家新时代科创孵化园在巴西成功举办展示暨推介会",
+          "url": "http://sti.xm.gov.cn./xxgk/gzdt/202506/t20250613_2938800.htm"
+        },
+        {
+          "title": "通知公告",
+          "url": "http://sti.xm.gov.cn./xxgk/tzgg/"
+        },
+        {
+          "title": "工作动态",
+          "url": "http://sti.xm.gov.cn./xxgk/gzdt/"
+        },
+        {
+          "title": "科技新闻",
+          "url": "http://sti.xm.gov.cn./xwdt/ldxw/"
+        },
+        {
+          "title": "厦门市科学技术局 厦门市工业和信息化局 厦门市卫生健康委员...",
+          "url": "http://sti.xm.gov.cn./xxgk/tzgg/202604/t20260414_2990995.htm"
+        },
+        {
+          "title": "厦门市科学技术局 关于征集科技及产业领域技术或产品有关情况...",
+          "url": "http://sti.xm.gov.cn./xxgk/tzgg/202604/t20260414_2990943.htm"
+        },
+        {
+          "title": "厦门市科学技术局关于厦门市2026届优培生拟选拔人选公示的公告",
+          "url": "http://sti.xm.gov.cn./xxgk/tzgg/202604/t20260414_2990900.htm"
+        },
+        {
+          "title": "厦门市科学技术局转发智能电网国家科技重大专项管理办公室关...",
+          "url": "http://sti.xm.gov.cn./xxgk/tzgg/202604/t20260414_2990792.htm"
+        },
+        {
+          "title": "成果转化探索新途径——学习贯彻习近平总书记全国两会期间关...",
+          "url": "http://sti.xm.gov.cn./xwdt/ldxw/202604/t20260414_2990905.htm"
+        },
+        {
+          "title": "科技创新实现新突破——学习贯彻习近平总书记全国两会期间关...",
+          "url": "http://sti.xm.gov.cn./xwdt/ldxw/202604/t20260414_2990904.htm"
+        }
+      ],
+      "newCount": 19
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省供销合作社",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "政务公开",
+          "url": "http://gxt.fujian.gov.cn/zwgk/"
+        },
+        {
+          "title": "解读回应",
+          "url": "http://gxt.fujian.gov.cn/jdhy/"
+        },
+        {
+          "title": "政务服务",
+          "url": "https://zwfw.fujian.gov.cn/province-dept/index?type=2&siteUnid=4787D920D961AC4237B37A8DEBFC924F&randomNum=0.4037191989967448"
+        },
+        {
+          "title": "政民互动",
+          "url": "http://gxt.fujian.gov.cn/zmhd/"
+        },
+        {
+          "title": "习近平在参加首都义务植树活动时强调：为山川大地增添锦绣 让中国式现代化底色更加亮丽",
+          "url": "http://gxt.fujian.gov.cn./zwgk/xw/gjdt/202604/t20260401_7117936.htm"
+        },
+        {
+          "title": "福建：科学布局县域重点产业链 开辟新领域新赛道",
+          "url": "http://gxt.fujian.gov.cn./zwgk/xw/jxyw/202603/t20260327_7116310.htm"
+        },
+        {
+          "title": "国务院“互联网+督查”平台征集阻碍民营经济发展壮大问题线索",
+          "url": "https://tousu.www.gov.cn/dc/2023myjj/index.htm"
+        },
+        {
+          "title": "@国务院 我来说",
+          "url": "https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=fj"
+        },
+        {
+          "title": "重要政策举措及实施效果",
+          "url": "https://www.gov.cn/zhengce/zczhjd/"
+        },
+        {
+          "title": "国务院信息",
+          "url": "https://www.gov.cn/zhengce/"
+        },
+        {
+          "title": "福建要闻",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/"
+        },
+        {
+          "title": "工信要闻",
+          "url": "http://gxt.fujian.gov.cn./zwgk/xw/jxyw/ "
+        },
+        {
+          "title": "国务院办公厅关于健全药品价格形成机制的若干意见",
+          "url": "https://www.gov.cn/zhengce/content/202604/content_7065541.htm"
+        },
+        {
+          "title": "周祖翼在省税务系统调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124690.htm"
+        },
+        {
+          "title": "我省新增5处省级工业遗产",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124110.htm"
+        },
+        {
+          "title": "厦门空港今年往返“一带一路”共建国家客运航班突破5000架次",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124111.htm"
+        },
+        {
+          "title": "今年第一批省级工业重点节能改造和通用设备更新提标项目公布",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124109.htm"
+        },
+        {
+          "title": "“强屏”背后的产业跃升",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260414_7124120.htm"
+        },
+        {
+          "title": "今年第一批省级工业重点节能改造和通用设备更新提标项目公布",
+          "url": "http://gxt.fujian.gov.cn./zwgk/xw/jxyw/202604/t20260414_7124189.htm"
+        }
+      ],
+      "newCount": 19
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 9,
+    "totalNewAnnouncements": 98
+  }
+}

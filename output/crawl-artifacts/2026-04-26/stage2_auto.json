@@ -1,0 +1,32 @@
+{
+  "date": "2026-04-26",
+  "generatedAt": "2026-04-26T07:09:22.003468",
+  "stage": 2,
+  "results": [
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "厦门市思明区科技和信息化局",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "status": "success",
+      "strategyUsed": "subagent_analyzed",
+      "announcements": [
+        {
+          "title": "返回首页",
+          "url": "http://www.siming.gov.cn/",
+          "date": ""
+        }
+      ],
+      "error": null,
+      "durationMs": 0,
+      "ruleGenerated": false,
+      "discoveredSelector": null
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "success": 1,
+    "failed": 0,
+    "totalAnnouncements": 1,
+    "rulesGenerated": 0
+  }
+}

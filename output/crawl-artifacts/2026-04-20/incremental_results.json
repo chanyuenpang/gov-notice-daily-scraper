@@ -1,0 +1,172 @@
+{
+  "date": "2026-04-20",
+  "generatedAt": "2026-04-20T07:11:48.282991",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-04-20",
+    "yesterdayDate": "2026-04-19",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "mnr_gov_cn",
+      "siteName": "自然资源部",
+      "url": "http://www.mnr.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平致电祝贺盖莱当选连任吉布提总统",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7066088.htm",
+          "date": ""
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "福建省科学技术厅",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "2026年福建省文旅经济发展大会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260419_7126450.htm",
+          "date": "2026-04-19"
+        },
+        {
+          "title": "迎“五一”暑期文旅消费季主场活动举行",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260419_7126453.htm",
+          "date": "2026-04-19"
+        },
+        {
+          "title": "省领导到南平调研并接待来访群众",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260419_7126452.htm",
+          "date": "2026-04-19"
+        },
+        {
+          "title": "2026年福建省文旅经济发展大会促成项目合作逾830亿元",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260419_7126451.htm",
+          "date": "2026-04-19"
+        }
+      ],
+      "newCount": 4
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "厦门市思明区科技和信息化局",
+      "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门市思明区科技和工信局机构职能目录表",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/jgzn/202409/t20240930_1072718.htm",
+          "date": "2025-12-23"
+        },
+        {
+          "title": "2026年厦门市思明区政务服务保障中心预算说明",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136253.htm",
+          "date": "2026-01-30"
+        },
+        {
+          "title": "2026年厦门市思明区信息中心预算说明",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136252.htm",
+          "date": "2026-01-30"
+        },
+        {
+          "title": "2026年厦门市思明区企业服务中心预算说明",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136251.htm",
+          "date": "2026-01-30"
+        },
+        {
+          "title": "2026年厦门市思明区科技和工信局部门预算说明",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136238.htm",
+          "date": "2026-01-30"
+        },
+        {
+          "title": "2026年厦门市思明区科技和工信局预算说明",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202601/t20260130_1136231.htm",
+          "date": "2026-01-30"
+        },
+        {
+          "title": "2024年厦门市思明区信息中心项目支出绩效自评",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czyjs/202505/t20250530_1102036.htm",
+          "date": "2025-05-30"
+        },
+        {
+          "title": "2024年度厦门市思明区政务服务保障中心单位决算",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250915620634326066.pdf",
+          "date": "2025-09-02"
+        },
+        {
+          "title": "2024年度厦门市思明区信息中心单位决算",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020260415382616161735.pdf",
+          "date": "2025-09-02"
+        },
+        {
+          "title": "2024年度厦门市思明区企业服务中心单位决算",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020260106543144379754.pdf",
+          "date": "2025-09-02"
+        },
+        {
+          "title": "2024年度原厦门市思明区行政审批管理局（本级）部门决算",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250917627936908711.pdf",
+          "date": "2025-09-01"
+        },
+        {
+          "title": "2024年度厦门市思明区行政审批管理局（汇总）部门决算",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250917628797215000.pdf",
+          "date": "2025-09-01"
+        },
+        {
+          "title": "2024年度厦门市思明区科技和工信局（汇总）部门决算",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/czjj/czjsgk/202509/P020250901562907359495.pdf",
+          "date": "2025-09-01"
+        },
+        {
+          "title": "关于拟认定永嘉（厦门）工业有限公司云顶中路505、515号项目为低效工业用地的公示",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/zcfg/202602/t20260228_1138870.htm",
+          "date": "2026-02-28"
+        }
+      ],
+      "newCount": 14
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省供销合作社",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "2026年福建省文旅经济发展大会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260419_7126450.htm",
+          "date": "2026-04-19"
+        },
+        {
+          "title": "迎“五一”暑期文旅消费季主场活动举行",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260419_7126453.htm",
+          "date": "2026-04-19"
+        },
+        {
+          "title": "省领导到南平调研并接待来访群众",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260419_7126452.htm",
+          "date": "2026-04-19"
+        },
+        {
+          "title": "2026年福建省文旅经济发展大会促成项目合作逾830亿元",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260419_7126451.htm",
+          "date": "2026-04-19"
+        },
+        {
+          "title": "奔赴“闽超”",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260419_7126457.htm",
+          "date": "2026-04-19"
+        }
+      ],
+      "newCount": 5
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 4,
+    "totalNewAnnouncements": 24
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-03",
+  "generatedAt": "2026-05-03T22:20:40",
+  "total": 24,
+  "success": 21,
+  "failed": 3,
+  "totalAnnouncements": 505,
+  "failedSites": [
+    {
+      "siteId": "js_xm_gov_cn",
+      "siteName": "厦门市建设局",
+      "url": "http://js.xm.gov.cn/",
+      "status": "failed",
+      "announcements": 0,
+      "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at http://js.xm.gov.cn/\nCall log:\n  - navigating to \"http://js.xm.gov.cn/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "厦门市思明区科技和信息化局",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "status": "failed",
+      "announcements": 0,
+      "error": "未找到符合条件的列表结构"
+    },
+    {
+      "siteId": "iqb_jimei_gov_cn",
+      "siteName": "厦门市集美区科学技术局",
+      "url": "https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
+      "status": "failed",
+      "announcements": 0,
+      "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/\nCall log:\n  - navigating to \"https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/\", waiting until \"domcontentloaded\"\n"
+    }
+  ]
+}

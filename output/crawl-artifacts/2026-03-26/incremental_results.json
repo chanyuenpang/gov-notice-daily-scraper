@@ -1,0 +1,307 @@
+{
+  "date": "2026-03-26",
+  "generatedAt": "2026-03-26T13:27:47.957364",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-03-26",
+    "yesterdayDate": "2026-03-25",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局",
+      "url": "http://sti.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "一图读懂 | 厦门市科技项目“拨投结合”改革",
+          "url": "https://mp.weixin.qq.com/s/q1P7QEKp1l3ZTjGNvUy1XQ",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "厦门市启动科技项目“拨投结合”改革 助力早期成果跨越“死亡...",
+          "url": "https://mp.weixin.qq.com/s/q9ksemRf9Ox2waMnkf_RQQ",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "厦门市科学技术局关于申报2025年度第一批技术交易奖励金的通知",
+          "url": "http://sti.xm.gov.cn/xxgk/tzgg/202603/t20260325_2987448.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "厦门市科学技术局关于2024年度厦门市高新技术成果转化项目拟...",
+          "url": "http://sti.xm.gov.cn/xxgk/tzgg/202603/t20260325_2987447.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "习近平的两会时间丨推动科技创新和产业创新深度融合",
+          "url": "https://news.cctv.com/2026/03/10/ARTISRYGteWVLwHtnS1UYUWh260310.shtml",
+          "date": "2026-03-25"
+        }
+      ],
+      "newCount": 5
+    },
+    {
+      "siteId": "most_gov_cn",
+      "siteName": "科学技术部",
+      "url": "http://www.most.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平：牢牢把握雄安新区功能定位 努力建设新时代创新高地和推动高质量发展样板",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063552.htm",
+          "date": ""
+        },
+        {
+          "title": "李强同荷兰首相耶滕通电话",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063754.htm",
+          "date": ""
+        },
+        {
+          "title": "丁薛祥出席2026中关村论坛年会开幕式并致辞",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063739.htm",
+          "date": ""
+        }
+      ],
+      "newCount": 3
+    },
+    {
+      "siteId": "ndrc_gov_cn",
+      "siteName": "国家发展和改革委员会",
+      "url": "http://www.ndrc.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "李强同荷兰首相耶滕通电话",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063754.htm",
+          "date": ""
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "mnr_gov_cn",
+      "siteName": "自然资源部",
+      "url": "http://www.mnr.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "“十五五”开局之年，总书记指引雄安新区...",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063579.htm",
+          "date": ""
+        },
+        {
+          "title": "习近平：牢牢把握雄安新区功能定位 努力建...",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063552.htm",
+          "date": ""
+        },
+        {
+          "title": "王毅向《海洋生物多样性协定》第三届筹委...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260326_2917374.html",
+          "date": ""
+        },
+        {
+          "title": "王浩在自然资源部第二海洋研究所调研时强...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260326_2917366.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部与世界银行集团签署谅解备忘录",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260326_2917367.html",
+          "date": ""
+        },
+        {
+          "title": "甘肃以高水平国土空间规划促进高质量发展纪实",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260326_2917368.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部人力资源开发中心2026年度第一批公开招聘应届毕业生考察对象名单\n                                                03-25",
+          "url": "http://gi.mnr.gov.cn/202603/t20260325_2917327.html",
+          "date": ""
+        }
+      ],
+      "newCount": 7
+    },
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "福建省科学技术厅",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "中共中央办公厅 国务院办公厅关于加快建立长期护理保险制度的意见",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063789.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "周祖翼会见匈牙利国会副主席欧拉·劳约什",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260326_7115842.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "省机关效能建设领导小组第31次会议召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260325_7115710.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "闽江大学揭牌并举行高质量发展研讨会",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260326_7115843.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "省领导赴南平调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260326_7115844.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "省人大常委会会议列席代表座谈会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260326_7115845.htm",
+          "date": "2026-03-26"
+        }
+      ],
+      "newCount": 6
+    },
+    {
+      "siteId": "gxj_xm_gov_cn",
+      "siteName": "厦门市工业和信息化局",
+      "url": "http://gxj.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门市先进制造业倍增计划工作领导小组办公室关于公布2025年先进制造业倍增计划企业名单的通知",
+          "url": "http://gxj.xm.gov.cn/zwgk/zfxxgkml/jxjxxgkml/jxjgfxwj/qtkgkwj/202603/t20260325_2987522.htm",
+          "date": "2026-03-25"
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "xmgh_org",
+      "siteName": "厦门市工商联",
+      "url": "http://www.xmgh.org/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "麦田音乐会奏响工助振兴新乐章",
+          "url": "http://www.xmgh.org/ghsc/ghdt/szghdt/szyw/202603/t20260323_306192.htm",
+          "date": "2026-03-23"
+        },
+        {
+          "title": "市总工会召开会议集中学习传达2026年全国两会精神",
+          "url": "http://www.xmgh.org/ghsc/ghdt/szghdt/szyw/202603/t20260325_306262.htm",
+          "date": "2026-03-20"
+        }
+      ],
+      "newCount": 2
+    },
+    {
+      "siteId": "mohurd_gov_cn",
+      "siteName": "住房和城乡建设部",
+      "url": "https://www.mohurd.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "总书记雄安行 | 记者手记：胸怀“千年大计”，奔赴“新的赶考”",
+          "url": "https://www.news.cn/politics/leaders/20260325/4bd2acd4f726437ebd434ab5fee69aa4/c.html",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "近镜头 | 总书记心中的“人民之城”",
+          "url": "https://www.news.cn/politics/leaders/20260325/9b96813fde034f3dbbcfb2f31de9e0a4/c.html",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "深入学习领会总书记对推进全体人民共同富裕的指引",
+          "url": "https://www.news.cn/politics/leaders/20260325/0f92d410ade64e8fb606ea0f42adda99/c.html",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "多部门印发《关于做好农村残疾人常态化帮扶工作助力乡村全面振兴的意见》提出　将符合条件的残疾人家庭及时纳入农村危房改造政策支持范围",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_7a318cdb63804cf3bb15b5ceee57c007.html",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "未来五年如何推进城市更新",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_ca76fed86ef948b081a5a78e22f33100.html",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "“好房子”建设起步成势",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_59a0b69396cb48d4be613fd8816e74e9.html",
+          "date": "2026-03-25"
+        }
+      ],
+      "newCount": 6
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省供销合作社",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "中共中央办公厅 国务院办公厅关于加快建立长期护理保险制度的意见",
+          "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063789.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "周祖翼会见匈牙利国会副主席欧拉·劳约什",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260326_7115842.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "省机关效能建设领导小组第31次会议召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260325_7115710.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "闽江大学揭牌并举行高质量发展研讨会",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260326_7115843.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "省领导赴南平调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260326_7115844.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "省人大常委会会议列席代表座谈会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260326_7115845.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "全省春季农业生产现场推进会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260326_7115846.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "第九届数字中国建设峰会将于4月29日至30日举办",
+          "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202603/t20260325_7115603.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "前两月我省对其他金砖国家进出口同比增长21.8%",
+          "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202603/t20260325_7115467.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "前两月我省纺织工业增加值增长7.3%",
+          "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202603/t20260325_7115465.htm",
+          "date": "2026-03-25"
+        },
+        {
+          "title": "数智弄潮向未来",
+          "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202603/t20260325_7115455.htm",
+          "date": "2026-03-25"
+        }
+      ],
+      "newCount": 11
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 9,
+    "totalNewAnnouncements": 42
+  }
+}

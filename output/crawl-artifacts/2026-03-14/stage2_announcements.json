@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-14",
+  "stage": 2,
+  "results": [
+    {"siteId": "as_xm_gov_cn", "url": "https://as.xm.gov.cn/zwgk/tzgg/", "status": "success", "count": 18},
+    {"siteId": "edu_xm_gov_cn", "url": "http://edu.xm.gov.cn/jyxw/tzgg/", "status": "success", "count": 16},
+    {"siteId": "xmgh_org", "url": "http://www.xmgh.org/", "status": "success", "count": 74},
+    {"siteId": "mohurd_gov_cn", "url": "https://www.mohurd.gov.cn/", "status": "success", "count": 303},
+    {"siteId": "kgxj_haikou_gov_cn", "url": "http://kgxj.haikou.gov.cn/zfxxgk/gsgg/", "status": "success", "count": 42}
+  ],
+  "failed": [
+    {"siteId": "xmsme_cn", "error": "timeout"},
+    {"siteId": "zjt_fujian_gov_cn", "error": "timeout"},
+    {"siteId": "gxt_fujian_gov_cn", "error": "timeout"},
+    {"siteId": "fgw_fujian_gov_cn_2", "error": "timeout"},
+    {"siteId": "iqb_jimei_gov_cn", "error": "dns_error"},
+    {"siteId": "js_xm_gov_cn", "error": "dns_error"}
+  ],
+  "noData": [
+    {"siteId": "fgw_fujian_gov_cn", "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/"},
+    {"siteId": "siming_gov_cn", "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/"},
+    {"siteId": "xmsia_cn", "url": "http://www.xmsia.cn/Pages/Home/NewsList.aspx?classId=3"}
+  ]
+}

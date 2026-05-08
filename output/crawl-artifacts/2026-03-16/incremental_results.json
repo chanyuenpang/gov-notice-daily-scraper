@@ -1,0 +1,227 @@
+{
+  "date": "2026-03-16",
+  "generatedAt": "2026-03-16T14:19:38.724355",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-03-16",
+    "yesterdayDate": "2026-03-15",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "sti.xm.gov.cn",
+      "url": "http://sti.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "关于2026年度厦门市新型研发机构的公示",
+          "url": "http://sti.xm.gov.cn/xxgk/tzgg/202603/t20260316_2985532.htm",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "厦门市科学技术局关于印发《厦门市留学人员创业扶持工作指引...",
+          "url": "http://sti.xm.gov.cn/xxgk/tzgg/202603/t20260316_2985503.htm",
+          "date": "2026-03-16"
+        }
+      ],
+      "newCount": 2
+    },
+    {
+      "siteId": "most_gov_cn",
+      "siteName": "www.most.gov.cn",
+      "url": "http://www.most.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "李强主持召开国务院常务会议 讨论通过《国务院2026年重点工作分工方案》等",
+          "url": "https://www.news.cn/politics/leaders/20260313/13aad4822e10470eaa41494f06ffaf31/c.html",
+          "date": ""
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "ndrc_gov_cn",
+      "siteName": "www.ndrc.gov.cn",
+      "url": "http://www.ndrc.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平：推动海洋经济高质量发展",
+          "url": "http://www.xinhuanet.com/politics/leaders/20260315/0bb01163a5734ac2b62c57c1c3a690a9/c.html",
+          "date": ""
+        },
+        {
+          "title": "《求是》杂志发表习近平总书记重要文章《推动海洋经济高质量发展》",
+          "url": "https://www.news.cn/politics/leaders/20260315/7d4a7ef955544ef1965bbf3d4d296c25/c.html",
+          "date": ""
+        }
+      ],
+      "newCount": 2
+    },
+    {
+      "siteId": "mnr_gov_cn",
+      "siteName": "www.mnr.gov.cn",
+      "url": "http://www.mnr.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平：推动海洋经济高质量发展",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260316_2916579.html",
+          "date": ""
+        },
+        {
+          "title": "直播：自然资源部3月份例行新闻发布会",
+          "url": "https://www.mnr.gov.cn/dt/zb/2026/lxxwfbh_3/",
+          "date": ""
+        },
+        {
+          "title": "中共中央办公厅、国务院办公厅印发《意见...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260316_2916581.html",
+          "date": ""
+        },
+        {
+          "title": "《求是》杂志发表中共自然资源部党组署名...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260316_2916610.html",
+          "date": ""
+        },
+        {
+          "title": "在为人民出政绩、以实干出政绩上走在前、...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260316_2916584.html",
+          "date": ""
+        },
+        {
+          "title": "2025年我国海洋生产总值突破11万亿元",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202603/t20260316_2916580.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部 国家林业和草原局关于进一步做好自然资源要素保障的通知\n                                                03-16",
+          "url": "http://gi.mnr.gov.cn/202603/t20260316_2916578.html",
+          "date": ""
+        }
+      ],
+      "newCount": 7
+    },
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "kjt.fujian.gov.cn",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "2025年“感动福建”十大人物发布活动举行",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260316_7110287.htm",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "省消委会发布年度维权十大案例",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260316_7110334.htm",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "我省举行“全国爱肝日”义诊活动",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260316_7110345.htm",
+          "date": "2026-03-16"
+        }
+      ],
+      "newCount": 3
+    },
+    {
+      "siteId": "xmgh_org",
+      "siteName": "www.xmgh.org",
+      "url": "http://www.xmgh.org/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门市机关事业工会联会会召开二届四次全委会议",
+          "url": "http://www.xmgh.org/ghsc/ghdt/szghdt/szyw/202603/t20260316_306045.htm",
+          "date": "2026-03-13"
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "mohurd_gov_cn",
+      "siteName": "www.mohurd.gov.cn",
+      "url": "https://www.mohurd.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平：推动海洋经济高质量发展",
+          "url": "https://www.news.cn/politics/leaders/20260315/0bb01163a5734ac2b62c57c1c3a690a9/c.html",
+          "date": "2026-03-15"
+        },
+        {
+          "title": "《求是》杂志发表习近平总书记重要文章《推动海洋经济高质量发展》",
+          "url": "https://www.news.cn/politics/leaders/20260315/7d4a7ef955544ef1965bbf3d4d296c25/c.html",
+          "date": "2026-03-15"
+        },
+        {
+          "title": "语言是了解一个国家最好的钥匙，习近平主席这样鼓励全球青年学子",
+          "url": "https://www.news.cn/politics/leaders/20260314/9f0319823ee646a6942d7480a02050a4/c.html",
+          "date": "2026-03-14"
+        },
+        {
+          "title": "第一观察丨从三部法律通过看习近平法治思想的生动立法实践",
+          "url": "https://www.news.cn/politics/leaders/20260314/31d0455d65c74efdb17d501fef27c439/c.html",
+          "date": "2026-03-14"
+        }
+      ],
+      "newCount": 4
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "gxt.fujian.gov.cn",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "2025年“感动福建”十大人物发布活动举行",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260316_7110287.htm",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "省消委会发布年度维权十大案例",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260316_7110334.htm",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "我省举行“全国爱肝日”义诊活动",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260316_7110345.htm",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "我省选手两站比赛摘两金",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202603/t20260316_7110348.htm",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "我省出台17条措施促进中小微企业高质量发展",
+          "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202603/t20260316_7110432.htm",
+          "date": "2026-03-16"
+        }
+      ],
+      "newCount": 5
+    },
+    {
+      "siteId": "xmtorch_xm_gov_cn",
+      "siteName": "glfw",
+      "url": "http://xmtorch.xm.gov.cn/xxgk/zfxxgkml/glfw/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "关于开展《厦门火炬高新区关于加快推进新型工业化的若干措施》鼓励企业...",
+          "url": "http://xmtorch.xm.gov.cn/sbxmzj/202603/t20260316_2985544.html",
+          "date": "2026-03-16"
+        }
+      ],
+      "newCount": 1
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 9,
+    "totalNewAnnouncements": 26
+  }
+}

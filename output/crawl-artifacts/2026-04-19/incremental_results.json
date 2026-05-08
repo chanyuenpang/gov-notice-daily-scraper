@@ -1,0 +1,217 @@
+{
+  "date": "2026-04-19",
+  "generatedAt": "2026-04-19T07:11:47.415511",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-04-19",
+    "yesterdayDate": "2026-04-18",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "dpc_xm_gov_cn",
+      "siteName": "厦门市发展和改革委员会",
+      "url": "http://dpc.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "中共厦门市发展和改革委员会党组关于巡察整改进展情况的通报",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202604/t20260407_2989638.htm",
+          "date": "2026-04-07"
+        },
+        {
+          "title": "政策落地见效 精准释放红利",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202604/t20260415_2991056.htm",
+          "date": "2026-04-15"
+        },
+        {
+          "title": "厦漳泉都市圈将“圈”出新精彩",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202604/t20260409_2990144.htm",
+          "date": "2026-04-09"
+        },
+        {
+          "title": "打响“厦门场景”品牌",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202604/t20260403_2989293.htm",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "厦门场景创新发布会暨供需对接活动举行",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202603/t20260327_2987900.htm",
+          "date": "2026-03-27"
+        },
+        {
+          "title": "厦门市发改委召开民间投资领域民营企业座谈会",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202603/t20260327_2987898.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "加快构建新型城镇化建设投融资体制",
+          "url": "http://dpc.xm.gov.cn/xwdt/gzdt/202603/t20260318_2986181.htm",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "福建省网上办事大厅行政许可事项目录公开",
+          "url": "https://zwfw.fujian.gov.cn/listopen/power-list/index?paramsType=qzqd",
+          "date": "2022-11-24"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于2026年厦门市第一批10千伏及以下配网项目核准的批复",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260417_2991464.htm",
+          "date": "2026-04-16"
+        },
+        {
+          "title": "盖世威（厦门）体育用品有限公司在韩国向大韩民国代表处增资项目备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260417_2991462.htm",
+          "date": "2026-04-15"
+        },
+        {
+          "title": "红杉思恒（厦门）股权投资基金合伙企业（有限合伙）并购意大利金鹅股份有限公司的2.63%股权项目备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260417_2991461.htm",
+          "date": "2026-04-15"
+        },
+        {
+          "title": "厦门通宇汇科技有限公司在柬埔寨新设小天材料科技有限公司项目备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260417_2991460.htm",
+          "date": "2026-04-13"
+        },
+        {
+          "title": "厦门泽昌实业有限公司在香港新设联合建筑工业有限公司开展建材贸易项目备案信息的公示",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260417_2991459.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于厦门奥捷龙航空科技有限公司通用飞机生产制造及配套项目核准的批复",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260410_2990245.htm",
+          "date": "2026-04-09"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达2026年第十三批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202604/t20260417_2991492.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达厦门临空经济片区2026年第四批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202604/t20260410_2990248.htm",
+          "date": "2026-04-08"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达2026年第十二批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202604/t20260403_2989334.htm",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达厦门临空经济片区2026年第三批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202603/t20260327_2987895.htm",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达2026年第十一批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202603/t20260327_2987892.htm",
+          "date": "2026-03-23"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达2026年第十批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202603/t20260320_2986712.htm",
+          "date": "2026-03-18"
+        },
+        {
+          "title": "2026年度厦门市发展和改革委员会本级及直属事业单位预算",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/zjxx/202603/t20260306_2984224.htm",
+          "date": "2026-03-06"
+        },
+        {
+          "title": "2026年度厦门市发展和改革委员会部门预算",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/zjxx/202602/t20260226_2982761.htm",
+          "date": "2026-02-26"
+        },
+        {
+          "title": "2024年厦门市发展和改革委员会本级及直属事业单位决算公开",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/zjxx/202508/t20250808_2949508.htm",
+          "date": "2025-08-08"
+        }
+      ],
+      "newCount": 23
+    },
+    {
+      "siteId": "mnr_gov_cn",
+      "siteName": "自然资源部",
+      "url": "http://www.mnr.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "从元首外交密集日程看中国的自信、胸怀、担当",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7066001.htm",
+          "date": ""
+        }
+      ],
+      "newCount": 1
+    },
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "福建省科学技术厅",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "周祖翼在泉州调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260418_7126397.htm",
+          "date": "2026-04-18"
+        },
+        {
+          "title": "全省工业循环经济现场会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260418_7126400.htm",
+          "date": "2026-04-18"
+        },
+        {
+          "title": "省政协召开重点提案办理协调会",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260418_7126401.htm",
+          "date": "2026-04-18"
+        },
+        {
+          "title": "“欢喜就好”闽南文化喜剧展演在漳州举行",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260418_7126396.htm",
+          "date": "2026-04-18"
+        }
+      ],
+      "newCount": 4
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省供销合作社",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "周祖翼在泉州调研",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260418_7126397.htm",
+          "date": "2026-04-18"
+        },
+        {
+          "title": "全省工业循环经济现场会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260418_7126400.htm",
+          "date": "2026-04-18"
+        },
+        {
+          "title": "省政协召开重点提案办理协调会",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260418_7126401.htm",
+          "date": "2026-04-18"
+        },
+        {
+          "title": "“欢喜就好”闽南文化喜剧展演在漳州举行",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260418_7126396.htm",
+          "date": "2026-04-18"
+        },
+        {
+          "title": "省委政法委举办树立和践行正确政绩观学习教育读书班",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260418_7126398.htm",
+          "date": "2026-04-18"
+        }
+      ],
+      "newCount": 5
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 4,
+    "totalNewAnnouncements": 33
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "date": "2026-04-11",
+  "generatedAt": "2026-04-11T07:13:48.690785",
+  "stage": "incremental",
+  "comparison": {
+    "todayDate": "2026-04-11",
+    "yesterdayDate": "2026-04-10",
+    "yesterdayExists": true
+  },
+  "results": [
+    {
+      "siteId": "hrss_xm_gov_cn",
+      "siteName": "厦门市人力资源和社会保障局",
+      "url": "http://hrss.xm.gov.cn/xygk/tzgg/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "翔安区人社局开展“3·15”诚信宣传暨消防安全培训活动",
+          "url": "http://hrss.xm.gov.cn/202604/t20260410_2990344.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "集美区人力资源和社会保障局开展“3·15”人力资源服务行业诚信宣传活动",
+          "url": "http://hrss.xm.gov.cn/202604/t20260410_2990338.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "以诚立业促招聘 以信立身优服务——湖里区人社局开展诚信主题宣传活动",
+          "url": "http://hrss.xm.gov.cn/202604/t20260410_2990334.htm",
+          "date": "2026-04-10"
+        }
+      ],
+      "newCount": 3
+    },
+    {
+      "siteId": "dpc_xm_gov_cn",
+      "siteName": "厦门市发展和改革委员会",
+      "url": "http://dpc.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门市发展和改革委员会所属厦门市发展研究中心简化程序公开招聘事业单位管理岗位人员公告（2026年4月）",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260410_2990235.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "关于做好2026年享受税收优惠政策的集成电路企业或项目、软件企业清单制定工作的通知",
+          "url": "http://dpc.xm.gov.cn/xwdt/tzgg/202604/t20260410_2990282.htm",
+          "date": "2026-04-09"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于厦门奥捷龙航空科技有限公司通用飞机生产制造及配套项目核准的批复",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/xzsp/xzxksp/202604/t20260410_2990245.htm",
+          "date": "2026-04-09"
+        },
+        {
+          "title": "厦门市发展和改革委员会关于下达厦门临空经济片区2026年第四批市级基建项目前期工作计划的通知",
+          "url": "http://dpc.xm.gov.cn/xxgk/xxgkml/ghjh/202604/t20260410_2990248.htm",
+          "date": "2026-04-08"
+        }
+      ],
+      "newCount": 4
+    },
+    {
+      "siteId": "xmsme_cn",
+      "siteName": "厦门市中小企业服务中心",
+      "url": "http://www.xmsme.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "外交部",
+          "url": "https://www.fmprc.gov.cn/web/",
+          "date": ""
+        },
+        {
+          "title": "市人民政府办公厅",
+          "url": "http://www.xm.gov.cn",
+          "date": ""
+        },
+        {
+          "title": "浙江省企业之家网（浙江省中小企业公共服务平台）",
+          "url": "https://zj87.jxt.zj.gov.cn/zj87/zxqy/index.html",
+          "date": ""
+        }
+      ],
+      "newCount": 3
+    },
+    {
+      "siteId": "ndrc_gov_cn",
+      "siteName": "国家发展和改革委员会",
+      "url": "http://www.ndrc.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平向中美“乒乓外交”55周年纪念大会暨中美青少年体育交流系列活动启动仪式致贺信",
+          "url": "https://www.news.cn/politics/leaders/20260410/b32c550631dc4a96b7d326548e011a06/c.html",
+          "date": ""
+        },
+        {
+          "title": "习近平总书记会见中国国民党主席郑丽文",
+          "url": "https://www.news.cn/politics/leaders/20260410/2993d2023b9c4048a8bbfbabe965348e/c.html",
+          "date": ""
+        },
+        {
+          "title": "以崭新政治面貌迎接建军一百周年——习近平主席在全军高级干部培训班开班式上的重要讲话引领...",
+          "url": "http://www.xinhuanet.com/politics/leaders/20260409/e15c631616ef416bb8fd61cc2c514bac/c.html",
+          "date": ""
+        },
+        {
+          "title": "第一观察丨总书记指引开创服务业高质量发展新局面",
+          "url": "https://www.news.cn/politics/leaders/20260409/3606a9f53bca4dabbe6ad05fb02e7b7e/c.html",
+          "date": ""
+        },
+        {
+          "title": "何立峰会见美国桥水投资公司创始人达利欧",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7065045.htm",
+          "date": ""
+        },
+        {
+          "title": "国家发展改革委发展战略和规划司2026年第一批研究课题征集公告",
+          "url": "http://www.ndrc.gov.cn/xwdt/tzgg/202604/t20260410_1404611.html",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "国家发展改革委地区振兴司2026年度研究课题征集公告",
+          "url": "http://www.ndrc.gov.cn/xwdt/tzgg/202604/t20260409_1404594.html",
+          "date": "2026-04-09"
+        }
+      ],
+      "newCount": 7
+    },
+    {
+      "siteId": "mnr_gov_cn",
+      "siteName": "自然资源部",
+      "url": "http://www.mnr.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "总书记指引开创服务业高质量发展新局面",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7065070.htm",
+          "date": ""
+        },
+        {
+          "title": "习近平在全军高级干部培训班开班式上发表...",
+          "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7064925.htm",
+          "date": ""
+        },
+        {
+          "title": "陈小江、艾尔肯·吐尼亚孜赴新疆维吾尔自...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202604/t20260410_2918537.html",
+          "date": ""
+        },
+        {
+          "title": "两部门联合推广城市更新工程项目建设实施...",
+          "url": "http://www.mnr.gov.cn/dt/ywbb/202604/t20260410_2918536.html",
+          "date": ""
+        },
+        {
+          "title": "自然资源部关于2026年第五批规划编制单位甲级资质认定的公告\n                                                04-10",
+          "url": "http://gi.mnr.gov.cn/202604/t20260410_2918559.html",
+          "date": ""
+        }
+      ],
+      "newCount": 5
+    },
+    {
+      "siteId": "kjt_fujian_gov_cn",
+      "siteName": "福建省科学技术厅",
+      "url": "http://kjt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "省委常委会召开会议",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260410_7123436.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "省委理论学习中心组学习会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260410_7121338.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "省委宣传部举办树立和践行正确政绩观学习教育读书班",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260410_7121155.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "2026年诚信八闽行活动在榕启动",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260410_7121154.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "以正确政绩观推动高质量发展",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260410_7121147.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "省科技厅领导会见浦发银行总行科技金融部总经理一行",
+          "url": "http://kjt.fujian.gov.cn/xxgk/kjyw/stdt/202604/t20260410_7123376.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "龙岩厦大产教融合研究院二期合作签约暨揭牌仪式举行",
+          "url": "http://kjt.fujian.gov.cn/xxgk/kjyw/sxdt/202604/t20260410_7123331.htm",
+          "date": "2026-04-10"
+        }
+      ],
+      "newCount": 7
+    },
+    {
+      "siteId": "gxj_xm_gov_cn",
+      "siteName": "厦门市工业和信息化局",
+      "url": "http://gxj.xm.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "具身智能的“厦门功夫”如何练就？",
+          "url": "http://gxj.xm.gov.cn/xwzx/gzdt/202604/t20260410_2990319.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "厦门市工业和信息化局关于委托开展开拓市场政策评估工作项目询价结果的公示",
+          "url": "http://gxj.xm.gov.cn/xwzx/tzgg/202604/t20260410_2990480.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "厦门市工业和信息化局关于组织开展2026年专精特新中小企业（第一批）认定和复核工作的通知",
+          "url": "http://gxj.xm.gov.cn/xwzx/tzgg/202604/t20260410_2990242.htm",
+          "date": "2026-04-10"
+        }
+      ],
+      "newCount": 3
+    },
+    {
+      "siteId": "siming_gov_cn",
+      "siteName": "厦门市思明区科技和信息化局",
+      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "关于公开遴选“思明数智工场”专业运营机构的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260326_1141938.htm",
+          "date": ""
+        },
+        {
+          "title": "关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260324_1141563.htm",
+          "date": ""
+        },
+        {
+          "title": "一图读懂《思明区先进制造业高质量发展若干措施》",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139617.htm",
+          "date": ""
+        },
+        {
+          "title": "关于《思明区先进制造业高质量发展若干措施》的政策解读",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139605.htm",
+          "date": ""
+        },
+        {
+          "title": "厦门市思明区科技和工信局关于印发思明区先进制造业高质量发展若干措施的通知",
+          "url": "http://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/tzgg/202603/t20260305_1139602.htm",
+          "date": ""
+        }
+      ],
+      "newCount": 5
+    },
+    {
+      "siteId": "mohurd_gov_cn",
+      "siteName": "住房和城乡建设部",
+      "url": "https://www.mohurd.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "习近平总书记会见中国国民党主席郑丽文",
+          "url": "https://www.news.cn/politics/leaders/20260410/2993d2023b9c4048a8bbfbabe965348e/c.html",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "以崭新政治面貌迎接建军一百周年——习近平主席在全军高级干部培训班开班式上的重要讲话引领全军开展思想整风、深化政治整训",
+          "url": "https://www.news.cn/politics/leaders/20260409/e15c631616ef416bb8fd61cc2c514bac/c.html",
+          "date": "2026-04-09"
+        },
+        {
+          "title": "第一观察丨总书记指引开创服务业高质量发展新局面",
+          "url": "https://www.news.cn/politics/leaders/20260409/3606a9f53bca4dabbe6ad05fb02e7b7e/c.html",
+          "date": "2026-04-09"
+        },
+        {
+          "title": "习近平总书记关切事丨工程一线淬初心",
+          "url": "https://www.news.cn/politics/leaders/20260409/a2d4f5a2ca444aa3bb5df412a33c62c0/c.html",
+          "date": "2026-04-09"
+        },
+        {
+          "title": "第十五届中国国际园林博览会将于4月15日在温州开幕",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_bf692bbb6b6742b181c65acc4df76a81.html",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "第二批全国零售业创新提升试点城市申报工作启动",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_72351a5f5dee4004859fe1f92791c2be.html",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "2026年全国住房城乡建设系统文明办主任会议召开",
+          "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_3cba2a893bb94ec8becf31a33d39317b.html",
+          "date": "2026-04-10"
+        }
+      ],
+      "newCount": 7
+    },
+    {
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省供销合作社",
+      "url": "http://gxt.fujian.gov.cn/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "省委常委会召开会议",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260410_7123436.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "省委理论学习中心组学习会召开",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260410_7121338.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "省委宣传部举办树立和践行正确政绩观学习教育读书班",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260410_7121155.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "2026年诚信八闽行活动在榕启动",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260410_7121154.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "以正确政绩观推动高质量发展",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260410_7121147.htm",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "4月19日，闽超揭幕",
+          "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260410_7121157.htm",
+          "date": "2026-04-10"
+        }
+      ],
+      "newCount": 6
+    },
+    {
+      "siteId": "xmtorch_xm_gov_cn",
+      "siteName": "厦门市火炬高技术产业开发区管理委员会",
+      "url": "http://xmtorch.xm.gov.cn/xxgk/zfxxgkml/glfw/",
+      "status": "success",
+      "announcements": [
+        {
+          "title": "厦门火炬高新区管委会关于2026年拟奖励省级科学技术进步奖企业名单的公示",
+          "url": "http://xmtorch.xm.gov.cn/sbxmzj/202604/t20260410_2990401.html",
+          "date": "2026-04-10"
+        }
+      ],
+      "newCount": 1
+    }
+  ],
+  "summary": {
+    "sitesWithNew": 11,
+    "totalNewAnnouncements": 51
+  }
+}
