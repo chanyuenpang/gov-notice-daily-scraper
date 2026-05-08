@@ -7,6 +7,25 @@ let cachedSites = null;
 let dateCounts = {};   // 按公告发布日期 item.date 统计每日条数
 let calendarMonth = '';
 
+function getLatestDateWithData() {
+  return Object.keys(dateCounts).sort().pop() || '';
+}
+
+function ensureDefaultSelectedDate() {
+  const latestDate = getLatestDateWithData();
+  if (!$('dateInput').value && latestDate) {
+    $('dateInput').value = latestDate;
+    $('selectedDateText').textContent = latestDate;
+  }
+
+  if (!calendarMonth) {
+    const initialDate = $('dateInput').value || latestDate;
+    calendarMonth = (initialDate || formatFileDate(new Date())).slice(0, 7);
+  } else if (latestDate && $('dateInput').value === latestDate) {
+    calendarMonth = latestDate.slice(0, 7);
+  }
+}
+
 // 初始化
 document.addEventListener('DOMContentLoaded', async () => {
   $('exportWordBtn').addEventListener('click', exportToWord);
@@ -60,7 +79,11 @@ function populateSiteFilterFromCache() {
  * 加载全量数据（所有日期文件合并），结果缓存
  */
 async function loadAllData() {
-  if (allDataCache.length > 0) return allDataCache;
+  if (allDataCache.length > 0) {
+    ensureDefaultSelectedDate();
+    renderCalendar();
+    return allDataCache;
+  }
 
   try {
     const res = await fetch('data/index.json');
@@ -88,11 +111,7 @@ async function loadAllData() {
       if (item.date) acc[item.date] = (acc[item.date] || 0) + 1;
       return acc;
     }, {});
-    if (!calendarMonth) {
-      const latestDate = Object.keys(dateCounts).sort().pop();
-      const initialDate = $('dateInput').value || latestDate || formatFileDate(new Date());
-      calendarMonth = initialDate.slice(0, 7);
-    }
+    ensureDefaultSelectedDate();
     renderCalendar();
 
     return allDataCache;
@@ -106,13 +125,17 @@ async function loadAllData() {
  * 用户选择某日时，按公告发布日期 item.date 展示。
  */
 async function loadData() {
-  const date = $('dateInput').value;
+  let date = $('dateInput').value;
   if (!date) {
-    $('announcementList').innerHTML = '<div class="empty-state">请在上方日历中选择日期</div>';
-    $('stats').textContent = '';
-    $('selectedDateText').textContent = '';
-    renderCalendar();
-    return;
+    await loadAllData();
+    date = $('dateInput').value;
+    if (!date) {
+      $('announcementList').innerHTML = '<div class="empty-state">暂无公告数据</div>';
+      $('stats').textContent = '';
+      $('selectedDateText').textContent = '';
+      renderCalendar();
+      return;
+    }
   }
   $('selectedDateText').textContent = date;
 
