@@ -7,19 +7,71 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>📋 政府公告日报</h1>
-    <div class="controls">
-      <input type="text" id="search" placeholder="搜索公告标题...">
-      <select id="siteFilter">
-        <option value="">全部站点</option>
-      </select>
-      <input type="date" id="dateInput" value="2026-04-28">
-      <button id="loadBtn">加载数据</button>
+  <!-- Sidebar -->
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-header">
+      <h2 class="sidebar-title">📅 日期选择</h2>
+      <button id="sidebarClose" class="sidebar-close" title="关闭">✕</button>
     </div>
-    <div id="stats" class="stats"></div>
-  </header>
-  <main id="announcementList"></main>
+    <div id="dateList" class="date-list"></div>
+  </aside>
+  <div id="overlay" class="overlay"></div>
+
+  <!-- Main Content -->
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-top">
+        <button id="menuBtn" class="menu-btn" title="选择日期">☰</button>
+        <h1 class="app-title">📋 政府公告日报</h1>
+        <div class="header-date" id="headerDate"></div>
+      </div>
+
+      <!-- Stats Bar -->
+      <div id="statsBar" class="stats-bar"></div>
+
+      <!-- View Tabs -->
+      <div class="view-tabs">
+        <button class="tab active" data-view="announcements">📢 公告列表</button>
+        <button class="tab" data-view="incremental">📈 增量日报</button>
+        <button class="tab" data-view="daily">📄 完整日报</button>
+      </div>
+    </header>
+
+    <!-- Filters (only shown in announcements view) -->
+    <div id="filterBar" class="filter-bar">
+      <div class="filter-row">
+        <input type="text" id="search" class="search-input" placeholder="🔍 搜索公告标题...">
+        <select id="siteFilter" class="site-select">
+          <option value="">全部站点</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Content Area -->
+    <main class="content-area">
+      <!-- Announcements View -->
+      <div id="announcementsView" class="view-content active">
+        <div id="announcementList" class="announcement-list"></div>
+      </div>
+
+      <!-- Incremental Report View -->
+      <div id="incrementalView" class="view-content">
+        <div id="incrementalContent" class="report-content"></div>
+      </div>
+
+      <!-- Daily Report View -->
+      <div id="dailyView" class="view-content">
+        <div id="dailyContent" class="report-content"></div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <span>政府公告日报系统 · 数据自动抓取</span>
+    </footer>
+  </div>
+
   <script src="index.js"></script>
 </body>
 </html>
