@@ -1,12 +1,11 @@
 const $ = id => document.getElementById(id);
 
-let allDataCache = []; // 全量数据缓存（所有日期文件合并后按 sourceDate + id 去重）
+let allDataCache = []; // 全量数据缓存（所有日期文件合并后按 item.date + id 去重）
 let allData = [];      // 当前日期筛选后的数据
 let filteredData = [];
 let cachedSites = null;
-let sourceDateCounts = {};
+let dateCounts = {};   // 按公告发布日期 item.date 统计每日条数
 let calendarMonth = '';
-let currentDisplayBasis = '';
 
 // 初始化
 document.addEventListener('DOMContentLoaded', async () => {
@@ -59,7 +58,7 @@ function populateSiteFilterFromCache() {
 }
 
 /**
- * 加载全量数据（所有日期文件合并，给每条记录补充 sourceDate），结果缓存
+ * 加载全量数据（所有日期文件合并），结果缓存
  */
 async function loadAllData() {
   if (allDataCache.length > 0) return allDataCache;
@@ -73,10 +72,7 @@ async function loadAllData() {
       dates.map(async date => {
         try {
           const r = await fetch(`data/${date}.json`);
-          if (r.ok) {
-            const items = await r.json();
-            return items.map(item => ({ ...item, sourceDate: date }));
-          }
+          if (r.ok) return await r.json();
         } catch (_) {}
         return [];
       })
@@ -84,17 +80,17 @@ async function loadAllData() {
 
     const seen = new Set();
     allDataCache = results.flat().filter(item => {
-      const key = `${item.sourceDate}::${item.id || item.url || item.title || JSON.stringify(item)}`;
+      const key = `${item.date}::${item.id || item.url || item.title || JSON.stringify(item)}`;
       if (seen.has(key)) return false;
       seen.add(key);
       return true;
     });
-    sourceDateCounts = allDataCache.reduce((acc, item) => {
-      if (item.sourceDate) acc[item.sourceDate] = (acc[item.sourceDate] || 0) + 1;
+    dateCounts = allDataCache.reduce((acc, item) => {
+      if (item.date) acc[item.date] = (acc[item.date] || 0) + 1;
       return acc;
     }, {});
     if (!calendarMonth) {
-      const latestDate = Object.keys(sourceDateCounts).sort().pop();
+      const latestDate = Object.keys(dateCounts).sort().pop();
       calendarMonth = ($('dateInput').value || latestDate || formatFileDate(new Date())).slice(0, 7);
     }
     renderCalendar();
@@ -107,7 +103,7 @@ async function loadAllData() {
 }
 
 /**
- * 用户选择某日时，优先按抓取日期 sourceDate 展示；没有时回退到公告发布日期 date。
+ * 用户选择某日时，按公告发布日期 item.date 展示。
  */
 async function loadData() {
   const date = $('dateInput').value;
@@ -123,14 +119,7 @@ async function loadData() {
 
   try {
     const allItems = await loadAllData();
-    const bySourceDate = allItems.filter(item => item.sourceDate === date);
-    if (bySourceDate.length) {
-      allData = bySourceDate;
-      currentDisplayBasis = '按抓取日期展示';
-    } else {
-      allData = allItems.filter(item => item.date === date);
-      currentDisplayBasis = allData.length ? '按公告发布日期展示' : '无公告';
-    }
+    allData = allItems.filter(item => item.date === date);
 
     if (!cachedSites) {
       populateSiteFilter();
@@ -164,10 +153,9 @@ function applyFilters() {
   const total = allData.length;
   const shown = filteredData.length;
   const date = $('dateInput').value;
-  const basisText = currentDisplayBasis ? `（${currentDisplayBasis}）` : '';
   $('stats').textContent = shown === total
-    ? `共 ${total} 条 ${date} 的公告${basisText}`
-    : `显示 ${shown} / ${total} 条 ${date} 的公告${basisText}`;
+    ? `共 ${total} 条 ${date} 的公告`
+    : `显示 ${shown} / ${total} 条 ${date} 的公告`;
 }
 
 function renderList() {
@@ -187,7 +175,6 @@ function renderList() {
         <span class="card-title">${esc(item.title)}</span>
         <span class="card-meta">
           ${item.date ? `<span class="tag date-tag" title="公告发布日期">${esc(item.date)}</span>` : ''}
-          ${item.sourceDate ? `<span class="tag source-date-tag" title="抓取日期">抓取 ${esc(item.sourceDate)}</span>` : ''}
           ${item.category ? `<span class="tag">${esc(item.category)}</span>` : ''}
           ${item.siteName ? `<span class="tag">${esc(item.siteName)}</span>` : ''}
         </span>
@@ -202,12 +189,12 @@ function renderList() {
 }
 
 function renderNoDataOptions(date) {
-  const dates = Object.keys(sourceDateCounts).sort();
+  const dates = Object.keys(dateCounts).sort();
   const prev = [...dates].reverse().find(d => d < date);
   const next = dates.find(d => d > date);
   const optionHtml = [prev, next].filter(Boolean).map(d => `
     <button type="button" class="nearby-date" data-date="${esc(d)}">
-      ${d} · ${sourceDateCounts[d]} 条
+      ${d} · ${dateCounts[d]} 条
     </button>
   `).join('');
 
@@ -228,7 +215,7 @@ function renderCalendar() {
   const dayHtml = Array.from({ length: daysInMonth }, (_, i) => {
     const day = i + 1;
     const date = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
-    const count = sourceDateCounts[date] || 0;
+    const count = dateCounts[date] || 0;
     const classes = ['calendar-day'];
     if (count) classes.push('has-data');
     if (date === selectedDate) classes.push('selected');
@@ -241,7 +228,7 @@ function renderCalendar() {
   container.innerHTML = `
     <div class="calendar-header">
       <button type="button" class="calendar-nav" data-month="-1">上月</button>
-      <strong>${year}年${month}月抓取日期统计</strong>
+      <strong>${year}年${month}月公告统计</strong>
       <button type="button" class="calendar-nav" data-month="1">下月</button>
     </div>
     <div class="calendar-weekdays"><span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span></div>
