@@ -1,22 +1,17 @@
 {
   "siteId": "zjt_fujian_gov_cn",
-  "siteName": "xxgkml",
   "url": "http://zjt.fujian.gov.cn/xxgk/zfxxgkzl/xxgkml/",
-  "version": 1,
-  "updatedAt": "2026-03-15",
   "strategy": "css",
-  "confidence": 0.8,
-  "timeout": 30000,
+  "confidence": 0.95,
   "css": {
-    "list": "ul li a",
-    "title": "a",
-    "date": ""
-  },
-  "extraction": {
-    "linkPrefix": "http://zjt.fujian.gov.cn"
+    "list": "div.rules_tabs_01[role=\"viewlist\"] dl",
+    "title": "dd.trt-col-10 a[target=\"_blank\"]",
+    "date": "dd.trt-col-3:not(.none_sm)",
+    "link": "dd.trt-col-10 a[target=\"_blank\"]"
   },
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-03-15T23:21:19.420388"
+    "source": "scraper-agent-learned",
+    "learnedAt": "2026-05-05",
+    "pageStructure": "公告列表使用 dl/dt/dd 表格结构。页面有两个 div.rules_tabs_01：第一个含 none_sm class 的是表头（dt 元素），第二个带 role='viewlist' 属性的是数据区。每条公告为一个 dl 元素，dl 内包含 dd.trt-col-2（序号）、dd.trt-col-10（标题链接 a[target=_blank]）、dd.trt-col-6（文号）、dd.trt-col-3（生成日期，格式 YYYY-MM-DD）、dd.trt-col-3.none_sm（发布日期）。关键区别：数据区 dl 通过父容器 div.rules_tabs_01[role=viewlist] 精确定位，避免匹配表头 dl。日期选择器 dd.trt-col-3:not(.none_sm) 排除发布日期列，精确提取生成日期。"
   }
 }

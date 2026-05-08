@@ -1,22 +1,40 @@
 {
   "siteId": "kgxj_haikou_gov_cn",
-  "siteName": "海口市科学技术和工业信息化局",
-  "url": "http://kgxj.haikou.gov.cn/zfxxgk/gsgg/",
-  "version": 1,
-  "updatedAt": "2026-04-15",
   "strategy": "css",
-  "confidence": 0.8,
-  "timeout": 30000,
+  "confidence": 0.95,
   "css": {
-    "list": "ul li a",
-    "title": "a",
-    "date": ""
+    "list": "ul.newul li.newlist_order",
+    "title": "a.new-lista",
+    "date": "em",
+    "link": "a.new-lista"
   },
-  "extraction": {
-    "linkPrefix": "http://kgxj.haikou.gov.cn"
+  "fields": {
+    "title": {
+      "selector": "a.new-lista",
+      "attribute": "title"
+    },
+    "url": {
+      "selector": "a.new-lista",
+      "attribute": "href"
+    },
+    "date": {
+      "selector": "em",
+      "attribute": "text",
+      "format": "YYYY-MM-DD"
+    }
+  },
+  "pagination": {
+    "type": "page_number",
+    "next_selector": "a[href*='index_']",
+    "page_param": "index_",
+    "suffix": ".shtml",
+    "total_pages_pattern": "index_"
   },
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-04-15T06:12:30.046134"
+    "source": "scraper-agent-learned",
+    "learnedAt": "2026-05-06",
+    "pageStructure": "ul.newul > li.newlist_order，每个 li 含 a.new-lista（标题+链接）和 em（日期）",
+    "baseUrl": "http://kgxj.haikou.gov.cn/zfxxgk/gsgg/",
+    "notes": "页面 HTTPS 自动跳转，链接为相对路径(./YYYYMM/tXXXXXXX.shtml)，需拼接 baseUrl"
   }
 }

@@ -1,22 +1,25 @@
 {
   "siteId": "fgw_fujian_gov_cn",
   "siteName": "福建省发展和改革委员会",
-  "url": "http://fgw.fujian.gov.cn/",
-  "version": 1,
-  "updatedAt": "2026-03-31",
+  "url": "https://fgw.fujian.gov.cn/zwgk/gsgg/",
+  "version": 2,
+  "updatedAt": "2026-05-05",
   "strategy": "css",
-  "confidence": 0.8,
+  "confidence": 0.9,
   "timeout": 30000,
   "css": {
-    "list": "li",
+    "list": "div.list_base:not([style*=\"display: none\"]) > ul > li",
     "title": "a",
-    "date": ""
+    "date": "span",
+    "link": "a"
   },
   "extraction": {
-    "linkPrefix": "http://fgw.fujian.gov.cn"
+    "linkPrefix": "https://fgw.fujian.gov.cn/zwgk/gsgg/"
   },
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-03-31T11:29:24.436404"
+    "source": "scraper-agent-learned",
+    "learnedAt": "2026-05-05",
+    "pageStructure": "页面使用 div.list_base 容器包含 ul>li 列表项，每个 li 内含 a(标题+链接) 和 span(日期)。页面通过 display:none 隐藏分页数据，需要排除。原URL /xxgk/gsgg/ 已404，正确URL为 /zwgk/gsgg/",
+    "previousUrl": "http://fgw.fujian.gov.cn/xxgk/gsgg/"
   }
 }

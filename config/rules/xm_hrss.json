@@ -1,37 +1,29 @@
 {
-  "siteId": "xm_hrss",
-  "version": 1,
-  "updatedAt": "2026-03-15",
+  "siteId": "hrss_xm_gov_cn",
+  "siteName": "厦门市人力资源和社会保障局",
+  "url": "https://hrss.xm.gov.cn/xxgk/tzgg/",
+  "version": 2,
+  "updatedAt": "2026-05-04",
   "strategy": "css",
-  "confidence": 0.5,
+  "confidence": 0.95,
+  "timeout": 30000,
   "css": {
-    "list": ".news-list li",
-    "title": ".title",
-    "date": ".date",
-    "link": "a"
+    "list": ".gl_r_ul div.list ul li",
+    "link": "a",
+    "title": "a",
+    "date": "span"
   },
   "extraction": {
-    "linkPrefix": "http://hrss.xm.gov.cn",
-    "dateFormats": [
-      "YYYY-MM-DD",
-      "YYYY/MM/DD",
-      "YYYY年MM月DD日",
-      "MM-DD"
-    ]
+    "linkPrefix": "https://hrss.xm.gov.cn/xxgk/tzgg",
+    "dateFormats": ["YYYY-MM-DD"]
   },
-  "antiCrawl": {
-    "waitAfterLoad": 2000,
-    "userAgent": "random"
-  },
-  "timeout": 30000,
   "metadata": {
-    "source": "migrated_from_v2_manual",
+    "source": "manual_html_analysis",
     "pageStructure": {
-      "type": null,
-      "hasPagination": null,
-      "paginationType": null,
-      "notes": null
+      "type": "paginated_list",
+      "hasPagination": true,
+      "paginationType": "numbered",
+      "notes": "列表项格式: li > span[日期] + a[标题链接], 日期格式 [2026-04-30]"
     }
-  },
-  "notes": ""
+  }
 }

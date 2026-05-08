@@ -1,22 +1,30 @@
 {
   "siteId": "mohurd_gov_cn",
-  "siteName": "www.mohurd.gov.cn",
-  "url": "https://www.mohurd.gov.cn/",
-  "version": 1,
-  "updatedAt": "2026-03-15",
+  "siteName": "住房和城乡建设部",
+  "url": "https://www.mohurd.gov.cn/gongkai/fdzdgknr/bzgg/index.html",
+  "version": 2,
+  "updatedAt": "2026-05-05",
   "strategy": "css",
-  "confidence": 0.8,
+  "confidence": 0.9,
   "timeout": 30000,
   "css": {
-    "list": ".news a",
+    "list": "#栏目-list li.date",
     "title": "a",
-    "date": ""
+    "date": "span.date-info",
+    "link": "a"
   },
   "extraction": {
-    "linkPrefix": "https://www.mohurd.gov.cn"
+    "linkPrefix": "https://www.mohurd.gov.cn",
+    "dateFormats": [
+      "YYYY-MM-DD"
+    ]
+  },
+  "antiCrawl": {
+    "waitAfterLoad": 1000
   },
   "metadata": {
     "source": "stage2_subagent",
-    "generatedAt": "2026-03-15T23:21:19.397299"
+    "generatedAt": "2026-05-05T01:14:20",
+    "notes": "标准公告栏目列表位于 #栏目-list 下的 li.date，标题链接在 a，发布日期在 span.date-info"
   }
 }

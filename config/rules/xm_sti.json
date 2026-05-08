@@ -1,22 +1,45 @@
 {
   "siteId": "sti_xm_gov_cn",
-  "siteName": "厦门市科学技术局",
-  "url": "http://sti.xm.gov.cn/",
-  "version": 1,
-  "updatedAt": "2026-04-15",
+  "site_name": "厦门市科学技术局",
+  "base_url": "https://sti.xm.gov.cn",
+  "list_url": "https://sti.xm.gov.cn/xxgk/tzgg/",
   "strategy": "css",
-  "confidence": 0.8,
-  "timeout": 30000,
+  "confidence": 0.95,
   "css": {
-    "list": "ul li",
-    "title": "a",
-    "date": ""
+    "list": "div.list_base.list_base_date_01 ul li",
+    "title": "a[title]",
+    "date": "span",
+    "link": "a"
   },
-  "extraction": {
-    "linkPrefix": "http://sti.xm.gov.cn"
+  "selectors": {
+    "notice_list": {
+      "selector": "div.list_base.list_base_date_01",
+      "description": "通知公告列表容器"
+    },
+    "notice_item": {
+      "selector": "div.list_base.list_base_date_01 ul li",
+      "description": "每条公告项"
+    },
+    "title": {
+      "selector": "div.list_base.list_base_date_01 ul li a",
+      "attribute": "title",
+      "description": "公告标题，取a标签的title属性"
+    },
+    "url": {
+      "selector": "div.list_base.list_base_date_01 ul li a",
+      "attribute": "href",
+      "description": "公告链接，相对路径需拼接base_url"
+    },
+    "date": {
+      "selector": "div.list_base.list_base_date_01 ul li span",
+      "description": "公告日期，格式YYYY-MM-DD"
+    }
   },
+  "url_resolution": "relative",
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-04-15T06:12:20.542836"
-  }
+    "source": "scraper-agent-learned",
+    "learnedAt": "2026-05-07",
+    "pageStructure": "静态页面，列表每页20条，每5条一组放在ul中。标题用a[title]获取完整标题，日期在span标签中。"
+  },
+  "notes": "列表页每页显示20条，每5条一组放在ul中。选择器已验证匹配20条，标题、链接、日期均可正确提取。"
 }

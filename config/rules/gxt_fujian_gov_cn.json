@@ -1,22 +1,24 @@
 {
   "siteId": "gxt_fujian_gov_cn",
-  "siteName": "福建省供销合作社",
-  "url": "http://gxt.fujian.gov.cn/",
-  "version": 1,
-  "updatedAt": "2026-04-15",
+  "siteName": "福建省工业和信息化厅",
+  "url": "http://gxt.fujian.gov.cn/zwgk/gsgg/",
+  "version": 2,
+  "updatedAt": "2026-05-05",
   "strategy": "css",
-  "confidence": 0.8,
+  "confidence": 0.9,
   "timeout": 30000,
   "css": {
-    "list": "ul li a",
+    "list": ".list_base_date_01 li",
     "title": "a",
-    "date": ""
+    "link": "a",
+    "date": "span"
   },
   "extraction": {
-    "linkPrefix": "http://gxt.fujian.gov.cn"
+    "linkPrefix": "http://gxt.fujian.gov.cn/zwgk/gsgg/"
   },
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-04-15T06:12:29.994671"
+    "source": "scraper-agent-learned",
+    "learnedAt": "2026-05-05",
+    "pageStructure": "公示公告列表页，使用 .list_base_date_01 容器，每页90条(分3组ul每组5li共18组)，li内a为标题链接，span为日期"
   }
 }

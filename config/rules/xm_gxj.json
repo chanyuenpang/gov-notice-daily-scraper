@@ -1,37 +1,18 @@
 {
-  "siteId": "xm_gxj",
-  "version": 1,
-  "updatedAt": "2026-03-15",
+  "siteId": "gxj_xm_gov_cn",
+  "url": "https://gxj.xm.gov.cn/xwzx/tzgg/",
   "strategy": "css",
-  "confidence": 0.5,
+  "confidence": 0.95,
   "css": {
-    "list": ".news-list li",
-    "title": ".title",
-    "date": ".date",
-    "link": "a"
+    "list": "div.list_base.list_large ul li",
+    "title": "a[target='_blank']",
+    "link": "a[target='_blank']",
+    "date": "li > span"
   },
-  "extraction": {
-    "linkPrefix": "http://gxj.xm.gov.cn",
-    "dateFormats": [
-      "YYYY-MM-DD",
-      "YYYY/MM/DD",
-      "YYYY年MM月DD日",
-      "MM-DD"
-    ]
-  },
-  "antiCrawl": {
-    "waitAfterLoad": 2000,
-    "userAgent": "random"
-  },
-  "timeout": 30000,
   "metadata": {
-    "source": "migrated_from_v2_manual",
-    "pageStructure": {
-      "type": null,
-      "hasPagination": null,
-      "paginationType": null,
-      "notes": null
-    }
-  },
-  "notes": ""
+    "source": "scraper-agent-learned",
+    "pageStructure": "公告列表位于 div.list_base.list_large 容器内，包含4个ul，每个ul含5条公告（共20条/页）。每个li中仅含span+a结构，span为日期（YYYY-MM-DD），a标签含title属性和href。部分href为相对路径（./开头或../../zwgk/开头），需基于 https://gxj.xm.gov.cn/ 解析完整URL。分页共125页。",
+    "learnedAt": "2026-05-05",
+    "baseUrl": "https://gxj.xm.gov.cn/xwzx/tzgg/"
+  }
 }

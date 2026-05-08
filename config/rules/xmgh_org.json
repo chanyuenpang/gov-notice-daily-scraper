@@ -1,22 +1,29 @@
 {
   "siteId": "xmgh_org",
-  "siteName": "www.xmgh.org",
-  "url": "http://www.xmgh.org/",
-  "version": 1,
-  "updatedAt": "2026-03-15",
+  "siteName": "厦门市工商联",
+  "url": "https://www.xmgh.org/ghsc/hwgk/tzwj/",
+  "version": 2,
+  "updatedAt": "2026-05-05",
   "strategy": "css",
-  "confidence": 0.8,
+  "confidence": 0.95,
   "timeout": 30000,
   "css": {
-    "list": "ul li a",
-    "title": "a",
-    "date": ""
+    "list": "div.gl_r .gl_list1 > ul > li",
+    "title": "div.gl_r .gl_list1 > ul > li > a",
+    "link": "div.gl_r .gl_list1 > ul > li > a",
+    "date": "div.gl_r .gl_list1 > ul > li > span",
+    "pagination": "a[href*='pg.toPage(']"
   },
   "extraction": {
-    "linkPrefix": "http://www.xmgh.org"
+    "linkPrefix": "https://www.xmgh.org/ghsc/hwgk/tzwj/",
+    "dateFormats": [
+      "YYYY-MM-DD"
+    ]
   },
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-03-15T23:21:19.315784"
+    "source": "manual_dom_analysis",
+    "pageStructure": "通知文件列表在 .gl_r .gl_list1 ul>li 中，每条 li 包含 span 日期与 a 标题链接；分页通过 pg.toPage() 切换。",
+    "notes": "当前页可直接抓取 20 条，需分页时点击页面下方‘下一页’。",
+    "generatedAt": "2026-05-05T01:16:00"
   }
 }

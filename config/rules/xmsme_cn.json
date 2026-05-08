@@ -1,22 +1,45 @@
 {
   "siteId": "xmsme_cn",
   "siteName": "厦门市中小企业服务中心",
-  "url": "http://www.xmsme.cn/",
-  "version": 1,
-  "updatedAt": "2026-03-30",
-  "strategy": "css",
-  "confidence": 0.8,
+  "url": "https://www.xmsme.cn/news",
+  "version": 3,
+  "updatedAt": "2026-05-06",
+  "strategy": "api",
+  "confidence": 0.9,
   "timeout": 30000,
-  "css": {
-    "list": "div.li",
-    "title": "a",
-    "date": ""
+  "api": {
+    "url": "https://www.xmsme.cn/api/gxdp/documents/previewpage",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderByColumn": "issuedTime",
+      "pageNum": 1,
+      "pageSize": 20,
+      "statuses": ["ENABLED"],
+      "types": [],
+      "isAsc": "desc"
+    },
+    "dataPath": "rows",
+    "fields": {
+      "id": "id",
+      "title": "name",
+      "date": "issuedTime",
+      "type": "type",
+      "category": "category",
+      "level": "level",
+      "source": "source"
+    },
+    "linkTemplate": "https://www.xmsme.cn/policy/market/{id}"
   },
   "extraction": {
-    "linkPrefix": "http://www.xmsme.cn"
+    "linkPrefix": "https://www.xmsme.cn",
+    "notes": "Nuxt SPA站点。公告通知通过API接口获取，无需浏览器渲染。详情页URL: /policy/market/{id}。首页/news只显示4条，API可分页获取全部。"
   },
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-03-30T07:11:32.582668"
+    "source": "scraper-agent-learned",
+    "learnedAt": "2026-05-06",
+    "pageStructure": "Nuxt SPA，公告通知由Vue组件NewsBulletin通过$api.getPolicyMarket调用POST /api/gxdp/documents/previewpage获取。API返回{code:200, total, rows:[{id,name,issuedTime,type,category,level,...}]}。"
   }
 }

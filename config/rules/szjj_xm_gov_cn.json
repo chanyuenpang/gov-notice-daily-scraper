@@ -1,0 +1,16 @@
+{
+  "siteId": "szjj_xm_gov_cn",
+  "strategy": "css",
+  "confidence": 0.9,
+  "css": {
+    "list": ".list_base_date_01 ul li",
+    "title": "a",
+    "date": "span",
+    "link": "a"
+  },
+  "metadata": {
+    "source": "scraper-agent-learned",
+    "learnedAt": "2026-05-06",
+    "pageStructure": "标准政府站点列表页，ul>li结构，每个li含一个a标签(标题+链接)和一个span标签(日期)。链接为相对路径需拼接baseUrl。共20条/页，共63页。"
+  }
+}

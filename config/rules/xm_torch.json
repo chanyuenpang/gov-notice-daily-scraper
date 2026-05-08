@@ -2,21 +2,28 @@
   "siteId": "xmtorch_xm_gov_cn",
   "siteName": "厦门市火炬高技术产业开发区管理委员会",
   "url": "http://xmtorch.xm.gov.cn/xxgk/zfxxgkml/glfw/",
-  "version": 1,
-  "updatedAt": "2026-04-15",
+  "version": 2,
+  "updatedAt": "2026-05-04",
   "strategy": "css",
-  "confidence": 0.8,
+  "confidence": 0.95,
   "timeout": 30000,
   "css": {
-    "list": "ul li a",
+    "list": ".tito_list ul li",
+    "link": "a",
     "title": "a",
-    "date": ""
+    "date": "span"
   },
   "extraction": {
-    "linkPrefix": "http://xmtorch.xm.gov.cn"
+    "linkPrefix": "http://xmtorch.xm.gov.cn/xxgk/zfxxgkml/glfw",
+    "dateFormats": ["YYYY-MM-DD"]
   },
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-04-15T06:12:30.020934"
+    "source": "manual_html_analysis",
+    "pageStructure": {
+      "type": "subcategory_list",
+      "hasPagination": false,
+      "paginationType": null,
+      "notes": "当前页面'管理服务'下有'申报项目资金'子栏目(.tito_list)，列表项格式: li > a[标题链接] + span[日期]，仅显示5条，有'更多'链接跳转到子栏目"
+    }
   }
 }

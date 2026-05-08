@@ -1,22 +1,35 @@
 {
   "siteId": "siming_gov_cn",
-  "siteName": "厦门市思明区科技和信息化局",
-  "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
-  "version": 1,
-  "updatedAt": "2026-04-26",
+  "url": "https://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/qt_15326/",
+  "originalUrl": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
+  "baseUrl": "https://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/qt_15326",
   "strategy": "css",
-  "confidence": 0.8,
-  "timeout": 30000,
+  "confidence": 0.95,
   "css": {
-    "list": "body a",
-    "title": "a",
-    "date": ""
-  },
-  "extraction": {
-    "linkPrefix": "http://www.siming.gov.cn"
+    "list": "table.tab1 td[colspan=\"4\"] table tr",
+    "title": "td.pad_l25 a[title]",
+    "link": "td.pad_l25 a[title][href*='.htm']",
+    "date": "td.tgray1"
   },
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-04-26T07:09:06.702654"
+    "pageStructure": "table布局，class=tab1，表头行含th（序号/文号/名称/成文日期），每条公告为table.tab1 > tbody > tr下td[colspan=4]，内含嵌套table（序号td.t_no + 文号td.t_no + 名称td.pad_l25含链接 + 日期td.tgray1）和div.info-extra展开详情。分页通过JS函数ps.toPage()实现，共36页，每页10条。",
+    "source": "scraper-agent-learned",
+    "learnedAt": "2026-05-07",
+    "urlMigration": "原始URL http://www.siming.gov.cn/gbmzl/kjhxxhj/ 已失效，需使用新路径 https://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/qt_15326/",
+    "note": "链接使用相对路径如 ../zcfg/202604/ 或 ../tzgg/202603/，baseUrl已设置为列表页目录路径以便正确拼接。页面为静态HTML，无需JS渲染。",
+    "validation": {
+      "matchCount": 10,
+      "sampleTitles": [
+        "思明区科技和工信局关于2026年创新型中小企业评价（第一批）拟通过名单的公示",
+        "关于公开遴选\"思明数智工场\"专业运营机构的通知",
+        "关于开展思明区2026年一季度先进制造业产业项目招引措施申报的通知"
+      ],
+      "sampleDates": ["2026-04-20", "2026-03-26", "2026-03-18"],
+      "sampleLinks": [
+        "../zcfg/202604/t20260420_1145295.htm",
+        "../tzgg/202603/t20260326_1141938.htm",
+        "../tzgg/202603/t20260324_1141563.htm"
+      ]
+    }
   }
 }

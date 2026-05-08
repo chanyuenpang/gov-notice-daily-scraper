@@ -1,14 +1,25 @@
 {
   "siteId": "iqb_jimei_gov_cn",
-  "siteName": "XM03103",
-  "url": "https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
-  "version": 1,
-  "updatedAt": "2026-03-16",
-  "strategy": "semantic",
-  "confidence": 0.8,
-  "timeout": 30000,
+  "url": "https://www.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
+  "strategy": "css",
+  "confidence": 0.95,
+  "css": {
+    "list": "table.tab1_zfxxgk > tbody > tr > td[colspan='4']",
+    "link": "table td.pad_l25 a[title]",
+    "title": "table td.pad_l25 a[title]",
+    "date": "table td.tgray1"
+  },
+  "notes": {
+    "titleAttr": "标题需从 a 标签的 title 属性获取（a 内文本被截断）",
+    "linkRelative": "链接为相对路径，需拼接基础 URL",
+    "docNo": "文号在 table td.t_no 中，值可能为'无'",
+    "duplicates": "每条公告在 info-extra div 中有完整标题的重复链接，提取时需按 href 去重",
+    "rowStructure": "每条公告是 table.tab1_zfxxgk > tbody > tr，其 td[colspan=4] 包含内嵌 table（文号+标题+日期）和 div.info-extra（悬浮详情）"
+  },
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-03-16T10:14:12.323133"
+    "source": "scraper-agent-learned",
+    "learnedAt": "2026-05-05",
+    "verifiedCount": 15,
+    "pageStructure": "公告列表位于 table.tab1_zfxxgk 内，外层 tr 的 td[colspan=4] 为每条记录容器，内含嵌套 table（td.t_no=文号，td.pad_l25 a[title]=标题链接，td.tgray1=日期）和 div.info-extra（悬浮详情，含重复链接）"
   }
 }

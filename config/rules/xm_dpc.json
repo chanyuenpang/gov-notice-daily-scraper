@@ -1,22 +1,29 @@
 {
   "siteId": "dpc_xm_gov_cn",
   "siteName": "厦门市发展和改革委员会",
-  "url": "http://dpc.xm.gov.cn/",
-  "version": 1,
-  "updatedAt": "2026-04-18",
+  "url": "http://dpc.xm.gov.cn/xwdt/tzgg/",
+  "version": 2,
+  "updatedAt": "2026-05-04",
   "strategy": "css",
-  "confidence": 0.8,
+  "confidence": 0.95,
   "timeout": 30000,
   "css": {
-    "list": "div.list_base.list_base_date_01 ul li:has(a[href*=\"/xwdt/tzgg/\"])",
+    "list": "div.list_base.list_base_date_01 ul li",
+    "link": "a",
     "title": "a",
     "date": "span"
   },
   "extraction": {
-    "linkPrefix": "http://dpc.xm.gov.cn"
+    "linkPrefix": "http://dpc.xm.gov.cn/xwdt/tzgg",
+    "dateFormats": ["YYYY-MM-DD"]
   },
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-04-18T07:12:31.686513"
+    "source": "manual_html_analysis",
+    "pageStructure": {
+      "type": "paginated_list",
+      "hasPagination": true,
+      "paginationType": "numbered",
+      "notes": "列表项格式: li > a[标题链接] + span[日期], 原首页URL已更新为通知公告栏目页"
+    }
   }
 }

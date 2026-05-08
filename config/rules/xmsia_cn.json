@@ -1,22 +1,29 @@
 {
   "siteId": "xmsia_cn",
-  "siteName": "NewsList.aspx?classId=3",
+  "siteName": "厦门市软件行业协会",
   "url": "http://www.xmsia.cn/Pages/Home/NewsList.aspx?classId=3",
-  "version": 1,
-  "updatedAt": "2026-03-15",
+  "version": 2,
+  "updatedAt": "2026-05-04",
   "strategy": "css",
-  "confidence": 0.8,
+  "confidence": 0.95,
   "timeout": 30000,
   "css": {
-    "list": "ul li a",
+    "list": "ul.nlist li",
+    "link": "a",
     "title": "a",
-    "date": ""
+    "date": "span.data"
   },
   "extraction": {
-    "linkPrefix": "http://www.xmsia.cn"
+    "linkPrefix": "http://www.xmsia.cn",
+    "dateFormats": ["YYYY/MM/DD"]
   },
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-03-15T23:21:19.374157"
+    "source": "manual_html_analysis",
+    "pageStructure": {
+      "type": "paginated_list",
+      "hasPagination": true,
+      "paginationType": "aspnet_postback",
+      "notes": "ASP.NET WebForms页面，列表项格式: li > span.data[日期] + a[标题链接]，日期格式 [2026/03/12]，分页使用__doPostBack"
+    }
   }
 }

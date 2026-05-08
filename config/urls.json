@@ -151,12 +151,12 @@
       }
     },
     {
-      "id": "js_xm_gov_cn",
-      "name": "js.xm.gov.cn",
-      "displayName": "厦门市建设局",
+      "id": "szjj_xm_gov_cn",
+      "name": "szjj.xm.gov.cn",
+      "displayName": "厦门市住房和建设局",
       "category": "厦门市",
-      "url": "http://js.xm.gov.cn/",
-      "baseUrl": "http://js.xm.gov.cn",
+      "url": "https://szjj.xm.gov.cn/zwgk/tzgg/",
+      "baseUrl": "https://szjj.xm.gov.cn",
       "enabled": true,
       "state": {
         "lastCrawlDate": null,
@@ -219,8 +219,8 @@
       "name": "gsgg",
       "displayName": "福建省发展和改革委员会",
       "category": "福建省",
-      "url": "http://fgw.fujian.gov.cn/xxgk/gsgg/",
-      "baseUrl": "http://fgw.fujian.gov.cn",
+      "url": "https://fgw.fujian.gov.cn/zwgk/gsgg/",
+      "baseUrl": "https://fgw.fujian.gov.cn",
       "enabled": true,
       "state": {
         "lastCrawlDate": null,
@@ -251,8 +251,8 @@
       "name": "kjhxxhj",
       "displayName": "厦门市思明区科技和信息化局",
       "category": "国家",
-      "url": "http://www.siming.gov.cn/gbmzl/kjhxxhj/",
-      "baseUrl": "http://www.siming.gov.cn",
+      "url": "https://www.siming.gov.cn/zfxxgkzl/gbmxxgk/kjhxxhj/zfxxgkml/qt_15326/",
+      "baseUrl": "https://www.siming.gov.cn",
       "enabled": true,
       "state": {
         "lastCrawlDate": null,
@@ -313,9 +313,9 @@
     {
       "id": "gxt_fujian_gov_cn",
       "name": "gxt.fujian.gov.cn",
-      "displayName": "福建省供销合作社",
+      "displayName": "福建省工业和信息化厅",
       "category": "福建省",
-      "url": "http://gxt.fujian.gov.cn/",
+      "url": "http://gxt.fujian.gov.cn/zwgk/gsgg/",
       "baseUrl": "http://gxt.fujian.gov.cn",
       "enabled": true,
       "state": {
@@ -377,10 +377,10 @@
     {
       "id": "iqb_jimei_gov_cn",
       "name": "XM03103",
-      "displayName": "厦门市集美区科学技术局",
+      "displayName": "厦门市集美区科技和工信局",
       "category": "国家",
-      "url": "https://iqb.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
-      "baseUrl": "https://iqb.jimei.gov.cn",
+      "url": "https://www.jimei.gov.cn/zfxxgk/001/XM03103/XM03103/",
+      "baseUrl": "https://www.jimei.gov.cn",
       "enabled": true,
       "state": {
         "lastCrawlDate": null,

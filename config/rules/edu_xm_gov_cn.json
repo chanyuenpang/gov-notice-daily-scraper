@@ -1,22 +1,21 @@
 {
   "siteId": "edu_xm_gov_cn",
-  "siteName": "tzgg",
   "url": "http://edu.xm.gov.cn/jyxw/tzgg/",
-  "version": 1,
-  "updatedAt": "2026-03-15",
   "strategy": "css",
-  "confidence": 0.8,
+  "confidence": 0.9,
   "timeout": 30000,
   "css": {
-    "list": "ul li a",
+    "list": "div.gl_list1 > ul > li.b-free-read-leaf",
     "title": "a",
-    "date": ""
+    "date": "span",
+    "link": "a"
   },
   "extraction": {
-    "linkPrefix": "http://edu.xm.gov.cn"
+    "linkPrefix": "http://edu.xm.gov.cn/jyxw/tzgg/"
   },
   "metadata": {
-    "source": "stage2_subagent",
-    "generatedAt": "2026-03-15T23:21:19.348719"
+    "source": "scraper-agent-learned",
+    "learnedAt": "2026-05-05",
+    "pageStructure": "公告列表位于 div.gl_list1 > ul 内，直接子 li.b-free-read-leaf 为公告项。每项结构：li > span（日期）+ li > a（标题+链接）。关键：必须用 > 直接子元素限定 ul > li，因为页面上其他位置也有 .b-free-read-leaf 类名"
   }
 }
