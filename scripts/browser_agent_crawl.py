@@ -14,7 +14,7 @@ def load_sites(test_mode=False):
 
 def generate_task(site):
     return {
-        "siteId": site.get("siteId", ""),
+        "siteId": site.get("id", site.get("siteId", "")),
         "siteName": site.get("displayName", ""),
         "siteUrl": site.get("baseUrl", site.get("url", "")),
         "targetUrl": site.get("url", ""),

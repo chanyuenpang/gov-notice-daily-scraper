@@ -25,6 +25,7 @@ from typing import Dict, List, Set, Tuple
 
 PROJECT_DIR = Path(__file__).parent.parent
 OUTPUT_DIR = PROJECT_DIR / "output"
+REPORTS_DIR = OUTPUT_DIR / "reports"
 CONFIG_PATH = PROJECT_DIR / "config" / "urls.json"
 REPORT_FILE_NAME = "增量日报.md"
 
@@ -144,9 +145,9 @@ def resolve_paths(args) -> Tuple[str, Path, Path, Path]:
         today_str = args.date
         today = datetime.strptime(today_str, "%Y-%m-%d")
         yesterday_str = (today - timedelta(days=1)).strftime("%Y-%m-%d")
-        today_path = OUTPUT_DIR / today_str / "announcements.json"
-        yesterday_path = OUTPUT_DIR / yesterday_str / "announcements.json"
-        output_path = Path(args.output) if args.output else OUTPUT_DIR / today_str / REPORT_FILE_NAME
+        today_path = REPORTS_DIR / today_str / "announcements.json"
+        yesterday_path = REPORTS_DIR / yesterday_str / "announcements.json"
+        output_path = Path(args.output) if args.output else REPORTS_DIR / today_str / REPORT_FILE_NAME
         return today_str, today_path, yesterday_path, output_path
 
     if args.today:
@@ -157,16 +158,16 @@ def resolve_paths(args) -> Tuple[str, Path, Path, Path]:
         else:
             today = datetime.strptime(today_str, "%Y-%m-%d")
             yesterday_str = (today - timedelta(days=1)).strftime("%Y-%m-%d")
-            yesterday_path = OUTPUT_DIR / yesterday_str / "announcements.json"
+            yesterday_path = REPORTS_DIR / yesterday_str / "announcements.json"
         output_path = Path(args.output) if args.output else today_path.parent / REPORT_FILE_NAME
         return today_str, today_path, yesterday_path, output_path
 
     today_str = datetime.now().strftime("%Y-%m-%d")
     today = datetime.strptime(today_str, "%Y-%m-%d")
     yesterday_str = (today - timedelta(days=1)).strftime("%Y-%m-%d")
-    today_path = OUTPUT_DIR / today_str / "announcements.json"
-    yesterday_path = OUTPUT_DIR / yesterday_str / "announcements.json"
-    output_path = Path(args.output) if args.output else OUTPUT_DIR / today_str / REPORT_FILE_NAME
+    today_path = REPORTS_DIR / today_str / "announcements.json"
+    yesterday_path = REPORTS_DIR / yesterday_str / "announcements.json"
+    output_path = Path(args.output) if args.output else REPORTS_DIR / today_str / REPORT_FILE_NAME
     return today_str, today_path, yesterday_path, output_path
 
 

@@ -22,6 +22,22 @@ from typing import List, Tuple
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = PROJECT_ROOT / "output"
 CONFIG_DIR = PROJECT_ROOT / "config"
+RULES_DIR = CONFIG_DIR / "rules"
+
+VAGUE_SELECTORS = ['ul li', 'li', 'tr', 'div li', 'div a', 'a', 'ul li a', 'div ul li', 'table tr']
+
+
+def is_vague_selector(selector: str) -> bool:
+    """判断 CSS 选择器是否太宽泛（无限定、无 class/id/attribute）。"""
+    if not selector:
+        return True
+    selector = selector.strip().lower()
+    if selector in VAGUE_SELECTORS:
+        return True
+    # 只有 tag 名，没有 class(.) 或 id(#) 或 attribute([])
+    if not ('.' in selector or '#' in selector or '[' in selector):
+        return True
+    return False
 
 
 def run_command(cmd: List[str], label: str, timeout: int = 600) -> Tuple[int, str, str]:
@@ -477,6 +493,80 @@ def phase1(date_str: str) -> None:
     print(f"[OK] stage1 summary 已写入: {summary_path}")
 
 
+def audit_rule_quality(date_str: str, stage1_results: list) -> list:
+    """
+    规则质量审计：检查 Phase 1 成功站点的 CSS 选择器规则质量。
+    如果选择器太宽泛或缺少 date 选择器，将该站点加入 browser_agent_tasks。
+    返回需要重新学习的站点任务列表。
+    """
+    urls_data = load_json(CONFIG_DIR / "urls.json")
+    sites = urls_data.get("sites") if isinstance(urls_data, dict) else urls_data
+    if not isinstance(sites, list):
+        sites = []
+
+    # 构建 siteId -> url 映射
+    site_url_map = {}
+    site_name_map = {}
+    for site in sites:
+        if not isinstance(site, dict):
+            continue
+        sid = site.get("id") or site.get("siteId") or ""
+        site_url_map[sid] = site.get("url", "")
+        site_name_map[sid] = site.get("name") or site.get("siteName") or sid
+
+    # Phase 1 成功的 siteId 集合
+    success_ids = set()
+    for result in stage1_results:
+        if not isinstance(result, dict):
+            continue
+        if not is_failed_for_phase2(result):
+            sid = result.get("siteId") or result.get("site_id") or ""
+            if sid:
+                success_ids.add(sid)
+
+    relearn_tasks = []
+    for site_id in sorted(success_ids):
+        rule_path = RULES_DIR / f"{site_id}.json"
+        if not rule_path.exists():
+            continue
+
+        rule = load_json(rule_path)
+        if not isinstance(rule, dict):
+            continue
+
+        css = rule.get("css", {})
+        if not isinstance(css, dict):
+            css = {}
+
+        list_selector = css.get("list", "")
+        date_selector = css.get("date", "")
+
+        reason = None
+        if is_vague_selector(list_selector):
+            reason = "vague_selector"
+        elif not date_selector or date_selector.strip() == "":
+            reason = "missing_date"
+
+        if reason:
+            relearn_tasks.append({
+                "siteId": site_id,
+                "url": rule.get("url") or site_url_map.get(site_id, ""),
+                "siteName": rule.get("siteName") or site_name_map.get(site_id, site_id),
+                "status": "success_but_vague",
+                "reason": reason,
+                "css": css,
+            })
+
+    if relearn_tasks:
+        print(f"[AUDIT] 规则质量审计: {len(relearn_tasks)} 个成功站点的选择器需要重新学习")
+        for t in relearn_tasks:
+            print(f"  - {t['siteId']}: reason={t['reason']}, css.list={t['css'].get('list', '')!r}")
+    else:
+        print("[AUDIT] 规则质量审计: 所有成功站点的选择器质量良好")
+
+    return relearn_tasks
+
+
 def phase2_prep(date_str: str) -> None:
     month = date_str[:7]
     month_dir = OUTPUT_DIR / month
@@ -492,6 +582,7 @@ def phase2_prep(date_str: str) -> None:
     if not isinstance(results, list):
         results = []
 
+    # Phase 2-prep 原有逻辑：收集 Phase 1 失败站点
     tasks = []
     for result in results:
         if not isinstance(result, dict):
@@ -509,25 +600,40 @@ def phase2_prep(date_str: str) -> None:
             }
         )
 
+    # 规则质量审计：检查成功站点的选择器质量，宽泛的也加入重新学习
+    print("\n[AUDIT] 开始规则质量审计...")
+    relearn_tasks = audit_rule_quality(date_str, results)
+
+    # 追加审计发现的问题站点（不覆盖已有的失败站点）
+    existing_ids = {t["siteId"] for t in tasks if t.get("siteId")}
+    for t in relearn_tasks:
+        if t["siteId"] not in existing_ids:
+            tasks.append(t)
+            existing_ids.add(t["siteId"])
+
     tasks_data = {
         "date": date_str,
         "generatedAt": now_iso(),
         "tasks": tasks,
         "summary": {
             "total": len(tasks),
+            "phase1Failed": len([t for t in tasks if t.get("status") != "success_but_vague"]),
+            "vagueSelector": len([t for t in tasks if t.get("reason") == "vague_selector"]),
+            "missingDate": len([t for t in tasks if t.get("reason") == "missing_date"]),
         },
     }
 
     save_json(output_path, tasks_data)
 
-    print(f"[OK] 失败站点任务清单已写入: {output_path}")
+    print(f"\n[OK] 任务清单已写入: {output_path}")
     if not tasks:
-        print("[INFO] 无失败站点，Phase 2 可跳过")
+        print("[INFO] 无任务，Phase 2 可跳过")
         return
 
-    print("[INFO] 失败站点列表 (供 cron-runner 派发 browser-agent):")
+    print("[INFO] 任务列表 (供 cron-runner 派发 browser-agent):")
     for idx, item in enumerate(tasks, 1):
-        print(f"  {idx:02d}. {item['siteId']} | {item['siteName']} | {item['url']}")
+        reason_tag = f" | reason={item['reason']}" if item.get("reason") else ""
+        print(f"  {idx:02d}. {item['siteId']} | {item['siteName']} | {item['url']}{reason_tag}")
 
 def phase3(date_str: str) -> None:
     month = date_str[:7]

@@ -38,6 +38,8 @@ PROJECT_DIR = Path(__file__).parent.parent
 CONFIG_DIR = PROJECT_DIR / "config"
 RULES_DIR = CONFIG_DIR / "rules"
 OUTPUT_DIR = PROJECT_DIR / "output"
+REPORTS_DIR = OUTPUT_DIR / "reports"
+ARTIFACTS_DIR = OUTPUT_DIR / "crawl-artifacts"
 
 DEFAULT_TIMEOUT = 30000  # 30秒
 PAGE_LOAD_TIMEOUT = 15000  # 15秒
@@ -570,12 +572,12 @@ def main():
     
     urls_path = Path(args.urls)
     
-    # 默认输出路径
+    # 默认输出路径 → crawl-artifacts/{date}/stage1_results.json
     if args.output:
         output_path = Path(args.output)
     else:
         today = datetime.now().strftime("%Y-%m-%d")
-        output_path = OUTPUT_DIR / today / "stage1_results.json"
+        output_path = ARTIFACTS_DIR / today / "stage1_results.json"
     
     site_ids = args.sites if args.sites else None
     

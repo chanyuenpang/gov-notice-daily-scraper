@@ -21,6 +21,8 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_DIR = PROJECT_ROOT / "config"
 OUTPUT_DIR = PROJECT_ROOT / "output"
+REPORTS_DIR = OUTPUT_DIR / "reports"
+ARTIFACTS_DIR = OUTPUT_DIR / "crawl-artifacts"
 
 CST = timezone(timedelta(hours=8))
 
@@ -41,10 +43,10 @@ def filter_enabled(sources: list[dict]) -> list[dict]:
     return [s for s in sources if s.get("enabled", True)]
 
 
-def generate_task_template(source: dict, date_str: str, output_base: Path) -> dict:
+def generate_task_template(source: dict, date_str: str, artifacts_base: Path) -> dict:
     """为单个站点生成 browser-agent 任务输入模板"""
     site_id = source["id"]
-    task_output_path = output_base / f"task_{site_id}.json"
+    task_output_path = artifacts_base / f"task_{site_id}.json"
 
     return {
         "taskId": f"{site_id}_{date_str}",
@@ -75,12 +77,16 @@ def generate_task_template(source: dict, date_str: str, output_base: Path) -> di
 
 def build_crawl_plan(sources: list[dict], date_str: str) -> dict:
     """构建完整抓取计划"""
-    output_base = OUTPUT_DIR / date_str
-    output_base.mkdir(parents=True, exist_ok=True)
+    # 中间产物写入 crawl-artifacts/{date}/
+    artifacts_base = ARTIFACTS_DIR / date_str
+    artifacts_base.mkdir(parents=True, exist_ok=True)
+    # 报告类写入 reports/{date}/
+    reports_base = REPORTS_DIR / date_str
+    reports_base.mkdir(parents=True, exist_ok=True)
 
     tasks = []
     for source in sources:
-        task = generate_task_template(source, date_str, output_base)
+        task = generate_task_template(source, date_str, artifacts_base)
         tasks.append(task)
 
     plan = {
@@ -91,13 +97,13 @@ def build_crawl_plan(sources: list[dict], date_str: str) -> dict:
         "tasks": tasks,
     }
 
-    # 写入抓取计划
-    plan_path = output_base / "crawl-plan.json"
+    # 写入抓取计划 → crawl-artifacts
+    plan_path = artifacts_base / "crawl-plan.json"
     with open(plan_path, "w", encoding="utf-8") as f:
         json.dump(plan, f, ensure_ascii=False, indent=2)
     print(f"[OK] 抓取计划已写入: {plan_path}")
 
-    # 写入 crawl-meta.json 初始骨架
+    # 写入 crawl-meta.json 初始骨架 → reports
     meta = {
         "date": date_str,
         "crawledAt": None,
@@ -120,13 +126,13 @@ def build_crawl_plan(sources: list[dict], date_str: str) -> dict:
             for t in tasks
         ],
     }
-    meta_path = output_base / "crawl-meta.json"
+    meta_path = reports_base / "crawl-meta.json"
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
     print(f"[OK] crawl-meta 初始骨架已写入: {meta_path}")
 
-    # 写入 announcements.json 初始空数组
-    ann_path = output_base / "announcements.json"
+    # 写入 announcements.json 初始空数组 → reports
+    ann_path = reports_base / "announcements.json"
     with open(ann_path, "w", encoding="utf-8") as f:
         json.dump([], f, ensure_ascii=False, indent=2)
     print(f"[OK] announcements.json 初始空数组已写入: {ann_path}")

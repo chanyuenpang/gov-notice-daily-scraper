@@ -21,6 +21,7 @@ from typing import Dict, List, Tuple
 
 PROJECT_DIR = Path(__file__).parent.parent
 OUTPUT_DIR = PROJECT_DIR / "output"
+REPORTS_DIR = OUTPUT_DIR / "reports"
 CONFIG_PATH = PROJECT_DIR / "config" / "urls.json"
 META_FILE_NAME = "crawl-meta.json"
 REPORT_FILE_NAME = "日报.md"
@@ -178,10 +179,10 @@ def main():
         date_str = args.date or infer_date_from_path(input_path)
     elif args.date:
         date_str = args.date
-        input_path = OUTPUT_DIR / date_str / "announcements.json"
+        input_path = REPORTS_DIR / date_str / "announcements.json"
     else:
         date_str = datetime.now().strftime("%Y-%m-%d")
-        input_path = OUTPUT_DIR / date_str / "announcements.json"
+        input_path = REPORTS_DIR / date_str / "announcements.json"
 
     if args.output:
         output_path = Path(args.output)

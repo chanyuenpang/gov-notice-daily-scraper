@@ -78,7 +78,10 @@ def ensure_announcements_json(date_dir: Path) -> bool:
 
 
 def sync_date(date_dir: Path) -> bool:
-    """同步单个日期目录到 docs/data/，返回是否成功"""
+    """同步单个日期目录到 docs/data/，返回是否成功
+
+    新目录协议下从 output/reports/{date}/ 读取。
+    """
     dirname = date_dir.name
     ann_path = date_dir / 'announcements.json'
 
@@ -165,9 +168,15 @@ def generate_sites_json():
 
 
 def get_date_dirs():
-    """获取所有日期目录（排序后）"""
+    """获取所有日期目录（排序后）
+
+    新目录协议下日期目录位于 output/reports/ 下。
+    """
+    reports_dir = OUTPUT_DIR / "reports"
+    if not reports_dir.exists():
+        return []
     return sorted(
-        [d for d in OUTPUT_DIR.iterdir()
+        [d for d in reports_dir.iterdir()
          if d.is_dir() and len(d.name) == 10 and d.name[4] == '-'],
         key=lambda x: x.name
     )
