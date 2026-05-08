@@ -1,18 +1,39 @@
 const $ = id => document.getElementById(id);
 
-let allDataCache = []; // 全量数据缓存（所有日期文件合并后按 id 去重）
+let allDataCache = []; // 全量数据缓存（所有日期文件合并后按 sourceDate + id 去重）
 let allData = [];      // 当前日期筛选后的数据
 let filteredData = [];
 let cachedSites = null;
+let sourceDateCounts = {};
+let calendarMonth = '';
+let currentDisplayBasis = '';
 
 // 初始化
 document.addEventListener('DOMContentLoaded', async () => {
   $('exportWordBtn').addEventListener('click', exportToWord);
   $('siteFilter').addEventListener('change', applyFilters);
   $('search').addEventListener('input', applyFilters);
-  $('dateInput').addEventListener('change', loadData);
+  $('dateInput').addEventListener('change', () => {
+    const date = $('dateInput').value;
+    if (date) calendarMonth = date.slice(0, 7);
+    loadData();
+  });
   $('dateInput').addEventListener('keydown', e => { if (e.key === 'Enter') loadData(); });
+  $('monthCalendar').addEventListener('click', e => {
+    const btn = e.target.closest('button[data-date], button[data-month]');
+    if (!btn) return;
+    if (btn.dataset.date) {
+      setSelectedDate(btn.dataset.date);
+    } else if (btn.dataset.month) {
+      shiftCalendarMonth(Number(btn.dataset.month));
+    }
+  });
+  $('announcementList').addEventListener('click', e => {
+    const btn = e.target.closest('button[data-date]');
+    if (btn) setSelectedDate(btn.dataset.date);
+  });
   await loadSites();
+  await loadAllData();
   loadData();
 });
 
@@ -38,7 +59,7 @@ function populateSiteFilterFromCache() {
 }
 
 /**
- * 加载全量数据（所有日期文件合并，按 id 去重），结果缓存
+ * 加载全量数据（所有日期文件合并，给每条记录补充 sourceDate），结果缓存
  */
 async function loadAllData() {
   if (allDataCache.length > 0) return allDataCache;
@@ -52,7 +73,10 @@ async function loadAllData() {
       dates.map(async date => {
         try {
           const r = await fetch(`data/${date}.json`);
-          if (r.ok) return await r.json();
+          if (r.ok) {
+            const items = await r.json();
+            return items.map(item => ({ ...item, sourceDate: date }));
+          }
         } catch (_) {}
         return [];
       })
@@ -60,25 +84,37 @@ async function loadAllData() {
 
     const seen = new Set();
     allDataCache = results.flat().filter(item => {
-      if (seen.has(item.id)) return false;
-      seen.add(item.id);
+      const key = `${item.sourceDate}::${item.id || item.url || item.title || JSON.stringify(item)}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
       return true;
     });
+    sourceDateCounts = allDataCache.reduce((acc, item) => {
+      if (item.sourceDate) acc[item.sourceDate] = (acc[item.sourceDate] || 0) + 1;
+      return acc;
+    }, {});
+    if (!calendarMonth) {
+      const latestDate = Object.keys(sourceDateCounts).sort().pop();
+      calendarMonth = ($('dateInput').value || latestDate || formatFileDate(new Date())).slice(0, 7);
+    }
+    renderCalendar();
 
     return allDataCache;
   } catch (_) {
+    renderCalendar();
     return [];
   }
 }
 
 /**
- * 按发布日期筛选并显示
+ * 用户选择某日时，优先按抓取日期 sourceDate 展示；没有时回退到公告发布日期 date。
  */
 async function loadData() {
   const date = $('dateInput').value;
   if (!date) {
     $('announcementList').innerHTML = '<div class="empty-state">请选择日期</div>';
     $('stats').textContent = '';
+    renderCalendar();
     return;
   }
 
@@ -87,8 +123,14 @@ async function loadData() {
 
   try {
     const allItems = await loadAllData();
-    // 按公告发布日期筛选
-    allData = allItems.filter(item => item.date === date);
+    const bySourceDate = allItems.filter(item => item.sourceDate === date);
+    if (bySourceDate.length) {
+      allData = bySourceDate;
+      currentDisplayBasis = '按抓取日期展示';
+    } else {
+      allData = allItems.filter(item => item.date === date);
+      currentDisplayBasis = allData.length ? '按公告发布日期展示' : '无公告';
+    }
 
     if (!cachedSites) {
       populateSiteFilter();
@@ -104,7 +146,7 @@ function populateSiteFilter() {
   const sites = [...new Set(allData.map(d => d.siteName).filter(Boolean))].sort();
   const cur = $('siteFilter').value;
   $('siteFilter').innerHTML = '<option value="">全部站点</option>' +
-    sites.map(s => `<option value="${s}">${s}</option>`).join('');
+    sites.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('');
   $('siteFilter').value = cur;
 }
 
@@ -121,12 +163,19 @@ function applyFilters() {
   renderList();
   const total = allData.length;
   const shown = filteredData.length;
+  const date = $('dateInput').value;
+  const basisText = currentDisplayBasis ? `（${currentDisplayBasis}）` : '';
   $('stats').textContent = shown === total
-    ? `共 ${total} 条发布于 ${$('dateInput').value} 的公告`
-    : `显示 ${shown} / ${total} 条发布于 ${$('dateInput').value} 的公告`;
+    ? `共 ${total} 条 ${date} 的公告${basisText}`
+    : `显示 ${shown} / ${total} 条 ${date} 的公告${basisText}`;
 }
 
 function renderList() {
+  if (!allData.length) {
+    $('announcementList').innerHTML = renderNoDataOptions($('dateInput').value);
+    return;
+  }
+
   if (!filteredData.length) {
     $('announcementList').innerHTML = '<div class="empty-state">暂无匹配的公告</div>';
     return;
@@ -137,7 +186,8 @@ function renderList() {
       <div class="card-header" onclick="toggleDetail('${esc(item.id)}')">
         <span class="card-title">${esc(item.title)}</span>
         <span class="card-meta">
-          ${item.date ? `<span class="tag date-tag">${esc(item.date)}</span>` : ''}
+          ${item.date ? `<span class="tag date-tag" title="公告发布日期">${esc(item.date)}</span>` : ''}
+          ${item.sourceDate ? `<span class="tag source-date-tag" title="抓取日期">抓取 ${esc(item.sourceDate)}</span>` : ''}
           ${item.category ? `<span class="tag">${esc(item.category)}</span>` : ''}
           ${item.siteName ? `<span class="tag">${esc(item.siteName)}</span>` : ''}
         </span>
@@ -149,6 +199,68 @@ function renderList() {
       </div>
     </div>
   `).join('');
+}
+
+function renderNoDataOptions(date) {
+  const dates = Object.keys(sourceDateCounts).sort();
+  const prev = [...dates].reverse().find(d => d < date);
+  const next = dates.find(d => d > date);
+  const optionHtml = [prev, next].filter(Boolean).map(d => `
+    <button type="button" class="nearby-date" data-date="${esc(d)}">
+      ${d} · ${sourceDateCounts[d]} 条
+    </button>
+  `).join('');
+
+  return `<div class="empty-state">
+    <div>所选日期暂无公告。</div>
+    ${optionHtml ? `<div class="nearby-dates"><div class="nearby-title">可跳转到邻近有数据日期：</div>${optionHtml}</div>` : ''}
+  </div>`;
+}
+
+function renderCalendar() {
+  const container = $('monthCalendar');
+  if (!container || !calendarMonth) return;
+  const [year, month] = calendarMonth.split('-').map(Number);
+  const first = new Date(year, month - 1, 1);
+  const daysInMonth = new Date(year, month, 0).getDate();
+  const selectedDate = $('dateInput').value;
+  const blanks = Array(first.getDay()).fill('<div class="calendar-day blank"></div>').join('');
+  const dayHtml = Array.from({ length: daysInMonth }, (_, i) => {
+    const day = i + 1;
+    const date = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+    const count = sourceDateCounts[date] || 0;
+    const classes = ['calendar-day'];
+    if (count) classes.push('has-data');
+    if (date === selectedDate) classes.push('selected');
+    return `<button type="button" class="${classes.join(' ')}" data-date="${date}">
+      <span class="day-number">${day}</span>
+      ${count ? `<span class="day-count">${count}条</span>` : ''}
+    </button>`;
+  }).join('');
+
+  container.innerHTML = `
+    <div class="calendar-header">
+      <button type="button" class="calendar-nav" data-month="-1">上月</button>
+      <strong>${year}年${month}月抓取日期统计</strong>
+      <button type="button" class="calendar-nav" data-month="1">下月</button>
+    </div>
+    <div class="calendar-weekdays"><span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span></div>
+    <div class="calendar-grid">${blanks}${dayHtml}</div>
+  `;
+}
+
+function shiftCalendarMonth(delta) {
+  const [year, month] = calendarMonth.split('-').map(Number);
+  const next = new Date(year, month - 1 + delta, 1);
+  calendarMonth = `${next.getFullYear()}-${String(next.getMonth() + 1).padStart(2, '0')}`;
+  renderCalendar();
+}
+
+function setSelectedDate(date) {
+  $('dateInput').value = date;
+  calendarMonth = date.slice(0, 7);
+  renderCalendar();
+  loadData();
 }
 
 function exportToWord() {
