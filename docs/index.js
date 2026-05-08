@@ -12,12 +12,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   $('exportWordBtn').addEventListener('click', exportToWord);
   $('siteFilter').addEventListener('change', applyFilters);
   $('search').addEventListener('input', applyFilters);
-  $('dateInput').addEventListener('change', () => {
-    const date = $('dateInput').value;
-    if (date) calendarMonth = date.slice(0, 7);
-    loadData();
-  });
-  $('dateInput').addEventListener('keydown', e => { if (e.key === 'Enter') loadData(); });
   $('monthCalendar').addEventListener('click', e => {
     const btn = e.target.closest('button[data-date], button[data-month]');
     if (!btn) return;
@@ -91,7 +85,8 @@ async function loadAllData() {
     }, {});
     if (!calendarMonth) {
       const latestDate = Object.keys(dateCounts).sort().pop();
-      calendarMonth = ($('dateInput').value || latestDate || formatFileDate(new Date())).slice(0, 7);
+      const initialDate = $('dateInput').value || latestDate || formatFileDate(new Date());
+      calendarMonth = initialDate.slice(0, 7);
     }
     renderCalendar();
 
@@ -108,11 +103,12 @@ async function loadAllData() {
 async function loadData() {
   const date = $('dateInput').value;
   if (!date) {
-    $('announcementList').innerHTML = '<div class="empty-state">请选择日期</div>';
+    $('announcementList').innerHTML = '<div class="empty-state">请在上方日历中选择日期</div>';
     $('stats').textContent = '';
     renderCalendar();
     return;
   }
+  $('selectedDateText').textContent = date;
 
   $('stats').textContent = '';
   $('announcementList').innerHTML = '<div class="empty-state">加载中...</div>';
@@ -169,9 +165,11 @@ function renderList() {
     return;
   }
 
-  $('announcementList').innerHTML = filteredData.map(item => `
-    <div class="card" id="card-${esc(item.id)}">
-      <div class="card-header" onclick="toggleDetail('${esc(item.id)}')">
+  $('announcementList').innerHTML = filteredData.map((item, idx) => {
+    const uid = item.id || `item-${idx}`;
+    return `
+    <div class="card" id="card-${esc(uid)}">
+      <div class="card-header" onclick="toggleDetail('${esc(uid)}')">
         <span class="card-title">${esc(item.title)}</span>
         <span class="card-meta">
           ${item.date ? `<span class="tag date-tag" title="公告发布日期">${esc(item.date)}</span>` : ''}
@@ -179,13 +177,13 @@ function renderList() {
           ${item.siteName ? `<span class="tag">${esc(item.siteName)}</span>` : ''}
         </span>
       </div>
-      <div class="card-detail" id="detail-${esc(item.id)}">
+      <div class="card-detail" id="detail-${esc(uid)}">
         ${item.url ? `<div class="field"><span class="field-label">链接：</span><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.url)}</a></div>` : ''}
         ${item.summary ? `<div class="field"><span class="field-label">摘要：</span>${esc(item.summary)}</div>` : ''}
         ${item.siteUrl ? `<div class="field"><span class="field-label">来源站点：</span><a href="${esc(item.siteUrl)}" target="_blank" rel="noopener">${esc(item.siteUrl)}</a></div>` : ''}
       </div>
-    </div>
-  `).join('');
+    </div>`;
+  }).join('');
 }
 
 function renderNoDataOptions(date) {
@@ -245,6 +243,7 @@ function shiftCalendarMonth(delta) {
 
 function setSelectedDate(date) {
   $('dateInput').value = date;
+  $('selectedDateText').textContent = date;
   calendarMonth = date.slice(0, 7);
   renderCalendar();
   loadData();

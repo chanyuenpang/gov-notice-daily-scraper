@@ -44,7 +44,6 @@ header h1 {
 }
 
 .controls input[type="text"],
-.controls input[type="date"],
 .controls select {
   padding: 0.45rem 0.75rem;
   border: 1px solid rgba(255,255,255,0.3);
@@ -54,6 +53,16 @@ header h1 {
   background: rgba(255,255,255,0.95);
   color: var(--text);
   transition: border-color 0.2s;
+}
+.selected-date-text {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(255,255,255,0.15);
+  padding: 0.45rem 0.75rem;
+  border-radius: 6px;
+  min-width: 100px;
+  text-align: center;
 }
 .controls input:focus,
 .controls select:focus {
