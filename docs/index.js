@@ -23,7 +23,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
   $('announcementList').addEventListener('click', e => {
     const btn = e.target.closest('button[data-date]');
-    if (btn) setSelectedDate(btn.dataset.date);
+    if (btn) { setSelectedDate(btn.dataset.date); return; }
+    const header = e.target.closest('.card-header');
+    if (header) {
+      const detail = header.nextElementSibling;
+      if (detail && detail.classList.contains('card-detail')) detail.classList.toggle('open');
+    }
   });
   await loadSites();
   await loadAllData();
@@ -105,6 +110,7 @@ async function loadData() {
   if (!date) {
     $('announcementList').innerHTML = '<div class="empty-state">请在上方日历中选择日期</div>';
     $('stats').textContent = '';
+    $('selectedDateText').textContent = '';
     renderCalendar();
     return;
   }
@@ -165,11 +171,9 @@ function renderList() {
     return;
   }
 
-  $('announcementList').innerHTML = filteredData.map((item, idx) => {
-    const uid = item.id || `item-${idx}`;
-    return `
-    <div class="card" id="card-${esc(uid)}">
-      <div class="card-header" onclick="toggleDetail('${esc(uid)}')">
+  $('announcementList').innerHTML = filteredData.map(item => `
+    <div class="card">
+      <div class="card-header">
         <span class="card-title">${esc(item.title)}</span>
         <span class="card-meta">
           ${item.date ? `<span class="tag date-tag" title="公告发布日期">${esc(item.date)}</span>` : ''}
@@ -177,13 +181,13 @@ function renderList() {
           ${item.siteName ? `<span class="tag">${esc(item.siteName)}</span>` : ''}
         </span>
       </div>
-      <div class="card-detail" id="detail-${esc(uid)}">
+      <div class="card-detail">
         ${item.url ? `<div class="field"><span class="field-label">链接：</span><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.url)}</a></div>` : ''}
         ${item.summary ? `<div class="field"><span class="field-label">摘要：</span>${esc(item.summary)}</div>` : ''}
         ${item.siteUrl ? `<div class="field"><span class="field-label">来源站点：</span><a href="${esc(item.siteUrl)}" target="_blank" rel="noopener">${esc(item.siteUrl)}</a></div>` : ''}
       </div>
-    </div>`;
-  }).join('');
+    </div>`
+  ).join('');
 }
 
 function renderNoDataOptions(date) {
@@ -363,10 +367,7 @@ function escapeAttribute(str) {
   return escapeWordHtml(str).replace(/<br>/g, '');
 }
 
-function toggleDetail(id) {
-  const el = $(`detail-${id}`);
-  if (el) el.classList.toggle('open');
-}
+// toggleDetail removed — expand/collapse handled by event delegation on announcementList
 
 function esc(str) {
   if (!str) return '';

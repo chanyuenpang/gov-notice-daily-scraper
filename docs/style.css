@@ -249,6 +249,19 @@ main {
 /* Source date tag */
 .tag.source-date-tag { background: #fef3c7; color: #92400e; }
 
+/* Selected date display */
+.selected-date-text {
+  display: inline-block;
+  padding: 0.45rem 0.85rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: rgba(255,255,255,0.95);
+  color: #1e3a5f;
+  min-width: 100px;
+  text-align: center;
+}
+
 /* Nearby date navigation (empty state) */
 .nearby-dates { margin-top: 1rem; }
 .nearby-title { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.5rem; }
