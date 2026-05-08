@@ -97,7 +97,7 @@ def sync_date(date_dir: Path) -> bool:
     # 确保每条记录有 date 字段
     for item in data:
         if 'date' not in item or not item['date']:
-            item['date'] = dirname
+            item['date'] = ''
 
     # 写入 docs/data/{date}.json
     dst_path = DOCS_DATA_DIR / f"{dirname}.json"
