@@ -1,0 +1,195 @@
+{
+  "date": "2026-05-09",
+  "generatedAt": "2026-05-09T07:47:35+08:00",
+  "stage": 2,
+  "results": [
+    {
+      "siteId": "xmsme_cn",
+      "siteName": "厦门市中小企业服务中心",
+      "url": "http://www.xmsme.cn/",
+      "status": "success",
+      "strategyUsed": "api",
+      "announcements": [
+        {
+          "title": "厦门市科学技术局关于2026年度厦门市自然科学基金评审项目的公示",
+          "url": "https://www.xmsme.cn/policy/market/60508LG9yIMWBuS",
+          "date": "2026-05-08",
+          "source": "厦门市科学技术局",
+          "category": "科技创新",
+          "type": "公示公告"
+        },
+        {
+          "title": "福建省教育厅关于印发《福建省特殊教育学校基本办学要求》的通知",
+          "url": "https://www.xmsme.cn/policy/market/60508Fs9paCbpZ8",
+          "date": "2026-05-08",
+          "source": "福建省教育厅",
+          "category": "其他",
+          "type": "管理办法"
+        },
+        {
+          "title": "福建省教育厅关于公布2026年五年制高等职业教育招生专业的通知",
+          "url": "https://www.xmsme.cn/policy/market/60508wfG6gXtTv2",
+          "date": "2026-05-08",
+          "source": "福建省教育厅",
+          "category": "其他",
+          "type": "管理办法"
+        },
+        {
+          "title": "厦门市同安区科技和工信商务局关于发放2026年汽车置换更新第一批补贴名单的公示",
+          "url": "https://www.xmsme.cn/policy/market/60508gfs4Me0h8G",
+          "date": "2026-05-08",
+          "source": "同安区科技和工信商务局",
+          "category": "其他",
+          "type": "公示公告"
+        },
+        {
+          "title": "厦门市工程经济系列职称改革领导小组厦门市职称改革工作办公室关于报送2025年度工程师（综合类）评审材料的通知",
+          "url": "https://www.xmsme.cn/policy/market/605083fgikMkpgl",
+          "date": "2026-05-08",
+          "source": "厦门市工业和信息化局",
+          "category": "其他",
+          "type": "申报通知"
+        },
+        {
+          "title": "厦门市工艺美术系列职称改革领导小组厦门市职称改革工作办公室关于报送2025年度工艺美术师评审材料的通知",
+          "url": "https://www.xmsme.cn/policy/market/605088hAuwokpiS",
+          "date": "2026-05-08",
+          "source": "厦门市工业和信息化局",
+          "category": "其他",
+          "type": "申报通知"
+        },
+        {
+          "title": "厦门市工业和信息化局关于开展2026年度厦门市优质中小企业信息更新工作的通知",
+          "url": "https://www.xmsme.cn/policy/market/60508cFLwVb4yy9",
+          "date": "2026-05-08",
+          "source": "厦门市工业和信息化局",
+          "category": "产业发展",
+          "type": "申报通知"
+        },
+        {
+          "title": "厦门市司法局关于《厦门经济特区人工智能产业促进条例（草案送审稿）》公开征求意见的通知",
+          "url": "https://www.xmsme.cn/policy/market/6050821TWnzNOlO",
+          "date": "2026-05-08",
+          "source": "厦门市人民政府",
+          "category": "产业发展",
+          "type": "其他"
+        },
+        {
+          "title": "厦门市医疗保障中心关于第四批定点零售药店拟新增配置有关事项的通知",
+          "url": "https://www.xmsme.cn/policy/market/60508R13dR5tYgW",
+          "date": "2026-05-08",
+          "source": "厦门市医疗保障局",
+          "category": "其他",
+          "type": "申报通知"
+        },
+        {
+          "title": "福建省自然资源厅关于2026年度拟入库专家名单公示",
+          "url": "https://www.xmsme.cn/policy/market/605085Q8RTxMjJb",
+          "date": "2026-05-07",
+          "source": "福建省自然资源厅",
+          "category": "其他",
+          "type": "公示公告"
+        },
+        {
+          "title": "厦门市商务局关于第140届广交会出口展展位申请事宜的通告",
+          "url": "https://www.xmsme.cn/policy/market/60508Lp8DxFLdwd",
+          "date": "2026-05-07",
+          "source": "厦门市商务局",
+          "category": "市场拓展",
+          "type": "申报通知"
+        },
+        {
+          "title": "厦门市工业和信息化局关于2025年“群鹭兴厦”三项产业人才项目拟入选人才的公示",
+          "url": "https://www.xmsme.cn/policy/market/60508Mdn30z32C3",
+          "date": "2026-05-07",
+          "source": "厦门市工业和信息化局",
+          "category": "人才政策",
+          "type": "公示公告"
+        },
+        {
+          "title": "福建省人力资源和社会保障厅关于省级第二批“揭榜挂帅”职业技能培训项目入围单位名单的公示",
+          "url": "https://www.xmsme.cn/policy/market/60508zExlbxawXH",
+          "date": "2026-05-07",
+          "source": "福建省人力资源和社会保障厅",
+          "category": "人才政策",
+          "type": "公示公告"
+        },
+        {
+          "title": "福建省市场监督管理局关于拟正式推荐申报第二十六届中国专利奖项目公示",
+          "url": "https://www.xmsme.cn/policy/market/605085EJw7x8BLI",
+          "date": "2026-05-07",
+          "source": "福建省市场监督管理局(知识产权局)",
+          "category": "科技创新",
+          "type": "公示公告"
+        },
+        {
+          "title": "厦门市科学技术局关于开展2026年厦门市疾病防治领域重大科技计划项目定向申报的通知",
+          "url": "https://www.xmsme.cn/policy/market/60508dlf1SLCCAB",
+          "date": "2026-05-07",
+          "source": "厦门市科学技术局",
+          "category": "科技创新",
+          "type": "申报通知"
+        },
+        {
+          "title": "厦门市科学技术局转发科技部国际合作司关于发布国家重点研发计划“政府间国际科技创新合作”重点专项2026年度第二批联合研发项目申报指南的通知",
+          "url": "https://www.xmsme.cn/policy/market/60508aw7vLjzsys",
+          "date": "2026-05-07",
+          "source": "厦门市科学技术局",
+          "category": "科技创新",
+          "type": "申报通知"
+        },
+        {
+          "title": "厦门市人力资源和社会保障局关于公布2026年厦门市职业技能培训需求（含急需紧缺工种）指导目录的通知",
+          "url": "https://www.xmsme.cn/policy/market/605081I2QDtCwy9",
+          "date": "2026-05-07",
+          "source": "厦门市人力资源和社会保障局",
+          "category": "人才政策",
+          "type": "公示公告"
+        },
+        {
+          "title": "厦门市人力资源和社会保障局关于公布2026年厦门市补贴性职业技能培训机构（单位）目录的通知",
+          "url": "https://www.xmsme.cn/policy/market/60508HZvwntYr5V",
+          "date": "2026-05-07",
+          "source": "厦门市人力资源和社会保障局",
+          "category": "人才政策",
+          "type": "公示公告"
+        },
+        {
+          "title": "厦门市集美区人民政府关于发布野生动物禁猎区、禁猎期以及禁止使用的猎捕工具和猎捕方法的通告",
+          "url": "https://www.xmsme.cn/policy/market/605085WLG9K6zIe",
+          "date": "2026-05-07",
+          "source": "集美区人民政府",
+          "category": "其他",
+          "type": "管理办法"
+        },
+        {
+          "title": "厦门市工业和信息化局 厦门市教育局 厦门市人力资源和社会保障局关于联合举办2026年全国中小企业网上百日招聘高校毕业生活动的通知",
+          "url": "https://www.xmsme.cn/policy/market/60507uSC43O4fT2",
+          "date": "2026-05-07",
+          "source": "厦门市教育局",
+          "category": "人才政策",
+          "type": "其他"
+        }
+      ],
+      "error": null,
+      "durationMs": 0,
+      "ruleGenerated": true,
+      "discoveredSelector": {
+        "api": "POST https://www.xmsme.cn/api/gxdp/documents/previewpage",
+        "dataPath": "rows",
+        "fields": {
+          "title": "name",
+          "date": "issuedTime",
+          "id": "id"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "success": 1,
+    "failed": 0,
+    "totalAnnouncements": 20,
+    "rulesGenerated": 1
+  }
+}

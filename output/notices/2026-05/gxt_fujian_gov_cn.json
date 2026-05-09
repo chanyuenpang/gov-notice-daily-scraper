@@ -2,187 +2,26 @@
   "siteId": "gxt_fujian_gov_cn",
   "siteName": "福建省工业和信息化厅",
   "month": "2026-05",
-  "updatedAt": "2026-05-08T21:52:35",
+  "updatedAt": "2026-05-09T07:47:35",
   "announcements": [
-    {
-      "title": "中共中央办公厅 国务院办公厅关于加强新就业群体服务管理的意见",
-      "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7066997.htm",
-      "date": "2026-04-26",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "中共中央办公厅 国务院办公厅印发《碳达峰碳中和综合评价考核办法》",
-      "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7066694.htm",
-      "date": "2026-04-23",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "中共中央办公厅 国务院办公厅关于更高水平更高质量做好节能降碳工作的意见",
-      "url": "https://www.gov.cn/yaowen/liebiao/202604/content_7066615.htm",
-      "date": "2026-04-22",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "国务院关于推进服务业扩能提质的意见",
-      "url": "https://www.gov.cn/zhengce/content/202604/content_7066483.htm",
-      "date": "2026-04-21",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "国务院办公厅转发海关总署《关于促进综合保税区扩能提质的若干措施》的通知",
-      "url": "https://www.gov.cn/zhengce/content/202604/content_7066113.htm",
-      "date": "2026-04-17",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "国务院办公厅关于深化投资审批制度改革的意见",
-      "url": "https://www.gov.cn/zhengce/content/202604/content_7065687.htm",
-      "date": "2026-04-15",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "国务院办公厅关于健全药品价格形成机制的若干意见",
-      "url": "https://www.gov.cn/zhengce/content/202604/content_7065541.htm",
-      "date": "2026-04-14",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "丁薛祥出席第九届数字中国建设峰会开幕式并发表主旨讲话",
-      "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260429_7132950.htm",
-      "date": "2026-04-29",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "周祖翼赵龙与出席第九届数字中国建设峰会嘉宾代表交流座谈",
-      "url": "http://www.fujian.gov.cn/xwdt/fjyw/202605/t20260501_7143703.htm",
-      "date": "2026-05-01",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "省委常委会召开会议",
-      "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260430_7143687.htm",
-      "date": "2026-04-30",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "第九届数字中国建设峰会主论坛举行",
-      "url": "http://www.fujian.gov.cn/xwdt/fjyw/202604/t20260430_7132952.htm",
-      "date": "2026-04-30",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "文旅“上新”，线狮腾跃光饼飘香",
-      "url": "http://www.fujian.gov.cn/xwdt/fjyw/202605/t20260503_7143802.htm",
-      "date": "2026-05-03",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "福州地铁客流连创新高",
-      "url": "http://www.fujian.gov.cn/xwdt/fjyw/202605/t20260503_7143801.htm",
-      "date": "2026-05-03",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "地铁工地上的“烽火青春”",
-      "url": "http://www.fujian.gov.cn/xwdt/fjyw/202605/t20260503_7143800.htm",
-      "date": "2026-05-03",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "让数智技术从“试点好用”到“全域能用”",
-      "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202604/t20260430_7133218.htm",
-      "date": "2026-04-30",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "数智东风劲 百业新绿生",
-      "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202604/t20260430_7133214.htm",
-      "date": "2026-04-30",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "AI狂飙，硬核技术撑起中国企业的底气",
-      "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202604/t20260430_7133210.htm",
-      "date": "2026-04-30",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "第九届数字中国建设峰会主论坛举行",
-      "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202604/t20260430_7133203.htm",
-      "date": "2026-04-30",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "数智赋能启新程",
-      "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202604/t20260429_7132637.htm",
-      "date": "2026-04-29",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "触摸数智脉动，解码未来图景",
-      "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202604/t20260429_7132624.htm",
-      "date": "2026-04-29",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "第九届数字中国建设峰会今日在福州开幕",
-      "url": "http://gxt.fujian.gov.cn/zwgk/xw/jxyw/202604/t20260429_7132622.htm",
-      "date": "2026-04-29",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "聚焦二十大 奋进新征程",
-      "url": "javascript:;",
-      "date": "",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "全省法院五年来审理涉新就业形态劳动争议案件1796件",
-      "url": "http://www.fujian.gov.cn/xwdt/fjyw/202605/t20260504_7143831.htm",
-      "date": "2026-05-04",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "一季度福建省竹制家具出口位居全国第一",
-      "url": "http://www.fujian.gov.cn/xwdt/fjyw/202605/t20260504_7143832.htm",
-      "date": "2026-05-04",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
-    {
-      "title": "在强国路上闪耀青春光芒",
-      "url": "http://www.fujian.gov.cn/xwdt/fjyw/202605/t20260504_7143833.htm",
-      "date": "2026-05-04",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省供销合作社"
-    },
     {
       "title": "福建省违规拖欠中小企业账款投诉联络表",
       "url": "http://gxt.fujian.gov.cn/zwgk/gsgg/202307/t20230705_6200415.htm",
       "date": "2023-07-05",
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省工业和信息化厅"
+    },
+    {
+      "title": "关于2026年福建省适老化新产品的公示",
+      "url": "http://gxt.fujian.gov.cn/zwgk/gsgg/202605/t20260506_7144352.htm",
+      "date": "2026-05-06",
+      "siteId": "gxt_fujian_gov_cn",
+      "siteName": "福建省工业和信息化厅"
+    },
+    {
+      "title": "关于2026年福建省软件业技术创新重点攻关及产业化项目拟入选名单的公示",
+      "url": "http://gxt.fujian.gov.cn/zwgk/gsgg/202605/t20260506_7144251.htm",
+      "date": "2026-05-06",
       "siteId": "gxt_fujian_gov_cn",
       "siteName": "福建省工业和信息化厅"
     },
@@ -372,34 +211,6 @@
       "title": "福建省工业和信息化厅关于中稀金龙（长汀）稀土有限公司5000吨/年稀土冶炼分离技改搬迁项目产能置换方案的公示",
       "url": "http://gxt.fujian.gov.cn/zwgk/gsgg/202512/t20251215_7045903.htm",
       "date": "2025-12-15",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省工业和信息化厅"
-    },
-    {
-      "title": "关于2025年福建省工信厅制造业中试服务平台拟认定培育名单的公示",
-      "url": "http://gxt.fujian.gov.cn/zwgk/gsgg/202512/t20251211_7045226.htm",
-      "date": "2025-12-11",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省工业和信息化厅"
-    },
-    {
-      "title": "关于2025年第二批“电动福建”建设专项资金项目名单的公示",
-      "url": "http://gxt.fujian.gov.cn/zwgk/gsgg/202512/t20251211_7045041.htm",
-      "date": "2025-12-10",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省工业和信息化厅"
-    },
-    {
-      "title": "关于2026年福建省适老化新产品的公示",
-      "url": "http://gxt.fujian.gov.cn/zwgk/gsgg/202605/t20260506_7144352.htm",
-      "date": "2026-05-06",
-      "siteId": "gxt_fujian_gov_cn",
-      "siteName": "福建省工业和信息化厅"
-    },
-    {
-      "title": "关于2026年福建省软件业技术创新重点攻关及产业化项目拟入选名单的公示",
-      "url": "http://gxt.fujian.gov.cn/zwgk/gsgg/202605/t20260506_7144251.htm",
-      "date": "2026-05-06",
       "siteId": "gxt_fujian_gov_cn",
       "siteName": "福建省工业和信息化厅"
     }

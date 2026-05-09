@@ -2,8 +2,22 @@
   "siteId": "jyt_fujian_gov_cn",
   "siteName": "福建省教育厅",
   "month": "2026-05",
-  "updatedAt": "2026-05-08T21:52:35",
+  "updatedAt": "2026-05-09T07:47:35",
   "announcements": [
+    {
+      "title": "2026年度福建省高校思想政治工作质量提升综合改革与精品建设项目遴选结果公示",
+      "url": "http://jyt.fujian.gov.cn/202605/t20260507_7144989.htm",
+      "date": "2026-05-07",
+      "siteId": "jyt_fujian_gov_cn",
+      "siteName": "福建省教育厅"
+    },
+    {
+      "title": "关于新时代中小学党建工作示范学校建设单位验收结果的公示",
+      "url": "http://jyt.fujian.gov.cn/202605/t20260506_7144471.htm",
+      "date": "2026-05-06",
+      "siteId": "jyt_fujian_gov_cn",
+      "siteName": "福建省教育厅"
+    },
     {
       "title": "关于2025年度中小学幼儿园正高级教师职称评审结果的公示",
       "url": "http://jyt.fujian.gov.cn/202604/t20260428_7132225.htm",
@@ -197,34 +211,6 @@
       "title": "福建省教育厅关于拟申报高校设置事项的公示",
       "url": "http://jyt.fujian.gov.cn/202512/t20251204_7042472.htm",
       "date": "2025-12-04",
-      "siteId": "jyt_fujian_gov_cn",
-      "siteName": "福建省教育厅"
-    },
-    {
-      "title": "关于第三届福建省“最美高校辅导员”拟推选人员名单的公示",
-      "url": "http://jyt.fujian.gov.cn/202512/t20251201_7040557.htm",
-      "date": "2025-12-01",
-      "siteId": "jyt_fujian_gov_cn",
-      "siteName": "福建省教育厅"
-    },
-    {
-      "title": "关于2025年福建省本科高校教育教学研究项目拟立项名单的公示",
-      "url": "http://jyt.fujian.gov.cn/202511/t20251128_7039941.htm",
-      "date": "2025-11-28",
-      "siteId": "jyt_fujian_gov_cn",
-      "siteName": "福建省教育厅"
-    },
-    {
-      "title": "关于新时代中小学党建工作示范学校建设单位验收结果的公示",
-      "url": "http://jyt.fujian.gov.cn/202605/t20260506_7144471.htm",
-      "date": "2026-05-06",
-      "siteId": "jyt_fujian_gov_cn",
-      "siteName": "福建省教育厅"
-    },
-    {
-      "title": "2026年度福建省高校思想政治工作质量提升综合改革与精品建设项目遴选结果公示",
-      "url": "http://jyt.fujian.gov.cn/202605/t20260507_7144989.htm",
-      "date": "2026-05-07",
       "siteId": "jyt_fujian_gov_cn",
       "siteName": "福建省教育厅"
     }

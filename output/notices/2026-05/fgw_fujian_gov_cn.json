@@ -2,26 +2,33 @@
   "siteId": "fgw_fujian_gov_cn",
   "siteName": "福建省发展和改革委员会",
   "month": "2026-05",
-  "updatedAt": "2026-05-08T21:52:35",
+  "updatedAt": "2026-05-09T07:47:35",
   "announcements": [
-    {
-      "title": "返回首页",
-      "url": "http://fgw.fujian.gov.cn/",
-      "date": "",
-      "siteId": "fgw_fujian_gov_cn",
-      "siteName": "福建省发展和改革委员会"
-    },
-    {
-      "title": "进行搜索",
-      "url": "http://fgw.fujian.gov.cn/search/",
-      "date": "",
-      "siteId": "fgw_fujian_gov_cn",
-      "siteName": "福建省发展和改革委员会"
-    },
     {
       "title": "福建省发展和改革委员会及下属单位综合性涉企收费目录清单",
       "url": "https://fgw.fujian.gov.cn/zwgk/gsgg/202506/t20250630_6959288.htm",
       "date": "2025-06-30",
+      "siteId": "fgw_fujian_gov_cn",
+      "siteName": "福建省发展和改革委员会"
+    },
+    {
+      "title": "福建省发展和改革委员会关于成品油价格调整的通告",
+      "url": "https://fgw.fujian.gov.cn/zfxxgkzl/zfxxgkml/yzdgkdqtxx/202605/t20260508_7145697.htm",
+      "date": "2026-05-08",
+      "siteId": "fgw_fujian_gov_cn",
+      "siteName": "福建省发展和改革委员会"
+    },
+    {
+      "title": "关于公布福建省微型、轻型、小型无人驾驶航空器适飞空域范围的公告",
+      "url": "https://fgw.fujian.gov.cn/zwgk/gsgg/202605/t20260508_7145354.htm",
+      "date": "2026-05-08",
+      "siteId": "fgw_fujian_gov_cn",
+      "siteName": "福建省发展和改革委员会"
+    },
+    {
+      "title": "福建省发展和改革委员会关于2026年度省级工程研究中心评审结果的公示",
+      "url": "https://fgw.fujian.gov.cn/zwgk/gsgg/202605/t20260506_7144653.htm",
+      "date": "2026-05-06",
       "siteId": "fgw_fujian_gov_cn",
       "siteName": "福建省发展和改革委员会"
     },
@@ -99,48 +106,6 @@
       "title": "福建省发展和改革委员会关于购买福建省“十五五”规划《纲要》出版印制询价结果的公告",
       "url": "https://fgw.fujian.gov.cn/zwgk/gsgg/202603/t20260320_7114131.htm",
       "date": "2026-03-20",
-      "siteId": "fgw_fujian_gov_cn",
-      "siteName": "福建省发展和改革委员会"
-    },
-    {
-      "title": "福建省发展和改革委员会关于成品油价格调整的通告",
-      "url": "https://fgw.fujian.gov.cn/zfxxgkzl/zfxxgkml/yzdgkdqtxx/202603/t20260309_7107766.htm",
-      "date": "2026-03-09",
-      "siteId": "fgw_fujian_gov_cn",
-      "siteName": "福建省发展和改革委员会"
-    },
-    {
-      "title": "福建省发展和改革委员会 福建省新闻出版局关于公布我省2026年春季中小学教材和教辅材料零售价格的通告",
-      "url": "https://fgw.fujian.gov.cn/zfxxgkzl/zfxxgkml/fpjyylsbjy/202603/t20260306_7106207.htm",
-      "date": "2026-03-06",
-      "siteId": "fgw_fujian_gov_cn",
-      "siteName": "福建省发展和改革委员会"
-    },
-    {
-      "title": "福建省发展和改革委员会关于2025年度省重点项目考评结果的通报",
-      "url": "https://fgw.fujian.gov.cn/zfxxgkzl/zfxxgkml/yzdgkdqtxx/202603/t20260302_7103687.htm",
-      "date": "2026-03-02",
-      "siteId": "fgw_fujian_gov_cn",
-      "siteName": "福建省发展和改革委员会"
-    },
-    {
-      "title": "福建省发展和改革委员会关于2026年度省级工程研究中心评审结果的公示",
-      "url": "https://fgw.fujian.gov.cn/zwgk/gsgg/202605/t20260506_7144653.htm",
-      "date": "2026-05-06",
-      "siteId": "fgw_fujian_gov_cn",
-      "siteName": "福建省发展和改革委员会"
-    },
-    {
-      "title": "福建省发展和改革委员会关于成品油价格调整的通告",
-      "url": "https://fgw.fujian.gov.cn/zfxxgkzl/zfxxgkml/yzdgkdqtxx/202605/t20260508_7145697.htm",
-      "date": "2026-05-08",
-      "siteId": "fgw_fujian_gov_cn",
-      "siteName": "福建省发展和改革委员会"
-    },
-    {
-      "title": "关于公布福建省微型、轻型、小型无人驾驶航空器适飞空域范围的公告",
-      "url": "https://fgw.fujian.gov.cn/zwgk/gsgg/202605/t20260508_7145354.htm",
-      "date": "2026-05-08",
       "siteId": "fgw_fujian_gov_cn",
       "siteName": "福建省发展和改革委员会"
     }

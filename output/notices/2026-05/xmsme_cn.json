@@ -2,387 +2,167 @@
   "siteId": "xmsme_cn",
   "siteName": "厦门市中小企业服务中心",
   "month": "2026-05",
-  "updatedAt": "2026-05-08T21:55:00",
+  "updatedAt": "2026-05-09T12:29:18",
   "announcements": [
     {
-      "title": "福建省工业和信息化厅关于2026年福建省适老化新产品的公示",
-      "date": "2026-05-06",
-      "link": "https://www.xmsme.cn/policy/market/605062ISoCAuWCk"
-    },
-    {
-      "title": "福建省工业和信息化厅关于2026年福建省软件业技术创新重点攻关及产业化项目拟入选名单的公示",
-      "date": "2026-05-06",
-      "link": "https://www.xmsme.cn/policy/market/60506ZLjl18ESUp"
-    },
-    {
-      "title": "厦门市人力资源和社会保障局关于就业见习期未满留用奖励的公示",
-      "date": "2026-05-06",
-      "link": "https://www.xmsme.cn/policy/market/60506Mjjb1lHagY"
-    },
-    {
-      "title": "湖里区文化和旅游局关于湖里区2026年住宿业春节稳岗补助（第二批）拟兑现企业名单的公示",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60506Ulov9mli1V"
-    },
-    {
-      "title": "湖里区人民政府办公室关于印发湖里区实施质量提升和标准化战略奖励办法（2025年修订）的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60506LCIpbngIms"
-    },
-    {
-      "title": "厦门市工业和信息化局关于开展2026年铅蓄电池行业规范公告申报工作的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430HliDKjIiU2"
-    },
-    {
-      "title": "厦门市工业和信息化局关于公布技术创新基金2026年第一批（总第四十六批）软件企业“白名单”的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430N4wgr38jXa"
-    },
-    {
-      "title": "中共厦门市委教育科技人才工作领导小组办公室 厦门市财政局 厦门市人力资源和社会保障局关于开展柔性引进人才补贴申报工作的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430OFZFGH2Xub"
-    },
-    {
-      "title": "海沧区科技和工信商务局关于组织申报2025年工业企业展位费补助的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60506rkTiMYdb4r"
-    },
-    {
-      "title": "同安区人力资源和社会保障局关于2025年度经营性人力资源服务机构（劳务派遣企业）年度报告情况的公示",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430DMRwpruCn1"
-    },
-    {
-      "title": "厦门市高新技术企业认定专项工作组关于厦门市2026年第一批高新技术企业更名的公告",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430rcUROikUCH"
-    },
-    {
-      "title": "厦门市住房和建设局关于公布2026年第一批智能建造项目的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430UBc5o7sN3L"
-    },
-    {
-      "title": "思明区卫生健康局关于印发思明区向社会资本购买家庭医生签约服务工作扩大试点的方案(修订版）的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430xcYm12uRbV"
-    },
-    {
-      "title": "福建自贸试验区厦门片区管委会关于组织开展2026年福建自贸试验区厦门片区企业新引进应届毕业生临时租房补贴申报的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430592pGcV5Ld"
-    },
-    {
-      "title": "中共福建省委组织部等十部门关于印发《福建省2026年高校毕业生“三支一扶”计划实施方案》的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430LIKiEuWaun"
-    },
-    {
-      "title": "福建省科学技术厅关于印发《福建省企业研发准备金制度实施工作指引（试行）》的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430WCnnZprWiN"
-    },
-    {
-      "title": "中国人民银行 海关总署公告",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60506BycfFXAWiV"
-    },
-    {
-      "title": "国家发展改革委 市场监管总局关于印发《中华人民共和国实行能源效率标识的产品目录（2026年版）》及相关实施规则的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60506yRZtDxUW1t"
-    },
-    {
-      "title": "厦门市人力资源和社会保障局 厦门市总工会 厦门市教育局 厦门市中华职业教育社关于举办2026年厦门市职业技能竞赛、职工劳动和技能竞赛的通知",
-      "date": "2026-04-29",
-      "link": "https://www.xmsme.cn/policy/market/60430wszf65vubg"
-    },
-    {
-      "title": "厦门市工业和信息化局关于公示工业企业供应链子基金“白名单”（第八批）的通知",
-      "date": "2026-04-29",
-      "link": "https://www.xmsme.cn/policy/market/604300Z6jXehtNW"
-    },
-    {
       "title": "厦门市科学技术局关于2026年度厦门市自然科学基金评审项目的公示",
+      "url": "https://www.xmsme.cn/policy/market/60508LG9yIMWBuS",
       "date": "2026-05-08",
-      "link": "https://www.xmsme.cn/policy/market/60508LG9yIMWBuS",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市科学技术局",
+      "category": "科技创新",
+      "type": "公示公告"
     },
     {
       "title": "福建省教育厅关于印发《福建省特殊教育学校基本办学要求》的通知",
+      "url": "https://www.xmsme.cn/policy/market/60508Fs9paCbpZ8",
       "date": "2026-05-08",
-      "link": "https://www.xmsme.cn/policy/market/60508Fs9paCbpZ8",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "福建省教育厅",
+      "category": "其他",
+      "type": "管理办法"
     },
     {
       "title": "福建省教育厅关于公布2026年五年制高等职业教育招生专业的通知",
+      "url": "https://www.xmsme.cn/policy/market/60508wfG6gXtTv2",
       "date": "2026-05-08",
-      "link": "https://www.xmsme.cn/policy/market/60508wfG6gXtTv2",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "福建省教育厅",
+      "category": "其他",
+      "type": "管理办法"
     },
     {
       "title": "厦门市同安区科技和工信商务局关于发放2026年汽车置换更新第一批补贴名单的公示",
+      "url": "https://www.xmsme.cn/policy/market/60508gfs4Me0h8G",
       "date": "2026-05-08",
-      "link": "https://www.xmsme.cn/policy/market/60508gfs4Me0h8G",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "同安区科技和工信商务局",
+      "category": "其他",
+      "type": "公示公告"
     },
     {
       "title": "厦门市工程经济系列职称改革领导小组厦门市职称改革工作办公室关于报送2025年度工程师（综合类）评审材料的通知",
+      "url": "https://www.xmsme.cn/policy/market/605083fgikMkpgl",
       "date": "2026-05-08",
-      "link": "https://www.xmsme.cn/policy/market/605083fgikMkpgl",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市工业和信息化局",
+      "category": "其他",
+      "type": "申报通知"
     },
     {
       "title": "厦门市工艺美术系列职称改革领导小组厦门市职称改革工作办公室关于报送2025年度工艺美术师评审材料的通知",
+      "url": "https://www.xmsme.cn/policy/market/605088hAuwokpiS",
       "date": "2026-05-08",
-      "link": "https://www.xmsme.cn/policy/market/605088hAuwokpiS",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市工业和信息化局",
+      "category": "其他",
+      "type": "申报通知"
     },
     {
       "title": "厦门市工业和信息化局关于开展2026年度厦门市优质中小企业信息更新工作的通知",
+      "url": "https://www.xmsme.cn/policy/market/60508cFLwVb4yy9",
       "date": "2026-05-08",
-      "link": "https://www.xmsme.cn/policy/market/60508cFLwVb4yy9",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市工业和信息化局",
+      "category": "产业发展",
+      "type": "申报通知"
     },
     {
       "title": "厦门市司法局关于《厦门经济特区人工智能产业促进条例（草案送审稿）》公开征求意见的通知",
+      "url": "https://www.xmsme.cn/policy/market/6050821TWnzNOlO",
       "date": "2026-05-08",
-      "link": "https://www.xmsme.cn/policy/market/6050821TWnzNOlO",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市人民政府",
+      "category": "产业发展",
+      "type": "其他"
     },
     {
       "title": "厦门市医疗保障中心关于第四批定点零售药店拟新增配置有关事项的通知",
+      "url": "https://www.xmsme.cn/policy/market/60508R13dR5tYgW",
       "date": "2026-05-08",
-      "link": "https://www.xmsme.cn/policy/market/60508R13dR5tYgW",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市医疗保障局",
+      "category": "其他",
+      "type": "申报通知"
     },
     {
       "title": "福建省自然资源厅关于2026年度拟入库专家名单公示",
+      "url": "https://www.xmsme.cn/policy/market/605085Q8RTxMjJb",
       "date": "2026-05-07",
-      "link": "https://www.xmsme.cn/policy/market/605085Q8RTxMjJb",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "福建省自然资源厅",
+      "category": "其他",
+      "type": "公示公告"
     },
     {
       "title": "厦门市商务局关于第140届广交会出口展展位申请事宜的通告",
+      "url": "https://www.xmsme.cn/policy/market/60508Lp8DxFLdwd",
       "date": "2026-05-07",
-      "link": "https://www.xmsme.cn/policy/market/60508Lp8DxFLdwd",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市商务局",
+      "category": "市场拓展",
+      "type": "申报通知"
     },
     {
       "title": "厦门市工业和信息化局关于2025年“群鹭兴厦”三项产业人才项目拟入选人才的公示",
+      "url": "https://www.xmsme.cn/policy/market/60508Mdn30z32C3",
       "date": "2026-05-07",
-      "link": "https://www.xmsme.cn/policy/market/60508Mdn30z32C3",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市工业和信息化局",
+      "category": "人才政策",
+      "type": "公示公告"
     },
     {
       "title": "福建省人力资源和社会保障厅关于省级第二批“揭榜挂帅”职业技能培训项目入围单位名单的公示",
+      "url": "https://www.xmsme.cn/policy/market/60508zExlbxawXH",
       "date": "2026-05-07",
-      "link": "https://www.xmsme.cn/policy/market/60508zExlbxawXH",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "福建省人力资源和社会保障厅",
+      "category": "人才政策",
+      "type": "公示公告"
     },
     {
       "title": "福建省市场监督管理局关于拟正式推荐申报第二十六届中国专利奖项目公示",
+      "url": "https://www.xmsme.cn/policy/market/605085EJw7x8BLI",
       "date": "2026-05-07",
-      "link": "https://www.xmsme.cn/policy/market/605085EJw7x8BLI",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "福建省市场监督管理局(知识产权局)",
+      "category": "科技创新",
+      "type": "公示公告"
     },
     {
       "title": "厦门市科学技术局关于开展2026年厦门市疾病防治领域重大科技计划项目定向申报的通知",
+      "url": "https://www.xmsme.cn/policy/market/60508dlf1SLCCAB",
       "date": "2026-05-07",
-      "link": "https://www.xmsme.cn/policy/market/60508dlf1SLCCAB",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市科学技术局",
+      "category": "科技创新",
+      "type": "申报通知"
     },
     {
       "title": "厦门市科学技术局转发科技部国际合作司关于发布国家重点研发计划“政府间国际科技创新合作”重点专项2026年度第二批联合研发项目申报指南的通知",
+      "url": "https://www.xmsme.cn/policy/market/60508aw7vLjzsys",
       "date": "2026-05-07",
-      "link": "https://www.xmsme.cn/policy/market/60508aw7vLjzsys",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市科学技术局",
+      "category": "科技创新",
+      "type": "申报通知"
     },
     {
       "title": "厦门市人力资源和社会保障局关于公布2026年厦门市职业技能培训需求（含急需紧缺工种）指导目录的通知",
+      "url": "https://www.xmsme.cn/policy/market/605081I2QDtCwy9",
       "date": "2026-05-07",
-      "link": "https://www.xmsme.cn/policy/market/605081I2QDtCwy9",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市人力资源和社会保障局",
+      "category": "人才政策",
+      "type": "公示公告"
     },
     {
       "title": "厦门市人力资源和社会保障局关于公布2026年厦门市补贴性职业技能培训机构（单位）目录的通知",
+      "url": "https://www.xmsme.cn/policy/market/60508HZvwntYr5V",
       "date": "2026-05-07",
-      "link": "https://www.xmsme.cn/policy/market/60508HZvwntYr5V",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市人力资源和社会保障局",
+      "category": "人才政策",
+      "type": "公示公告"
     },
     {
       "title": "厦门市集美区人民政府关于发布野生动物禁猎区、禁猎期以及禁止使用的猎捕工具和猎捕方法的通告",
+      "url": "https://www.xmsme.cn/policy/market/605085WLG9K6zIe",
       "date": "2026-05-07",
-      "link": "https://www.xmsme.cn/policy/market/605085WLG9K6zIe",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "集美区人民政府",
+      "category": "其他",
+      "type": "管理办法"
     },
     {
       "title": "厦门市工业和信息化局 厦门市教育局 厦门市人力资源和社会保障局关于联合举办2026年全国中小企业网上百日招聘高校毕业生活动的通知",
+      "url": "https://www.xmsme.cn/policy/market/60507uSC43O4fT2",
       "date": "2026-05-07",
-      "link": "https://www.xmsme.cn/policy/market/60507uSC43O4fT2",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "福建省工业和信息化厅关于2026年福建省适老化新产品的公示",
-      "date": "2026-05-06",
-      "link": "https://www.xmsme.cn/policy/market/605062ISoCAuWCk",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "福建省工业和信息化厅关于2026年福建省软件业技术创新重点攻关及产业化项目拟入选名单的公示",
-      "date": "2026-05-06",
-      "link": "https://www.xmsme.cn/policy/market/60506ZLjl18ESUp",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "厦门市人力资源和社会保障局关于就业见习期未满留用奖励的公示",
-      "date": "2026-05-06",
-      "link": "https://www.xmsme.cn/policy/market/60506Mjjb1lHagY",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "湖里区文化和旅游局关于湖里区2026年住宿业春节稳岗补助（第二批）拟兑现企业名单的公示",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60506Ulov9mli1V",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "湖里区人民政府办公室关于印发湖里区实施质量提升和标准化战略奖励办法（2025年修订）的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60506LCIpbngIms",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "厦门市工业和信息化局关于开展2026年铅蓄电池行业规范公告申报工作的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430HliDKjIiU2",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "厦门市工业和信息化局关于公布技术创新基金2026年第一批（总第四十六批）软件企业“白名单”的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430N4wgr38jXa",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "中共厦门市委教育科技人才工作领导小组办公室 厦门市财政局 厦门市人力资源和社会保障局关于开展柔性引进人才补贴申报工作的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430OFZFGH2Xub",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "海沧区科技和工信商务局关于组织申报2025年工业企业展位费补助的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60506rkTiMYdb4r",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "同安区人力资源和社会保障局关于2025年度经营性人力资源服务机构（劳务派遣企业）年度报告情况的公示",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430DMRwpruCn1",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "厦门市高新技术企业认定专项工作组关于厦门市2026年第一批高新技术企业更名的公告",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430rcUROikUCH",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "厦门市住房和建设局关于公布2026年第一批智能建造项目的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430UBc5o7sN3L",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "思明区卫生健康局关于印发思明区向社会资本购买家庭医生签约服务工作扩大试点的方案(修订版）的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430xcYm12uRbV",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "福建自贸试验区厦门片区管委会关于组织开展2026年福建自贸试验区厦门片区企业新引进应届毕业生临时租房补贴申报的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430592pGcV5Ld",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "中共福建省委组织部等十部门关于印发《福建省2026年高校毕业生“三支一扶”计划实施方案》的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430LIKiEuWaun",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "福建省科学技术厅关于印发《福建省企业研发准备金制度实施工作指引（试行）》的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60430WCnnZprWiN",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "中国人民银行 海关总署公告",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60506BycfFXAWiV",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "国家发展改革委 市场监管总局关于印发《中华人民共和国实行能源效率标识的产品目录（2026年版）》及相关实施规则的通知",
-      "date": "2026-04-30",
-      "link": "https://www.xmsme.cn/policy/market/60506yRZtDxUW1t",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "厦门市人力资源和社会保障局 厦门市总工会 厦门市教育局 厦门市中华职业教育社关于举办2026年厦门市职业技能竞赛、职工劳动和技能竞赛的通知",
-      "date": "2026-04-29",
-      "link": "https://www.xmsme.cn/policy/market/60430wszf65vubg",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
-    },
-    {
-      "title": "厦门市工业和信息化局关于公示工业企业供应链子基金“白名单”（第八批）的通知",
-      "date": "2026-04-29",
-      "link": "https://www.xmsme.cn/policy/market/604300Z6jXehtNW",
-      "siteId": "xmsme_cn",
-      "siteName": "厦门市中小企业服务中心"
+      "source": "厦门市教育局",
+      "category": "人才政策",
+      "type": "其他"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-09",
+  "generatedAt": "2026-05-09T07:47:35",
+  "tasks": [
+    {
+      "siteId": "xmsme_cn",
+      "url": "http://www.xmsme.cn/",
+      "siteName": "厦门市中小企业服务中心",
+      "status": "failed",
+      "error": "未找到符合条件的列表结构"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "phase1Failed": 1,
+    "vagueSelector": 0,
+    "missingDate": 0
+  }
+}

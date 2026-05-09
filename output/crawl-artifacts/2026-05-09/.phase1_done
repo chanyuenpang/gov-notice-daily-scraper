@@ -1,0 +1,11 @@
+{
+  "done": true,
+  "date": "2026-05-09",
+  "generatedAt": "2026-05-09T07:47:35",
+  "summary": {
+    "success": 23,
+    "failed": 1,
+    "totalAnnouncements": 491,
+    "newToday": 483
+  }
+}

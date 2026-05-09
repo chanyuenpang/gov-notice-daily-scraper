@@ -5,6 +5,11 @@
   python3 scripts/run_daily.py --date 2026-05-03 --phase 1   # Step 1: 脚本批量抓取
   python3 scripts/run_daily.py --date 2026-05-03 --phase 2-prep  # Step 2: 分析失败站点，生成 browser-agent 任务清单
   python3 scripts/run_daily.py --date 2026-05-03 --phase 3   # Step 3: 合并+报告+同步
+
+输出目录:
+  output/notices/{YYYY-MM}/{siteId}.json                  # 站点月度公告
+  output/reports/{YYYY-MM-DD}/announcements.json          # 日报输入与 meta
+  output/crawl-artifacts/{YYYY-MM-DD}/stage1_results.json # 中间产物
 """
 
 from __future__ import annotations
@@ -18,6 +23,8 @@ from collections import OrderedDict
 from datetime import datetime
 from pathlib import Path
 from typing import List, Tuple
+
+from output_paths import notices_dir, reports_dir, artifacts_dir, ensure_dirs
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = PROJECT_ROOT / "output"
@@ -201,7 +208,7 @@ def flatten_announcements_for_output(results: List[dict]) -> List[dict]:
 def save_site_monthly(date_str: str, results: List[dict]) -> dict:
     """按月+站点保存结果，URL去重。返回统计信息。"""
     month = date_str[:7]
-    month_dir = OUTPUT_DIR / month
+    month_dir = notices_dir(month)
     month_dir.mkdir(parents=True, exist_ok=True)
 
     stats = {"total_new": 0, "total_existing": 0, "sites": {}}
@@ -251,7 +258,7 @@ def save_site_monthly(date_str: str, results: List[dict]) -> dict:
 def get_today_announcements(date_str: str) -> List[dict]:
     """从月份目录各站点文件中，筛选出指定日期新增的公告。"""
     month = date_str[:7]
-    month_dir = OUTPUT_DIR / month
+    month_dir = notices_dir(month)
     if not month_dir.exists():
         return []
 
@@ -403,13 +410,12 @@ def write_meta(output_dir: Path, date_str: str, announcements: List[dict], merge
 
 
 def phase1(date_str: str) -> None:
-    month = date_str[:7]
-    month_dir = OUTPUT_DIR / month
-    month_dir.mkdir(parents=True, exist_ok=True)
+    ensure_dirs(date_str)
+    artifact_dir = artifacts_dir(date_str)
 
-    stage1_path = month_dir / f"stage1_results_{date_str}.json"
-    summary_path = month_dir / f"stage1_summary_{date_str}.json"
-    marker_path = month_dir / f".phase1_done_{date_str}"
+    stage1_path = artifact_dir / "stage1_results.json"
+    summary_path = artifact_dir / "stage1_summary.json"
+    marker_path = artifact_dir / ".phase1_done"
 
     rc, _, _ = run_command(
         [
@@ -489,7 +495,8 @@ def phase1(date_str: str) -> None:
 
     print(f"[OK] phase1 完成: 成功 {summary['success']} 站, 失败 {summary['failed']} 站")
     print(f"[OK] 总公告数: {summary['totalAnnouncements']}, 今日新增: {summary['newToday']}")
-    print(f"[OK] 数据已保存到: {month_dir}/")
+    print(f"[OK] 站点月度公告已保存到: {notices_dir(date_str[:7])}/")
+    print(f"[OK] stage1 artifacts 已保存到: {artifact_dir}/")
     print(f"[OK] stage1 summary 已写入: {summary_path}")
 
 
@@ -568,10 +575,10 @@ def audit_rule_quality(date_str: str, stage1_results: list) -> list:
 
 
 def phase2_prep(date_str: str) -> None:
-    month = date_str[:7]
-    month_dir = OUTPUT_DIR / month
-    stage1_path = month_dir / f"stage1_results_{date_str}.json"
-    output_path = month_dir / f"browser_agent_tasks_{date_str}.json"
+    ensure_dirs(date_str)
+    artifact_dir = artifacts_dir(date_str)
+    stage1_path = artifact_dir / "stage1_results.json"
+    output_path = artifact_dir / "browser_agent_tasks.json"
 
     if not stage1_path.exists():
         print(f"[ERROR] 缺失 stage1 结果: {stage1_path}")
@@ -636,11 +643,12 @@ def phase2_prep(date_str: str) -> None:
         print(f"  {idx:02d}. {item['siteId']} | {item['siteName']} | {item['url']}{reason_tag}")
 
 def phase3(date_str: str) -> None:
-    month = date_str[:7]
-    month_dir = OUTPUT_DIR / month
-    stage1_path = month_dir / f"stage1_results_{date_str}.json"
-    stage2_path = month_dir / f"stage2_results_{date_str}.json"
-    marker_path = month_dir / f".phase1_done_{date_str}"
+    ensure_dirs(date_str)
+    artifact_dir = artifacts_dir(date_str)
+    date_dir = reports_dir(date_str)
+    stage1_path = artifact_dir / "stage1_results.json"
+    stage2_path = artifact_dir / "stage2_results.json"
+    marker_path = artifact_dir / ".phase1_done"
 
     if not stage1_path.exists():
         print(f"[ERROR] 缺失 stage1 结果: {stage1_path}")
@@ -665,9 +673,7 @@ def phase3(date_str: str) -> None:
     # 从月份站点文件中提取今天的公告
     today_announcements = get_today_announcements(date_str)
     
-    # 生成日报（兼容旧路径）
-    date_dir = OUTPUT_DIR / date_str
-    date_dir.mkdir(parents=True, exist_ok=True)
+    # 生成日报
     announcements_path = date_dir / "announcements.json"
     save_json(announcements_path, today_announcements)
 
@@ -683,8 +689,9 @@ def phase3(date_str: str) -> None:
         "totalSites": len(sites_with_data),
         "totalAnnouncements": len(today_announcements),
         "source": "run_daily_monthly",
-        "storageStructure": "monthly",
-        "monthDir": str(month_dir),
+        "storageStructure": "notices/reports/crawl-artifacts",
+        "noticesDir": str(notices_dir(date_str[:7])),
+        "artifactsDir": str(artifact_dir),
     }
     save_json(date_dir / "crawl-meta.json", meta)
 
@@ -695,8 +702,6 @@ def phase3(date_str: str) -> None:
             "scripts/generate_report_v2.py",
             "--date",
             date_str,
-            "--input",
-            str(announcements_path),
         ],
         label="phase3.generate_report_v2",
         timeout=120,
@@ -738,7 +743,9 @@ def phase3(date_str: str) -> None:
     print("\n===== 执行汇总 =====")
     print(f"日期: {date_str}")
     print(f"今日新增公告: {len(today_announcements)}")
-    print(f"数据目录: {month_dir}/")
+    print(f"站点月度公告目录: {notices_dir(date_str[:7])}/")
+    print(f"中间产物目录: {artifact_dir}/")
+    print(f"日报目录: {date_dir}/")
     print(f"日报文件: {date_dir / '日报.md'}")
     print(f"增量日报文件: {date_dir / '增量日报.md'}")
 

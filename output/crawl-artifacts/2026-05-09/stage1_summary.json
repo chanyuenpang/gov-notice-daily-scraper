@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-09",
+  "generatedAt": "2026-05-09T07:47:35",
+  "total": 24,
+  "success": 23,
+  "failed": 1,
+  "totalAnnouncements": 491,
+  "newToday": 483,
+  "existingInMonth": 0,
+  "failedSites": [
+    {
+      "siteId": "xmsme_cn",
+      "siteName": "厦门市中小企业服务中心",
+      "url": "http://www.xmsme.cn/",
+      "status": "failed",
+      "announcements": 0,
+      "error": "未找到符合条件的列表结构"
+    }
+  ]
+}
