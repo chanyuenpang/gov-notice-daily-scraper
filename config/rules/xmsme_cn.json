@@ -1,23 +1,27 @@
 {
   "siteId": "xmsme_cn",
   "siteName": "厦门市中小企业服务中心",
-  "url": "https://www.xmsme.cn/news",
-  "version": 3,
-  "updatedAt": "2026-05-06",
+  "url": "http://www.xmsme.cn/",
+  "contentUrl": "https://www.xmsme.cn/news",
+  "version": 4,
+  "updatedAt": "2026-05-09",
   "strategy": "api",
-  "confidence": 0.9,
+  "confidence": 0.92,
   "timeout": 30000,
   "api": {
     "url": "https://www.xmsme.cn/api/gxdp/documents/previewpage",
     "method": "POST",
     "headers": {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
+      "User-Agent": "Mozilla/5.0"
     },
     "body": {
       "orderByColumn": "issuedTime",
       "pageNum": 1,
       "pageSize": 20,
-      "statuses": ["ENABLED"],
+      "statuses": [
+        "ENABLED"
+      ],
       "types": [],
       "isAsc": "desc"
     },
@@ -29,17 +33,32 @@
       "type": "type",
       "category": "category",
       "level": "level",
-      "source": "source"
+      "source": "issueOrgs.0.name"
     },
     "linkTemplate": "https://www.xmsme.cn/policy/market/{id}"
   },
+  "css": {
+    "list": ".notice.bulletin-item-box .keynote, .notice.bulletin-item-box .keynote-item",
+    "title": ".news-title, .notice-name",
+    "date": ".years, .date",
+    "link": ""
+  },
   "extraction": {
     "linkPrefix": "https://www.xmsme.cn",
-    "notes": "Nuxt SPA站点。公告通知通过API接口获取，无需浏览器渲染。详情页URL: /policy/market/{id}。首页/news只显示4条，API可分页获取全部。"
+    "notes": "首页 http://www.xmsme.cn/ 仅露出今日资讯/热点事项，缺少稳定公告列表与 href；新闻页 /news 的公告通知由 Nuxt/Vue 渲染，DOM 中点击项无 a[href]，真实数据来自 POST /api/gxdp/documents/previewpage。优先使用 API，必要时可用 css 作为浏览器渲染后的弱回退（只能取标题/日期，链接需通过 API id 拼接）。"
   },
   "metadata": {
     "source": "scraper-agent-learned",
-    "learnedAt": "2026-05-06",
-    "pageStructure": "Nuxt SPA，公告通知由Vue组件NewsBulletin通过$api.getPolicyMarket调用POST /api/gxdp/documents/previewpage获取。API返回{code:200, total, rows:[{id,name,issuedTime,type,category,level,...}]}。"
+    "learnedAt": "2026-05-09",
+    "pageStructure": "Nuxt SPA。目标 URL 首页未提供符合抓取条件的公告列表结构；/news 页面中的公告通知模块 class 为 .notice.bulletin-item-box，数据由接口 previewpage 返回 {total, rows:[{id,name,issuedTime,type,category,level,issueOrgs,...}]}。",
+    "verification": {
+      "apiStatus": 200,
+      "matchedCount": 20,
+      "sampleTitles": [
+        "厦门市科学技术局关于2026年度厦门市自然科学基金评审项目的公示",
+        "福建省教育厅关于印发《福建省特殊教育学校基本办学要求》的通知",
+        "福建省教育厅关于公布2026年五年制高等职业教育招生专业的通知"
+      ]
+    }
   }
 }
