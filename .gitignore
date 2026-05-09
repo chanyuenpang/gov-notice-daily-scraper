@@ -4,3 +4,11 @@ __pycache__/
 logs/
 *.log
 .DS_Store
+
+# Daily crawler outputs (local-only)
+/output/reports/
+/output/crawl-artifacts/
+
+# Legacy output layout (replaced by output/notices + reports + crawl-artifacts)
+/output/????-??/
+/output/????-??-??/
