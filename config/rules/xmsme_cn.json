@@ -3,8 +3,8 @@
   "siteName": "厦门市中小企业服务中心",
   "url": "http://www.xmsme.cn/",
   "contentUrl": "https://www.xmsme.cn/news",
-  "version": 4,
-  "updatedAt": "2026-05-09",
+  "version": 5,
+  "updatedAt": "2026-05-10",
   "strategy": "api",
   "confidence": 0.92,
   "timeout": 30000,
@@ -49,15 +49,15 @@
   },
   "metadata": {
     "source": "scraper-agent-learned",
-    "learnedAt": "2026-05-09",
-    "pageStructure": "Nuxt SPA。目标 URL 首页未提供符合抓取条件的公告列表结构；/news 页面中的公告通知模块 class 为 .notice.bulletin-item-box，数据由接口 previewpage 返回 {total, rows:[{id,name,issuedTime,type,category,level,issueOrgs,...}]}。",
+    "learnedAt": "2026-05-10",
+    "pageStructure": "Nuxt SPA。目标 URL 首页未提供符合抓取条件的公告列表结构；/news 页面中的公告通知模块 class 为 .notice.bulletin-item-box，数据由接口 previewpage 返回 {total, rows:[{id,name,issuedTime,type,category,level,issueOrgs,...}]}。新闻动态区有 .news-curation .policy-item 结构，但仅为新闻资讯非正式公告。",
     "verification": {
       "apiStatus": 200,
       "matchedCount": 20,
       "sampleTitles": [
-        "厦门市科学技术局关于2026年度厦门市自然科学基金评审项目的公示",
-        "福建省教育厅关于印发《福建省特殊教育学校基本办学要求》的通知",
-        "福建省教育厅关于公布2026年五年制高等职业教育招生专业的通知"
+        "厦门市住房和建设局职称改革领导小组办公室关于2025年度土木建筑类工程师评审工作的通知",
+        "厦门市科学技术局关于2025年度第一批技术交易奖励金拟兑现名单的公示",
+        "厦门市卫生健康委员会关于征求《厦门市进一步深化分级诊疗体系建设的若干措施（征求意见稿）》意见建议的通知"
       ]
     }
   }

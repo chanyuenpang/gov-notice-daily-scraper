@@ -2,7 +2,7 @@
   "siteId": "edu_xm_gov_cn",
   "siteName": "厦门市教育局",
   "month": "2026-05",
-  "updatedAt": "2026-05-09T07:47:35",
+  "updatedAt": "2026-05-10T06:33:26",
   "announcements": [
     {
       "title": "厦门市教育局关于厦门市第五期幼儿园学科带头人培养对象人选的公示",
@@ -106,6 +106,13 @@
       "title": "厦门市教育局及下属单位综合性涉企收费目录清单",
       "url": "http://edu.xm.gov.cn/jyxw/tzgg/202512/P020251230517073650131.xls",
       "date": "2025-12-30",
+      "siteId": "edu_xm_gov_cn",
+      "siteName": "厦门市教育局"
+    },
+    {
+      "title": "厦门市教育局关于厦门市第十二期直属小学学科带头人培养对象人选的公示",
+      "url": "http://edu.xm.gov.cn/jyxw/tzgg/202605/t20260509_2995178.htm",
+      "date": "2026-05-09",
       "siteId": "edu_xm_gov_cn",
       "siteName": "厦门市教育局"
     }
