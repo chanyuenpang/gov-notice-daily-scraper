@@ -280,6 +280,15 @@ main {
 .nearby-date:hover { background: #dbeafe; }
 
 /* Mobile */
+.page-footer {
+  text-align: center;
+  padding: 16px;
+  font-size: 12px;
+  color: #999;
+  border-top: 1px solid #eee;
+  margin-top: 24px;
+}
+
 @media (max-width: 600px) {
   main { padding: 0.75rem; }
   .controls { flex-direction: column; }

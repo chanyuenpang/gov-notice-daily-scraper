@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   ensureDefaultSelectedDate();
   renderCalendar();
   loadData();
+  renderVersionFooter();
 });
 
 /**
@@ -384,6 +385,27 @@ function escapeAttribute(str) {
 }
 
 // toggleDetail removed — expand/collapse handled by event delegation on announcementList
+
+// 页面底部版本信息
+function renderVersionFooter() {
+  const versionEl = $('footerVersion');
+  const rangeEl = $('footerDataRange');
+  if (!versionEl) return;
+
+  // 版本 = 当前日期时间
+  const now = new Date();
+  const pad = n => String(n).padStart(2, '0');
+  const version = `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}`;
+  versionEl.textContent = `v${version}`;
+
+  // 数据范围：dateCounts 的最小和最大日期
+  if (rangeEl) {
+    const keys = Object.keys(dateCounts || {}).sort();
+    if (keys.length > 0) {
+      rangeEl.textContent = ` · 数据: ${keys[0]} ~ ${keys[keys.length-1]}`;
+    }
+  }
+}
 
 function esc(str) {
   if (!str) return '';
