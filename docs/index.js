@@ -55,6 +55,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   await loadIndexOnly();
   ensureDefaultSelectedDate();
   renderCalendar();
+  if (Object.keys(dateCounts).length === 0) {
+    $('monthCalendar').innerHTML = '<div class="empty-state">数据加载失败，请检查网络或刷新重试</div>';
+  }
   loadData();
   renderVersionFooter();
 });
@@ -87,6 +90,18 @@ async function loadIndexOnly() {
   try {
     const res = await fetch('data/index.json');
     if (!res.ok) {
+      // 尝试从 latest.json 获取日期
+      try {
+        const latestRes = await fetch('data/latest.json');
+        if (latestRes.ok) {
+          const latest = await latestRes.json();
+          dateCounts = {};
+          for (const item of latest) {
+            if (item.date) dateCounts[item.date] = (dateCounts[item.date] || 0) + 1;
+          }
+          return;
+        }
+      } catch (_) {}
       dateCounts = {};
       return;
     }
