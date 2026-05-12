@@ -1,6 +1,5 @@
 const $ = id => document.getElementById(id);
 
-let allDataCache = []; // 全量数据缓存（所有日期文件合并后按 item.date + id 去重）
 let allData = [];      // 当前日期筛选后的数据
 let filteredData = [];
 let cachedSites = null;
@@ -12,17 +11,20 @@ function getLatestDateWithData() {
 }
 
 function ensureDefaultSelectedDate() {
-  const latestDate = getLatestDateWithData();
-  if (!$('dateInput').value && latestDate) {
-    $('dateInput').value = latestDate;
-    $('selectedDateText').textContent = latestDate;
+  if (!$('dateInput').value) {
+    const today = formatFileDate(new Date());
+    // 优先选当天（若有数据），其次选最新有数据日期，兜底选当天
+    if (dateCounts[today]) {
+      $('dateInput').value = today;
+    } else {
+      const latestDate = getLatestDateWithData();
+      $('dateInput').value = latestDate || today;
+    }
+    $('selectedDateText').textContent = $('dateInput').value;
   }
 
   if (!calendarMonth) {
-    const initialDate = $('dateInput').value || latestDate;
-    calendarMonth = (initialDate || formatFileDate(new Date())).slice(0, 7);
-  } else if (latestDate && $('dateInput').value === latestDate) {
-    calendarMonth = latestDate.slice(0, 7);
+    calendarMonth = ($('dateInput').value || formatFileDate(new Date())).slice(0, 7);
   }
 }
 
@@ -50,7 +52,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   });
   await loadSites();
-  await loadAllData();
+  await loadIndexOnly();
+  ensureDefaultSelectedDate();
+  renderCalendar();
   loadData();
 });
 
@@ -76,84 +80,73 @@ function populateSiteFilterFromCache() {
 }
 
 /**
- * 加载全量数据（所有日期文件合并），结果缓存
+ * 仅加载 index.json，获取所有有数据的日期列表，初始化 dateCounts
  */
-async function loadAllData() {
-  if (allDataCache.length > 0) {
-    ensureDefaultSelectedDate();
-    renderCalendar();
-    return allDataCache;
-  }
-
+async function loadIndexOnly() {
   try {
     const res = await fetch('data/index.json');
-    if (!res.ok) return [];
+    if (!res.ok) {
+      dateCounts = {};
+      return;
+    }
     const { dates } = await res.json();
-
-    const results = await Promise.all(
-      dates.map(async date => {
-        try {
-          const r = await fetch(`data/${date}.json`);
-          if (r.ok) return await r.json();
-        } catch (_) {}
-        return [];
-      })
-    );
-
-    const seen = new Set();
-    allDataCache = results.flat().filter(item => {
-      const key = `${item.date}::${item.id || item.url || item.title || JSON.stringify(item)}`;
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
-    dateCounts = allDataCache.reduce((acc, item) => {
-      if (item.date) acc[item.date] = (acc[item.date] || 0) + 1;
-      return acc;
-    }, {});
-    ensureDefaultSelectedDate();
-    renderCalendar();
-
-    return allDataCache;
+    // 初始化 dateCounts：每个有数据的日期标记为 1 条（实际条数在首次加载时更新）
+    dateCounts = {};
+    for (const date of dates) {
+      dateCounts[date] = 1;
+    }
   } catch (_) {
-    renderCalendar();
-    return [];
+    dateCounts = {};
   }
 }
 
 /**
- * 用户选择某日时，按公告发布日期 item.date 展示。
+ * 按需加载指定日期的公告数据，只 fetch 单个日期 JSON。
  */
-async function loadData() {
-  let date = $('dateInput').value;
+async function loadData(date) {
+  date = date || $('dateInput').value;
   if (!date) {
-    await loadAllData();
-    date = $('dateInput').value;
-    if (!date) {
-      $('announcementList').innerHTML = '<div class="empty-state">暂无公告数据</div>';
-      $('stats').textContent = '';
-      $('selectedDateText').textContent = '';
-      renderCalendar();
-      return;
-    }
+    $('announcementList').innerHTML = '<div class="empty-state">暂无公告数据</div>';
+    $('stats').textContent = '';
+    $('selectedDateText').textContent = '';
+    renderCalendar();
+    return;
   }
-  $('selectedDateText').textContent = date;
 
+  $('selectedDateText').textContent = date;
   $('stats').textContent = '';
   $('announcementList').innerHTML = '<div class="empty-state">加载中...</div>';
 
   try {
-    const allItems = await loadAllData();
-    allData = allItems.filter(item => item.date === date);
-
-    if (!cachedSites) {
-      populateSiteFilter();
+    const res = await fetch(`data/${date}.json`);
+    if (!res.ok) {
+      allData = [];
+      delete dateCounts[date];
+    } else {
+      allData = await res.json();
+      // 更新 dateCounts 为实际条数
+      if (allData.length > 0) {
+        dateCounts[date] = allData.length;
+      } else {
+        delete dateCounts[date];
+      }
     }
-    applyFilters();
   } catch (e) {
     allData = [];
+    delete dateCounts[date];
     $('announcementList').innerHTML = `<div class="error">加载失败：${esc(e.message)}</div>`;
+    renderCalendar();
+    return;
   }
+
+  // 刷新日历，使当前日期的实际条数反映在日历上
+  renderCalendar();
+
+  // 如果站点列表未加载（兜底），从当前数据中提取
+  if (!cachedSites) {
+    populateSiteFilter();
+  }
+  applyFilters();
 }
 
 function populateSiteFilter() {
