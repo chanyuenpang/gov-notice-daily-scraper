@@ -132,7 +132,10 @@ python scripts/browser_agent_pipeline.py --config config/urls.json
 | `docs/browser-agent-architecture.md` | 本文档，架构说明 |
 | `docs/json-schema.md` | 统一公告 JSON 输出规范（已有） |
 
-## 5. 与旧脚本的兼容
+## 5. 旧脚本已清理
 
-旧脚本（`scripts/orchestrator.py`、`scripts/crawl_batch.py`、`scripts/stage2_*.py` 等）**全部保留**，不做删除或修改。
-新流程是独立的新入口，两者互不干扰。
+旧 Playwright 脚本（`scripts/crawl_batch.py`、`scripts/run_pipeline.py`、`scripts/merge_results.py`、`scripts/generate_daily_report.py`、`scripts/incremental_analysis.py`、`scripts/stage2_*.py`）以及 `config/rules/` CSS 选择器规则目录**已于 2026-05-13 清理删除**。
+
+引用了这些旧脚本的 `docs/operations.md`、`docs/daily-run-sop.md` 已同步更新。
+
+当前流水线完全基于新流程：`scripts/browser_agent_pipeline.py` 编排 → browser-agent 逐站抓取 → `announcements.json` 合并。

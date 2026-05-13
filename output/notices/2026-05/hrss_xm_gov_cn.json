@@ -2,7 +2,7 @@
   "siteId": "hrss_xm_gov_cn",
   "siteName": "厦门市人力资源和社会保障局",
   "month": "2026-05",
-  "updatedAt": "2026-05-10T06:33:26",
+  "updatedAt": "2026-05-13T12:08",
   "announcements": [
     {
       "title": "厦门市文化和旅游局所属事业单位厦门艺术学校公开招聘专业技术岗位教师公告（2026年5月）",
@@ -157,6 +157,36 @@
       "date": "2026-05-09",
       "siteId": "hrss_xm_gov_cn",
       "siteName": "厦门市人力资源和社会保障局"
+    },
+    {
+      "title": "2026年厦门市公开招聘事业单位专业技术岗位台湾教师公告",
+      "url": "https://hrss.xm.gov.cn/xxgk/202605/t20260511_2995390.htm",
+      "date": "2026-05-11",
+      "siteId": "hrss_xm_gov_cn",
+      "siteName": "厦门市人力资源和社会保障局"
+    },
+    {
+      "title": "厦门市人力资源和社会保障局关于局属事业单位厦门技师学院简化程序公开招聘专职教师（2026...",
+      "url": "https://hrss.xm.gov.cn/xxgk/202605/t20260511_2995433.htm",
+      "date": "2026-05-08",
+      "siteId": "hrss_xm_gov_cn",
+      "siteName": "厦门市人力资源和社会保障局"
+    },
+    {
+      "title": "厦门市人力资源和社会保障局关于2026-2029年外国人来华工作许可相关辅助性工作采购服务项目...",
+      "url": "https://hrss.xm.gov.cn/xxgk/202605/t20260511_2995336.htm",
+      "date": "2026-05-07",
+      "siteId": "hrss_xm_gov_cn",
+      "siteName": "厦门市人力资源和社会保障局"
+    },
+    {
+      "title": "2026年度审计专业技术资格考试报考简章",
+      "url": "https://hrss.xm.gov.cn/xxgk/202605/t20260512_2995718.htm",
+      "date": "2026-05-12",
+      "siteId": "hrss_xm_gov_cn",
+      "siteName": "厦门市人力资源和社会保障局"
     }
-  ]
+  ],
+  "siteStatus": "unreachable",
+  "siteStatusDetail": "服务器异常，2026-05-13起无法访问(ERR_CONNECTION_CLOSED)。最后成功抓取日期约2026-05-12。"
 }

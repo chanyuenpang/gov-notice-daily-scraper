@@ -2,7 +2,7 @@
   "siteId": "sti_xm_gov_cn",
   "siteName": "厦门市科学技术局",
   "month": "2026-05",
-  "updatedAt": "2026-05-10T06:33:26",
+  "updatedAt": "2026-05-13T12:10:39",
   "announcements": [
     {
       "title": "厦门市科学技术局关于2026年度厦门市自然科学基金评审项目的公示",
@@ -206,6 +206,91 @@
       "date": "2026-05-09",
       "siteId": "sti_xm_gov_cn",
       "siteName": "厦门市科学技术局"
+    },
+    {
+      "title": "厦门市科学技术局关于2025年度福建省科学技术奖拟提名项目的公示",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202605/t20260511_2995509.htm",
+      "date": "2026-05-11",
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局"
+    },
+    {
+      "title": "厦门市科学技术局关于公布2026年4月厦门市科技成果登记清单的...",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202605/t20260511_2995507.htm",
+      "date": "2026-05-11",
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局"
+    },
+    {
+      "title": "厦门市科学技术局转发福建省科学技术厅关于征集参加第二十四...",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202605/t20260511_2995504.htm",
+      "date": "2026-05-11",
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局"
+    },
+    {
+      "title": "厦门市高新技术企业认定专项工作组关于厦门市2026年第一批高新技术企业更名的公告",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260430_2994043.htm",
+      "date": "2026-04-30",
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局"
+    },
+    {
+      "title": "厦门市科学技术局关于申报第二批次2025年度技术交易奖励金的通知",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260429_2993735.htm",
+      "date": "2026-04-29",
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局"
+    },
+    {
+      "title": "关于征集“中国创新创业大赛”（厦门赛区）暨“白鹭之星”创新创业大赛评审专家的通知",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260427_2993254.htm",
+      "date": "2026-04-27",
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局"
+    },
+    {
+      "title": "关于开展研发费用加计扣除及2026年研发费用补助等政策专题系列培训的通知",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260422_2992376.htm",
+      "date": "2026-04-22",
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局"
+    },
+    {
+      "title": "厦门市科学技术局关于2026年第一批拟入选科技专家库专家公示",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260422_2992301.htm",
+      "date": "2026-04-22",
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局"
+    },
+    {
+      "title": "关于委托2025年度厦门市科学技术奖异地网络评审工作单一来源采购结果公告",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260422_2992300.htm",
+      "date": "2026-04-22",
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局"
+    },
+    {
+      "title": "厦门市科学技术局关于开展技术交易奖励金及技术经理人奖励金政策宣讲的通知",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260420_2991877.htm",
+      "date": "2026-04-20",
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局"
+    },
+    {
+      "title": "关于开展研发费用加计扣除及2026年研发费用补助等政策专题系列培训的通知（海沧区专场）",
+      "url": "http://sti.xm.gov.cn/xxgk/tzgg/202604/t20260420_2991816.htm",
+      "date": "2026-04-20",
+      "siteId": "sti_xm_gov_cn",
+      "siteName": "厦门市科学技术局"
+    }
+  ],
+  "crawlLog": [
+    {
+      "date": "2026-05-13",
+      "time": "2026-05-13T12:10:39",
+      "status": "failed",
+      "error": "ERR_EMPTY_RESPONSE - site server returns empty response"
     }
   ]
 }
