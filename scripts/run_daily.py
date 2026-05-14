@@ -670,66 +670,6 @@ def phase3(date_str: str) -> None:
     else:
         print("[INFO] 未检测到 stage2 补抓结果，跳过合并")
 
-    # 从月份站点文件中提取今天的公告
-    today_announcements = get_today_announcements(date_str)
-    
-    # 生成日报
-    announcements_path = date_dir / "announcements.json"
-    save_json(announcements_path, today_announcements)
-
-    # 写 crawl-meta
-    sites_with_data = set()
-    for ann in today_announcements:
-        sid = ann.get("siteId", "")
-        if sid:
-            sites_with_data.add(sid)
-    meta = {
-        "date": date_str,
-        "crawledAt": now_iso(),
-        "totalSites": len(sites_with_data),
-        "totalAnnouncements": len(today_announcements),
-        "source": "run_daily_monthly",
-        "storageStructure": "notices/reports/crawl-artifacts",
-        "noticesDir": str(notices_dir(date_str[:7])),
-        "artifactsDir": str(artifact_dir),
-    }
-    save_json(date_dir / "crawl-meta.json", meta)
-
-    # 生成日报
-    run_command(
-        [
-            sys.executable,
-            "scripts/generate_report_v2.py",
-            "--date",
-            date_str,
-        ],
-        label="phase3.generate_report_v2",
-        timeout=120,
-    )
-
-    # 增量分析
-    run_command(
-        [
-            sys.executable,
-            "scripts/incremental_analysis_v2.py",
-            "--date",
-            date_str,
-        ],
-        label="phase3.incremental_analysis_v2",
-        timeout=120,
-    )
-
-    # pandoc 转 docx
-    for md_name, docx_name in [("日报.md", "日报.docx"), ("增量日报.md", "增量日报.docx")]:
-        md_file = date_dir / md_name
-        docx_file = date_dir / docx_name
-        if md_file.exists():
-            run_command(
-                ["pandoc", str(md_file), "-o", str(docx_file)],
-                label=f"phase3.pandoc.{md_name}",
-                timeout=60,
-            )
-
     # 同步 GitHub Pages
     rc, _, _ = run_command(
         [sys.executable, "scripts/sync_pages_data.py"],
@@ -742,12 +682,8 @@ def phase3(date_str: str) -> None:
     # 最终汇报
     print("\n===== 执行汇总 =====")
     print(f"日期: {date_str}")
-    print(f"今日新增公告: {len(today_announcements)}")
     print(f"站点月度公告目录: {notices_dir(date_str[:7])}/")
     print(f"中间产物目录: {artifact_dir}/")
-    print(f"日报目录: {date_dir}/")
-    print(f"日报文件: {date_dir / '日报.md'}")
-    print(f"增量日报文件: {date_dir / '增量日报.md'}")
 
 def main():
     parser = argparse.ArgumentParser(description="每日政府公告抓取 Pipeline")

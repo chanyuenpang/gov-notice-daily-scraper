@@ -108,32 +108,46 @@ fi
 
 ---
 
-## Step 6: Phase 3 — 合并+日报+增量+GitHub Page 同步（必须执行）
+## Step 6: Phase 3 — 合并补抓结果 + 同步页面（必须执行）
 
-> ⚠️ **无论 Phase 2 是否成功完成，都必须执行此步骤。** Phase 3 会自动用 Phase 1 数据生成日报。
+> ⚠️ **无论 Phase 2 是否成功完成，都必须执行此步骤。**
 
 ```bash
 python3 scripts/run_daily.py --date $DATE --phase 3
 ```
 
-- 此阶段会自动检测是否有 stage2 补抓结果：有则合并，无则直接用 Phase 1 数据。
-- 生成日报、增量分析、同步 GitHub Page。
+- 此阶段会自动检测是否有 stage2 补抓结果：有则合并到月度文件中。
+- 执行 `sync_pages_data.py` 将月度数据同步到 GitHub Pages。
 - 如果命令失败，记录错误但继续执行飞书推送。
 
 ---
 
 ## Step 7: 飞书推送
 
-读取 `output/$DATE/增量日报.md` 的内容（注意：增量日报仍在日期目录下，由 Phase 3 生成），通过飞书将增量日报发送到群 `oc_00c2c690e5a60b6803a38b121568e4c1`。
+读取 `crawl-artifacts/$DATE/stage1_summary.json` 获取本次抓取统计，生成摘要消息发送到群 `oc_00c2c690e5a60b6803a38b121568e4c1`。
 
-- 使用飞书消息工具发送，内容为增量日报的 markdown 正文。
-- 在增量日报内容末尾追加一行：
-
+```bash
+SUMMARY_FILE="output/crawl-artifacts/$DATE/stage1_summary.json"
+if [ -f "$SUMMARY_FILE" ]; then
+    SUMMARY=$(cat "$SUMMARY_FILE")
+fi
 ```
-🔗 查看完整公告：https://chanyuenpang.github.io/gov-notice-daily-scraper/
+
+- 使用飞书消息工具发送，内容格式如下：
+
+```markdown
+📡 政府公告抓取日报 - {DATE}
+
+▸ 抓取站点: {total} 个
+▸ 成功: {success} 站
+▸ 失败: {failed} 站
+▸ 今日新增公告: {newToday} 条
+
+🔗 查看完整公告：https://notice.yop.hk
 ```
 
-- 如果增量日报.md 不存在或为空，发送简要说明，但仍附上 GitHub Pages 链接。
+- 如果 `stage1_summary.json` 不存在，发送简要说明，但仍附上网站链接。
+- 失败站点较多时，可简要列出失败站点名称。
 
 ---
 
@@ -143,10 +157,10 @@ python3 scripts/run_daily.py --date $DATE --phase 3
 
 - 成功/失败站点数
 - 总公告数
-- 新增公告数（增量）
-- 日报/GitHub Page 是否已更新
+- 新增公告数
+- GitHub Page 是否已同步更新
 - 是否有新的抓取规则生成
-- GitHub Pages 链接：https://chanyuenpang.github.io/gov-notice-daily-scraper/
+- 网站链接：https://notice.yop.hk
 - 各步骤的成功/失败状态和关键错误信息
 
 ---
