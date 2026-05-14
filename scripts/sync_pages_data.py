@@ -8,6 +8,7 @@
 """
 
 import json
+import subprocess
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -141,6 +142,20 @@ def generate_sites_json(site_config: dict):
     print(f"  ✅ sites.json: {len(sites)} 个站点")
 
 
+def git_commit_and_push():
+    """提交并推送 docs/data/ 的变更到 GitHub Pages"""
+    print("\n📦 Git 提交...")
+    subprocess.run(["git", "add", "docs/data/"], cwd=PROJECT_ROOT, capture_output=True)
+    r = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=PROJECT_ROOT, capture_output=True)
+    if r.returncode == 0:
+        print("ℹ️  无变化，无需提交")
+        return
+    subprocess.run(["git", "commit", "-m", "chore: sync pages data"], cwd=PROJECT_ROOT, capture_output=True)
+    print("🚀 推送中...")
+    subprocess.run(["git", "push", "origin", "main"], cwd=PROJECT_ROOT, capture_output=True)
+    print("✅ 已推送")
+
+
 def main():
     DOCS_NOTICES_DIR.mkdir(parents=True, exist_ok=True)
     
@@ -159,6 +174,9 @@ def main():
     generate_sites_json(site_config)
     
     print(f"\n🎉 同步完成！共 {len(month_data)} 个月度文件")
+
+    git_commit_and_push()
+
     return 0
 
 
