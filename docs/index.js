@@ -90,23 +90,10 @@ async function loadIndexOnly() {
   try {
     const res = await fetch('data/index.json');
     if (!res.ok) {
-      // 尝试从 latest.json 获取日期
-      try {
-        const latestRes = await fetch('data/latest.json');
-        if (latestRes.ok) {
-          const latest = await latestRes.json();
-          dateCounts = {};
-          for (const item of latest) {
-            if (item.date) dateCounts[item.date] = (dateCounts[item.date] || 0) + 1;
-          }
-          return;
-        }
-      } catch (_) {}
       dateCounts = {};
       return;
     }
     const { dates, counts } = await res.json();
-    // 优先使用 index.json 中的 counts，缺失时回退到 1（兼容旧格式）
     dateCounts = counts || {};
     for (const date of dates) {
       if (!dateCounts[date]) dateCounts[date] = 1;
@@ -134,13 +121,14 @@ async function loadData(date) {
   $('announcementList').innerHTML = '<div class="empty-state">加载中...</div>';
 
   try {
-    const res = await fetch(`data/${date}.json`);
+    const month = date.slice(0, 7);
+    const res = await fetch(`data/notices/${month}.json`);
     if (!res.ok) {
       allData = [];
       delete dateCounts[date];
     } else {
-      allData = await res.json();
-      // 更新 dateCounts 为实际条数
+      const monthlyData = await res.json();
+      allData = monthlyData.filter(item => item.date === date);
       if (allData.length > 0) {
         dateCounts[date] = allData.length;
       } else {

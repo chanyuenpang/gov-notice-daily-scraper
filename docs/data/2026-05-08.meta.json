@@ -1,9 +1,0 @@
-{
-  "date": "2026-05-08",
-  "crawledAt": "2026-05-08T21:55:00",
-  "totalSites": 9,
-  "totalAnnouncements": 24,
-  "source": "run_daily_monthly",
-  "storageStructure": "monthly",
-  "monthDir": "/home/yankeeting/.openclaw/projects/gov-notice-daily-scraper/output/2026-05"
-}

@@ -645,7 +645,6 @@ def phase2_prep(date_str: str) -> None:
 def phase3(date_str: str) -> None:
     ensure_dirs(date_str)
     artifact_dir = artifacts_dir(date_str)
-    date_dir = reports_dir(date_str)
     stage1_path = artifact_dir / "stage1_results.json"
     stage2_path = artifact_dir / "stage2_results.json"
     marker_path = artifact_dir / ".phase1_done"
