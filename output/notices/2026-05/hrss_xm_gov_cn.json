@@ -2,7 +2,7 @@
   "siteId": "hrss_xm_gov_cn",
   "siteName": "厦门市人力资源和社会保障局",
   "month": "2026-05",
-  "updatedAt": "2026-05-13T12:08",
+  "updatedAt": "2026-05-14T12:05:40",
   "announcements": [
     {
       "title": "厦门市文化和旅游局所属事业单位厦门艺术学校公开招聘专业技术岗位教师公告（2026年5月）",
@@ -185,8 +185,20 @@
       "date": "2026-05-12",
       "siteId": "hrss_xm_gov_cn",
       "siteName": "厦门市人力资源和社会保障局"
+    },
+    {
+      "title": "复旦大学附属中山医院厦门医院公开招聘事业单位专业技术岗位人员公告（2026年5月）",
+      "url": "https://hrss.xm.gov.cn/xxgk/202605/t20260514_2996037.htm",
+      "date": "2026-05-14",
+      "siteId": "hrss_xm_gov_cn",
+      "siteName": "厦门市人力资源和社会保障局"
+    },
+    {
+      "title": "厦门市教育局简化程序公开招聘事业单位专业技术岗位教师公告（2026年5月）",
+      "url": "https://hrss.xm.gov.cn/xxgk/202605/t20260514_2995945.htm",
+      "date": "2026-05-13",
+      "siteId": "hrss_xm_gov_cn",
+      "siteName": "厦门市人力资源和社会保障局"
     }
-  ],
-  "siteStatus": "unreachable",
-  "siteStatusDetail": "服务器异常，2026-05-13起无法访问(ERR_CONNECTION_CLOSED)。最后成功抓取日期约2026-05-12。"
+  ]
 }

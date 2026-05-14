@@ -4,7 +4,7 @@
   "url": "http://www.xmsme.cn/",
   "contentUrl": "https://www.xmsme.cn/news",
   "version": 5,
-  "updatedAt": "2026-05-10",
+  "updatedAt": "2026-05-14",
   "strategy": "api",
   "confidence": 0.92,
   "timeout": 30000,
@@ -37,15 +37,10 @@
     },
     "linkTemplate": "https://www.xmsme.cn/policy/market/{id}"
   },
-  "css": {
-    "list": ".notice.bulletin-item-box .keynote, .notice.bulletin-item-box .keynote-item",
-    "title": ".news-title, .notice-name",
-    "date": ".years, .date",
-    "link": ""
-  },
+  "css": {},
   "extraction": {
     "linkPrefix": "https://www.xmsme.cn",
-    "notes": "首页 http://www.xmsme.cn/ 仅露出今日资讯/热点事项，缺少稳定公告列表与 href；新闻页 /news 的公告通知由 Nuxt/Vue 渲染，DOM 中点击项无 a[href]，真实数据来自 POST /api/gxdp/documents/previewpage。优先使用 API，必要时可用 css 作为浏览器渲染后的弱回退（只能取标题/日期，链接需通过 API id 拼接）。"
+    "notes": "Nuxt SPA 站点。首页 http://www.xmsme.cn/ 为静态外壳（导航/搜索/热点事项），无公告列表结构与 href。新闻页 /news 有 .bulletin .notice 结构（公告通知区域），但列表项由 Vue 客户端渲染，SSR HTML 中仅含标题栏无数据项。真正数据来自 POST /api/gxdp/documents/previewpage（返回 total+rows）。链接格式：https://www.xmsme.cn/policy/market/{id}。请勿尝试 CSS 抓取。"
   },
   "metadata": {
     "source": "scraper-agent-learned",

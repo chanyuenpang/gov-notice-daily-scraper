@@ -2,7 +2,7 @@
   "siteId": "as_xm_gov_cn",
   "siteName": "厦门市应急管理局",
   "month": "2026-05",
-  "updatedAt": "2026-05-13T12:06:53",
+  "updatedAt": "2026-05-14T12:05:40",
   "announcements": [
     {
       "title": "厦门市政府网站“在线访谈”运维保障（2026-2027年）采购项目结果公告",
@@ -127,6 +127,20 @@
       "title": "厦门市数据管理局关于市级政务信息化项目评审增补专家人选公示",
       "url": "https://as.xm.gov.cn/202511/t20251106_2964997.htm",
       "date": "2025-11-06",
+      "siteId": "as_xm_gov_cn",
+      "siteName": "厦门市应急管理局"
+    },
+    {
+      "title": "厦门市数据管理局关于开展2025年度算力普惠政策兑现的通知",
+      "url": "https://as.xm.gov.cn/202605/t20260514_2995944.htm",
+      "date": "2026-05-14",
+      "siteId": "as_xm_gov_cn",
+      "siteName": "厦门市应急管理局"
+    },
+    {
+      "title": "厦门市数据管理局关于公布  算力服务机构入库名单的通知",
+      "url": "https://as.xm.gov.cn/202605/t20260513_2995777.htm",
+      "date": "2026-05-13",
       "siteId": "as_xm_gov_cn",
       "siteName": "厦门市应急管理局"
     }

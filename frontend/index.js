@@ -30,11 +30,10 @@ async function loadData() {
 }
 
 /**
- * 优先尝试本地 data/ 目录（支持 file:// 协议），
- * 失败则尝试 ../output/（需要 HTTP 服务器）
+ * 优先尝试 docs/data/ 目录（GitHub Pages 数据目录）
  */
 async function fetchJson(date) {
-  const localUrl = `data/${date}.json`;
+  const localUrl = `../docs/data/${date}.json`;
   const serverUrl = `../output/${date}/announcements.json`;
 
   // 先试本地
@@ -45,7 +44,7 @@ async function fetchJson(date) {
   res = await tryFetch(serverUrl);
   if (res) return res.json();
 
-  throw new Error(`找不到 ${date} 的公告数据（已尝试 data/${date}.json 和 output/${date}/announcements.json）`);
+  throw new Error(`找不到 ${date} 的公告数据（已尝试 ../docs/data/${date}.json）`);
 }
 
 async function tryFetch(url) {
