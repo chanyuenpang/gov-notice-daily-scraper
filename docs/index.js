@@ -105,11 +105,11 @@ async function loadIndexOnly() {
       dateCounts = {};
       return;
     }
-    const { dates } = await res.json();
-    // 初始化 dateCounts：每个有数据的日期标记为 1 条（实际条数在首次加载时更新）
-    dateCounts = {};
+    const { dates, counts } = await res.json();
+    // 优先使用 index.json 中的 counts，缺失时回退到 1（兼容旧格式）
+    dateCounts = counts || {};
     for (const date of dates) {
-      dateCounts[date] = 1;
+      if (!dateCounts[date]) dateCounts[date] = 1;
     }
   } catch (_) {
     dateCounts = {};

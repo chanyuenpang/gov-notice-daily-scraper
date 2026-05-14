@@ -132,13 +132,18 @@ def write_date_files(by_date: dict):
     print(f"  📁 写入 {written} 个日期文件")
 
 
-def generate_index_json():
-    """从 docs/data/ 已有文件生成 index.json"""
-    dates = sorted(
-        f.stem for f in DOCS_DATA_DIR.glob("*.json")
-        if len(f.stem) == 10 and f.stem[4] == '-'
-    )
-    index = {"dates": dates}
+def generate_index_json(by_date: dict = None):
+    """从 by_date 或 docs/data/ 已有文件生成 index.json（包含日期和计数）"""
+    if by_date is not None:
+        dates = sorted(by_date.keys(), reverse=True)
+        counts = {date: len(items) for date, items in by_date.items()}
+    else:
+        dates = sorted(
+            f.stem for f in DOCS_DATA_DIR.glob("*.json")
+            if len(f.stem) == 10 and f.stem[4] == '-'
+        )
+        counts = {}
+    index = {"dates": dates, "counts": counts}
     with open(DOCS_DATA_DIR / "index.json", 'w', encoding='utf-8') as f:
         json.dump(index, f, ensure_ascii=False, indent=2)
     print(f"  ✅ index.json: {len(dates)} 个日期")
@@ -194,7 +199,7 @@ def main():
 
     # 生成辅助文件
     print("\n📋 生成辅助文件...")
-    dates = generate_index_json()
+    dates = generate_index_json(by_date)
     generate_latest(dates)
     generate_sites_json(site_config)
 
