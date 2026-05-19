@@ -3,11 +3,17 @@
   "siteName": "厦门市中小企业服务中心",
   "url": "http://www.xmsme.cn/",
   "contentUrl": "https://www.xmsme.cn/news",
-  "version": 5,
-  "updatedAt": "2026-05-14",
+  "version": 9,
+  "updatedAt": "2026-05-18",
   "strategy": "api",
-  "confidence": 0.92,
+  "confidence": 0.95,
   "timeout": 30000,
+  "css": {
+    "list": ".news-curation .policy-item",
+    "title": ".policy-title.text-ellipsis-2",
+    "date": ".top .date",
+    "link": ".policy-title.text-ellipsis-2"
+  },
   "api": {
     "url": "https://www.xmsme.cn/api/gxdp/documents/previewpage",
     "method": "POST",
@@ -37,22 +43,38 @@
     },
     "linkTemplate": "https://www.xmsme.cn/policy/market/{id}"
   },
-  "css": {},
   "extraction": {
     "linkPrefix": "https://www.xmsme.cn",
-    "notes": "Nuxt SPA 站点。首页 http://www.xmsme.cn/ 为静态外壳（导航/搜索/热点事项），无公告列表结构与 href。新闻页 /news 有 .bulletin .notice 结构（公告通知区域），但列表项由 Vue 客户端渲染，SSR HTML 中仅含标题栏无数据项。真正数据来自 POST /api/gxdp/documents/previewpage（返回 total+rows）。链接格式：https://www.xmsme.cn/policy/market/{id}。请勿尝试 CSS 抓取。"
+    "notes": "主页无公告列表；/news 的 .news-curation .policy-item 可稳定匹配 6 条新闻资讯卡片，标题/日期可由 DOM 提取，但无 href；公告政策列表需使用 previewpage API，并用 id 拼接详情页。"
   },
   "metadata": {
     "source": "scraper-agent-learned",
-    "learnedAt": "2026-05-10",
-    "pageStructure": "Nuxt SPA。目标 URL 首页未提供符合抓取条件的公告列表结构；/news 页面中的公告通知模块 class 为 .notice.bulletin-item-box，数据由接口 previewpage 返回 {total, rows:[{id,name,issuedTime,type,category,level,issueOrgs,...}]}。新闻动态区有 .news-curation .policy-item 结构，但仅为新闻资讯非正式公告。",
+    "learnedAt": "2026-05-18",
+    "pageStructure": "Nuxt SSR/SPA。主页 http://www.xmsme.cn/ 无公告列表结构；/news 渲染后新闻资讯区有 .news-curation .policy-item 列表壳结构，但节点内没有 a[href]，详情链接由客户端路由/API 数据生成。政策公告完整列表来自 POST /api/gxdp/documents/previewpage。",
+    "domVerification": {
+      "homeUrl": "http://www.xmsme.cn/",
+      "homeMatchedCount": 0,
+      "url": "https://www.xmsme.cn/news",
+      "listSelector": ".news-curation .policy-item",
+      "matchedCount": 6,
+      "titleSelector": ".policy-title.text-ellipsis-2",
+      "dateSelector": ".top .date",
+      "linkSelector": ".policy-title.text-ellipsis-2",
+      "linkHrefAvailable": false,
+      "sampleTitles": [
+        "厦门市工业和信息化局关于举办2026年厦门市中小企业服务月活动的通知",
+        "4月厦门CPI同比上涨0.8％",
+        "向海图强 厦门从何发力？"
+      ]
+    },
     "verification": {
       "apiStatus": 200,
       "matchedCount": 20,
+      "totalAvailable": 12157,
       "sampleTitles": [
-        "厦门市住房和建设局职称改革领导小组办公室关于2025年度土木建筑类工程师评审工作的通知",
-        "厦门市科学技术局关于2025年度第一批技术交易奖励金拟兑现名单的公示",
-        "厦门市卫生健康委员会关于征求《厦门市进一步深化分级诊疗体系建设的若干措施（征求意见稿）》意见建议的通知"
+        "厦门市住房和建设局关于组织申报2026年度建设科技计划项目的通知",
+        "厦门市思明区人民政府办公室关于印发思明区2026年地质灾害防治方案的通知",
+        "厦门市集美区商务局关于2026年度第1批汽车置换更新补贴发放的公示"
       ]
     }
   }
