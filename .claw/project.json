@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "gov-notice-daily-scraper",
+  "displayName": "gov-notice-daily-scraper",
+  "aliases": [],
+  "description": "",
+  "createdAt": "2026-06-05T12:55:32.251Z",
+  "updatedAt": "2026-06-05T12:55:32.251Z",
+  "settings": {
+    "id": "gov-notice-daily-scraper",
+    "rootPath": "/home/yankeeting/.openclaw/projects/gov-notice-daily-scraper",
+    "gitnexus": {
+      "enabled": true
+    },
+    "memoryStore": {
+      "path": "/home/yankeeting/.openclaw/.projects/gov-notice-daily-scraper/memory.sqlite"
+    },
+    "lastActiveTask": "网站开发任务",
+    "registeredAt": "2026-04-28T03:39:54.966Z",
+    "updatedAt": "2026-05-08T14:46:00.913Z",
+    "name": "gov-notice-daily-scraper",
+    "truthSource": {
+      "enabled": false,
+      "visibility": "hidden",
+      "truthVisible": false,
+      "mode": "internal",
+      "autoAdr": true,
+      "adrThreshold": "high",
+      "excludedAgents": [],
+      "maxReportAge": 86400,
+      "truthDoc": {
+        "enabled": false
+      }
+    },
+    "memory": {
+      "externalDocPaths": [
+        "docs/"
+      ]
+    },
+    "contextPaths": [],
+    "agent": {
+      "files": [],
+      "skills": [],
+      "commands": [],
+      "mcpServers": {}
+    }
+  },
+  "gitnexus": {
+    "repoId": "gov-notice-daily-scraper",
+    "indexed": false
+  },
+  "memory": {
+    "driver": "sqlite",
+    "path": ".claw/memory.sqlite"
+  },
+  "state": {}
+}
