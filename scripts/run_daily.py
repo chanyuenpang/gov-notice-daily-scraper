@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """
 每日政府公告抓取 Pipeline
-用法:
-  python3 scripts/run_daily.py --date 2026-05-03 --phase 1   # Step 1: 脚本批量抓取
-  python3 scripts/run_daily.py --date 2026-05-03 --phase 2-prep  # Step 2: 分析失败站点，生成 browser-agent 任务清单
-  python3 scripts/run_daily.py --date 2026-05-03 --phase 3   # Step 3: 合并+报告+同步
+
+真实执行入口：
+  python3 scripts/daily_pipeline_entry.py --date 2026-05-03
+
+run_daily.py 保留为阶段执行器：
+  Phase 1    : python3 scripts/run_daily.py --date 2026-05-03 --phase 1
+  Phase 2    : python3 scripts/run_daily.py --date 2026-05-03 --phase 2-prep
+  Phase 3    : python3 scripts/run_daily.py --date 2026-05-03 --phase 3
 
 输出目录:
   output/notices/{YYYY-MM}/{siteId}.json                  # 站点月度公告
@@ -16,13 +20,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import shlex
 import subprocess
 import sys
 from collections import OrderedDict
 from datetime import datetime
 from pathlib import Path
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 
 from output_paths import notices_dir, reports_dir, artifacts_dir, ensure_dirs
 
@@ -47,14 +52,52 @@ def is_vague_selector(selector: str) -> bool:
     return False
 
 
-def run_command(cmd: List[str], label: str, timeout: int = 600) -> Tuple[int, str, str]:
+def run_command(cmd: List[str], label: str, timeout: int = 600, stream_output: bool = False) -> Tuple[int, str, str]:
     """运行子进程，返回 (returncode, stdout, stderr)，并输出日志。"""
-    printable = " ".join(shlex.quote(str(part)) for part in cmd)
-    print(f"[RUN:{label}] {printable}")
+    normalized_cmd = list(cmd)
+    child_env = os.environ.copy()
+
+    if normalized_cmd and Path(str(normalized_cmd[0])).name.startswith("python"):
+        if "-u" not in normalized_cmd[1:]:
+            normalized_cmd.insert(1, "-u")
+        child_env["PYTHONUNBUFFERED"] = "1"
+
+    printable = " ".join(shlex.quote(str(part)) for part in normalized_cmd)
+    print(f"[RUN:{label}] {printable}", flush=True)
     try:
+        if stream_output:
+            process = subprocess.Popen(
+                normalized_cmd,
+                cwd=PROJECT_ROOT,
+                env=child_env,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+                bufsize=1,
+            )
+
+            output_lines: List[str] = []
+            try:
+                assert process.stdout is not None
+                for line in process.stdout:
+                    print(line, end="", flush=True)
+                    output_lines.append(line)
+                returncode = process.wait(timeout=timeout)
+            except subprocess.TimeoutExpired:
+                process.kill()
+                process.wait()
+                msg = "[ERROR] 命令执行超时"
+                print(msg)
+                return 1, "".join(output_lines), msg
+
+            return returncode, "".join(output_lines), ""
+
         result = subprocess.run(
-            cmd,
+            normalized_cmd,
             cwd=PROJECT_ROOT,
+            env=child_env,
             capture_output=True,
             text=True,
             encoding="utf-8",
@@ -62,9 +105,9 @@ def run_command(cmd: List[str], label: str, timeout: int = 600) -> Tuple[int, st
             timeout=timeout,
         )
         if result.stdout:
-            print(result.stdout.rstrip())
+            print(result.stdout.rstrip(), flush=True)
         if result.stderr:
-            print(result.stderr.rstrip())
+            print(result.stderr.rstrip(), flush=True)
         return result.returncode, result.stdout, result.stderr
     except FileNotFoundError as exc:
         msg = f"[ERROR] 命令不存在: {cmd[0]} ({exc})"
@@ -171,9 +214,45 @@ def is_failed_for_phase2(result: dict) -> bool:
     return status != "success" or len(announcements) == 0
 
 
+def _parse_date_safe(date_str: str):
+    if not date_str:
+        return None
+    try:
+        return datetime.strptime(str(date_str).strip(), "%Y-%m-%d")
+    except Exception:
+        return None
+
+
+def _is_new_record_better_for_earliest(existing: dict, new: dict) -> bool:
+    """去重冲突时，是否用 new 替换 existing：优先保留最早日期。"""
+    old_dt = _parse_date_safe(existing.get("date", ""))
+    new_dt = _parse_date_safe(new.get("date", ""))
+
+    if old_dt is None and new_dt is not None:
+        return True
+    if old_dt is not None and new_dt is None:
+        return False
+    if old_dt is not None and new_dt is not None:
+        if new_dt < old_dt:
+            return True
+        if new_dt > old_dt:
+            return False
+
+    # 日期一样或都无效：优先保留 firstSeen 更早的
+    old_seen = _parse_date_safe(existing.get("firstSeenDate", ""))
+    new_seen = _parse_date_safe(new.get("firstSeenDate", ""))
+    if old_seen is None and new_seen is not None:
+        return True
+    if old_seen is not None and new_seen is None:
+        return False
+    if old_seen is not None and new_seen is not None:
+        return new_seen < old_seen
+
+    return False
+
+
 def flatten_announcements_for_output(results: List[dict]) -> List[dict]:
-    all_announcements: List[dict] = []
-    seen_keys = set()
+    dedup_map: Dict[str, dict] = {}
 
     for result in results:
         if not isinstance(result, dict):
@@ -186,23 +265,20 @@ def flatten_announcements_for_output(results: List[dict]) -> List[dict]:
             item = dict(ann)
             item.setdefault("siteId", site_id)
             item.setdefault("siteName", site_name)
-            # 保持兼容字段
             item["siteId"] = item.get("siteId") or site_id
             item["siteName"] = item.get("siteName") or site_name
 
-            # 去重 key：优先按 URL，缺省时按(站点+标题+日期)
             url = (item.get("url") or "").strip()
             if url:
                 dedup_key = f"url::{url}"
             else:
-                dedup_key = f"no-url::{site_id}::{item.get('title', '')}::{item.get('date', '')}"
+                dedup_key = f"no-url::{site_id}::{item.get('title', '')}"
 
-            if dedup_key in seen_keys:
-                continue
-            seen_keys.add(dedup_key)
-            all_announcements.append(item)
+            existing = dedup_map.get(dedup_key)
+            if existing is None or _is_new_record_better_for_earliest(existing, item):
+                dedup_map[dedup_key] = item
 
-    return all_announcements
+    return list(dedup_map.values())
 
 
 def save_site_monthly(date_str: str, results: List[dict]) -> dict:
@@ -428,6 +504,7 @@ def phase1(date_str: str) -> None:
         ],
         label="phase1.crawl_batch",
         timeout=3600,
+        stream_output=True,
     )
 
     if rc != 0:
@@ -685,14 +762,14 @@ def phase3(date_str: str) -> None:
     print(f"中间产物目录: {artifact_dir}/")
 
 def main():
-    parser = argparse.ArgumentParser(description="每日政府公告抓取 Pipeline")
+    parser = argparse.ArgumentParser(description="每日政府公告抓取 Pipeline（阶段执行器）")
     parser.add_argument("--date", type=str, default=datetime.now().strftime("%Y-%m-%d"), help="日期（YYYY-MM-DD）")
     parser.add_argument(
         "--phase",
         type=str,
         required=True,
         choices=["1", "2-prep", "3"],
-        help="执行阶段：1 / 2-prep / 3",
+        help="执行阶段：1 / 2-prep / 3（建议通过 scripts/daily_pipeline_entry.py 串行执行）",
     )
 
     args = parser.parse_args()
