@@ -8,8 +8,8 @@
 #   4. 将 /path/to/gov-notice-daily-scraper 替换为实际项目路径
 #
 # 说明:
-#   - 每天早上 8:00 执行
+#   - 示例为每天中午 12:00 执行（与当前 OpenClaw Cron 生产配置一致）
 #   - stdout + stderr 追加到 logs/cron.log
 #   - browser-agent 抓取部分需配合 OpenClaw 环境使用
 
-0 8 * * * cd /path/to/gov-notice-daily-scraper && bash cron/daily-gov-notice-v2.example.sh >> logs/cron.log 2>&1
+0 12 * * * cd /path/to/gov-notice-daily-scraper && bash cron/daily-gov-notice-v2.example.sh >> logs/cron.log 2>&1

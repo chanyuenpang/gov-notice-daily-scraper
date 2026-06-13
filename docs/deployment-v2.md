@@ -5,8 +5,8 @@
 | 配置项 | 值 |
 |--------|-----|
 | Job 名称 | daily-gov-notice-v2 |
-| Job ID | a5efcd08-372e-4fd6-b4bd-6e69fd238da0 |
-| 调度时间 | 每天 06:00 (Asia/Shanghai) |
+| Job ID | 5b8199ec-05b5-4129-829e-52a86bc3f957 |
+| 调度时间 | 每天 12:00 (Asia/Shanghai) |
 | 执行 Agent | cron-runner |
 | Session | isolated |
 | Timeout | 1800s |
@@ -19,8 +19,9 @@ cron 触发
   → python3 scripts/daily_pipeline_entry.py --date {date}
   → Phase 1 生成 stage1_results.json / stage1_summary.json / .phase1_done
   → Phase 2-prep 生成 browser_agent_tasks.json
-  → （如有任务）由仓库外调度层 / browser-agent 写入 stage2_results.json
+  → 如有任务，标准入口自动执行 Stage2，写入 stage2_results.json
   → Phase 3 合并可用补抓结果并执行 sync_pages_data.py
+  → output/reports/{date}/run-summary.md 落盘执行摘要
 ```
 
 ### 重要说明
@@ -31,6 +32,6 @@ cron 触发
 
 ### 手动操作
 
-- 手动触发：`openclaw cron run a5efcd08-372e-4fd6-b4bd-6e69fd238da0`
-- 查看记录：`openclaw cron runs --id a5efcd08-372e-4fd6-b4bd-6e69fd238da0 --limit 10`
+- 手动触发：`openclaw cron run 5b8199ec-05b5-4129-829e-52a86bc3f957`
+- 查看记录：`openclaw cron runs --id 5b8199ec-05b5-4129-829e-52a86bc3f957 --limit 10`
 - 查看所有 job：`openclaw cron list`

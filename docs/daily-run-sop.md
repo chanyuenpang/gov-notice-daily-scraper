@@ -17,7 +17,9 @@ python3 scripts/daily_pipeline_entry.py --date $(date +%F)
 该入口会按顺序执行：
 1. Phase 1：`scripts/run_daily.py --phase 1`
 2. Phase 2-prep：`scripts/run_daily.py --phase 2-prep`
-3. Phase 3：`scripts/run_daily.py --phase 3`
+3. Stage2：如有待补抓任务，自动执行 `scripts/run_stage2_execute.py --date $DATE`
+4. Phase 3：`scripts/run_daily.py --phase 3`
+5. 落盘执行摘要：`output/reports/{DATE}/run-summary.md`
 
 即使 Phase 1 失败，也会继续执行后续阶段，避免链路停在 stage1。
 
@@ -54,6 +56,7 @@ python3 scripts/run_daily.py --date $DATE --phase 3
 
 ### Phase 3
 - 若存在补抓结果：读取 `output/crawl-artifacts/{DATE}/stage2_results.json`
+- 执行摘要：`output/reports/{DATE}/run-summary.md`
 - 月度站点文件：`output/notices/{YYYY-MM}/{siteId}.json`
 - GitHub Pages 同步：`docs/data/`
 
@@ -77,8 +80,8 @@ python3 scripts/run_daily.py --date $DATE --phase 3
 
 ## 失败处理原则
 
-- 如果 Phase 1 有失败站点，Phase 2-prep 仍会生成 `browser_agent_tasks.json`，供仓库外调度层 / subagent 处理。
-- 如果没有任何补抓结果，Phase 3 仍会继续执行同步，避免因外部依赖缺失而中断。
+- 如果 Phase 1 有失败站点，Phase 2-prep 会生成 `browser_agent_tasks.json`，标准入口会继续尝试执行 Stage2。
+- 如果 Stage2 仍未成功产出 `output/crawl-artifacts/{DATE}/stage2_results.json`，执行摘要会明确标记当日未完全收口，便于告警与排查。
 - 不再使用 `output/$MONTH/browser_agent_tasks_$DATE.json`、`output/$DATE/stage1_results.json` 等旧路径表述。
 
 ---
