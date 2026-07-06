@@ -10,6 +10,7 @@
 import json
 import subprocess
 import sys
+import time
 from collections import defaultdict
 from pathlib import Path
 
@@ -142,9 +143,55 @@ def generate_sites_json(site_config: dict):
     print(f"  ✅ sites.json: {len(sites)} 个站点")
 
 
+def ensure_nojekyll():
+    """确保 docs/.nojekyll 存在，避免 Jekyll 处理 JSON 导致构建超时"""
+    nojekyll = PROJECT_ROOT / "docs" / ".nojekyll"
+    if not nojekyll.exists():
+        nojekyll.touch()
+        subprocess.run(["git", "add", "docs/.nojekyll"], cwd=PROJECT_ROOT, capture_output=True)
+        print("📄 创建 docs/.nojekyll")
+
+
+def check_pages_build(max_retries=3):
+    """检查 GitHub Pages 构建状态，失败时自动 push 空 commit 重试"""
+    print("\n🔍 等待 GitHub Pages 构建...")
+    repo = "chanyuenpang/gov-notice-daily-scraper"
+    
+    for attempt in range(max_retries):
+        time.sleep(20)
+        try:
+            r = subprocess.run(
+                ["gh", "api", f"repos/{repo}/pages/builds", "--jq", ".[0].status"],
+                cwd=PROJECT_ROOT, capture_output=True, text=True, timeout=15
+            )
+            if r.returncode != 0:
+                print(f"  ⚠️  gh api 失败: {r.stderr.strip()[:80]}")
+                continue
+            status = r.stdout.strip()
+            if status == "built":
+                print("✅ GitHub Pages 构建成功")
+                return True
+            elif status == "errored":
+                print(f"⚠️  构建失败，第 {attempt+1}/{max_retries} 次重试...")
+                subprocess.run(
+                    ["git", "commit", "--allow-empty", "-m", "chore: retry pages build"],
+                    cwd=PROJECT_ROOT, capture_output=True
+                )
+                subprocess.run(["git", "push", "origin", "main"], cwd=PROJECT_ROOT, capture_output=True)
+            else:
+                print(f"⏳ 状态: {status}，等待...")
+        except (subprocess.TimeoutExpired, Exception) as e:
+            print(f"  ⚠️  检查异常: {e}")
+    
+    print("⚠️  构建验证超时，请手动确认 https://notice.yop.hk/")
+    return False
+
+
 def git_commit_and_push():
     """提交并推送 docs/data/ 的变更到 GitHub Pages"""
     print("\n📦 Git 提交...")
+    # 确保 .nojekyll 存在（防止 Jekyll 处理大 JSON 超时）
+    ensure_nojekyll()
     subprocess.run(["git", "add", "docs/data/"], cwd=PROJECT_ROOT, capture_output=True)
     r = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=PROJECT_ROOT, capture_output=True)
     if r.returncode == 0:
@@ -152,8 +199,13 @@ def git_commit_and_push():
         return
     subprocess.run(["git", "commit", "-m", "chore: sync pages data"], cwd=PROJECT_ROOT, capture_output=True)
     print("🚀 推送中...")
-    subprocess.run(["git", "push", "origin", "main"], cwd=PROJECT_ROOT, capture_output=True)
+    r = subprocess.run(["git", "push", "origin", "main"], cwd=PROJECT_ROOT, capture_output=True)
+    if r.returncode != 0:
+        print(f"❌ 推送失败: {r.stderr.decode()[:200]}")
+        return
     print("✅ 已推送")
+    # 验证 Pages 构建
+    check_pages_build()
 
 
 def main():
@@ -170,7 +222,6 @@ def main():
         return 1
     
     print("\n📋 生成辅助文件...")
-    dates = generate_index_json(month_data)
     generate_sites_json(site_config)
     
     print(f"\n🎉 同步完成！共 {len(month_data)} 个月度文件")
